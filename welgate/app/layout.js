@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
 
-        <Preloader/>
+        {/* <Preloader/> */}
         <Scrolltop/>
 
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
