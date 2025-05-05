@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,8 +20,50 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/animate.min.css"/>
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css"/>
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/assets/css/flaticon.css"/>
+    <link rel="stylesheet" href="/assets/css/jquery-ui.css"/>
+    <link rel="stylesheet" href="/assets/css/odometer.css"/>
+    <link rel="stylesheet" href="/assets/css/slick.css"/>
+    <link rel="stylesheet" href="/assets/css/default.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/responsive.css"/>
+
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+
+        <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
+        <Script src="/assets/js/bootstrap.min.js"></Script>
+        <Script src="/assets/js/isotope.pkgd.min.js"></Script>
+        <Script src="/assets/js/imagesloaded.pkgd.min.js"></Script>
+        <Script src="/assets/js/jquery.magnific-popup.min.js"></Script>
+        <Script src="/assets/js/jquery.odometer.min.js"></Script>
+        <Script src="/assets/js/jquery.appear.js"></Script>
+        <Script src="/assets/js/jquery.paroller.min.js"></Script>
+        <Script src="/assets/js/jquery.easypiechart.min.js"></Script>
+        <Script src="/assets/js/jquery.inview.min.js"></Script>
+        <Script src="/assets/js/jquery.easing.js"></Script>
+        <Script src="/assets/js/jquery-ui.min.js"></Script>
+        <Script src="/assets/js/svg-inject.min.js"></Script>
+        <Script src="/assets/js/jarallax.min.js"></Script>
+        <Script src="/assets/js/slick.min.js"></Script>
+        <Script src="/assets/js/validator.js"></Script>
+        <Script src="/assets/js/ajax-form.js"></Script>
+        <Script src="/assets/js/wow.min.js"></Script>
+        <Script src="/assets/js/main.js"></Script>
+        <Script>
+            SVGInject(document.querySelectorAll("img.injectable"));
+        </Script>
+
+
+
       </body>
     </html>
   );
