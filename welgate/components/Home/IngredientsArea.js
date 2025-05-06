@@ -10,10 +10,10 @@ function IngredientsArea() {
                             <div className="section-title section-title-two text-center mb-90">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    Energy with Suxnix
+                                    Simple, Everyday Wellness – The Welgate Way
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <h2 className="title">Suxnix Ingredients</h2>
+                                <h2 className="title">Rooted in Nature,Designed for Life.</h2>
                             </div>
                         </div>
                     </div>
