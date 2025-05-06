@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	/* background-image: url(../img/banner/tg_banner_bg.jpg); */
+	background-image: url('https://welgatelifestyle.com/assets/images/bg/banner-bg.png');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
@@ -4864,7 +4864,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	position: absolute;
 	left: 0px;
 	bottom: -2px;
-	/* background-image: url("../img/banner/banner_bg_shape.png"); */
+	background-image: url("../img/banner/banner_bg_shape.png");
 	width: 100%;
 	height: 210px;
 	background-repeat: no-repeat;
@@ -5341,7 +5341,7 @@ background-image: -ms-linear-gradient(5deg, #046434 0%, #046434 100%);
 .tg-service-content a i {
 	font-size: 15px;
 	margin-right: 8px;
-	color: #448c65;
+	color: #046434;
 }
 .tg-service-content a:hover {
 	color: #448c65;
