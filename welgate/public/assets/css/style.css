@@ -4527,7 +4527,7 @@ body.search-visible {
 	opacity: 1;
 }
 .footer-top-wrap {
-	background: #046434;
+	background: #e8f9e9;
 	position: relative;
 	padding: 195px 0 30px;
 	overflow-x: hidden;
@@ -4571,7 +4571,7 @@ body.search-visible {
 }
 .footer-widget .footer-text p {
 	margin: 0 0;
-	color: var(--tg-white);
+	color: black;
 	opacity: .7;
 }
 .footer-social {
