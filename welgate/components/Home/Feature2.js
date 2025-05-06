@@ -10,7 +10,7 @@ function Feature2() {
                         <div className="row justify-content-center">
                             <div className="col-lg-6 col-md-8 order-0 order-lg-2">
                                 <div className="tg-supplement-img text-end  wow fadeInRight" data-wow-delay=".2s">
-                                    <img src="assets/img/others/supplement_img.png" alt=""/>
+                                    <img src="assets/img/about/02.png" alt=""/>
                                 </div>
                                 <div className="tg-supplement-shape">
                                     <img src="assets/img/others/supplement_shape02.png" alt="" className="rotateme"/>
@@ -19,11 +19,11 @@ function Feature2() {
                             <div className="col-lg-6">
                                 <div className="tg-supplement-content mt-60 wow fadeInLeft" data-wow-delay=".2s">
                                     <div className="tg-section-title mb-25">
-                                        <span className="sub-title">ingredients</span>
-                                        <h2 className="title">growth promoter <br/> supplement</h2>
+                                        <span className="sub-title">About Us</span>
+                                        <h2 className="title">When Quality Meets Trust</h2>
                                     </div>
-                                    <p>Vitamin Ipsum is simply dummy text of the printing and tysetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley.</p>
-                                    <a href="shop.html" className="tg-btn view-btn">VIEW more</a>
+                                    <p>Welcome to WELGATE, your trusted destination for high-quality, fresh, and healthy products. We take pride in offering a carefully curated selection of essentials that cater to your daily needs while promoting a healthier lifestyle.</p>
+                                    <a href="/About" className="tg-btn view-btn">VIEW more</a>
                                 </div>
                             </div>
                         </div>
