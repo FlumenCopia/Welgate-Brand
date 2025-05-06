@@ -5,32 +5,32 @@ function Header() {
     <div>
                 <header id="home">
             <div id="header-fixed-height"></div>
-            <div id="sticky-header" class="tg-menu-area menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="mobile-nav-toggler"><i class="flaticon-layout"></i></div>
-                            <div class="menu-wrap">
-                                <nav class="menu-nav">
-                                    <div class="logo">
+            <div id="sticky-header" className="tg-menu-area menu-area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="mobile-nav-toggler"><i className="flaticon-layout"></i></div>
+                            <div className="menu-wrap">
+                                <nav className="menu-nav">
+                                    <div className="logo">
                                         <a href="index.html">
                                             <img src="assets/img/logo/logo_01.png" alt="Logo"/>
                                         </a>
                                     </div>
-                                    <div class="navbar-wrap main-menu d-none d-xl-flex">
-                                        <ul class="navigation">
-                                            <li class="active menu-item-has-children"><a href="#home" class="section-link">Home</a>
-                                                <ul class="sub-menu">
+                                    <div className="navbar-wrap main-menu d-none d-xl-flex">
+                                        <ul className="navigation">
+                                            <li className="active menu-item-has-children"><a href="#home" className="section-link">Home</a>
+                                                <ul className="sub-menu">
                                                     <li><a href="index.html">Home One</a></li>
-                                                    <li class="active"><a href="index-2.html">Home Two</a></li>
+                                                    <li className="active"><a href="index-2.html">Home Two</a></li>
                                                     <li><a href="index-3.html">Home Three</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#ingredient" class="section-link">Ingredient</a></li>
-                                            <li><a href="#supplement" class="section-link">Supplement</a></li>
-                                            <li><a href="#feature" class="section-link">Feature</a></li>
-                                            <li class="menu-item-has-children"><a href="#shop" class="section-link">Shop</a>
-                                                <ul class="sub-menu">
+                                            <li><a href="#ingredient" className="section-link">Ingredient</a></li>
+                                            <li><a href="#supplement" className="section-link">Supplement</a></li>
+                                            <li><a href="#feature" className="section-link">Feature</a></li>
+                                            <li className="menu-item-has-children"><a href="#shop" className="section-link">Shop</a>
+                                                <ul className="sub-menu">
                                                     <li><a href="shop.html">Our Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
                                                     <li><a href="cart.html">Cart Page</a></li>
@@ -40,8 +40,8 @@ function Header() {
                                                     <li><a href="reset-password.html">Reset Password Page</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#news" class="section-link">News</a>
-                                                <ul class="sub-menu">
+                                            <li className="menu-item-has-children"><a href="#news" className="section-link">News</a>
+                                                <ul className="sub-menu">
                                                     <li><a href="blog.html">Our Blog</a></li>
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
@@ -49,8 +49,8 @@ function Header() {
                                             <li><a href="contact.html">contacts</a></li>
                                         </ul>
                                     </div>
-                                    <div class="header-btn d-none d-sm-block">
-                                        <a href="#order" class="tg-btn">Order Now</a>
+                                    <div className="header-btn d-none d-sm-block">
+                                        <a href="#order" className="tg-btn">Order Now</a>
                                     </div>
                                 </nav>
                             </div>
@@ -59,26 +59,26 @@ function Header() {
                 </div>
             </div>
         </header>
-        <div class="mobile-menu">
-            <nav class="menu-box">
-                <div class="close-btn"><i class="fas fa-times"></i></div>
-                <div class="nav-logo">
+        <div className="mobile-menu">
+            <nav className="menu-box">
+                <div className="close-btn"><i className="fas fa-times"></i></div>
+                <div className="nav-logo">
                     <a href="index.html"><img src="assets/img/logo/logo_01.png" alt=""/></a>
                 </div>
-                <div class="menu-outer">
+                <div className="menu-outer">
                 </div>
-                <div class="social-links">
-                    <ul class="clearfix">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <div className="social-links">
+                    <ul className="clearfix">
+                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i className="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <div class="menu-backdrop"></div>
+        <div className="menu-backdrop"></div>
     </div>
   )
 }
