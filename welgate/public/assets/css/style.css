@@ -387,7 +387,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 160px;
+	max-width: 200px;
 }
 .navbar-wrap {
 	display: flex;

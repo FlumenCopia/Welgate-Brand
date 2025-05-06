@@ -13,23 +13,23 @@ function Header() {
                             <div className="menu-wrap">
                                 <nav className="menu-nav">
                                     <div className="logo">
-                                        <a href="index.html">
-                                            <img src="assets/img/logo/logo_01.png" alt="Logo"/>
+                                        <a href="/">
+                                            <img src="assets/img/logo/welgate-logo2.png" alt="Logo"/>
                                         </a>
                                     </div>
                                     <div className="navbar-wrap main-menu d-none d-xl-flex">
                                         <ul className="navigation">
                                             <li className="active menu-item-has-children"><a href="#home" className="section-link">Home</a>
-                                                <ul className="sub-menu">
+                                                {/* <ul className="sub-menu">
                                                     <li><a href="index.html">Home One</a></li>
                                                     <li className="active"><a href="index-2.html">Home Two</a></li>
                                                     <li><a href="index-3.html">Home Three</a></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
-                                            <li><a href="#ingredient" className="section-link">Ingredient</a></li>
-                                            <li><a href="#supplement" className="section-link">Supplement</a></li>
-                                            <li><a href="#feature" className="section-link">Feature</a></li>
-                                            <li className="menu-item-has-children"><a href="#shop" className="section-link">Shop</a>
+                                            <li><a href="#ingredient" className="section-link">About Us</a></li>
+                                            <li><a href="#supplement" className="section-link"> Blog</a></li>
+                                            <li><a href="#feature" className="section-link">Gallery</a></li>
+                                            {/* <li className="menu-item-has-children"><a href="#shop" className="section-link">Shop</a>
                                                 <ul className="sub-menu">
                                                     <li><a href="shop.html">Our Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
@@ -39,19 +39,19 @@ function Header() {
                                                     <li><a href="register.html">Register Page</a></li>
                                                     <li><a href="reset-password.html">Reset Password Page</a></li>
                                                 </ul>
-                                            </li>
-                                            <li className="menu-item-has-children"><a href="#news" className="section-link">News</a>
+                                            </li> */}
+                                            {/* <li className="menu-item-has-children"><a href="#news" className="section-link">News</a>
                                                 <ul className="sub-menu">
                                                     <li><a href="blog.html">Our Blog</a></li>
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="contact.html">contacts</a></li>
+                                            </li> */}
+                                            <li><a href="contact.html">Contact Us</a></li>
                                         </ul>
                                     </div>
-                                    <div className="header-btn d-none d-sm-block">
+                                    {/* <div className="header-btn d-none d-sm-block">
                                         <a href="#order" className="tg-btn">Order Now</a>
-                                    </div>
+                                    </div> */}
                                 </nav>
                             </div>
                         </div>
@@ -63,17 +63,17 @@ function Header() {
             <nav className="menu-box">
                 <div className="close-btn"><i className="fas fa-times"></i></div>
                 <div className="nav-logo">
-                    <a href="index.html"><img src="assets/img/logo/logo_01.png" alt=""/></a>
+                    <a href="/"><img src="assets/img/logo/welgate-logo2.png" alt=""/></a>
                 </div>
                 <div className="menu-outer">
                 </div>
                 <div className="social-links">
                     <ul className="clearfix">
-                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/organicwelgate"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/welgate_lifestyle/"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.youtube.com/@welgatelifestyle"><i className="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
