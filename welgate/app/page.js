@@ -32,19 +32,20 @@ function page() {
       <Counter/>
       <IngredientsArea/>
       {/* <VideoArea/> */}
-      <ShopArea/>
+      {/* <ShopArea/> */}
       <ServiceArea/>
-      <ShopDetail/>
-      <PricingArea/>
-      <Testimonial/>
+      {/* <ShopDetail/> */}
+      {/* <PricingArea/> */}
+      {/* <Testimonial/> */}
       <Testimonial2/>
-      <Blog/>
-      <Blog2/>
+       <Blog/>
+      <Blog2/> 
       <Faq/>
-      <Newsletter/>
+     
 
       {/* <Contact/> */}
       <Clients/>
+      <Newsletter/>
       <Footer/>
     </div>
   )

@@ -15,7 +15,7 @@ const About_value = () => {
                             </div>
                             <div class="col-lg-6 col-md-10">
                                 <div class="features-product-content">
-                                    <h2 class="title"><a href="shop-details.html">Protein Whey</a></h2>
+                                    <h2 class="title"><a href="shop-details.html">Our Value</a></h2>
                                     <h6 class="features-product-quantity">High-strength, 4000IU</h6>
                                     <p>Vitamin D3 supplements are commonly recommended for people at risk for vitamin D deficiency. Low vitamin D levels cause depression, fatigue, and muscle weakness. Over time, vitamin D deficiency can lead to weak bones, rickets in children, and osteoporosis in adults. </p>
                                     <div class="features-product-bottom">
