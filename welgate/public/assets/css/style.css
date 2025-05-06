@@ -4527,7 +4527,7 @@ body.search-visible {
 	opacity: 1;
 }
 .footer-top-wrap {
-	background: #046434;
+	background: #e8f9e9;
 	position: relative;
 	padding: 195px 0 30px;
 	overflow-x: hidden;
@@ -4571,7 +4571,7 @@ body.search-visible {
 }
 .footer-widget .footer-text p {
 	margin: 0 0;
-	color: var(--tg-white);
+	color: black;
 	opacity: .7;
 }
 .footer-social {
@@ -4595,7 +4595,7 @@ body.search-visible {
 }
 .footer-widget .fw-title {
 	font-size: 20px;
-	color: var(--tg-white);
+	color: black;
 	letter-spacing: 0.02em;
 	margin: 0 0 30px;
 }
@@ -4606,7 +4606,7 @@ body.search-visible {
 	margin: 0 0;
 }
 .footer-widget ul li a {
-	color: var(--tg-white);
+	color: black;
 	opacity: .7;
 }
 .footer-widget ul li a:hover {
@@ -4614,14 +4614,14 @@ body.search-visible {
 	opacity: 1;
 }
 .footer-contact-wrap p {
-	color: var(--tg-white);
+	color: black !important;
 	opacity: .7;
 }
 .footer-contact-wrap .list-wrap {
 	margin: 30px 0 0;
 }
 .footer-contact-wrap .list-wrap li {
-    color: var(--tg-white);
+    color: black;
     display: flex;
     align-items: center;
     margin: 0 0 15px;
@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826');
+	/* background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826'); */
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
