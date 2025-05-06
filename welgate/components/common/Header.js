@@ -27,7 +27,7 @@ function Header() {
                                                 </ul> */}
                                             </li>
                                             <li><a href="#ingredient" className="section-link">About Us</a></li>
-                                            <li><a href="#supplement" className="section-link"> Blog</a></li>
+                                            <li><a href="/Blog" className="section-link"> Blog</a></li>
                                             <li><a href="#feature" className="section-link">Gallery</a></li>
                                             {/* <li className="menu-item-has-children"><a href="#shop" className="section-link">Shop</a>
                                                 <ul className="sub-menu">
@@ -46,7 +46,7 @@ function Header() {
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
                                             </li> */}
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="/Contactus">Contact Us</a></li>
                                         </ul>
                                     </div>
                                     {/* <div className="header-btn d-none d-sm-block">
