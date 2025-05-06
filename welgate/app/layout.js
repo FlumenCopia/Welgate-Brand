@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Suxnix - Health Supplement Landing Page",
+  title: "Welgate Lifestyle | Most Trusted Organic Grocery Store",
   description: "Health Supplement",
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/welgate-favicon2.png"/>
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/css/animate.min.css"/>
