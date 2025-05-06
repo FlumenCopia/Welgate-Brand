@@ -38,8 +38,8 @@ function page() {
       {/* <PricingArea/> */}
       {/* <Testimonial/> */}
       <Testimonial2/>
-       <Blog/>
-      <Blog2/> 
+       {/* <Blog/>
+      <Blog2/>  */}
       <Faq/>
      
 

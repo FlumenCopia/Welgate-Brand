@@ -6514,11 +6514,11 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.55);
+    background: whitesmoke;
     z-index: -1;
 }
 .testimonial-item-two {
-    background: #2B2B2B;
+    background:#dbe8e1d4;
     padding: 60px 45px;
     border-radius: 20px;
 }
@@ -6539,7 +6539,7 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
     max-width: 60px;
 }
 .testi-avatar .info .name {
-    color: var(--tg-white);
+    /* color: var(--tg-white); */
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -6559,7 +6559,7 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
 }
 .testimonial-content-two p {
     margin-bottom: 0;
-    color: var(--tg-white);
+    /* color: var(--tg-white); */
     font-size: 18px;
 }
 .testimonial-active-two [class*="col-"] {

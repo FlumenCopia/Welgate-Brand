@@ -3,17 +3,17 @@ import React from 'react'
 function Testimonial2() {
   return (
     <div>
-        <section className="testimonial-area testimonial-bg-two section-pt-130 section-pb-130" data-background="assets/img/bg/h3_testimonial_bg.jpg">
+        <section className="testimonial-area testimonial-bg-two section-pt-130 section-pb-130">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-lg-8">
-                            <div className="section-title section-title-two text-center white-title mb-70">
+                            <div className="section-title section-title-two text-center  mb-70">
                                 <span className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
                                     Testimonial
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </span>
-                                <h2 className="title">suxnix Product Review</h2>
+                                <h2 className="title">Clients Feedback</h2>
                             </div>
                         </div>
                     </div>
