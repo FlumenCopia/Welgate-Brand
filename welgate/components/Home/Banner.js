@@ -7,9 +7,7 @@ function Banner() {
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
-                            <div className="tg-banner-img text-center wow fadeInRight" data-wow-delay=".6s">
-                                <img src="https://welgatelifestyle.com/assets/images/thumbs/03.png" alt="img"/>
-                            </div>
+                           
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-10">
                             <div className="tg-banner-content">
