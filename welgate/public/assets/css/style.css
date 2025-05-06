@@ -1403,13 +1403,13 @@ body.search-visible {
 }
 .features-icon {
 	font-size: 50px;
-	color: #FEE431;
+	color: var(--tg-green);
 	position: relative;
 	z-index: 1;
 	margin: 0 0 27px;
 }
 .features-icon::after {
-	content: "";
+	/* content: ""; */
 	position: absolute;
 	left: 20px;
 	top: 5px;
@@ -2869,7 +2869,7 @@ body.search-visible {
 	margin: 0 0 15px;
 }
 .section-title .title {
-	font-size: 50px;
+	font-size: 41px;
 	letter-spacing: -0.025em;
 	margin-bottom: 0;
 }
@@ -4793,7 +4793,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-menu-area::before {
 	content: "";
-	background-image: url(../img/bg/header_shape.png);
+	/* background-image: url(../img/bg/header_shape.png); */
 	left: 0;
 	top: 85px;
 	position: absolute;
@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	/* background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826'); */
+	background-image: url('/assets/img/bg/welgateimg.jpg');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
@@ -4864,7 +4864,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	position: absolute;
 	left: 0px;
 	bottom: -2px;
-	background-image: url("../img/banner/banner_bg_shape.png");
+	/* background-image: url("../img/banner/banner_bg_shape.png"); */
 	width: 100%;
 	height: 210px;
 	background-repeat: no-repeat;
@@ -4879,13 +4879,11 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: -moz-linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
-background-image: -webkit-linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
-background-image: -ms-linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
-background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
+	background-image: -moz-linear-gradient(5deg, #046434 0%, #046434 100%);
+	background-image: -webkit-linear-gradient(5deg, #046434 0%, #046434 100%);
+	background-image: -ms-linear-gradient(5deg, #046434 0%, #046434 100%);
 
-
-	opacity: .87;
+	opacity: .80;
 	z-index: -1;
 }
 .tg-banner-content .sub-title {
@@ -6168,7 +6166,7 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
     z-index: 1;
 }
 .features-bg-two::before {
-    content: "";
+    /* content: ""; */
     position: absolute;
     left: 0;
     top: 0;
@@ -6183,9 +6181,9 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
 .features-item-three .features-content p {
     width: 90%;
 }
-.features-item-three .features-icon {
+/* .features-item-three .features-icon {
     color: var(--tg-yellow);
-}
+} */
 .features-item-three .features-icon::after {
     opacity: 0.6;
 }
@@ -6233,7 +6231,7 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
     gap: 35px;
 }
 .counter-icon {
-    font-size: 75px;
+    font-size: 50px;
     line-height: 0;
     transition: .4s linear;
 }
@@ -7552,3 +7550,6 @@ background-image: linear-gradient(5deg, #e8f9e9 0%,rgb(128, 168, 148) 100%);
     text-decoration: underline;
 }
 
+.textcolour{
+	color: black !important;
+}
