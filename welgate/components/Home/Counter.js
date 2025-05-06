@@ -10,33 +10,35 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                        <i className="flaticon-whey-protein-3"></i>
+                                    <i class="fas fa-store"></i>
+
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="3560"></span>+</h2>
-                                        <p>Package Delivered</p>
+                                        <h2 className="count"><span className="odometer" data-count="5"></span>+</h2>
+                                        <p>Stores around Kerala</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                        <i className="flaticon-whey-protein-3"></i>
+                                    <i class="fas fa-users"></i>
+
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="1200"></span>+</h2>
-                                        <p>Countries Covered</p>
+                                        <h2 className="count"><span className="odometer" data-count="100%"></span></h2>
+                                        <p>Customer Satisfaction</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                        <i className="flaticon-whey-protein-3"></i>
+                                        <i className="fas fa-hourglass-half"></i>
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="1800"></span>+</h2>
-                                        <p>Happy Customer</p>
+                                        <h2 className="count"><span className="odometer" data-count="15"></span>+</h2>
+                                        <p>Years of Experience</p>
                                     </div>
                                 </div>
                             </div>

@@ -4864,7 +4864,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	position: absolute;
 	left: 0px;
 	bottom: -2px;
-	background-image: url("../img/banner/banner_bg_shape.png");
+	/* background-image: url("../img/banner/banner_bg_shape.png"); */
 	width: 100%;
 	height: 210px;
 	background-repeat: no-repeat;
@@ -6232,7 +6232,7 @@ background-image: -ms-linear-gradient(5deg, #046434 0%, #046434 100%);
     gap: 35px;
 }
 .counter-icon {
-    font-size: 75px;
+    font-size: 50px;
     line-height: 0;
     transition: .4s linear;
 }
