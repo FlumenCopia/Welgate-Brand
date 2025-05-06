@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/magnific-popup.css"/>
     <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css"/>
     <link rel="stylesheet" href="/assets/css/flaticon.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon@1.0.0/css/flaticon.min.css"></link>
     <link rel="stylesheet" href="/assets/css/jquery-ui.css"/>
     <link rel="stylesheet" href="/assets/css/odometer.css"/>
     <link rel="stylesheet" href="/assets/css/slick.css"/>
