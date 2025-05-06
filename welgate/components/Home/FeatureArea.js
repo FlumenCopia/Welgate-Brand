@@ -10,7 +10,7 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-leaf" style={{fontSize:'42px'}}></i>
+                                        <i className="fas fa-leaf" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
                                         <h4 className="title">Fresh From Nature</h4>
@@ -22,7 +22,7 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-shopping-cart" style={{fontSize:'42px'}}></i>
+                                        <i className="fas fa-shopping-cart" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
                                         <h4 className="title">Everyday Essentials</h4>
@@ -34,7 +34,7 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-ice-cream" style={{fontSize:'47px'}}></i>
+                                        <i className="fas fa-ice-cream" style={{fontSize:'42px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
                                         <h4 className="title"> Healthy Bites</h4>
