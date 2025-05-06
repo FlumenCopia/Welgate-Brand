@@ -839,7 +839,7 @@ label {
     width: 35px;
     text-align: center;
     font-size: 20px;
-    color: var(--tg-primary-color);
+    color: black;
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all 0.9s ease;
@@ -988,7 +988,7 @@ label {
 	width: 60px;
 	height: 60px;
 	text-align: center;
-	background: var(--tg-secondary-color);
+	background: var(--tg-secondary-color) !important;
 	color: var(--tg-white);
 	border-radius: 50%;
 	font-size: 25px;
@@ -1359,7 +1359,7 @@ body.search-visible {
 .brand-item {
 	display: flex;
 	min-height: 48px;
-	max-height: 48px;
+	max-height: 100px;
 	align-items: center;
 	justify-content: center;
 }
@@ -4527,7 +4527,7 @@ body.search-visible {
 	opacity: 1;
 }
 .footer-top-wrap {
-	background: #0A0A0A;
+	background: #046434;
 	position: relative;
 	padding: 195px 0 30px;
 	overflow-x: hidden;
@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://welgatelifestyle.com/assets/images/bg/banner-bg.png');
+	background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
