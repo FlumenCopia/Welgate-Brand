@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <footer className="footer-area">
-            <div className="footer-instagram">
+            {/* <div className="footer-instagram">
                 <div className="container">
                     <div className="row g-0 instagram-active">
                         <div className="col-2">
@@ -39,7 +39,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="footer-top-wrap">
                 <div className="container">
                     <div className="footer-widgets-wrap">
@@ -48,16 +48,18 @@ function Footer() {
                                 <div className="footer-widget">
                                     <div className="footer-about">
                                         <div className="footer-logo logo">
-                                            <a href="index.html"><img src="assets/img/logo/white_logo.png" alt="Logo"/></a>
+                                            <a href="index.html"><img src="/assets/img/logo/welgate-logo2.png" alt="Logo"/></a>
                                         </div>
                                         <div className="footer-text">
                                             <p>Making beauty especially relating complot especial common questions tend to recur through posts or queries standards vary orem donor command tei.</p>
                                         </div>
                                         <div className="footer-social">
-                                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i className="fab fa-twitter"></i></a>
-                                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a>
+                                            <a href="https://x.com/organicwelgate"><i className="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/welgate_lifestyle/"><i className="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all"><i className="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/@welgatelifestyle"><i className="fab fa-youtube"></i></a>
+
                                         </div>
                                     </div>
                                 </div>
