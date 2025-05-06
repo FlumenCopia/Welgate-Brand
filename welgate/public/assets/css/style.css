@@ -1359,7 +1359,7 @@ body.search-visible {
 .brand-item {
 	display: flex;
 	min-height: 48px;
-	max-height: 48px;
+	max-height: 100px;
 	align-items: center;
 	justify-content: center;
 }
@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://welgatelifestyle.com/assets/images/bg/banner-bg.png');
+	background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;

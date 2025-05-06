@@ -19,6 +19,7 @@ import Testimonial from '@/components/Home/Testimonial'
 import Testimonial2 from '@/components/Home/Testimonial2'
 import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
+import Clients from '@/components/Home/Clients'
 
 function page() {
   return (
@@ -43,6 +44,7 @@ function page() {
       <Newsletter/>
 
       {/* <Contact/> */}
+      <Clients/>
       <Footer/>
     </div>
   )
