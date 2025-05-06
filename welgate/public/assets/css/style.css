@@ -4793,7 +4793,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-menu-area::before {
 	content: "";
-	background-image: url(../img/bg/header_shape.png);
+	/* background-image: url(../img/bg/header_shape.png); */
 	left: 0;
 	top: 85px;
 	position: absolute;
@@ -4851,7 +4851,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	/* background-image: url('https://img.freepik.com/premium-vector/seamless-fruit-vegetable-template-with-linear-icons-healthy-food-lifestyle-vector_647322-485.jpg?w=826'); */
+	background-image: url('/assets/img/bg/welgateimg.jpg');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
@@ -4880,11 +4880,10 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	width: 100%;
 	height: 100%;
 	background-image: -moz-linear-gradient(5deg, #046434 0%, #046434 100%);
-background-image: -webkit-linear-gradient(5deg, #046434 0%, #046434 100%);
-background-image: -ms-linear-gradient(5deg, #046434 0%, #046434 100%);
+	background-image: -webkit-linear-gradient(5deg, #046434 0%, #046434 100%);
+	background-image: -ms-linear-gradient(5deg, #046434 0%, #046434 100%);
 
-	
-	opacity: .87;
+	opacity: .80;
 	z-index: -1;
 }
 .tg-banner-content .sub-title {
