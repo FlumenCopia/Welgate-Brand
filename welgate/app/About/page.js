@@ -2,6 +2,7 @@
 
 import About_banner from '@/components/About-us/About_banner'
 import About_value from '@/components/About-us/About_value'
+import Faq from '@/components/About-us/Faq'
 import Mission from '@/components/About-us/Mission'
 import Vision_about from '@/components/About-us/Vision_about'
 import Footer from '@/components/common/Footer'
@@ -18,6 +19,7 @@ export const page = () => {
          <Mission/>
          <Vision_about/>
          <About_value/>
+         <Faq/>
         <Footer/>
     </div>
   )

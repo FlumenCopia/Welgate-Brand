@@ -5,7 +5,6 @@ import Blog from '@/components/Home/Blog'
 import Blog2 from '@/components/Home/Blog2'
 import Contact from '@/components/Contacts/Contact'
 import Counter from '@/components/Home/Counter'
-import Faq from '@/components/Home/Faq'
 import Feature2 from '@/components/Home/Feature2'
 import Feature3 from '@/components/Home/Feature3'
 import FeatureArea from '@/components/Home/FeatureArea'
@@ -42,7 +41,6 @@ function page() {
       <Testimonial2/>
        {/* <Blog/>
       <Blog2/>  */}
-      {/* <Faq/> */}
            <Clients/>
       <Newsletter/>
       <Footer/>

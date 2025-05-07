@@ -1454,6 +1454,7 @@ body.search-visible {
 }
 .features-products-wrap {
 	margin-bottom: 180px;
+	margin-top: 102px !important;
 }
 .features-products-wrap:last-child {
 	margin: 0 0;
@@ -1461,7 +1462,7 @@ body.search-visible {
 .features-products-thumb {
 	position: relative;
 	text-align: center;
-	margin: 0px 137px 0px 212px;
+	margin: 226px 120px 0px 130px !important;
 }
 .features-products-thumb::before {
 	content: "";
@@ -1469,8 +1470,8 @@ body.search-visible {
 	left: 38%;
 	top: 50%;
 	background-image: url(../img/products/features_product_dots.png);
-	width: 706px;
-	height: 706px;
+	width: 700px;
+    height: 700px;
 	z-index: -1;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -2972,7 +2973,7 @@ body.search-visible {
 	margin-right: -100px;
 }
 .white-title .title {
-	color: var(--tg-white);
+	color: black;
 }
 .formula-list {
 	margin: 0 0 50px;
@@ -4237,6 +4238,10 @@ body.search-visible {
 
 
 /* 19. FAQ */
+.faq-area{
+	margin-top: 60px;
+}
+
 .faq-wrapper {
 	margin: 0 0 0 100px;
 }
@@ -5083,7 +5088,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	/* background-image: url(../img/bg/tg_video_bg.jpg); */
 	background-position: center;
 	background-size: cover;
-	padding: 120px 0 190px;
+	padding: 120px 0 10px;
 	position: relative;
 	z-index: 1;
 }
@@ -6197,7 +6202,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     justify-content: center;
 }
 .section-title-two.white-title .sub-title {
-    color: var(--tg-white);
+    color: black;
 }
 .features-bg-two {
     background-size: cover;
@@ -6673,18 +6678,18 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     height: 128px;
     background: var(--tg-primary-color);
     font-size: 25px;
-    color: var(--tg-white);
+    color: black;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .faq-wrapper-two {
-    background: var(--tg-heading-font-color);
+    background: whitesmoke;
     padding: 100px;
 }
 .faq-wrapper-two .accordion-item {
-    background-color: var(--tg-dark-two);
+    background-color: white;
     border: none;
     box-shadow: 0px 39px 33px 0px rgba(49, 66, 99, 0.01);
     border-radius: 10px;
@@ -6697,10 +6702,10 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .faq-wrapper-two .accordion-button {
     position: relative;
     padding: 29px 45px;
-    font-size: 22px;
-    color: var(--tg-white);
+    font-size: 21px;
+    color: black;
     text-align: left;
-    background-color: var(--tg-dark-two);
+    background-color: white;
     border: 0;
     border-radius: 0;
     font-family: var(--tg-body-font-family);
@@ -6708,7 +6713,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     font-weight: 500;
 }
 .faq-wrapper-two .accordion-button::after {
-    display: none;
+    /* display: none; */
 }
 .faq-wrapper-two .accordion-button:focus {
     border-color: transparent;
@@ -6722,7 +6727,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .faq-wrapper-two .accordion-body p {
     margin-bottom: 0;
-    color: #979797;
+    color: black;
     font-size: 18px;
     position: relative;
     padding-top: 15px;
@@ -7601,5 +7606,9 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .subtitle-colour{
 	color:#046434;
 }
+/* ...................................gallery.................................................. */
 
+.galleryimggap {
+  margin: 15px;
+}
   
