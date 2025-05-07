@@ -22,7 +22,7 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-shopping-cart" style={{fontSize:'38px'}}></i>
+                                        <i className="fas fa-box-open" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
                                         <h4 className="title">Everyday Essentials</h4>
@@ -34,11 +34,11 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-ice-cream" style={{fontSize:'42px'}}></i>
+                                        <i className="far fa-lemon" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title"> Healthy Bites</h4>
-                                        <p>Indulge in delicious and wholesome snacks that satisfy cravings without compromising health.</p>
+                                        <h4 className="title">Healthy Bites</h4>
+                                        <p>Enjoy tasty, nourishing snacks that curb your cravings and support your healthy lifestyle.</p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
                                 </div>

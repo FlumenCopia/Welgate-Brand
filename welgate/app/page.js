@@ -40,11 +40,8 @@ function page() {
       <Testimonial2/>
        {/* <Blog/>
       <Blog2/>  */}
-      <Faq/>
-     
-
-      {/* <Contact/> */}
-      <Clients/>
+      {/* <Faq/> */}
+           <Clients/>
       <Newsletter/>
       <Footer/>
     </div>
