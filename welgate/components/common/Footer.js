@@ -51,7 +51,7 @@ function Footer() {
                                             <a href="index.html"><img src="/assets/img/logo/welgate-logo2.png" alt="Logo"/></a>
                                         </div>
                                         <div className="footer-text">
-                                            <p>Making beauty especially relating complot especial common questions tend to recur through posts or queries standards vary orem donor command tei.</p>
+                                            <p>Built on trust, rooted in tradition. Welgate continues to grow with purpose—naturally.</p>
                                         </div>
                                         <div className="footer-social">
                                             <a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a>
@@ -68,12 +68,12 @@ function Footer() {
                                 <div className="footer-widget">
                                     <h4 className="fw-title">About Us</h4>
                                     <ul className="list-wrap">
-                                        <li><a href="#">About Company</a></li>
-                                        <li><a href="#">Affiliate Program</a></li>
+                                        <li><a href="/About">About Company</a></li>
+                                        {/* <li><a href="#">Affiliate Program</a></li>
                                         <li><a href="#">Customer Spotlight</a></li>
-                                        <li><a href="#">Reseller Program</a></li>
-                                        <li><a href="shop.html">Our Shop</a></li>
-                                        <li><a href="#">Price & Plans</a></li>
+                                        <li><a href="#">Reseller Program</a></li> */}
+                                        <li><a href="https://welgatelifestyle.com/">Our Shop</a></li>
+                                        {/* <li><a href="#">Price & Plans</a></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -81,12 +81,12 @@ function Footer() {
                                 <div className="footer-widget">
                                     <h4 className="fw-title">Support</h4>
                                     <ul className="list-wrap">
-                                        <li><a href="#">Knowledge Base</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="#">Developer API</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Team</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        {/* <li><a href="#">Knowledge Base</a></li> */}
+                                        <li><a href="/Blog">Blog</a></li>
+                                        {/* <li><a href="#">Developer API</a></li> */}
+                                        <li><a href="#">Gallery</a></li>
+                                        {/* <li><a href="#">Team</a></li> */}
+                                        <li><a href="/Contactus">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -94,11 +94,11 @@ function Footer() {
                                 <div className="footer-widget">
                                     <h4 className="fw-title">CONTACT US</h4>
                                     <div className="footer-contact-wrap">
-                                        <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
+                                        <p>Pattom Kowdiar Road, Kowdiar, Thiruvananthapuram - 695003</p>
                                         <ul className="list-wrap">
-                                            <li className="phone"><i className="fas fa-phone"></i> +1 31-6555-0116</li>
-                                            <li className="mail"><i className="fas fa-envelope"></i> Suxnix@example.com</li>
-                                            <li className="website"><i className="fas fa-globe"></i> www.suxnixdomain.com</li>
+                                            <li className="phone"><i className="fas fa-phone"></i> +91 9946828171</li>
+                                            <li className="mail"><i className="fas fa-envelope"></i> welgateorganic@gmail.com</li>
+                                            <li className="website"><i className="fas fa-globe"></i>www.welgatelifestyle.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -116,16 +116,16 @@ function Footer() {
             <div className="copyright-wrap">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-7">
-                            <div className="copyright-text">
-                                <p>Copyright © 2024 Suxnix All Rights Reserved.</p>
+                        
+                            <div className="copyright-text text-center">
+                                <p>Copyright © 2025 Flumencopia All Rights Reserved.</p>
                             </div>
-                        </div>
-                        <div className="col-md-5">
+                       
+                        {/* <div className="col-md-5">
                             <div className="payment-card text-center text-md-end">
                                 <img src="assets/img/others/card_img.png" alt="card"/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
