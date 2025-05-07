@@ -28,12 +28,13 @@ function page() {
       <Banner/>
       <FeatureArea/>
       <Feature2/>
-      <Feature3/>
+      <ServiceArea/>
+      {/* <Feature3/> */}
       <Counter/>
       <IngredientsArea/>
       {/* <VideoArea/> */}
       {/* <ShopArea/> */}
-      <ServiceArea/>
+     
       {/* <ShopDetail/> */}
       {/* <PricingArea/> */}
       {/* <Testimonial/> */}

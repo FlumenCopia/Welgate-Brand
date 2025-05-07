@@ -2,7 +2,7 @@ import React from 'react'
 
 function Counter() {
   return (
-    <div>
+    <div className='mt-5 '>
         <section className="counter-area">
                 <div className="container">
                     <div className="counter-wrap">
@@ -10,7 +10,7 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                    <i class="fas fa-store"></i>
+                                    <i className="fas fa-store"></i>
 
                                     </div>
                                     <div className="counter-content">
@@ -22,7 +22,7 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                    <i class="fas fa-users"></i>
+                                    <i className="fas fa-users"></i>
 
                                     </div>
                                     <div className="counter-content">

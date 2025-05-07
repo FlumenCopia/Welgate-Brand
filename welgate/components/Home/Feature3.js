@@ -21,7 +21,7 @@ function Feature3() {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                <i class="fab fa-envira"></i>
+                                <i className="fab fa-envira"></i>
 
                                 </div>
                                 <div className="features-content">
@@ -48,7 +48,7 @@ function Feature3() {
                                 </div>
                                 <div className="features-content">
                                     <h4 className="title textcolour">Tradition on a Plate</h4>
-                                    <p className='textcolour'>Enjoy the rich flavors of authentic Naadan cuisine, made with time-honored recipes and locally sourced ingredients to deliver the true taste of home-cooked goodness.</p>
+                                    <p className='textcolour'>Enjoy the rich flavors of authentic Naadan cuisine, made with time-honored recipes and locally sourced ingredients to deliver the true taste of home-cooked goodness and features.</p>
                                 </div>
                             </div>
                         </div>

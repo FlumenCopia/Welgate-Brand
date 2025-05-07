@@ -1272,9 +1272,7 @@ body.search-visible {
 	line-height: 1.13;
 	margin: 0 0 61px;
 }
-.bannertextclr{
-	color:  #2563eb !important;
-}
+
 
 .banner-content .btn {
 	border: 3px solid var(--tg-white);
@@ -5339,7 +5337,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	border-radius: 50%;
 	margin: 0 auto 30px;
 	color: var(--tg-white);
-	font-size: 42px;
+	font-size: 32px;
 	line-height: 0;
 }
 .tg-service-item .title {
