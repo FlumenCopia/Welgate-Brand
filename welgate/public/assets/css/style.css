@@ -303,7 +303,7 @@ label {
 	height: 200%;
 	top: 110%;
 	left: 50%;
-	background: var(--tg-primary-color);
+	/* background: var(--tg-primary-color); */
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	border-radius: 50%;
@@ -7594,3 +7594,5 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .subtitle-colour{
 	color:#046434;
 }
+
+  

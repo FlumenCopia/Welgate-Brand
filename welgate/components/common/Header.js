@@ -26,9 +26,9 @@ function Header() {
                                                     <li><a href="index-3.html">Home Three</a></li>
                                                 </ul> */}
                                             </li>
-                                            <li><a href="#ingredient" className="section-link">About Us</a></li>
+                                            <li><a href="/About" className="section-link">About Us</a></li>
                                             <li><a href="/Blog" className="section-link"> Blog</a></li>
-                                            <li><a href="#feature" className="section-link">Gallery</a></li>
+                                            <li><a href="/" className="section-link">Gallery</a></li>
                                             {/* <li className="menu-item-has-children"><a href="#shop" className="section-link">Shop</a>
                                                 <ul className="sub-menu">
                                                     <li><a href="shop.html">Our Shop</a></li>
