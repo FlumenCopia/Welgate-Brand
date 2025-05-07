@@ -20,9 +20,9 @@ function Feature2() {
                                 <div className="tg-supplement-content mt-60 wow fadeInLeft" data-wow-delay=".2s">
                                     <div className="tg-section-title mb-25">
                                         <span className="sub-title">About Us</span>
-                                        <h2 className="title">When Quality Meets Trust</h2>
+                                        <h2 className="title">From Entertainment <br/> to Wellness</h2>
                                     </div>
-                                    <p>Welcome to WELGATE, your trusted destination for high-quality, fresh, and healthy products. We take pride in offering a carefully curated selection of essentials that cater to your daily needs while promoting a healthier lifestyle.</p>
+                                    <p>Welgate began with a passion for connecting people—first through entertainment, now through health. From CDs to organic farms, our journey is rooted in legacy, driven by purpose, and growing toward a healthier future.</p>
                                     <a href="/About" className="tg-btn view-btn">VIEW more</a>
                                 </div>
                             </div>

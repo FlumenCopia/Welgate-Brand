@@ -10,11 +10,11 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-leaf" style={{fontSize:'38px'}}></i>
+                                        <i className="fas fa-film" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title">Fresh From Nature</h4>
-                                        <p>Enjoy farm-fresh, nutrient-packed produce grown sustainably to support your well-being.</p>
+                                        <h4 className="title">Where Stories Began</h4>
+                                        <p>From tapes to CDs, Welgate sparked connections and built a legacy of experience.</p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
                                 </div>
@@ -22,11 +22,11 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="fas fa-box-open" style={{fontSize:'38px'}}></i>
+                                        <i className="fas fa-seedling" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title">Everyday Essentials</h4>
-                                        <p>Discover a wide range of carefully crafted essentials that elevate your daily living.</p>
+                                        <h4 className="title">Health Starts Here</h4>
+                                        <p>Welgate embraced nature to deliver fresh, chemical-free food to every home. </p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
                                 </div>
@@ -34,11 +34,11 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <i className="far fa-lemon" style={{fontSize:'38px'}}></i>
+                                        <i className="fas fa-dove" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title">Healthy Bites</h4>
-                                        <p>Enjoy tasty, nourishing snacks that curb your cravings and support your healthy lifestyle.</p>
+                                        <h4 className="title">Legacy in Motion</h4>
+                                        <p>Welgate grows global—led by legacy, driven by wellness and trust.</p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
                                 </div>

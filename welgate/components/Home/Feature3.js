@@ -3,7 +3,7 @@ import React from 'react'
 function Feature3() {
   return (
     <div>
-        <section id="features" className="features-area-three features-bg-two" data-background="https://img.freepik.com/premium-vector/elegant-smooth-plain-background_800742-551.jpg?w=826">
+        <section id="features" className="features-area-three features-bg-two" >
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
