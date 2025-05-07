@@ -2869,7 +2869,7 @@ body.search-visible {
 	margin: 0 0 15px;
 }
 .section-title .title {
-	font-size: 41px;
+	font-size: 37px;
 	letter-spacing: -0.025em;
 	margin-bottom: 0;
 }
@@ -7553,4 +7553,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 .textcolour{
 	color: black !important;
+}
+
+.subtitle-colour{
+	color:#046434;
 }
