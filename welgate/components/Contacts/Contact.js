@@ -14,8 +14,8 @@ function Contact() {
                                         <i className="far fa-map"></i>
                                     </div>
                                     <div className="contact-content">
-                                        <h5 className="title">Office Address</h5>
-                                        <p className="contact-desc">99 NY Address Street, Brooklyn, United State</p>
+                                        <h5 className="title">Our Address</h5>
+                                        <p className="contact-desc">Pattom Kowdiar Road, Kowdiar, Thiruvananthapuram - 695003</p>
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@ function Contact() {
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Phone Number</h5>
-                                        <p className="contact-desc">875 7556 464 7658 <br/> 765 648 567 98</p>
+                                        <p className="contact-desc">+91 99468281718 </p>
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ function Contact() {
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Web Connect</h5>
-                                        <p className="contact-desc">info@suxnixmail.com <br/> suxnixexample.com</p>
+                                        <p className="contact-desc">welgateorganic@gmail.com <br/> www.welgatelifestyle.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ function Contact() {
                     <div className="row">
                         <div className="col-xl-6">
                             <div id="contact-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd" allowfullscreen loading="lazy"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.7566570248623!2d76.9485522744944!3d8.522990496705464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbd9b29ca807%3A0x301e4cecff5acc14!2sWelgate%20Lifestyle!5e0!3m2!1sen!2sin!4v1746622118586!5m2!1sen!2sin" allowfullscreen loading="lazy"></iframe>
                             </div>
                         </div>
                         <div className="col-xl-6">
