@@ -30,8 +30,9 @@ function page() {
       <Feature2/>
       <ServiceArea/>
       {/* <Feature3/> */}
-      <Counter/>
       <IngredientsArea/>
+      <Counter/>
+
       {/* <VideoArea/> */}
       {/* <ShopArea/> */}
      
