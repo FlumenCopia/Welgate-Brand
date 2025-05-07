@@ -26,7 +26,7 @@ function Blog2() {
             <div className="col-lg-6">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
-                  <a href="blog-details.html"><img src="" alt="img"/></a>
+                  <a href="#"><img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg?t=st=1746613435~exp=1746617035~hmac=88cafd0a40bdc4512c54b4969cba84e501d48419646517891c6b1441d380e544&w=1380" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
                   <h2 className="title"><a href="#">From Cassettes to Crops – The Unseen Journey of Welgate</a></h2>
@@ -64,7 +64,7 @@ function Blog2() {
             <div className="col-lg-6">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
-                  <a href="blog-details.html"><img src="" alt="img"/></a>
+                  <a href="#"><img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg?t=st=1746613742~exp=1746617342~hmac=ecce2858ea1806424036f6e5d1fb19cb1aff01f3f3d3a1ed901baab8eeb89eef&w=1060" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
                   <h2 className="title"><a href="#">Why Organic is More Than a Trend – It’s a Welgate Way of Life</a></h2>
