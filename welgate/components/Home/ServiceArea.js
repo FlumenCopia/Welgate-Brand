@@ -62,7 +62,7 @@ function ServiceArea() {
                                     </div>
                                     <h2 className="title"><a href="contact.html">A Legacy Carried Forward</a></h2>
                                     <div className="tg-service-content">
-                                        <p>Inspired by their father's dream, the next generation leads with heart and purpose.</p>
+                                        <p>Inspired by Our father's dream, the next generation leads with heart and purpose.</p>
                                         {/* <a href="contact.html"><i className="fas fa-arrow-circle-right"></i>Read More</a> */}
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ function ServiceArea() {
                                     </div>
                                     <h2 className="title"><a href="contact.html">Beyond the Horizon</a></h2>
                                     <div className="tg-service-content">
-                                        <p>DExpanding organically—sharing their mission with the world.</p>
+                                        <p>Expanding organically—sharing their mission with the world.</p>
                                         {/* <a href="contact.html"><i className="fas fa-arrow-circle-right"></i>Read More</a> */}
                                     </div>
                                 </div>
