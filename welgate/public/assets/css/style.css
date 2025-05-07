@@ -6251,6 +6251,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     font-size: 50px;
     line-height: 0;
     transition: .4s linear;
+	color: #046434;
 }
 .counter-item:hover .counter-icon {
     transform: rotateY(180deg);
