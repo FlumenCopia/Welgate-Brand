@@ -10,46 +10,46 @@ function IngredientsArea() {
                             <div className="section-title section-title-two text-center mb-90">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    Simple, Everyday Wellness – The Welgate Way
+                                    <p className='subtitle-colour'>Decades of Trust, One Mission: Better Living</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <h2 className="title">Rooted in Nature,Designed for Life.</h2>
+                                <h2 className="title"> Legacy of Wellness: From Tapes to Tables</h2>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-8 order-0 order-lg-2">
                             <div className="ingredients-img-two">
-                                <img src="assets/img/others/about_img.png" alt="img"/>
+                                {/* <img src="assets/img/flat-lay-delicious-healthy-food-concept-removebg-preview.png" alt="img"/> */}
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="ingredients-item-wrap reverse-item">
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-strong-1"></i>
+                                        <i className="fab fa-itunes-note"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Increased Energy</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title"> Entertainment Roots</h3>
+                                        <p>Welgate began with music and movies, sparking joy in every household across the city.</p>
                                     </div>
                                 </div>
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-vitamin"></i>
+                                        <i className="fab fa-pagelines"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Flower Formula</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title">Organic Awakening</h3>
+                                        <p>From soundtracks to soil—Welgate shifted to organic farming for healthier, chemical-free living.</p>
                                     </div>
                                 </div>
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-supplement"></i>
+                                        <i className="fab fa-buffer"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Drug Interactions</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title">  Sustainable Growth</h3>
+                                        <p> Guided by nature, Welgate evolved with purpose—embracing ethical farming and eco-conscious values.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,29 +58,29 @@ function IngredientsArea() {
                             <div className="ingredients-item-wrap">
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-vitamins"></i>
+                                        <i className="fab fa-envira"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Honey Sweet Energy</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title">Organic Stores</h3>
+                                        <p>Bringing farm-fresh products to cities—Welgate Organic Supermarkets became a symbol of trust.</p>
                                     </div>
                                 </div>
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-whey-protein-3"></i>
+                                        <i className="fab fa-gratipay"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Natural Ingredients</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title">Family Legacy</h3>
+                                        <p>Inspired by our father’s vision, the next generation leads Welgate with passion and purpose.</p>
                                     </div>
                                 </div>
                                 <div className="ingredients-item-two">
                                     <div className="ingredients-icon">
-                                        <i className="flaticon-weight"></i>
+                                        <i className="fab fa-digital-ocean"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Fishbone Diagram</h3>
-                                        <p>A thing added to something else in order to complete or enhance it.</p>
+                                        <h3 className="title">Future Ready</h3>
+                                        <p>With global ambitions, Welgate is expanding wellness —one step, one store at a time.</p>
                                     </div>
                                 </div>
                             </div>
