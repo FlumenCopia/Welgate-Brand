@@ -1531,7 +1531,7 @@ body.search-visible {
 	position: relative;
 }
 .features-products-thumb .main-img::after {
-	content: "";
+	/* content: ""; */
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);

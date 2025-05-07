@@ -13,7 +13,7 @@ const Vision_about = () => {
                                 <span className="sub-title">About</span>
                                 <h2 className="title">Our vision</h2>
                             </div>
-                            <p className="info-one ">Our vision is to become a trusted household name, recognized for quality, authenticity, and freshness. We strive to create a shopping experience where customers can always find reliable, nutritious, and locally sourced products. By fostering strong relationships with our suppliers and community, we aim to expand our reach while maintaining our commitment to excellence and sustainability.</p>
+                            <p className="info-one ">We envision a future where Welgate becomes synonymous with wellness—known not just as a brand, but as a movement rooted in care, consciousness, and community. From our beginnings in entertainment to our transformation into champions of organic living, our journey reflects a deeper purpose: to cultivate a healthier generation and a more mindful planet. As we grow, we continue to honor our legacy while leading the way in creating sustainable, honest, and life-enhancing products for every home.</p>
                             {/* <p className="info-two">printing and tysetting industry. Lorem ipsum has been thindustry's standard dummy text ever since the when an unknown.</p> */}
                             {/* <a href="shop.html" className="tg-btn">VIEW more</a> */}
                         </div>
