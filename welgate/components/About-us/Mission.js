@@ -20,7 +20,7 @@ const Mission = () => {
                                 <span className="sub-title">About Us</span>
                                 <h2 className="title">Our Mission</h2>
                             </div>
-                            <p className="info-one ">At WELGATE, our mission is to provide high-quality, fresh, and healthy products that enrich the lives of our customers. We are committed to offering organic essentials, farm-fresh produce, traditional Naadan cuisine, and premium personal care items while ensuring exceptional service and a community-driven shopping experience. Our goal is to promote healthier lifestyles, sustainability, and customer satisfaction through carefully selected products and ethical sourcing.</p>
+                            <p className="info-one ">At Welgate Lifestyles, our mission is to inspire healthier lives by bridging the wisdom of tradition with the innovation of modern wellness. We are committed to delivering clean, trustworthy, and ethically sourced products—from organic produce to lifestyle essentials—that support the well-being of individuals, families, and communities. Through transparency, sustainability, and quality, we aim to create a world where wellness is not a luxury, but a daily choice accessible to all.</p>
                             {/* <p className="info-two">printing and tysetting industry. Lorem ipsum has been thindustry's standard dummy text ever since the when an unknown.</p> */}
                             {/* <a href="shop.html" className="tg-btn">VIEW more</a> */}
                         </div>
