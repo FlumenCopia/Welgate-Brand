@@ -38,7 +38,9 @@ function FeatureArea() {
                                     </div>
                                     <div className="tg-features-content">
                                         <h4 className="title">Legacy in Motion</h4>
-                                        <p>Welgate grows global—led by legacy, driven by wellness and trust.</p>
+                                        <p>Welgate grows global—led by legacy, driven by wellness, trust, innovation, and sustainability.
+
+</p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
                                 </div>
