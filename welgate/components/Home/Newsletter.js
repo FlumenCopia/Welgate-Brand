@@ -2,7 +2,7 @@ import React from 'react'
 
 function Newsletter() {
   return (
-    <div>
+    <div className='mb-5'>
         <section className="newsletter-area">
                 <div className="container">
                     <div className="newsletter-wrap-two">
