@@ -2,7 +2,7 @@ import React from 'react'
 
 function Counter() {
   return (
-    <div>
+    <div className='mt-5 '>
         <section className="counter-area">
                 <div className="container">
                     <div className="counter-wrap">
