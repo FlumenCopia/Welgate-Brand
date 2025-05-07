@@ -2867,7 +2867,7 @@ body.search-visible {
 	font-size: 15px;
 	letter-spacing: 0.095em;
 	text-transform: uppercase;
-	color: var(--tg-primary-color);
+	color: var(--tg-secondary-color);
 	margin: 0 0 15px;
 }
 .section-title .title {
@@ -4342,7 +4342,7 @@ body.search-visible {
 .contact-box::after {
 	position: absolute;
 	content: "";
-	border-left: 4px solid var(--tg-primary-color);
+	border-left: 4px solid var(--tg-secondary-color);
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
@@ -4376,7 +4376,7 @@ body.search-visible {
 	background: var(--tg-white);
 	border-radius: 100%;
 	box-shadow: 0 8px 16px rgba(102, 102, 102, 0.10);
-	color: var(--tg-primary-color);
+	color:#ec1f27;
 	right: -10px;
 }
 .contact-content .title {
@@ -4424,6 +4424,7 @@ body.search-visible {
 	display: block;
 	width: 100%;
 	border: 1px solid #f1f1f1;
+	background-color: white;
 	padding: 16px 25px;
 	border-radius: .25rem;
 }
@@ -5294,12 +5295,13 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	padding: 0 50px;
 }
 .tg-service-area {
-	background: #fafafa;
-	padding: 115px 0 90px;
+	background: #e8f9e9;
+	padding: 70px 0 115px;
 }
 .tg-service-item {
 	background: var(--tg-white);
 	border: 1px solid #f3f3f3;
+	border-radius: 10px;
 	transition: all .3s linear;
 	margin-bottom: 30px;
 	transform: translateY(0);
@@ -5307,12 +5309,26 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	text-align: center;
 	position: relative;
 	z-index: 1;
+	height: 310px !important;
+
 }
+
+@media(max-width: 1199.98px){
+	.tg-service-item {
+	
+	padding: 38px 16px !important;
+	
+
+}
+}
+
+
+
 .tg-services-count {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	font-size: 124px;
+	font-size: 100px;
 	font-weight: 800;
 	line-height: .8;
 	opacity: .035;
@@ -6232,7 +6248,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* counter */
 .counter-area {
-    background: var(--tg-gray-two);
+    /* background: var(--tg-gray-two); */
 }
 .counter-wrap {
     background: var(--tg-white);
@@ -6245,7 +6261,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .counter-item {
     display: flex;
     align-items: center;
-    background: var(--tg-gray-two);
+    background: #e8f9e9;
     border-radius: 5px;
     padding: 40px 40px;
     gap: 35px;
