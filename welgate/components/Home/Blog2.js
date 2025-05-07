@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 function Blog2() {
   const [showFullPost1, setShowFullPost1] = useState(false);
   const [showFullPost2, setShowFullPost2] = useState(false);
+  const [showFullPost3, setShowFullPost3] = useState(false);
+  const [showFullPost4, setShowFullPost4] = useState(false);
 
   return (
     <div>
@@ -36,15 +38,15 @@ function Blog2() {
                     sound and screen. Their stores weren’t just shelves of products—they were places where memories 
                     were made, families bonded over favorite albums, and rare finds brought pure excitement.
                   </p>
-                  {!showFullPost1 && (
+                  {!showFullPost1 ? (
                     <button 
                       onClick={() => setShowFullPost1(true)} 
                       className="btn btn-sm btn-outline-primary mt-2"
                     >
                       Read More
                     </button>
-                  )}
-                  {showFullPost1 && (
+                  ) :(
+                  <>
                     <p>
                       But as the world evolved, so did Welgate’s vision. The focus shifted—from entertaining lives to 
                       enriching them through wellness. With rising concerns around food safety and chemical-laden products, 
@@ -55,7 +57,17 @@ function Blog2() {
                       Today, Welgate stands tall—not only as a brand with a legacy but as a lifestyle rooted in trust,
                       wellness, and care.
                     </p>
+                    <button 
+                        onClick={() => setShowFullPost1(false)} 
+                        className="btn btn-sm btn-outline-danger mt-2"
+                      >
+                        View Less
+                      </button>
+                    </>
+
                   )}
+                    
+
                 </div>
               </div>
             </div>
@@ -75,15 +87,15 @@ function Blog2() {
                     what you consume should nourish you, not harm you.
                     
                   </p>
-                  {!showFullPost2 && (
+                  {!showFullPost2 ? (
                     <button 
                       onClick={() => setShowFullPost2(true)} 
                       className="btn btn-sm btn-outline-primary mt-2"
                     >
                       Read More
                     </button>
-                  )}
-                  {showFullPost2 && (
+                  ) :(
+                  <>
                     <p>
                       Welgate’s organic journey is not about ticking trends—it’s about returning to what’s real. Their 
                       farming practices prioritize natural growth cycles, avoid harmful chemicals, and nurture the soil 
@@ -93,6 +105,93 @@ function Blog2() {
                       every decision is made with care. At Welgate, organic is a reflection of values—respect for
                       nature, honesty with customers, and a belief in better living.
                     </p>
+                    <button 
+                        onClick={() => setShowFullPost2(false)} 
+                        className="btn btn-sm btn-outline-danger mt-2"
+                      >
+                        View Less
+                      </button>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            {/* Blog Post 1 */}
+            <div className="col-lg-6">
+              <div className="blog-post-item-two">
+                <div className="blog-post-thumb-two">
+                  <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg?t=st=1746621359~exp=1746624959~hmac=19df500b9c70ee0ef63a987e70d31f667fd8785e47dc1cb137d35c0ff6f66331&w=1380" alt="img"/></a>
+                </div>
+                <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
+                  <h2 className="title"><a href="#">How Welgate Turned a Family Brand Into a Wellness Legacy</a></h2>
+                  <p>
+                  Welgate's journey is more than just a business story—it's a generational movement. What started with a passion for music and movies in living rooms across India evolved into a mission to fill dining tables with health and trust.
+                  </p>
+                  {!showFullPost3 ? (
+                    <button 
+                      onClick={() => setShowFullPost3(true)} 
+                      className="btn btn-sm btn-outline-primary mt-2"
+                    >
+                      Read More
+                    </button>
+                  ) :(
+                  <>
+                    <p>
+                    Welgate was once a household name for entertainment. Families visited their stores to find the latest hits, share stories, and connect. But behind that was always something deeper—a desire to bring joy, reliability, and lasting value to people’s lives. As times changed, the same passion was redirected toward a more urgent mission: health and wellness.
+
+Recognizing the impact of processed foods and chemical farming, the next generation of Welgate leaders took bold steps. They began building an ecosystem that started with organic farming and extended to retail spaces that prioritize sustainability. From packaging to policies, every part of the business is now aligned with a healthier, more ethical lifestyle.
+
+Today, Welgate isn’t just about what you buy—it’s about what you believe in. That belief is creating a ripple effect of conscious living.
+                    </p>
+                    <button 
+                        onClick={() => setShowFullPost3(false)} 
+                        className="btn btn-sm btn-outline-danger mt-2"
+                      >
+                        View Less
+                      </button>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Blog Post 2 */}
+            <div className="col-lg-6">
+              <div className="blog-post-item-two">
+                <div className="blog-post-thumb-two">
+                  <a href="#"><img src="https://welgatelifestyle.com/assets/images/shape/mission-img-one.jpg" alt="img"/></a>
+                </div>
+                <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
+                  <h2 className="title"><a href="#"> Welgate Organic Supermarkets: Redefining the Way We Shop</a></h2>
+                  <p>
+                  Walking into a Welgate Organic Supermarket is different. You’re not just shopping; you’re making a choice—for your body, your family, and the planet.
+                    
+                  </p>
+                  {!showFullPost4 ? (
+                    <button 
+                      onClick={() => setShowFullPost4(true)} 
+                      className="btn btn-sm btn-outline-primary mt-2"
+                    >
+                      Read More
+                    </button>
+                  ) :(
+                  <>
+                    <p>
+                    With shelves full of hand-picked, chemical-free produce and thoughtfully curated products, Welgate Organic Supermarkets are more than stores—they're wellness hubs. Built on a foundation of ethical sourcing and transparency, every item here tells a story: of the soil it came from, the farmers who nurtured it, and the purpose it serves in your life.
+
+Welgate believes shopping should feel personal and empowering. That’s why the layout, staff, and selections are all crafted to create a welcoming, educational space. Whether you're a health-conscious parent, a first-time organic buyer, or a loyal customer, there’s something meaningful waiting for you.
+
+By bringing organic food into neighborhoods, Welgate is making wellness convenient, consistent, and part of everyday life. It's not just about changing what's in your cart—it's about changing what you stand for.
+                    </p>
+                    <button 
+                        onClick={() => setShowFullPost4(false)} 
+                        className="btn btn-sm btn-outline-danger mt-2"
+                      >
+                        View Less
+                      </button>
+                    </>
                   )}
                 </div>
               </div>
