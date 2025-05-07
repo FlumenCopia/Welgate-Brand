@@ -20,7 +20,7 @@ function IngredientsArea() {
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-8 order-0 order-lg-2">
                             <div className="ingredients-img-two">
-                                {/* <img src="assets/img/flat-lay-delicious-healthy-food-concept-removebg-preview.png" alt="img"/> */}
+                                <img src="/assets/img/bg/cdandgrocery.png" alt="img"/>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
