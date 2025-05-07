@@ -1,7 +1,10 @@
 import React from 'react'
 
 function Gallerypage() {
+
+
   return (
+    
     <div class="container">
   <div class="row galleryimggap">
     <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
