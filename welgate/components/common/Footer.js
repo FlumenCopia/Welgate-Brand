@@ -106,12 +106,12 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="footer-shape one">
+                {/* <div className="footer-shape one">
                     <img src="assets/img/others/footer_shape01.png" alt="img" className="wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s"/>
                 </div>
                 <div className="footer-shape two">
                     <img src="assets/img/others/footer_shape02.png" alt="img" className="wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s"/>
-                </div>
+                </div> */}
             </div>
             <div className="copyright-wrap">
                 <div className="container">
