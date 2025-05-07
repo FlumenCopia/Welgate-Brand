@@ -8,7 +8,7 @@ const Mission = () => {
                 <div className="row align-items-center justify-content-center">
                     <div className="col-xl-7 col-lg-8">
                         <div className="tg-video-img wow fadeInLeft" data-wow-delay=".2s">
-                            <img src="assets/img/others/video_img.jpg" alt=""/>
+                            <img src="https://img.freepik.com/premium-photo/target-with-three-arrows-hit-center-3d-render-seo-optimization-smm-concept-business-success_1008405-128.jpg?w=1060" alt=""/>
                             {/* <a href="https://www.youtube.com/watch?v=2ZjdBY8aOrA" className="play-btn popup-video">
                                 <i className="fas fa-play"></i>
                             </a> */}
