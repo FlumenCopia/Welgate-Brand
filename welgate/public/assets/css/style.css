@@ -7609,18 +7609,14 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .subtitle-colour{
 	color:#046434;
 }
-/* ...................................gallery.................................................. */
 
-.galleryimggap {
-  margin: 15px;
-}
 
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbbanner {
-  /* background: url('/path/to/banner-image.jpg') center/cover no-repeat; */
-  background-color: #e8f9e9;
-  height: 200px;
+  background: url('https://img.freepik.com/free-photo/blue-vintage-decorative-balls-background_53876-102739.jpg?t=st=1746687251~exp=1746690851~hmac=e7a967b41cb9e24e21dfe0128dc32057beb96c72a6c708fbbb07e88e0a8dbd51&w=1380') center/cover no-repeat;
+  /* background-color: #e8f9e9; */
+  height: 300px;
   display: flex;
   align-items: center; 
   margin-bottom: 70px;
