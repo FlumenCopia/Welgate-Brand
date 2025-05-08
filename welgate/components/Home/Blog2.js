@@ -54,7 +54,7 @@ function Blog2() {
                   {!showFullPost1 ? (
                     <button 
                       onClick={() => setShowFullPost1(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>
@@ -103,7 +103,7 @@ function Blog2() {
                   {!showFullPost2 ? (
                     <button 
                       onClick={() => setShowFullPost2(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>
@@ -145,7 +145,7 @@ function Blog2() {
                   {!showFullPost3 ? (
                     <button 
                       onClick={() => setShowFullPost3(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>
@@ -185,7 +185,7 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
                   {!showFullPost4 ? (
                     <button 
                       onClick={() => setShowFullPost4(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>

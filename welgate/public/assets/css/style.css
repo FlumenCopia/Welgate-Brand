@@ -272,7 +272,7 @@ label {
 .btn {
 	user-select: none;
 	-moz-user-select: none;
-	background: var(--tg-secondary-color) none repeat scroll 0 0;
+	background: #448c65 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 50px;
 	color: var(--tg-white);
