@@ -5,7 +5,7 @@ function Feature3() {
     <div>
         <section id="features" className="features-area-three features-bg-two" >
                 <div className="container">
-                    <div className="row justify-content-center ">
+                    <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="section-title section-title-two white-title text-center mb-60">
                                 <div className="sub-title">
@@ -16,69 +16,70 @@ function Feature3() {
                             </div>
                         </div>
                     </div>
-                    <div className="row align-items-center text-center">
+                    <div className="row align-items-center text-center g-5 ">
                         <div className="col-xl-4 col-lg-4 col-md-6 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                <i className="fab fa-envira"></i>
+                                <i className="fas fa-award"></i>
 
                                 </div>
                                 <div className="features-content">
                                     <h4 className="title textcolour">Legacy of Trust</h4>
-                                    <p className='textcolour '>Decades of experience rooted in passion and innovation.</p>
+                                    <p className='textcolour '>Welgate's journey began decades ago, built on a foundation of trust, innovation, and an enduring passion for transforming everyday lives.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fab fa-pagelines"></i>
+                                    <i className="fas fa-seedling"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Harvested Fresh Daily</h4>
-                                    <p className='textcolour'>Our fruits and vegetables are handpicked daily to guarantee maximum freshness, superior taste, and rich nutrition—delivering nature’s best straight to your kitchen.</p>
+                                    <h4 className="title textcolour">Entertainment to Organic Living</h4>
+                                    <p className='textcolour'>Starting with entertainment, Welgate evolved into a wellness pioneer, shifting focus to organic food that nurtures health and harmony.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-concierge-bell"></i>
+                                    <i className="fas fa-gem"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Tradition on a Plate</h4>
-                                    <p className='textcolour'>Enjoy the rich flavors of authentic Naadan cuisine, made with time-honored recipes and locally sourced ingredients to deliver the true taste of home-cooked goodness and features.</p>
+                                    <h4 className="title textcolour">Purity & Sustainability</h4>
+                                    <p className='textcolour'>Welgate ensures every product is ethically grown, chemical-free, and earth-friendly, reflecting our promise of sustainability and purity in every bite.
+                                    .</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-4 col-md-6">
-                           
-                            </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
+                       
+                        <div className="col-xl-7 col-lg-4 col-md-8">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-cookie"></i>
+                                    <i className="fas fa-globe"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Wholesome Indulgence</h4>
-                                    <p className='textcolour'>From refreshing juices to wholesome snacks and indulgent treats, we offer something for every craving—all backed by a reputation for quality and community trust.</p>
+                                    <h4 className="title textcolour">Future-Ready</h4>
+                                    <p className='textcolour'>Driven by a new generation, Welgate expands globally, committed to advancing organic living through innovation, purpose, and a clear mission.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 ">
+                        <div className="col-xl-5 col-lg-4 col-md-4 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-cookie"></i>
+                                    <i className="fas fa-handshake"></i>
                                 </div>
                                 <div className="features-content ">
-                                    <h4 className="title textcolour">Wholesome Indulgence</h4>
-                                    <p className='textcolour '>From refreshing juices to wholesome snacks and indulgent treats, we offer something for every craving—all backed by a reputation for quality and community trust.</p>
+                                    <h4 className="title textcolour">More Than a Brand</h4>
+                                    <p className='textcolour '>Welgate represents a lifestyle—one rooted in care, built on quality, and driven by a vision to inspire positive global change.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-4 col-md-6">
-                           
-                            </div>
+                     
                     </div>
                 </div>
             </section>
