@@ -47,8 +47,8 @@
     --tg-primary-color: #FAA432;
     --tg-secondary-color: #046434;
     --tg-body-font-color: #777777;
-    --tg-heading-font-color: #222222;
-    --tg-paragraph-color: #777777;
+    --tg-heading-font-color: #343333;
+    --tg-paragraph-color: #615f5f;
     --tg-body-font-size: 16px;
     --tg-body-font-weight: 400;
     --tg-heading-font-weight: 500;
@@ -6991,6 +6991,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     margin-bottom: 30px;
     border-radius: 20px;
 }
+
+
 .blog-post-thumb-two img {
     width: 100%;
     border-radius: 20px;
