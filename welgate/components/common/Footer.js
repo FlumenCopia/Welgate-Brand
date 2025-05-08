@@ -54,11 +54,11 @@ function Footer() {
                                             <p>Built on trust, rooted in tradition. Welgate continues to grow with purpose—naturally.</p>
                                         </div>
                                         <div className="footer-social">
-                                            <a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a>
-                                            <a href="https://x.com/organicwelgate"><i className="fab fa-twitter"></i></a>
-                                            <a href="https://www.instagram.com/welgate_lifestyle/"><i className="fab fa-instagram"></i></a>
-                                            <a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all"><i className="fab fa-linkedin-in"></i></a>
-                                            <a href="https://www.youtube.com/@welgatelifestyle"><i className="fab fa-youtube"></i></a>
+                                            <a href="https://www.facebook.com/welgatelifestyle/" target='blank'><i className="fab fa-facebook-f"></i></a>
+                                            <a href="https://x.com/organicwelgate" target='blank'><i className="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/welgate_lifestyle/" target='blank'><i className="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all" target='blank'><i className="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/@welgatelifestyle" target='blank'><i className="fab fa-youtube"></i></a>
 
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ function Footer() {
                     <div className="row align-items-center">
                         
                             <div className="copyright-text text-center">
-                                <p>Copyright © 2025 Flumencopia All Rights Reserved.</p>
+                                <p>Copyright © 2025 <a href='https://flumencopia.com/' target='blank'>Flumencopia</a> All Rights Reserved.</p>
                             </div>
                        
                         {/* <div className="col-md-5">

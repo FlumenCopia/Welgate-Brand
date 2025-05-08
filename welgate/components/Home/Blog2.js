@@ -9,6 +9,19 @@ function Blog2() {
 
   return (
     <div>
+
+<section className="breadcrumbbanner">
+            <nav className="container breadcrumb-container">
+                <h3>Blog</h3>
+                <ol className="cd-breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li className="current">Blog</li>
+                </ol>
+              </nav>
+        </section>
+
+
+
       <section id="news" className="blog-post-area-two section-pt-130 section-pb-100">
         <div className="container">
           <div className="row justify-content-center">

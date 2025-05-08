@@ -3,12 +3,13 @@ import React from 'react'
 const Mission = () => {
   return (
     <div>
+
     <section className="tg-video-area tg-video-bg jarallax parallax-img">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     <div className="col-xl-7 col-lg-8">
                         <div className="tg-video-img wow fadeInLeft" data-wow-delay=".2s">
-                            <img src="https://img.freepik.com/premium-photo/target-with-three-arrows-hit-center-3d-render-seo-optimization-smm-concept-business-success_1008405-128.jpg?w=1060" alt=""/>
+                            <img src="/assets/img/bg/aboutimg1.jpeg" alt=""/>
                             {/* <a href="https://www.youtube.com/watch?v=2ZjdBY8aOrA" className="play-btn popup-video">
                                 <i className="fas fa-play"></i>
                             </a> */}
