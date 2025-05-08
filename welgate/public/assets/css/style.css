@@ -4240,6 +4240,7 @@ body.search-visible {
 /* 19. FAQ */
 .faq-area{
 	margin-top: 60px;
+	margin-bottom: 55px;
 }
 
 .faq-wrapper {
@@ -5041,7 +5042,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	line-height: 1.1;
 	letter-spacing: -.5px;
 	text-transform: uppercase;
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 .tg-supplement-content p {
 	width: 90%;
@@ -5143,7 +5144,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-video-content p {
 	/* color: #fafafa; */
-	margin-bottom: 15px;
+	margin-bottom: 60px;
+	text-align: justify;
 }
 .tg-section-title.white .sub-title {
 	/* color: var(--tg-white); */
@@ -6702,7 +6704,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .faq-wrapper-two .accordion-button {
     position: relative;
     padding: 29px 45px;
-    font-size: 21px;
+    font-size: 19px;
     color: black;
     text-align: left;
     background-color: white;
@@ -6727,8 +6729,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .faq-wrapper-two .accordion-body p {
     margin-bottom: 0;
-    color: black;
-    font-size: 18px;
+    /* color: black; */
+    font-size: 16px;
     position: relative;
     padding-top: 15px;
 }
@@ -7612,3 +7614,11 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
   margin: 15px;
 }
   
+
+/* why choose us */
+
+.color-wrap{
+	color: #046434;
+	font-weight: 600;
+}
+/* why choose us */
