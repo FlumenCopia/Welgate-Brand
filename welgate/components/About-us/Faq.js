@@ -9,7 +9,7 @@ function Faq() {
                         {/* <a href="" className=""><i className=""></i></a> */}
                     </div>
                     <div className="col-lg-6">
-                        <div className="faq-wrapper-two">
+                        <div className="faq-wrapper-two ">
                             <div className="section-title section-title-two white-title mb-40">
                                 <span className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
