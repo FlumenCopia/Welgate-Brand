@@ -3,50 +3,19 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-         <section className="contact-area">
-                <div className="container">
-                    <div className="contact-box-wrapper">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="contact-box">
-                                    <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="far fa-map"></i>
-                                    </div>
-                                    <div className="contact-content">
-                                        <h5 className="title">Our Address</h5>
-                                        <p className="contact-desc">Pattom Kowdiar Road, Kowdiar, Thiruvananthapuram - 695003</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="contact-box">
-                                    <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="fas fa-phone"></i>
-                                    </div>
-                                    <div className="contact-content">
-                                        <h5 className="title">Phone Number</h5>
-                                        <p className="contact-desc">+91 99468281718 </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="contact-box">
-                                    <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="fas fa-globe"></i>
-                                    </div>
-                                    <div className="contact-content">
-                                        <h5 className="title">Web Connect</h5>
-                                        <p className="contact-desc">welgateorganic@gmail.com <br/> www.welgatelifestyle.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section>
+            <h2>1 - Basic</h2>
+        
+            <nav>
+                <ol class="cd-breadcrumb">
+                    <li><a href="#0">Home</a></li>
+                    <li><a href="#0">Gallery</a></li>
+                    <li><a href="#0">Web</a></li>
+                    <li class="current"><em>Project</em></li>
+                </ol>
+            </nav>
+        </section>
+        
             <section className="contact-form-area">
                 <div className="container">
                     <div className="row">
@@ -96,6 +65,50 @@ function Contact() {
                                     </div>
                                     <div className="messages"></div>
                                 </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="contact-area">
+                <div className="container">
+                    <div className="contact-box-wrapper">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4 col-md-6 col-sm-9">
+                                <div className="contact-box">
+                                    <div className="contact-icon">
+                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
+                                        <i className="far fa-map"></i>
+                                    </div>
+                                    <div className="contact-content">
+                                        <h5 className="title">Our Address</h5>
+                                        <p className="contact-desc">Pattom Kowdiar Road, Kowdiar, Thiruvananthapuram - 695003</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-9">
+                                <div className="contact-box">
+                                    <div className="contact-icon">
+                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
+                                        <i className="fas fa-phone"></i>
+                                    </div>
+                                    <div className="contact-content">
+                                        <h5 className="title">Phone Number</h5>
+                                        <p className="contact-desc">+91 99468281718 </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-9">
+                                <div className="contact-box">
+                                    <div className="contact-icon">
+                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
+                                        <i className="fas fa-globe"></i>
+                                    </div>
+                                    <div className="contact-content">
+                                        <h5 className="title">Web Connect</h5>
+                                        <p className="contact-desc">welgateorganic@gmail.com <br/> www.welgatelifestyle.com</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
