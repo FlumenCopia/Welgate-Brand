@@ -6,10 +6,10 @@ function Contact() {
        
         <section className="breadcrumbbanner">
             <nav className="container breadcrumb-container">
-                <h3>Gallery</h3>
+                <h3>Contact</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current">Gallery</li>
+                  <li className="current">Contact</li>
                 </ol>
               </nav>
         </section>
@@ -48,17 +48,14 @@ function Contact() {
                                             </div>
                                         </div>
                                     </div>
-                                    <select className="form-select" aria-label="Default select example">
-                                        <option selected disabled>Select Subject **</option>
-                                        <option value="1">Delivery & Orders</option>
-                                        <option value="2">Diet & Exercise</option>
-                                        <option value="3">Marketing & Press</option>
-                                        <option value="4">Share Your Success</option>
-                                        <option value="5">Wholesale And Returns</option>
-                                    </select>
+                                    <div className="form-grp">
+                                        <label for="subject">Subject</label>
+                                        <input name="subject" id="subject" placeholder="Enter subject" />
+                                        <div className="help-block with-errors"></div>
+                                    </div>
                                     <div className="form-grp">
                                         <label for="message">Message</label>
-                                        <textarea name="message" id="message" placeholder="Enter here" required="required" data-error="Message is required."></textarea>
+                                        <textarea name="message" id="message" placeholder="Enter message" required="required" data-error="Message is required."></textarea>
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-btn">

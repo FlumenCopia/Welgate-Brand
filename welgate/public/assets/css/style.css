@@ -4329,18 +4329,19 @@ body.search-visible {
 
 /* 20. Contact */
 .contact-area {
-	padding: 120px 0 90px;
+	padding: 0px 0 90px;
 }
 .contact-box {
-	box-shadow: 0 8px 16px rgba(102, 102, 102, 0.07);
-	padding: 60px;
+	box-shadow: 0 8px 16px rgba(102, 102, 102, 0.2);
+	height: 260px;
+	padding: 40px;
 	background: var(--tg-white);
 	position: relative;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	margin: 0 0 30px;
+	margin: 0 0 50px;
 	text-align: center;
 }
 .contact-box::before,
@@ -4364,7 +4365,7 @@ body.search-visible {
 	right: 0;
 }
 .contact-icon {
-	font-size: 100px;
+	font-size: 70px;
 	color: var(--tg-secondary-color);
 	line-height: 1;
 	position: relative;
@@ -4385,11 +4386,12 @@ body.search-visible {
 	right: -10px;
 }
 .contact-content .title {
-	font-size: 30px;
+	font-size: 25px;
 	margin: 0 0 15px;
 }
 .contact-content .contact-desc {
 	margin-bottom: 0;
+	font-size: 15px;
 }
 .contact-box-wrapper {
 	padding: 0 55px;
@@ -4428,8 +4430,9 @@ body.search-visible {
 .contact-form textarea {
 	display: block;
 	width: 100%;
-	border: 1px solid #f1f1f1;
+	border: 1px solid #999;
 	background-color: white;
+	color: black;
 	padding: 16px 25px;
 	border-radius: .25rem;
 }

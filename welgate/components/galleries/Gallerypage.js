@@ -15,7 +15,23 @@ function GalleryPage() {
   }, []);
 
   return (
+
+    <div>
+
+
+<section className="breadcrumbbanner">
+            <nav className="container breadcrumb-container">
+                <h3>Gallery</h3>
+                <ol className="cd-breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li className="current">Gallery</li>
+                </ol>
+              </nav>
+        </section>
+
     <div className="container">
+
+
       <div className="row gallery-container mb-4 ">
         <a href="https://unsplash.it/1200/768.jpg?image=251" className="col-md-4">
           <img src="https://unsplash.it/600.jpg?image=251" className="img-fluid rounded" alt="Gallery Image 1"/>
@@ -39,6 +55,8 @@ function GalleryPage() {
         </a>
       </div>
     </div>
+    </div>
+
   );
 }
 
