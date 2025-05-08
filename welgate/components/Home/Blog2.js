@@ -54,7 +54,7 @@ function Blog2() {
                   {!showFullPost1 ? (
                     <button 
                       onClick={() => setShowFullPost1(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2 btntp"
                     >
                       Read More
                     </button>
@@ -87,7 +87,7 @@ function Blog2() {
 
             {/* Blog Post 2 */}
             <div className="col-lg-6">
-              <div className="blog-post-item-two">
+              <div className="blog-post-item-two blogcard2">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg?t=st=1746613742~exp=1746617342~hmac=ecce2858ea1806424036f6e5d1fb19cb1aff01f3f3d3a1ed901baab8eeb89eef&w=1060" alt="img"/></a>
                 </div>
@@ -103,7 +103,7 @@ function Blog2() {
                   {!showFullPost2 ? (
                     <button 
                       onClick={() => setShowFullPost2(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2 btntp"
                     >
                       Read More
                     </button>
@@ -133,19 +133,18 @@ function Blog2() {
           <div className="row">
             {/* Blog Post 1 */}
             <div className="col-lg-6">
-              <div className="blog-post-item-two">
+              <div className="blog-post-item-two ">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg?t=st=1746621359~exp=1746624959~hmac=19df500b9c70ee0ef63a987e70d31f667fd8785e47dc1cb137d35c0ff6f66331&w=1380" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
                   <h2 className="title"><a href="#">How Welgate Turned a Family Brand Into a Wellness Legacy</a></h2>
                   <p>
-                  Welgate's journey is more than just a business story—it's a generational movement. What started with a passion for music and movies in living rooms across India evolved into a mission to fill dining tables with health and trust.
-                  </p>
+                  Welgate’s story is a legacy of family, culture, and wellness. From sharing music in homes to delivering trusted, health-focused products, it has evolved with care, purpose, and integrity. Today, Welgate blends tradition and innovation to nourish every table—creating a future where wellness is a conscious, daily, and accessible choice for all.                    </p>
                   {!showFullPost3 ? (
                     <button 
                       onClick={() => setShowFullPost3(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2 btntp"
                     >
                       Read More
                     </button>
@@ -179,13 +178,12 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
                   <h2 className="title"><a href="#"> Welgate Organic Supermarkets: Redefining the Way We Shop</a></h2>
                   <p>
-                  Walking into a Welgate Organic Supermarket is different. You’re not just shopping; you’re making a choice—for your body, your family, and the planet.
-                    
+                  Welgate Organic Supermarkets are redefining the shopping experience by turning everyday purchases into conscious choices. Walking into one of our stores means entering a space where health, sustainability, and trust come first. You're not just buying groceries—you're investing in your well-being, supporting your family, and making a positive impact on the planet.                    
                   </p>
                   {!showFullPost4 ? (
                     <button 
                       onClick={() => setShowFullPost4(true)} 
-                      className="btn btn-sm btn-outline-primary mt-2"
+                      className="btn btn-sm  mt-2 btntp"
                     >
                       Read More
                     </button>

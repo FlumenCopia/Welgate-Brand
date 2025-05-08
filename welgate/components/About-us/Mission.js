@@ -3,7 +3,6 @@ import React from 'react'
 const Mission = () => {
   return (
     <div>
-
     <section className="tg-video-area tg-video-bg jarallax parallax-img">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
