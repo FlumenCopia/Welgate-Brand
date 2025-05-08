@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/flaticon.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon@1.0.0/css/flaticon.min.css"></link>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/phosphor-icons@2.0.0/dist/phosphor.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
 
     <link rel="stylesheet" href="/assets/css/jquery-ui.css"/>
     <link rel="stylesheet" href="/assets/css/odometer.css"/>
@@ -67,6 +68,9 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/ajax-form.js"></Script>
         <Script src="/assets/js/wow.min.js"></Script>
         <Script src="/assets/js/main.js"></Script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></Script>
+
         <Script>
             SVGInject(document.querySelectorAll("img.injectable"));
         </Script>
