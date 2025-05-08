@@ -5,32 +5,31 @@ function Feature3() {
     <div>
         <section id="features" className="features-area-three features-bg-two" >
                 <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center ">
                         <div className="col-lg-6">
                             <div className="section-title section-title-two white-title text-center mb-60">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <p className='subtitle-colour'>Our offerings</p>
+                                    <h2 className="title textcolour">Why choose Us</h2>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <h2 className="title textcolour">Welgate Lifestyle <br/> Highlights</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="row align-items-center">
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                    <div className="row align-items-center text-center">
+                        <div className="col-xl-4 col-lg-4 col-md-6 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                 <i className="fab fa-envira"></i>
 
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Purely Organic Living</h4>
-                                    <p className='textcolour'>We offer a carefully curated range of organic, chemical-free products that support a healthier lifestyle. Each item is selected to ensure purity, safety, and sustainability.</p>
+                                    <h4 className="title textcolour">Legacy of Trust</h4>
+                                    <p className='textcolour '>Decades of experience rooted in passion and innovation.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <i className="fab fa-pagelines"></i>
@@ -41,7 +40,7 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <i className="fas fa-concierge-bell"></i>
@@ -52,7 +51,10 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6">
+                        <div className="col-xl-2 col-lg-4 col-md-6">
+                           
+                            </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <i className="fas fa-cookie"></i>
@@ -63,6 +65,20 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6 ">
+                            <div className="features-item features-item-three">
+                                <div className="features-icon">
+                                    <i className="fas fa-cookie"></i>
+                                </div>
+                                <div className="features-content ">
+                                    <h4 className="title textcolour">Wholesome Indulgence</h4>
+                                    <p className='textcolour '>From refreshing juices to wholesome snacks and indulgent treats, we offer something for every craving—all backed by a reputation for quality and community trust.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-2 col-lg-4 col-md-6">
+                           
+                            </div>
                     </div>
                 </div>
             </section>

@@ -6212,7 +6212,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .features-bg-two {
     background-size: cover;
-	background-color: #e8f9e9;
+	background-color: white;
     background-position: center;
     padding: 130px 0 255px;
     position: relative;
@@ -6232,7 +6232,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     margin-bottom: 30px;
 }
 .features-item-three .features-content p {
-    width: 90%;
+    width: 100%;
 }
 /* .features-item-three .features-icon {
     color: var(--tg-yellow);
