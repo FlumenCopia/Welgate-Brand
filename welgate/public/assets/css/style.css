@@ -4240,7 +4240,7 @@ body.search-visible {
 
 /* 19. FAQ */
 .faq-area{
-	margin-top: 60px;
+	margin-top: 0px;
 	margin-bottom: 55px;
 }
 
@@ -6214,7 +6214,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     background-size: cover;
 	background-color: white;
     background-position: center;
-    padding: 130px 0 255px;
+    padding: 125px 0 110px;
     position: relative;
     z-index: 1;
 }

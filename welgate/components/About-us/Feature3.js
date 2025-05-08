@@ -54,8 +54,10 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
-                       
-                        <div className="col-xl-7 col-lg-4 col-md-8">
+                        <div className="col-xl-2 col-lg-2 d-none d-md-none d-lg-block">
+                           
+                            </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <i className="fas fa-globe"></i>
@@ -67,7 +69,8 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-4 col-md-4 ">
+
+                        <div className="col-xl-4 col-lg-4 col-md-12 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <i className="fas fa-handshake"></i>
@@ -79,7 +82,9 @@ function Feature3() {
                                 </div>
                             </div>
                         </div>
-                     
+                        <div className="col-xl-2 col-lg-2 d-none d-md-none d-lg-block">
+                           
+                            </div>
                     </div>
                 </div>
             </section>
