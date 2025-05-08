@@ -7611,4 +7611,51 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .galleryimggap {
   margin: 15px;
 }
-  
+
+/* ............................................breadcrumbs.............................................. */
+
+.breadcrumbbanner {
+  /* background: url('/path/to/banner-image.jpg') center/cover no-repeat; */
+  background-color: #e8f9e9;
+  height: 200px;
+  display: flex;
+  align-items: center; 
+  margin-bottom: 70px;
+}
+
+.breadcrumb-container {
+  padding-left: 2rem;
+}
+
+.cd-breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.cd-breadcrumb li {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.cd-breadcrumb li + li::before {
+  content: "»";
+  padding: 0 0.6rem;
+  color: black;
+}
+
+.cd-breadcrumb li a {
+  color: black;
+  text-decoration: none !important;
+}
+
+
+
+.cd-breadcrumb li.current {
+  /* font-weight: bold; */
+  color: black;
+}

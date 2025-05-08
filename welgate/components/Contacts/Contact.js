@@ -3,18 +3,19 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-        <section>
-            <h2>1 - Basic</h2>
-        
-            <nav>
-                <ol class="cd-breadcrumb">
-                    <li><a href="#0">Home</a></li>
-                    <li><a href="#0">Gallery</a></li>
-                    <li><a href="#0">Web</a></li>
-                    <li class="current"><em>Project</em></li>
+       
+        <section className="breadcrumbbanner">
+            <nav className="container breadcrumb-container">
+                <h3>Gallery</h3>
+                <ol className="cd-breadcrumb">
+                  <li><a href="/">Home</a></li>
+                  <li className="current">Gallery</li>
                 </ol>
-            </nav>
+              </nav>
         </section>
+       
+          
+       
         
             <section className="contact-form-area">
                 <div className="container">
