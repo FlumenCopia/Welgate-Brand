@@ -1458,6 +1458,7 @@ body.search-visible {
 }
 .features-products-wrap:last-child {
 	margin: 0 0;
+	margin-bottom: 120px;
 }
 .features-products-thumb {
 	position: relative;
@@ -5040,7 +5041,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	margin-bottom: 10px;
 }
 .tg-section-title .title {
-	font-size: 42px;
+	/* font-size: 42px; */
 	margin-bottom: 0;
 	line-height: 1.1;
 	letter-spacing: -.5px;
