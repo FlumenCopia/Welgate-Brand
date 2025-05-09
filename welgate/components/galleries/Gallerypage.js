@@ -21,10 +21,10 @@ function GalleryPage() {
 
 <section className="breadcrumbbanner">
             <nav className="container breadcrumb-container">
-                <h3>Gallery</h3>
+                <h3 className="breadcrumbstyle">Gallery</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current">Gallery</li>
+                  <li className="current text-success">Gallery</li>
                 </ol>
               </nav>
         </section>

@@ -6,10 +6,10 @@ function Contact() {
        
         <section className="breadcrumbbanner">
             <nav className="container breadcrumb-container">
-                <h3>Contact</h3>
+                <h3 className='breadcrumbstyle'>Contact</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current">Contact</li>
+                  <li className="current text-success">Contact</li>
                 </ol>
               </nav>
         </section>

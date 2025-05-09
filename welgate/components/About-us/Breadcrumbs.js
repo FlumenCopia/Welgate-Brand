@@ -5,10 +5,10 @@ function Breadcrumbs() {
     <div>
         <section className="breadcrumbbanner">
             <nav className="container breadcrumb-container">
-                <h3>Gallery</h3>
+                <h3 className='breadcrumbstyle'>About Us</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current">Gallery</li>
+                  <li className="current text-success">About</li>
                 </ol>
               </nav>
         </section>

@@ -12,10 +12,10 @@ function Blog2() {
 
 <section className="breadcrumbbanner">
             <nav className="container breadcrumb-container">
-                <h3>Blog</h3>
+                <h3 className=' breadcrumbstyle'>Blog</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current">Blog</li>
+                  <li className="current text-success">Blog</li>
                 </ol>
               </nav>
         </section>

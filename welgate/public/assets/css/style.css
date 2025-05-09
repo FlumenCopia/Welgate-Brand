@@ -7655,12 +7655,18 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbbanner {
-  background: url('https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-71008.jpg?t=st=1746708557~exp=1746712157~hmac=26c04c135bc32f5f28aaba35336ce9fd6a5081cb6cf2d2fac9ea2bcfd45406d6&w=1800') center/cover no-repeat;
+  background: url('https://img.freepik.com/free-vector/white-vertical-wavy-lines-grey-background_78370-2632.jpg?t=st=1746769815~exp=1746773415~hmac=577bc29d98b3c6f8f16e1f4de75e59745138a1861c83d17d322bfe641ca77117&w=1380') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;
   align-items: center; 
   margin-bottom: 70px;
+}
+
+.breadcrumbstyle{
+	font-size: 40px;
+	color: #046434;
+	font-weight: 500;
 }
 
 .breadcrumb-container {
