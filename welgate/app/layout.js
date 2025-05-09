@@ -71,9 +71,9 @@ export default function RootLayout({ children }) {
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></Script>
 
-        <Script>
+        {/* <Script>
             SVGInject(document.querySelectorAll("img.injectable"));
-        </Script>
+        </Script> */}
 
 
 

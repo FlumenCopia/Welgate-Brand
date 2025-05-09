@@ -1,6 +1,11 @@
+'use client'
 import React from 'react'
+import { useEffect } from 'react';
 
 function Scrolltop() {
+
+
+
   return (
     <div>
         <button className="scroll-top scroll-to-target" data-target="html">

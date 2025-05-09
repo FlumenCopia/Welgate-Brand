@@ -5055,9 +5055,14 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-supplement-shape {
 	position: absolute;
-	right: 8%;
-	top: 2%;
-	z-index: -1;
+    right: -15%;
+    top: 3%;
+    width: 60%;
+    z-index: -1;
+}
+
+.imgsize{
+	max-width: 62%;
 }
 .rotateme {
 	-webkit-animation-name: rotateme;
