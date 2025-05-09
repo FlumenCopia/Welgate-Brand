@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
-import Scrolltop from "@/components/common/Scrolltop";
+import Scrolltop from "@/components/Scroll/Scrolltop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
