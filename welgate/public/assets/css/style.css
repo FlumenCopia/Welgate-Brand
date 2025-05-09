@@ -7001,7 +7001,35 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	top: 20px;
 }
 
+@media(min-width:1400px) and (max-width:1600px) {
+	.blogcard2{
+	padding-bottom: 1px;
+}
 
+.btntp2{
+	top: 10px;
+}
+}
+@media(min-width:1200px) and (max-width:1399px) {
+	.blogcard1{
+	padding-bottom: 29px;
+}
+
+.btntp1{
+	top: 20px;
+}
+
+}
+@media(min-width:991px) and (max-width:1199px) {
+	.blogcard1{
+	padding-bottom: 64px;
+}
+
+.btntp1{
+	top: 45px;
+}
+
+}
 .blog-post-thumb-two img {
     width: 100%;
     border-radius: 20px;

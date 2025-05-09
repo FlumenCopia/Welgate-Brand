@@ -133,7 +133,7 @@ function Blog2() {
           <div className="row">
             {/* Blog Post 1 */}
             <div className="col-lg-6">
-              <div className="blog-post-item-two ">
+              <div className="blog-post-item-two blogcard1">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg?t=st=1746621359~exp=1746624959~hmac=19df500b9c70ee0ef63a987e70d31f667fd8785e47dc1cb137d35c0ff6f66331&w=1380" alt="img"/></a>
                 </div>
@@ -144,7 +144,7 @@ function Blog2() {
                   {!showFullPost3 ? (
                     <button 
                       onClick={() => setShowFullPost3(true)} 
-                      className="btn btn-sm  mt-2 btntp"
+                      className="btn btn-sm  mt-2 btntp1"
                     >
                       Read More
                     </button>
