@@ -5055,7 +5055,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-supplement-shape {
 	position: absolute;
-	right: 12%;
+	right: 8%;
 	top: 2%;
 	z-index: -1;
 }
@@ -6988,57 +6988,38 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     background: var(--tg-gray-two);
 }
 .blog-post-item-two {
-    background: var(--tg-white);
-    margin-bottom: 30px;
-    border-radius: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  /* border-radius: 20px; */
+  padding: 20px 20px;
+}
+.blog-post-content-two {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: max-height 0.4s ease;
+  overflow: hidden;
 }
 
-.blogcard2{
-	padding-bottom: 26px;
-}
-
-.btntp2{
-	top: 20px;
-}
-
-@media(min-width:1400px) and (max-width:1600px) {
-	.blogcard2{
-	padding-bottom: 1px;
-}
-
-.btntp2{
-	top: 10px;
-}
-}
-@media(min-width:1200px) and (max-width:1399px) {
-	.blogcard1{
-	padding-bottom: 29px;
-}
-
-.btntp1{
-	top: 20px;
-}
+.rowalign{
+	
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 
 }
-@media(min-width:991px) and (max-width:1199px) {
-	.blogcard1{
-	padding-bottom: 64px;
-}
 
-.btntp1{
-	top: 45px;
-}
 
-}
 .blog-post-thumb-two img {
     width: 100%;
     border-radius: 20px;
     height: 320px;
     object-fit: cover;
 }
-.blog-post-content-two {
-    padding: 35px 40px 40px;
-}
+
 .blog-post-meta .list-wrap {
     display: flex;
     align-items: center;
@@ -7655,7 +7636,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbbanner {
-  background: url('https://img.freepik.com/free-vector/white-vertical-wavy-lines-grey-background_78370-2632.jpg?t=st=1746769815~exp=1746773415~hmac=577bc29d98b3c6f8f16e1f4de75e59745138a1861c83d17d322bfe641ca77117&w=1380') center/cover no-repeat;
+  background: url('/assets/img/bg/Untitled design (1).png') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;

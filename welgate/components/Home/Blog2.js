@@ -36,9 +36,9 @@ function Blog2() {
               </div>
             </div> */}
           </div>
-          <div className="row">
+          <div className="row rowalign ">
             {/* Blog Post 1 */}
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg?t=st=1746613435~exp=1746617035~hmac=88cafd0a40bdc4512c54b4969cba84e501d48419646517891c6b1441d380e544&w=1380" alt="img"/></a>
@@ -54,7 +54,7 @@ function Blog2() {
                   {!showFullPost1 ? (
                     <button 
                       onClick={() => setShowFullPost1(true)} 
-                      className="btn btn-sm  mt-2 btntp"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>
@@ -86,8 +86,8 @@ function Blog2() {
             </div>
 
             {/* Blog Post 2 */}
-            <div className="col-lg-6">
-              <div className="blog-post-item-two blogcard2">
+            <div className="col-lg-6 d-flex">
+              <div className="blog-post-item-two ">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg?t=st=1746613742~exp=1746617342~hmac=ecce2858ea1806424036f6e5d1fb19cb1aff01f3f3d3a1ed901baab8eeb89eef&w=1060" alt="img"/></a>
                 </div>
@@ -103,7 +103,7 @@ function Blog2() {
                   {!showFullPost2 ? (
                     <button 
                       onClick={() => setShowFullPost2(true)} 
-                      className="btn btn-sm  mt-2 btntp2"
+                      className="btn btn-sm  mt-2"
                     >
                       Read More
                     </button>
@@ -130,10 +130,10 @@ function Blog2() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row rowalign">
             {/* Blog Post 1 */}
-            <div className="col-lg-6">
-              <div className="blog-post-item-two blogcard1">
+            <div className="col-lg-6 d-flex">
+              <div className="blog-post-item-two ">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg?t=st=1746621359~exp=1746624959~hmac=19df500b9c70ee0ef63a987e70d31f667fd8785e47dc1cb137d35c0ff6f66331&w=1380" alt="img"/></a>
                 </div>
@@ -144,7 +144,7 @@ function Blog2() {
                   {!showFullPost3 ? (
                     <button 
                       onClick={() => setShowFullPost3(true)} 
-                      className="btn btn-sm  mt-2 btntp1"
+                      className="btn btn-sm  mt-2 "
                     >
                       Read More
                     </button>
@@ -170,7 +170,7 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
             </div>
 
             {/* Blog Post 2 */}
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-flex">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" alt="img"/></a>
@@ -183,7 +183,7 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
                   {!showFullPost4 ? (
                     <button 
                       onClick={() => setShowFullPost4(true)} 
-                      className="btn btn-sm  mt-2 btntp"
+                      className="btn btn-sm  mt-2 "
                     >
                       Read More
                     </button>
