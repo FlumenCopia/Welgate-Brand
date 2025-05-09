@@ -49,7 +49,7 @@ function Blog2() {
                     Welgate's story didn’t start on a farm—it began in the rhythm of music and the magic of movies. 
                     Back in the days of cassettes and CDs, Welgate was a household name for those seeking joy through 
                     sound and screen. Their stores weren’t just shelves of products—they were places where memories 
-                    were made, families bonded over favorite albums, and rare finds brought pure excitement.
+                    were made, families bonded over albums, and rare finds brought pure excitement.
                   </p>
                   {!showFullPost1 ? (
                     <button 
@@ -103,7 +103,7 @@ function Blog2() {
                   {!showFullPost2 ? (
                     <button 
                       onClick={() => setShowFullPost2(true)} 
-                      className="btn btn-sm  mt-2 btntp"
+                      className="btn btn-sm  mt-2 btntp2"
                     >
                       Read More
                     </button>

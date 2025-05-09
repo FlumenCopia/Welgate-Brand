@@ -6993,6 +6993,14 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     border-radius: 20px;
 }
 
+.blogcard2{
+	padding-bottom: 26px;
+}
+
+.btntp2{
+	top: 20px;
+}
+
 
 .blog-post-thumb-two img {
     width: 100%;
