@@ -2,7 +2,7 @@
 
 import About_banner from '@/components/About-us/About_banner'
 import About_value from '@/components/About-us/About_value'
-import Breadcrumbs from '@/components/About-us/breadcrumbs'
+import Breadcrumbs from '@/components/About-us/Breadcrumbs'
 import Faq from '@/components/About-us/Faq'
 import Feature3 from '@/components/About-us/Feature3'
 import Mission from '@/components/About-us/Mission'
@@ -17,7 +17,7 @@ export const page = () => {
   return (
     <div>
          <Header/>
-         {/* <Breadcrumbs/> */}
+         <Breadcrumbs/>
          {/* <About_banner/> */}
          <Mission/>
          <Vision_about/>
