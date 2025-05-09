@@ -38,13 +38,13 @@ function Blog2() {
           </div>
           <div className="row rowalign ">
             {/* Blog Post 1 */}
-            <div className="col-lg-6 ">
+            <div className="col-lg-6 d-flex">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg?t=st=1746613435~exp=1746617035~hmac=88cafd0a40bdc4512c54b4969cba84e501d48419646517891c6b1441d380e544&w=1380" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
-                  <h4 className="title">From Cassettes to Crops – The Unseen Journey of Welgate</h4>
+                  <h4 className="title mt-3">From Cassettes to Crops – The Unseen Journey of Welgate</h4>
                   <p>
                     Welgate's story didn’t start on a farm—it began in the rhythm of music and the magic of movies. 
                     Back in the days of cassettes and CDs, Welgate was a household name for those seeking joy through 
@@ -92,7 +92,7 @@ function Blog2() {
                   <a href="#"><img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg?t=st=1746613742~exp=1746617342~hmac=ecce2858ea1806424036f6e5d1fb19cb1aff01f3f3d3a1ed901baab8eeb89eef&w=1060" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
-                  <h4 className="title">Why Organic is More Than a Trend – It’s a Welgate Way of Life</h4>
+                  <h4 className="title mt-3">Why Organic is More Than a Trend – It’s a Welgate Way of Life</h4>
                   <p>
                     Organic isn't just a buzzword—it's a promise. At Welgate, the word "organic" means transparency, 
                     sustainability, and responsibility. Every vegetable harvested and every product stocked in their 
@@ -132,13 +132,13 @@ function Blog2() {
           </div>
           <div className="row rowalign">
             {/* Blog Post 1 */}
-            <div className="col-lg-6 d-flex">
+            <div className="col-lg-6 ">
               <div className="blog-post-item-two ">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg?t=st=1746621359~exp=1746624959~hmac=19df500b9c70ee0ef63a987e70d31f667fd8785e47dc1cb137d35c0ff6f66331&w=1380" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
-                  <h4 className="title">How Welgate Turned a Family Brand Into a Wellness Legacy</h4>
+                  <h4 className="title mt-3">How Welgate Turned a Family Brand Into a Wellness Legacy</h4>
                   <p>
                   Welgate’s story is a legacy of family, culture, and wellness. From sharing music in homes to delivering trusted, health-focused products, it has evolved with care, purpose, and integrity. Today, Welgate blends tradition and innovation to nourish every table—creating a future where wellness is a conscious, daily, and accessible choice for all.                    </p>
                   {!showFullPost3 ? (
@@ -170,13 +170,13 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
             </div>
 
             {/* Blog Post 2 */}
-            <div className="col-lg-6 d-flex">
+            <div className="col-lg-6">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
                   <a href="#"><img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
-                  <h4 className="title"> Welgate Organic Supermarkets: Redefining the Way We Shop</h4>
+                  <h4 className="title mt-3"> Welgate Organic Supermarkets: Redefining the Way We Shop</h4>
                   <p>
                   Welgate Organic Supermarkets are redefining the shopping experience by turning everyday purchases into conscious choices. Walking into one of our stores means entering a space where health, sustainability, and trust come first. You're not just buying groceries—you're investing in your well-being, supporting your family, and making a positive impact on the planet.                    
                   </p>
