@@ -173,7 +173,7 @@ Today, Welgate isn’t just about what you buy—it’s about what you believe i
             <div className="col-lg-6">
               <div className="blog-post-item-two">
                 <div className="blog-post-thumb-two">
-                  <a href="#"><img src="https://welgatelifestyle.com/assets/images/shape/mission-img-one.jpg" alt="img"/></a>
+                  <a href="#"><img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" style={{ textAlign: 'justify' }}>
                   <h4 className="title"> Welgate Organic Supermarkets: Redefining the Way We Shop</h4>
