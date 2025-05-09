@@ -5,7 +5,7 @@ function Faq() {
     <div>
          <section className="faq-area position-relative">
                 <div className="row justify-content-end g-0">
-                    <div className="faq-img" data-background="/assets/img/bg/freepik__the-style-is-candid-image-photography-with-natural__5902.png">
+                    <div className="faq-img" data-background="https://img.freepik.com/free-photo/3d-render-symbol-question-mark_460848-6860.jpg?t=st=1746769119~exp=1746772719~hmac=c3a3a8a66a426885a0bd99d42b9c06fc16bbc7a2c8826f72ef3484b4eb69f9ef&w=826">
                         {/* <a href="" className=""><i className=""></i></a> */}
                     </div>
                     <div className="col-lg-6">
