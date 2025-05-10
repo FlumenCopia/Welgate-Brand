@@ -21,36 +21,36 @@ $(window).on('load', function () {
 /*=============================================
 	=          One page Menu               =
 =============================================*/
-var scrollLink = $('.section-link');
-// Active link switching
-$(window).scroll(function () {
-	var scrollbarLocation = $(this).scrollTop();
+// var scrollLink = $('.section-link');
+// // Active link switching
+// $(window).scroll(function () {
+// 	var scrollbarLocation = $(this).scrollTop();
 
-	scrollLink.each(function () {
+// 	scrollLink.each(function () {
 
-		var sectionOffset = $(this.hash).offset().top - 90;
+// 		var sectionOffset = $(this.hash).offset().top - 90;
 
-		if (sectionOffset <= scrollbarLocation) {
-			$(this).parent().addClass('active');
-			$(this).parent().siblings().removeClass('active');
-		}
-	});
-});
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function () {
-	$('a.section-link[href*="#"]:not([href="#"])').on('click', function () {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-			if (target.length) {
-				$('html, body').animate({
-					scrollTop: (target.offset().top - 80)
-				}, 1200, "easeInOutExpo");
-				return false;
-			}
-		}
-	});
-});
+// 		if (sectionOffset <= scrollbarLocation) {
+// 			$(this).parent().addClass('active');
+// 			$(this).parent().siblings().removeClass('active');
+// 		}
+// 	});
+// });
+// //jQuery for page scrolling feature - requires jQuery Easing plugin
+// $(function () {
+// 	$('a.section-link[href*="#"]:not([href="#"])').on('click', function () {
+// 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+// 			var target = $(this.hash);
+// 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+// 			if (target.length) {
+// 				$('html, body').animate({
+// 					scrollTop: (target.offset().top - 80)
+// 				}, 1200, "easeInOutExpo");
+// 				return false;
+// 			}
+// 		}
+// 	});
+// });
 
 
 /*=============================================
@@ -706,6 +706,8 @@ function wowAnimation() {
 
 
 })(jQuery);
+
+
 
 
 

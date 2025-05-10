@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
-import Scrolltop from "@/components/common/Scrolltop";
+import Scrolltop from "@/components/Scroll/Scrolltop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +41,10 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/default.css"/>
     <link rel="stylesheet" href="/assets/css/style.css"/>
     <link rel="stylesheet" href="/assets/css/responsive.css"/>
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
 
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
@@ -70,6 +74,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/main.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></Script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></Script>
 
         {/* <Script>
             SVGInject(document.querySelectorAll("img.injectable"));
