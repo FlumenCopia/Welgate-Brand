@@ -6998,7 +6998,12 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
   align-items:start; /* Ensures all columns are equal height */
 }
 
+.bloght{
+	/* border: 1px solid black; */
+height: 301px;}
 
+.bloght2{
+height: 693px;}
 
 .blog-post-item-two {
   height: auto;
