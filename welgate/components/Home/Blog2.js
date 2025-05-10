@@ -55,7 +55,7 @@ function Blog2() {
 
             {/* Blog Post 2 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column">
+              <div className="card w-100 h-100 flex-column">
                 <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">Why Organic Is More Than Trend – Welgate’s Lifestyle</p>
@@ -84,7 +84,7 @@ function Blog2() {
 
             {/* Blog Post 3 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 flex-column">
+              <div className="card w-100 h-100 flex-column">
                 <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">How Welgate Became a Family Wellness Legacy Brand</p>
@@ -111,7 +111,7 @@ function Blog2() {
 
             {/* Blog Post 4 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 flex-column">
+              <div className="card w-100 h-100 flex-column">
                 <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">Welgate Organic Supermarkets – Changing How We All Shop</p>
