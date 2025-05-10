@@ -33,18 +33,20 @@ function Blog2() {
                   <a href="#"><img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" >
-                  <p className="title mt-3">From Cassettes to Crops – The Unseen Journey of Welgate</p>
+                  <div className="bloght">
+                  <p className="title mt-3">From Cassettes to Crops – Welgate’s Unseen Brand Journey</p>
                   <p>
-                    Welgate's story didn’t start on a farm—it began in the rhythm of music and the magic of movies. 
-                    Back in the days of cassettes and CDs, Welgate was a household name for those seeking joy through 
-                    sound and screen. Their stores weren’t just shelves of products—they were places where memories 
-                    were made, families bonded over albums, and rare finds brought pure excitement.
+                    Welgate's journey began not on a farm, but in the rhythm of music and the magic of movies. Once known for cassettes and CDs, their stores were places where families bonded, memories formed, and rare finds sparked joy.
                   </p>
+                  </div>
+                  
                   {!showFullPost1 ? (
                     
                     <button onClick={() => setShowFullPost1(true)} className="btn btn-sm mt-2">Read More</button>
                   ) : (
                     <>
+                                        <div className="bloght2">
+
                       <p>
                         But as the world evolved, so did Welgate’s vision. The focus shifted—from entertaining lives to 
                         enriching them through wellness. With rising concerns around food safety and chemical-laden products, 
@@ -54,6 +56,7 @@ function Blog2() {
                         Today, Welgate stands tall—not only as a brand with a legacy but as a lifestyle rooted in trust,
                         wellness, and care.
                       </p>
+                                        </div>
                       <button onClick={() => setShowFullPost1(false)} className="btn btn-sm btn-outline-danger mt-2">View Less</button>
                     </>
                   )}
@@ -68,17 +71,19 @@ function Blog2() {
                   <a href="#"><img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" >
-                  <p className="title mt-3">Why Organic is More Than a Trend – It’s a Welgate Way of Life.</p>
+                                    <div className="bloght">
+
+                  <p className="title mt-3">Why Organic Is More Than Trend – Welgate’s Lifestyle</p>
                   <p>
-                    Organic isn't just a buzzword—it's a promise. At Welgate, the word "organic" means transparency, 
-                    sustainability, and responsibility. Every vegetable harvested and every product stocked in their 
-                    supermarket shelves reflects years of learning, adapting, and staying true to a simple principle: 
-                    what you consume should nourish you, not harm you.
+Organic at Welgate isn’t a trend—it’s a lasting commitment to transparency, sustainability, and social responsibility. Every product on their shelves reflects years of learning, careful sourcing, and a sincere promise to nourish, not harm.
                   </p>
+                </div>
                   {!showFullPost2 ? (
                     <button onClick={() => setShowFullPost2(true)} className="btn btn-sm mt-2">Read More</button>
                   ) : (
                     <>
+                                        <div className="bloght2">
+
                       <p>
                         Welgate’s organic journey is not about ticking trends—it’s about returning to what’s real. Their 
                         farming practices prioritize natural growth cycles, avoid harmful chemicals, and nurture the soil 
@@ -88,6 +93,7 @@ function Blog2() {
                         every decision is made with care. At Welgate, organic is a reflection of values—respect for
                         nature, honesty with customers, and a belief in better living.
                       </p>
+                                        </div>
                       <button onClick={() => setShowFullPost2(false)} className="btn btn-sm btn-outline-danger mt-2">View Less</button>
                     </>
                   )}
@@ -102,14 +108,18 @@ function Blog2() {
                   <a href="#"><img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two" >
-                  <p className="title mt-3">How Welgate Turned a Family Brand Into a Wellness Legacy</p>
+                                    <div className="bloght">
+
+                  <p className="title mt-3">How Welgate Became a Family Wellness Legacy Brand</p>
                   <p>
-                    Welgate’s story is a legacy of family, culture, and wellness. From sharing music in homes to delivering trusted, health-focused products, it has evolved with care, purpose, and integrity.
-                  </p>
+Welgate’s story is a legacy of family, culture, and wellness. From sharing music in homes to delivering trusted, health-focused products, it has evolved with care, purpose, integrity, passion, and community spirit.                  </p>
+                  </div>
                   {!showFullPost3 ? (
                     <button onClick={() => setShowFullPost3(true)} className="btn btn-sm mt-2">Read More</button>
                   ) : (
                     <>
+                                        <div className="bloght2">
+
                       <p>
                         Welgate was once a household name for entertainment. Families visited their stores to find the latest hits, share stories, and connect. But behind that was always something deeper—a desire to bring joy, reliability, and lasting value to people’s lives. As times changed, the same passion was redirected toward a more urgent mission: health and wellness.
 
@@ -117,6 +127,7 @@ function Blog2() {
 
                         Today, Welgate isn’t just about what you buy—it’s about what you believe in. That belief is creating a ripple effect of conscious living.
                       </p>
+                      </div>
                       <button onClick={() => setShowFullPost3(false)} className="btn btn-sm btn-outline-danger mt-2">View Less</button>
                     </>
                   )}
@@ -131,14 +142,18 @@ function Blog2() {
                   <a href="#"><img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" alt="img"/></a>
                 </div>
                 <div className="blog-post-content-two">
-                  <p className="title mt-3">Welgate Organic Supermarkets: Redefining the Way We Shop</p>
+                                    <div className="bloght">
+
+                  <p className="title mt-3">Welgate Organic Supermarkets – Changing How We All Shop</p>
                   <p>
                     Welgate Organic Supermarkets are redefining the shopping experience by turning everyday purchases into conscious choices. Walking into one of our stores means entering a space where health, sustainability, and trust come first.
                   </p>
+                  </div>
                   {!showFullPost4 ? (
                     <button onClick={() => setShowFullPost4(true)} className="btn btn-sm mt-2">Read More</button>
                   ) : (
                     <>
+                    <div className="bloght2">
                       <p>
                         With shelves full of hand-picked, chemical-free produce and thoughtfully curated products, Welgate Organic Supermarkets are more than stores—they're wellness hubs. Built on a foundation of ethical sourcing and transparency, every item here tells a story: of the soil it came from, the farmers who nurtured it, and the purpose it serves in your life.
 
@@ -146,6 +161,8 @@ function Blog2() {
 
                         By bringing organic food into neighborhoods, Welgate is making wellness convenient, consistent, and part of everyday life. It's not just about changing what's in your cart—it's about changing what you stand for.
                       </p>
+                    </div>
+                      
                       <button onClick={() => setShowFullPost4(false)} className="btn btn-sm btn-outline-danger mt-2">View Less</button>
                     </>
                   )}
