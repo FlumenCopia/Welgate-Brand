@@ -29,7 +29,7 @@ function Blog2() {
               <div className="card w-100  flex-column">
                 <img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
-                  <h5 className="card-title">From Cassettes to Crops – Welgate’s Unseen Brand Journey</h5>
+                  <p className="card-title pfont">From Cassettes to Crops – Welgate’s Unseen Brand Journey</p>
                   <p className="card-text">
                     Welgate's journey began not on a farm, but in the rhythm of music and the magic of movies...
                   </p>
@@ -58,7 +58,7 @@ function Blog2() {
               <div className="card w-100  flex-column">
                 <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
-                  <h5 className="card-title">Why Organic Is More Than Trend – Welgate’s Lifestyle</h5>
+                  <p className="card-title pfont">Why Organic Is More Than Trend – Welgate’s Lifestyle</p>
                   <p className="card-text">
                     Organic at Welgate isn’t a trend—it’s a lasting commitment to transparency, sustainability, and...
                   </p>
@@ -87,7 +87,7 @@ function Blog2() {
               <div className="card w-100 flex-column">
                 <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
-                  <h5 className="card-title">How Welgate Became a Family Wellness Legacy Brand</h5>
+                  <p className="card-title pfont">How Welgate Became a Family Wellness Legacy Brand</p>
                   <p className="card-text">
                     Welgate’s story is a legacy of family, culture, and wellness. From sharing music in homes to...
                   </p>
@@ -114,7 +114,7 @@ function Blog2() {
               <div className="card w-100 flex-column">
                 <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
-                  <h5 className="card-title">Welgate Organic Supermarkets – Changing How We All Shop</h5>
+                  <p className="card-title pfont">Welgate Organic Supermarkets – Changing How We All Shop</p>
                   <p className="card-text">
                     Welgate Organic Supermarkets are redefining the shopping experience by turning everyday...
                   </p>
