@@ -26,7 +26,7 @@ function Blog2() {
           <div className="row">
             {/* Blog Post 1 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column border-0">
+              <div className="card w-100  flex-column border-0"style={{borderRadius:'20px'}}>
                 <img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">From Cassettes to Crops: Welgate's Brand Evolution</p>
@@ -55,7 +55,7 @@ function Blog2() {
 
             {/* Blog Post 2 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column border-0">
+              <div className="card w-100  flex-column border-0"style={{borderRadius:'20px'}}>
                 <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">Why Organic Is More Than a Trend – Welgate’s Lifestyle</p>
@@ -85,7 +85,7 @@ function Blog2() {
 
             {/* Blog Post 3 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 flex-column border-0">
+              <div className="card w-100 flex-column border-0"style={{borderRadius:'20px'}}>
                 <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">How Welgate Evolved into a Legacy Wellness Brand</p>
@@ -112,7 +112,7 @@ function Blog2() {
 
             {/* Blog Post 4 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 flex-column border-0">
+              <div className="card w-100 flex-column border-0" style={{borderRadius:'20px'}}>
                 <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">Welgate Organic: Redefining Everyday Shopping</p>
