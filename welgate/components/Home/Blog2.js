@@ -111,7 +111,7 @@ function Blog2() {
 
             {/* Blog Post 4 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column">
+              <div className="card w-100 h-100 flex-column">
                 <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">Welgate Organic Supermarkets – Changing How We All Shop</h5>
