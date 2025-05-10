@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Feature2() {
+
+    
   return (
     <div>
         <section id="ingredient" className="tg-supplement-area pt-130 pb-120">
