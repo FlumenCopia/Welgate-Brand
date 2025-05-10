@@ -26,8 +26,8 @@ function Blog2() {
           <div className="row">
             {/* Blog Post 1 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 h-100 flex-column">
-                <img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg" className="card-img-top" alt="img" />
+              <div className="card w-100  flex-column">
+                <img src="https://img.freepik.com/free-photo/retro-vhs-packaging-high-angle_23-2149854297.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">From Cassettes to Crops – Welgate’s Unseen Brand Journey</h5>
                   <p className="card-text">
@@ -55,8 +55,8 @@ function Blog2() {
 
             {/* Blog Post 2 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 h-100 flex-column">
-                <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" />
+              <div className="card w-100  flex-column">
+                <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">Why Organic Is More Than Trend – Welgate’s Lifestyle</h5>
                   <p className="card-text">
@@ -84,8 +84,8 @@ function Blog2() {
 
             {/* Blog Post 3 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100 h-100 flex-column">
-                <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" />
+              <div className="card w-100 flex-column">
+                <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">How Welgate Became a Family Wellness Legacy Brand</h5>
                   <p className="card-text">
@@ -111,8 +111,8 @@ function Blog2() {
 
             {/* Blog Post 4 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column">
-                <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" />
+              <div className="card w-100 flex-column">
+                <img src="https://content.jdmagicbox.com/v2/comp/thiruvananthapuram/g2/0471px471.x471.221117113259.q2g2/catalogue/welgate-lifestyle-kuruvankonam-thiruvananthapuram-grocery-stores-lmcsvl6glg-250.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">Welgate Organic Supermarkets – Changing How We All Shop</h5>
                   <p className="card-text">

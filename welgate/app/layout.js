@@ -49,7 +49,6 @@ export default function RootLayout({ children }) {
 
         {/* <Preloader/> */}
         <Scrolltop/>
-
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
         <Script src="/assets/js/bootstrap.min.js"></Script>
         <Script src="/assets/js/isotope.pkgd.min.js"></Script>
