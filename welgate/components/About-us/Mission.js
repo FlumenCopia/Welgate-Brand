@@ -18,7 +18,7 @@ const Mission = () => {
                         <div className="tg-video-content wow fadeInRight" data-wow-delay=".2s">
                             <div className="tg-section-title white mb-30">
                                 <span className="sub-title">About</span>
-                                <h2 className="title">Our Mission</h2>
+                                <p className="title pfont2">Our Mission</p>
                             </div>
                             <p className="info-one ">At Welgate Lifestyles, our mission is to inspire healthier lives by bridging the wisdom of tradition with the innovation of modern wellness. We are committed to delivering clean, trustworthy, and ethically sourced products—from organic produce to lifestyle essentials—that support the well-being of individuals, families, and communities. Through transparency, sustainability, and quality, we aim to create a world where wellness is not a luxury, but a daily choice accessible to all.</p>
                             {/* <p className="info-two">printing and tysetting industry. Lorem ipsum has been thindustry's standard dummy text ever since the when an unknown.</p> */}

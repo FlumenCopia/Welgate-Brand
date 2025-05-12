@@ -28,8 +28,8 @@ function Contact() {
                         <div className="col-xl-6">
                             <div className="contact-form-wrap">
                                 <div className="section-title mb-50">
-                                    <p className="sub-title">.. request make ..</p>
-                                    <h2 className="title">Asked Anything You <br/> Want To Know</h2>
+                                    {/* <p className="sub-title">.. request make ..</p> */}
+                                    <p className="title pfont2">Connect With Us</p>
                                 </div>
                                 <form id="contact-form" action="inc/contact.php" className="contact-form" data-toggle="validator">
                                     <div className="row">

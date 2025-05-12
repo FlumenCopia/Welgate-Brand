@@ -16,7 +16,7 @@ function Faq() {
                                     <p className='subtitle-colour'>FAQ</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </span>
-                                <h2 className="title">Ask question</h2>
+                                <p className="title pfont2">Ask question</p>
                             </div>
                             <div className="accordion" id="accordionExample">
                                 <div className="accordion-item">
