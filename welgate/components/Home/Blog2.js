@@ -56,7 +56,7 @@ function Blog2() {
             {/* Blog Post 2 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
               <div className="card w-100  flex-column border-0">
-                <img src="https://img.freepik.com/free-photo/man-taking-care-his-farm_23-2148580029.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
+                <img src="assets/img/genetically-enhanced-crops-withstand-climate-challenges-ensuring-future-food-security.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">Why Organic Is More Than a Trend – Welgate’s Lifestyle</p>
                   <p className="card-text">
@@ -86,7 +86,7 @@ function Blog2() {
             {/* Blog Post 3 */}
             <div className="col-12 col-md-6 col-lg-3 mb-4 ">
               <div className="card w-100 flex-column border-0">
-                <img src="https://img.freepik.com/free-photo/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.jpg" className="card-img-top" alt="img" style={{height:'200px'}} />
+                <img src="assets/img/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept_1150-19592.avif" className="card-img-top" alt="img" style={{height:'200px'}} />
                 <div className="card-body d-flex flex-column">
                   <p className="card-title pfont">How Welgate Evolved into a Legacy Wellness Brand</p>
                   <p className="card-text">
