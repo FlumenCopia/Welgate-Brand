@@ -5129,7 +5129,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 .tg-supplement-shape {
 	position: absolute;
-    right: -15%;
+    right: -15% !important;
     top: 3%;
     width: 60%;
     z-index: -1;
