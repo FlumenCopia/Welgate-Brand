@@ -2970,12 +2970,45 @@ body.search-visible {
 	background-repeat: repeat;
 	background-position: center;
 }
-.formula-img {
+.formula-img1 {
 	text-align:center;
 	margin-right: -100px;
 }
+
+.formula-img2 {
+	text-align:center;
+	margin-right: 120px;
+}
+@media (min-width:991px)and (max-width:1199px){
+	.formula-img2 {
+	text-align:center;
+	margin-right: 35px;
+}
+}
+@media (min-width:991px)and (max-width:1199px){
+	.formula-img1 {
+	text-align:center;
+	margin-right: -7px;
+}
+}
+@media (max-width:991px){
+	.formula-img2 {
+	text-align:center;
+	margin-right: 0px;
+	padding-bottom: 20px;
+}
+	.white-title .title{
+		text-align: center;
+	}
+	.formula-img1 {
+	text-align:center;
+	margin-right: 0px;
+	padding-bottom: 20px;
+}
+}
 .white-title .title {
-	color: white;
+	color: rgb(9, 9, 9);
+	/* text-transform: uppercase; */
 }
 .formula-list {
 	margin: 0 0 50px;
@@ -4878,7 +4911,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	background-image: url('/assets/img/WhatsApp Image 1.jpg');
 	background-position: bottom center;
 	background-size: cover;
-	padding: 140px 0 230px;
+	padding: 120px 0 120px;
+;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -7784,9 +7818,13 @@ height: 693px;}
 }
 
 /* First Section Styles */
-.formula-area {
+.formula-area1 {
   position: relative;
-  padding: 50px 0;
+  padding-top: 0;
+}
+.formula-area2 {
+  position: relative;
+  padding-top: 120px;
 }
 
 .formula-content {
