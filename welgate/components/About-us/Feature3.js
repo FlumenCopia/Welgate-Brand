@@ -10,7 +10,7 @@ function Feature3() {
                             <div className="section-title section-title-two white-title text-center mb-60">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <p className="title pfont2">Why choose Us</p>
+                                    <p className="title pfont2">Why Choose Us</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
                             </div>

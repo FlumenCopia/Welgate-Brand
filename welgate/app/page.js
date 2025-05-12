@@ -19,7 +19,7 @@ import Testimonial2 from '@/components/Home/Testimonial2'
 import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
 import Clients from '@/components/Home/Clients'
-import History from '@/components/Home/History'
+import Historybg from '@/components/Home/Historybg'
 
 function page() {
   return (
@@ -31,7 +31,7 @@ function page() {
 
       <ServiceArea/>
       {/* <Feature3/> */}
-            <History/>
+           <Historybg/>
 
       <IngredientsArea/>
       <Counter/>

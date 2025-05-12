@@ -12,7 +12,7 @@ function Feature2() {
                         <div className="row justify-content-center">
                             <div className="col-lg-6 col-md-8 order-0 order-lg-2">
                                 <div className="tg-supplement-img text-end  wow fadeInRight" data-wow-delay=".2s">
-                                    <img className='imgsize' src="/assets/img/bg/ChatGPT Image May 9, 2025, 12_22_03 PM.png" alt=""/>
+                                    <img className='imgsize' src="/assets/img/2783001_15762-removebg-preview.png" alt=""style={{ transform: 'scaleX(-1)' }}/ >
                                 </div>
                                 <div className="tg-supplement-shape">
                                     <img src="assets/img/others/supplement_shape02.png" alt="" className="rotateme"/>
