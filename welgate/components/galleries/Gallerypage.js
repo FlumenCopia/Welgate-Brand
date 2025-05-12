@@ -29,7 +29,7 @@ function GalleryPage() {
               </nav>
         </section>
 
-    <div className="container">
+    <div className="container mb-5 pb-2">
 
 
       <div className="row gallery-container mb-4 ">

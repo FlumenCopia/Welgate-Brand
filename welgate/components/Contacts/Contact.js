@@ -18,7 +18,7 @@ function Contact() {
        
         
             <section className="contact-form-area">
-                <div className="container">
+                <div className="container pb-5">
                     <div className="row">
                         <div className="col-xl-6">
                             <div id="contact-map">
@@ -28,7 +28,7 @@ function Contact() {
                         <div className="col-xl-6">
                             <div className="contact-form-wrap">
                                 <div className="section-title mb-50">
-                                    <p className="sub-title">.. request make ..</p>
+                                    {/* <p className="sub-title">.. request make ..</p> */}
                                     <h2 className="title">Asked Anything You <br/> Want To Know</h2>
                                 </div>
                                 <form id="contact-form" action="inc/contact.php" className="contact-form" data-toggle="validator">
