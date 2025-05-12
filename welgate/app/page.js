@@ -19,6 +19,7 @@ import Testimonial2 from '@/components/Home/Testimonial2'
 import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
 import Clients from '@/components/Home/Clients'
+import History from '@/components/Home/History'
 
 function page() {
   return (
@@ -27,6 +28,7 @@ function page() {
       <Banner/>
       <FeatureArea/>
       <Feature2/>
+      <History/>
       <ServiceArea/>
       {/* <Feature3/> */}
       <IngredientsArea/>
