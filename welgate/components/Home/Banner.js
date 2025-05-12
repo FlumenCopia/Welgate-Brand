@@ -13,7 +13,7 @@ function Banner() {
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-10">
                             <div className="tg-banner-content">
-                                <h4 className="sub-title wow fadeInUp" data-wow-delay=".2s">Timeless Legacy !</h4>
+                                <p className="sub-title wow fadeInUp" data-wow-delay=".2s">Timeless Legacy !</p>
                                 <h2 className="title wow fadeInUp" data-wow-delay=".4s"> Honoring <span className='bannertextclr'>the Past, <br/></span> Cultivating <span className='bannertextclr'> the Future</span></h2>
                                 <p className=" wow fadeInUp" data-wow-delay=".6s">Discover simple ways to live healthier—every single day.</p>
                                 <div className="tg-banner-btn wow fadeInUp" data-wow-delay=".8s">

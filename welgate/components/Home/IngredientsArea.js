@@ -10,10 +10,10 @@ function IngredientsArea() {
                             <div className="section-title section-title-two text-center mb-90">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <p className='subtitle-colour'>Decades of Trust, One Mission: Better Living</p>
+                                    <p className='subtitle-colour '>Decades of Trust, One Mission: Better Living</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <h2 className="title"> Legacy of Wellness: From Tapes to Tables</h2>
+                                <p className="title pfont2"> Legacy of Wellness: From Tapes to Tables</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ function IngredientsArea() {
                                         <i className="fab fa-itunes-note"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title"> Entertainment Roots</h3>
+                                        <p className="title pfont"> Entertainment Roots</p>
                                         <p>Welgate began with music and movies, sparking joy in every household across the city.</p>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ function IngredientsArea() {
                                         <i className="fab fa-pagelines"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Organic Awakening</h3>
+                                        <p className="title pfont">Organic Awakening</p>
                                         <p>From soundtracks to soil—Welgate shifted to organic farming for healthier, chemical-free living.</p>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ function IngredientsArea() {
                                         <i className="fab fa-buffer"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">  Sustainable Growth</h3>
+                                        <p className="title pfont">  Sustainable Growth</p>
                                         <p> Guided by nature, Welgate evolved with purpose—embracing ethical farming and eco-conscious values.</p>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ function IngredientsArea() {
                                         <i className="fab fa-envira"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Organic Stores</h3>
+                                        <p className="title pfont">Organic Stores</p>
                                         <p>Bringing farm-fresh products to cities—Welgate Organic Supermarkets became a symbol of trust.</p>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ function IngredientsArea() {
                                         <i className="fab fa-gratipay"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Family Legacy</h3>
+                                        <p className="title pfont">Family Legacy</p>
                                         <p>Inspired by our father’s vision, the next generation leads Welgate with passion and purpose.</p>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ function IngredientsArea() {
                                         <i className="fab fa-digital-ocean"></i>
                                     </div>
                                     <div className="ingredients-content-two">
-                                        <h3 className="title">Future Ready</h3>
+                                        <p className="title pfont">Future Ready</p>
                                         <p>With global ambitions, Welgate is expanding wellness —one step, one store at a time.</p>
                                     </div>
                                 </div>

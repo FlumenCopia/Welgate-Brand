@@ -10,7 +10,7 @@ function Feature3() {
                             <div className="section-title section-title-two white-title text-center mb-60">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <h2 className="title textcolour">Why choose Us</h2>
+                                    <p className="title pfont2">Why choose Us</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@ function Feature3() {
 
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Legacy of Trust</h4>
+                                    <p className="title textcolour">Legacy of Trust</p>
                                     <p className='textcolour '>Welgate's journey began decades ago, built on a foundation of trust, innovation, and an enduring passion for transforming everyday lives.
                                     </p>
                                 </div>
@@ -36,7 +36,7 @@ function Feature3() {
                                     <i className="fas fa-seedling"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Entertainment to Organic Living</h4>
+                                    <p className="title textcolour">Entertainment to Organic Living</p>
                                     <p className='textcolour'>Starting with entertainment, Welgate evolved into a wellness pioneer, shifting focus to organic food that nurtures health and harmony.
                                     </p>
                                 </div>
@@ -48,7 +48,7 @@ function Feature3() {
                                     <i className="fas fa-gem"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Purity & Sustainability</h4>
+                                    <p className="title textcolour">Purity & Sustainability</p>
                                     <p className='textcolour'>Welgate ensures every product is ethically grown, chemical-free, and earth-friendly, reflecting our promise of sustainability and purity in every bite.
                                     .</p>
                                 </div>
@@ -63,7 +63,7 @@ function Feature3() {
                                     <i className="fas fa-globe"></i>
                                 </div>
                                 <div className="features-content">
-                                    <h4 className="title textcolour">Future-Ready</h4>
+                                    <p className="title textcolour">Future-Ready</p>
                                     <p className='textcolour'>Driven by a new generation, Welgate expands globally, committed to advancing organic living through innovation, purpose, and a clear mission.
                                     </p>
                                 </div>
@@ -76,7 +76,7 @@ function Feature3() {
                                     <i className="fas fa-handshake"></i>
                                 </div>
                                 <div className="features-content ">
-                                    <h4 className="title textcolour">More Than a Brand</h4>
+                                    <p className="title textcolour">More Than a Brand</p>
                                     <p className='textcolour '>Welgate represents a lifestyle—one rooted in care, built on quality, and driven by a vision to inspire positive global change.
                                     </p>
                                 </div>

@@ -10,10 +10,10 @@ function Testimonial2() {
                             <div className="section-title section-title-two text-center  mb-70">
                                 <span className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    Testimonial
+                                    <p className='subtitle-colour'>Testimonial</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </span>
-                                <h2 className="title">Clients Feedback</h2>
+                                <p className="title pfont2">Clients Feedback</p>
                             </div>
                         </div>
                     </div>
