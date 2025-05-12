@@ -2873,9 +2873,9 @@ body.search-visible {
 	margin: 0 0 15px;
 }
 .section-title .title {
-	font-size: 37px;
-	letter-spacing: -0.025em;
-	margin-bottom: 0;
+	font-size: 40px;
+    letter-spacing: -0.015em;
+    margin-bottom: -27px;
 }
 .ingredients-items-wrap {
 	margin: 0 0 0 25px;
@@ -2975,7 +2975,7 @@ body.search-visible {
 	margin-right: -100px;
 }
 .white-title .title {
-	color: black;
+	color: white;
 }
 .formula-list {
 	margin: 0 0 50px;
@@ -4873,7 +4873,30 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	overflow: hidden;
 	z-index: 1;
 }
+
+.tg-banner-area2.banner-bg {
+	background-image: url('/assets/img/WhatsApp Image 1.jpg');
+	background-position: bottom center;
+	background-size: cover;
+	padding: 140px 0 230px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
 .tg-banner-area::before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	bottom: -2px;
+	/* background-image: url("../img/banner/banner_bg_shape.png"); */
+	width: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	pointer-events: none;
+}
+.tg-banner-area2::before {
 	content: "";
 	position: absolute;
 	left: 0px;
@@ -4898,6 +4921,21 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	background-image: -ms-linear-gradient(5deg, #0b0b0b 0%, #3a3b3b 100%);
 
 	opacity: .80;
+	z-index: -1;
+}
+
+.tg-banner-area2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: -moz-linear-gradient(5deg, #0b0b0b 0%, #3a3b3b 100%);
+	background-image: -webkit-linear-gradient(5deg, #0b0b0b 0%, #3a3b3b 100%);
+	background-image: -ms-linear-gradient(5deg, #0b0b0b 0%, #3a3b3b 100%);
+
+	opacity: .70;
 	z-index: -1;
 }
 .tg-banner-content .sub-title {
@@ -5011,6 +5049,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 /* 7. Supplement */
 .tg-supplement-area {
 	position: relative;
+	/* background-color: #e8f9e9; */
 }
 .tg-supplement-bg {
 	position: absolute;
@@ -7734,10 +7773,96 @@ height: 693px;}
 }
 
 .classp{
-	font-size: 15px;
-	color:#777777;
+	font-size: 17px;
+	color:white;
 }
 
+///////////////////////////////////////////////////////////
+
+.history-container {
+  position: relative;
+}
+
+/* First Section Styles */
+.formula-area {
+  position: relative;
+  padding: 50px 0;
+}
+
+.formula-content {
+  text-align: left;
+}
+
+/* Timeline Wrapper */
+.timeline-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 80px; /* Space out the timeline items */
+  width: 100%;
+}
+
+.timeline li .content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.timeline li h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.timeline li img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Timeline item positioning */
+.timeline li:nth-child(1) {
+  top: 20%;
+}
+
+.timeline li:nth-child(2) {
+  top: 50%;
+}
+
+.timeline li:nth-child(3) {
+  top: 80%;
+}
+
+/* Second Section Styles */
+.formula-area.formula-bg {
+  position: relative;
+  background-color: #e8f9e9;
+  padding: 50px 0;
+}
+
+.formula-content {
+  text-align: left;
+}
 
 
 

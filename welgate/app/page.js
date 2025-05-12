@@ -27,10 +27,12 @@ function page() {
       <Header/>
       <Banner/>
       <FeatureArea/>
-      <Feature2/>
-      <History/>
+            <Feature2/>
+
       <ServiceArea/>
       {/* <Feature3/> */}
+            <History/>
+
       <IngredientsArea/>
       <Counter/>
 
