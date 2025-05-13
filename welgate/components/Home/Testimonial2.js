@@ -21,14 +21,14 @@ function NextArrow({ onClick }) {
 }
 
 function Testimonial2() {
-  const sliderRef = useRef(null); // 🔁 use ref for manual control
+  const sliderRef = useRef(null); 
 
   const settings = {
     dots: false,
     infinite: true,
     speed: 1000,
     autoplay: true,
-    arrows: false, // ❌ DISABLE built-in arrows
+    arrows: false,
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
@@ -75,7 +75,7 @@ function Testimonial2() {
           </div>
         </div>
 
-        {/* 🔁 Slider with ref */}
+    
         <Slider ref={sliderRef} {...settings} className="testimonial-active-two row">
           {[...Array(5)].map((_, index) => (
             <div key={index} className="col-lg-6">
@@ -101,7 +101,7 @@ function Testimonial2() {
           ))}
         </Slider>
 
-        {/* ✅ Custom arrows BELOW the slider */}
+
         <div className="testimonial-nav">
           <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
           <NextArrow onClick={() => sliderRef.current?.slickNext()} />
