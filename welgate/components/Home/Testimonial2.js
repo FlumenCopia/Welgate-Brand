@@ -1,8 +1,12 @@
 'use client'
-import React, { useRef } from 'react';
-import Slider from 'react-slick';
+import React, { useRef ,useEffect, useState } from 'react';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import dynamic from "next/dynamic";
+
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
+
 
 function PrevArrow({ onClick }) {
   return (
@@ -58,7 +62,28 @@ function Testimonial2() {
       },
     ],
   };
+ const [testimonials, setTestimonials] = useState([]);
 
+    useEffect(() => {
+      const fetchTestimonials = () => {
+        fetch("https://welgatelifestyle.com/api/testimonials/")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            setTestimonials(data);
+          })
+          .catch((error) => {
+            setError(error.message);
+          });
+      };
+    
+      fetchTestimonials();
+    }, []);
+    
   return (
     <section className="testimonial-area testimonial-bg-two section-pt-130 section-pb-130">
       <div className="container">
@@ -77,23 +102,21 @@ function Testimonial2() {
 
     
         <Slider ref={sliderRef} {...settings} className="testimonial-active-two row">
-          {[...Array(5)].map((_, index) => (
+          {testimonials.map((testimonial, index) => (
             <div key={index} className="col-lg-6">
               <div className="testimonial-item-two">
                 <div className="testimonial-top">
                   <div className="testi-avatar">
                     {/* <div className="thumb"><img src="assets/img/others/testi_avatar01.jpg" alt="img" /></div> */}
                     <div className="info">
-                      <h6 className="name">Darrell Steward</h6>
-                      <span className="designation">Founder of (Rirax)</span>
+                      <h6 className="name"> {testimonial.name}</h6>
+                      <span className="designation">{testimonial.designation}</span>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial-content-two">
                   <p>
-                    Our product is only a tool. It will take you wherever you wish, but it will not
-                    replace you as the driver. Collax is only a tool. It will take you wherever you
-                    wish, but it will....
+                    {testimonial.testimonial}
                   </p>
                 </div>
               </div>
