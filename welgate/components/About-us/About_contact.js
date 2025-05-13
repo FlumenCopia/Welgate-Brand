@@ -1,10 +1,56 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
+import { useRouter } from 'next/navigation'
+import axios from 'axios'
+function Contact() {
 
-function About_contact() {
+
+ const router = useRouter(); 
+  const [errors, setErrors] = useState({});
+
+
+  const [datas, setdatas] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setdatas({
+      ...datas,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const fetchdata = async (e) => {
+    e.preventDefault();
+    setErrors({});
+    try {
+      const response = await axios.post('http://127.0.0.1:8000/api/contact/', datas);
+      router.push('/');
+    } catch (e) {
+      if (e.response && e.response.data && e.response.data.errors) {
+        setErrors(e.response.data.errors);
+      } else {
+        alert('Something went wrong.');
+      }
+    }
+  };
+
+
+
+
   return (
     <div>
+       
+       
+       
+          
+       
         
-            <section className="contact-form-area  ">
+            <section className="contact-form-area ">
                 <div className="container ">
                     <div className="row justify-content-center">
                         {/* <div className="col-xl-6">
@@ -18,32 +64,45 @@ function About_contact() {
                                     {/* <p className="sub-title">.. request make ..</p> */}
                                     <p className="title pfont2">Contact Us</p>
                                 </div>
-                                <form id="contact-form" action="inc/contact.php" className="contact-form" data-toggle="validator">
+                                <form id="submit-form" onSubmit={fetchdata}  className="contact-form" >
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="form-grp">
                                                 <label htmlFor="full-name">Full Name</label>
-                                                <input type="text" id="full-name" placeholder="Enter your Name" required="required" data-error="Name is required."/>
-                                                <div className="help-block with-errors"></div>
+                                                <input name="name" type="text" value={datas.name} onChange={handleChange} id="full-name" placeholder="Enter here" />
+                                                {errors.name && <small className="text-danger">{errors.name}</small>}
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-grp">
                                                 <label htmlFor="email">Email Address</label>
-                                                <input type="email" id="email" placeholder="Enter your email" required="required" data-error="Email is required."/>
-                                                <div className="help-block with-errors"></div>
+                                                <input name="email" value={datas.email} onChange={handleChange}  type="email" id="email" placeholder="Enter here" />
+                                                {errors.email && <small className="text-danger">{errors.email}</small>}
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className="form-grp">
-                                        <label htmlFor="subject">Subject</label>
-                                        <input name="subject" id="subject" placeholder="Enter subject" />
-                                        <div className="help-block with-errors"></div>
-                                    </div> */}
+                                    <div className="row">
+                                        <div className="col-md-6">
+                                           <div className="form-grp">
+                                            <label htmlFor="subject">Subject</label>
+                                            <input name="subject" value={datas.subject} onChange={handleChange} id="subject" placeholder="Enter subject" />
+                                            {errors.subject && <small className="text-danger">{errors.subject}</small>}
+                                           </div>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="form-grp">
+                                                <label htmlFor="phone">Phone Number</label>
+                                                <input name="phone" value={datas.phone} onChange={handleChange} type="number" id="phone" placeholder="Enter number" />
+                                                {errors.phone && <small className="text-danger">{errors.phone}</small>}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
                                     <div className="form-grp">
                                         <label htmlFor="message">Message</label>
-                                        <textarea name="message" id="message" placeholder="Enter message" required="required" data-error="Message is required."></textarea>
-                                        <div className="help-block with-errors"></div>
+                                        <textarea name="message" value={datas.message} onChange={handleChange} id="message" placeholder="Enter message" ></textarea>
+                                        {errors.message && <small className="text-danger">{errors.message}</small>}
                                     </div>
                                     <div className="form-btn">
                                         <button type="submit" className="tg-btn">Send Message</button>
@@ -55,9 +114,9 @@ function About_contact() {
                     </div>
                 </div>
             </section>
-      
+            
     </div>
   )
 }
 
-export default About_contact
+export default Contact
