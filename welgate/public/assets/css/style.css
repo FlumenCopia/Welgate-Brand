@@ -7422,6 +7422,16 @@ height: 693px;}
     gap: 15px;
     justify-content: space-between;
 }
+
+
+
+#phone::-webkit-inner-spin-button,
+#phone::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 .account__check-remember {
     display: -webkit-box;
     display: -moz-box;

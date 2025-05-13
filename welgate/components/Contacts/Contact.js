@@ -100,7 +100,7 @@ function Contact() {
                                         <div className="col-md-6">
                                             <div className="form-grp">
                                                 <label htmlFor="phone">Phone Number</label>
-                                                <input name="phone" value={datas.phone} onChange={handleChange} type="number" id="phone" placeholder="Enter number" />
+                                                <input name="phone" value={datas.phone} onChange={handleChange}  type="number"  id="phone" placeholder="Enter number" />
                                                 {errors.phone && <small className="text-danger">{errors.phone}</small>}
                                             </div>
                                         </div>
