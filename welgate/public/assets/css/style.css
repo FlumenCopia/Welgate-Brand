@@ -6651,8 +6651,29 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .testimonial-item-two {
     background:#dbe8e1d4;
     padding: 60px 45px;
+	height: 360px;
     border-radius: 20px;
 }
+
+@media(min-width:767px)and (max-width:992px){
+	.testimonial-item-two {
+    background:#dbe8e1d4;
+    padding: 60px 45px;
+	height: 425px;
+    border-radius: 20px;
+}
+}
+
+@media(min-width:320px)and (max-width:370px){
+	.testimonial-item-two {
+    background:#dbe8e1d4;
+    padding: 60px 45px;
+	height: 425px;
+    border-radius: 20px;
+}
+}
+
+
 .testimonial-top {
     display: flex;
     align-items: flex-start;
