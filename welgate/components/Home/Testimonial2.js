@@ -31,7 +31,7 @@ function Testimonial2() {
     dots: false,
     infinite: true,
     speed: 1000,
-    // autoplay: true,
+    autoplay: true,
     arrows: false,
     slidesToShow: 2,
     slidesToScroll: 1,
