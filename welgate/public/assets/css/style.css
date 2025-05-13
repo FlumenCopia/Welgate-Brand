@@ -6697,13 +6697,15 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .testimonial-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
 }
+
 .testimonial-nav .slick-arrow {
     background: transparent;
     border: none;
@@ -6735,13 +6737,15 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     transition: all 0.3s ease-out 0s;
     z-index: -1;
 }
-.testimonial-nav .slick-arrow.next-arrow::before {
-    left: auto;
-    right: -25px;
+.testimonial-nav .next-arrow::before {
+  left: auto;
+  right: -25px;
 }
+
 .testimonial-nav .slick-arrow:hover::before {
-    opacity: 1;
+  opacity: 1;
 }
+
 .testimonial-active-two .slick-list {
     overflow: inherit;
 }
@@ -7743,7 +7747,7 @@ height: 693px;}
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbbanner {
-  background: url('https://img.freepik.com/free-vector/red-curve-gray-background_53876-99542.jpg?t=st=1746867274~exp=1746870874~hmac=119ea7d87e213a1bc8f962d5c381fc52032bf3d67f6eacbdaa77e3b2a01d289b&w=1380') center/cover no-repeat;
+  background: url('https://img.freepik.com/free-photo/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction_1258-70851.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;

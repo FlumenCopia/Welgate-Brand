@@ -392,101 +392,101 @@ $('.related-product-active').slick({
 });
 
 
-/*=============================================
-	=         Testimonial Active          =
-=============================================*/
-$('.testimonial-active').slick({
-	dots: true,
-	infinite: true,
-	speed: 1000,
-	autoplay: true,
-	arrows: true,
-	slidesToShow: 1,
-	prevArrow: '<button type="button" class="slick-prev"><i class="flaticon-left-arrow"></i></button>',
-	nextArrow: '<button type="button" class="slick-next"><i class="flaticon-right-arrow"></i></button>',
-	slidesToScroll: 1,
-	responsive: [
-		{
-			breakpoint: 1200,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				infinite: true,
-			}
-		},
-		{
-			breakpoint: 992,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				arrows: false,
-			}
-		},
-		{
-			breakpoint: 767,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				arrows: false,
-			}
-		},
-		{
-			breakpoint: 575,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				arrows: false,
-			}
-		},
-	]
-});
+// /*=============================================
+// 	=         Testimonial Active          =
+// =============================================*/
+// $('.testimonial-active').slick({
+// 	dots: true,
+// 	infinite: true,
+// 	speed: 1000,
+// 	autoplay: true,
+// 	arrows: true,
+// 	slidesToShow: 1,
+// 	prevArrow: '<button type="button" class="slick-prev"><i class="flaticon-left-arrow"></i></button>',
+// 	nextArrow: '<button type="button" class="slick-next"><i class="flaticon-right-arrow"></i></button>',
+// 	slidesToScroll: 1,
+// 	responsive: [
+// 		{
+// 			breakpoint: 1200,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 				infinite: true,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 992,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 				arrows: false,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 767,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 				arrows: false,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 575,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 				arrows: false,
+// 			}
+// 		},
+// 	]
+// });
 
 
-/*=============================================
-	=         Testimonial Active          =
-=============================================*/
-$('.testimonial-active-two').slick({
-	dots: false,
-	infinite: true,
-	speed: 1000,
-	autoplay: true,
-	arrows: true,
-	slidesToShow: 2,
-	prevArrow: $('.prev-arrow'),
-	nextArrow: $('.next-arrow'),
-	slidesToScroll: 1,
-	responsive: [
-		{
-			breakpoint: 1200,
-			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				infinite: true,
-			}
-		},
-		{
-			breakpoint: 992,
-			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-			}
-		},
-		{
-			breakpoint: 767,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-			}
-		},
-		{
-			breakpoint: 575,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-			}
-		},
-	]
-});
+// /*=============================================
+// 	=         Testimonial Active          =
+// =============================================*/
+// $('.testimonial-active-two').slick({
+// 	dots: false,
+// 	infinite: true,
+// 	speed: 1000,
+// 	autoplay: true,
+// 	arrows: true,
+// 	slidesToShow: 2,
+// 	prevArrow: $('.prev-arrow'),
+// 	nextArrow: $('.next-arrow'),
+// 	slidesToScroll: 1,
+// 	responsive: [
+// 		{
+// 			breakpoint: 1200,
+// 			settings: {
+// 				slidesToShow: 2,
+// 				slidesToScroll: 1,
+// 				infinite: true,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 992,
+// 			settings: {
+// 				slidesToShow: 2,
+// 				slidesToScroll: 1,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 767,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 			}
+// 		},
+// 		{
+// 			breakpoint: 575,
+// 			settings: {
+// 				slidesToShow: 1,
+// 				slidesToScroll: 1,
+// 			}
+// 		},
+// 	]
+// });
 
 
 /*=============================================
