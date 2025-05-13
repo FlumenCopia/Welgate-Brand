@@ -4806,7 +4806,7 @@ body.search-visible {
 	margin-bottom: 0;
 	padding: 18px 30px;
 	text-align: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	touch-action: manipulation;
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;

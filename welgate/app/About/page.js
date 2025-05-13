@@ -1,6 +1,7 @@
 
 
 import About_banner from '@/components/About-us/About_banner'
+import About_contact from '@/components/About-us/About_contact'
 import About_value from '@/components/About-us/About_value'
 import Breadcrumbs from '@/components/About-us/Breadcrumbs'
 import Faq from '@/components/About-us/Faq'
@@ -24,6 +25,7 @@ export const page = () => {
          <Feature3/>
          {/* <About_value/> */}
          <Faq/>
+         <About_contact/>
         <Footer/>
     </div>
   )

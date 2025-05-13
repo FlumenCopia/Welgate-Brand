@@ -59,7 +59,7 @@ function Contact() {
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-btn">
-                                        <button type="submit" className="btn">make request</button>
+                                        <button type="submit" className="tg-btn">Send Message</button>
                                     </div>
                                     <div className="messages"></div>
                                 </form>
