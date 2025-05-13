@@ -19,7 +19,7 @@ function Header() {
                                     </div>
                                     <div className="navbar-wrap main-menu d-none d-xl-flex">
                                         <ul className="navigation">
-                                            <li className="active menu-item-has-children"><a href="/" className="section-link">Home</a>
+                                            <li className=" menu-item-has-children"><a href="/" className="section-link">Home</a>
                                                 {/* <ul className="sub-menu">
                                                     <li><a href="index.html">Home One</a></li>
                                                     <li className="active"><a href="index-2.html">Home Two</a></li>
