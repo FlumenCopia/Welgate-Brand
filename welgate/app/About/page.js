@@ -11,6 +11,7 @@ import Vision_about from '@/components/About-us/Vision_about'
 import Footer from '@/components/common/Footer'
 import Header from '@/components/common/Header'
 import Feature2 from '@/components/Home/Feature2'
+import Testimonial2 from '@/components/Home/Testimonial2'
 
 import React from 'react'
 
@@ -25,6 +26,7 @@ export const page = () => {
          <Feature3/>
          {/* <About_value/> */}
          <Faq/>
+         <Testimonial2/>
          <About_contact/>
         <Footer/>
     </div>
