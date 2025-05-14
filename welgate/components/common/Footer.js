@@ -118,7 +118,7 @@ function Footer() {
                     <div className="row align-items-center">
                         
                             <div className="copyright-text text-center">
-                                <p>Copyright © 2025 <a href='https://flumencopia.com/' target='blank'>Flumencopia</a> All Rights Reserved.</p>
+                                <p>Copyright © 2025 <a className='text-warning' href='https://flumencopia.com/' target='blank'>Flumencopia</a> All Rights Reserved.</p>
                             </div>
                        
                         {/* <div className="col-md-5">
