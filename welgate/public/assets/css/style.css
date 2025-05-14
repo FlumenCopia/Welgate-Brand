@@ -4689,7 +4689,7 @@ body.search-visible {
 	border-top: 1px solid #262626;
 	padding: 25px 0;
 }
-.copyright-text p {
+.copyright-text p  {
 	margin: 0 0;
 	color: var(--tg-white);
 	opacity: .9;
