@@ -24,7 +24,7 @@ import Historybg from '@/components/Home/Historybg'
 function page() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Banner/>
       <FeatureArea/>
             <Feature2/>
