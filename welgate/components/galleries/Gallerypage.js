@@ -1,9 +1,15 @@
 "use client";
-import React, { useEffect } from "react";
 import $ from "jquery";
 import "magnific-popup";
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
+import $ from "jquery";
 
 function GalleryPage() {
+
+  const [gallery, setGallery] = useState([]);
+
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       $(".gallery-container").magnificPopup({
@@ -12,6 +18,20 @@ function GalleryPage() {
         gallery: { enabled: true },
       });
     }
+  }, [gallery]);
+
+
+   const fetchData = async () => {
+    try {
+      const response = await axios.get("http://127.0.0.1:8000/api/gallery/");
+      setGallery(response.data);
+    } catch (error) {
+      console.error("Error fetching gallery:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
   }, []);
 
   return (
@@ -30,29 +50,20 @@ function GalleryPage() {
         </section>
 
     <div className="container">
-
-
-      <div className="row gallery-container mb-4 ">
-        <a href="https://unsplash.it/1200/768.jpg?image=251" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=251" className="img-fluid rounded" alt="Gallery Image 1"/>
-        </a>
-        <a href="https://unsplash.it/1200/768.jpg?image=252" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=252" className="img-fluid rounded" alt="Gallery Image 2"/>
-        </a>
-        <a href="https://unsplash.it/1200/768.jpg?image=253" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=253" className="img-fluid rounded" alt="Gallery Image 3"/>
-        </a>
-      </div>
-      <div className="row gallery-container mb-4">
-        <a href="https://unsplash.it/1200/768.jpg?image=254" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=254" className="img-fluid rounded" alt="Gallery Image 4"/>
-        </a>
-        <a href="https://unsplash.it/1200/768.jpg?image=255" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=255" className="img-fluid rounded" alt="Gallery Image 5"/>
-        </a>
-        <a href="https://unsplash.it/1200/768.jpg?image=256" className="col-md-4">
-          <img src="https://unsplash.it/600.jpg?image=256" className="img-fluid rounded" alt="Gallery Image 6"/>
-        </a>
+      <div className="row gallery-container gallerymargin mb-4">
+        {gallery.map((item, index) => (
+          <a
+            key={index}
+            href={item.fullImage || item.image}
+            className="col-md-4 mb-4"
+          >
+            <img
+              src={item.thumbnail || item.image} 
+              className="img-fluid rounded"
+              alt={`Gallery Image ${index + 1}`}
+            />
+          </a>
+        ))}
       </div>
     </div>
     </div>
