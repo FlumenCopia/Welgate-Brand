@@ -3,7 +3,7 @@ import $ from "jquery";
 import "magnific-popup";
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import $ from "jquery";
+// import $ from "jquery";
 
 function GalleryPage() {
 
@@ -54,11 +54,11 @@ function GalleryPage() {
         {gallery.map((item, index) => (
           <a
             key={index}
-            href={item.fullImage || item.image}
+            href={item.fullImage || `http://127.0.0.1:8000${item.images}`}
             className="col-md-4 mb-4"
           >
             <img
-              src={item.thumbnail || item.image} 
+              src={item.thumbnail || `http://127.0.0.1:8000${item.images}`} 
               className="img-fluid rounded"
               alt={`Gallery Image ${index + 1}`}
             />
