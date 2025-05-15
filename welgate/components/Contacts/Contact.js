@@ -70,11 +70,7 @@ function Contact() {
                             <div className="contact-form-wrap">
                                 <div className="section-title mb-50">
                                     {/* <p className="sub-title">.. request make ..</p> */}
-<<<<<<< HEAD
-                                    <h2 className="title">Asked Anything You <br/> Want To Know</h2>
-=======
                                     <p className="title pfont2">Connect With Us</p>
->>>>>>> ee85d7d5562b81ce370e8038c32fb86a0bd731d9
                                 </div>
                                 <form id="submit-form" onSubmit={fetchdata}  className="contact-form" >
                                     <div className="row">
