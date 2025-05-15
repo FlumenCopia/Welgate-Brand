@@ -1,27 +1,27 @@
 "use client";
-import $ from "jquery";
-import "magnific-popup";
+export const dynamic = "force-dynamic";
+
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-// import $ from "jquery";
+import $ from "jquery";
 
 function GalleryPage() {
-
   const [gallery, setGallery] = useState([]);
 
-
   useEffect(() => {
+    // Dynamically import magnific-popup only in the browser
     if (typeof window !== "undefined") {
-      $(".gallery-container").magnificPopup({
-        delegate: "a",
-        type: "image",
-        gallery: { enabled: true },
+      import("magnific-popup").then(() => {
+        $(".gallery-container").magnificPopup({
+          delegate: "a",
+          type: "image",
+          gallery: { enabled: true },
+        });
       });
     }
   }, [gallery]);
 
-
-   const fetchData = async () => {
+  const fetchData = async () => {
     try {
       const response = await axios.get("http://127.0.0.1:8000/api/gallery/");
       setGallery(response.data);
@@ -35,39 +35,35 @@ function GalleryPage() {
   }, []);
 
   return (
-
     <div>
+      <section className="breadcrumbgallery">
+        <nav className="container breadcrumb-container">
+          <h3 className="breadcrumbstyle">Gallery</h3>
+          <ol className="cd-breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li className="current text-success">Gallery</li>
+          </ol>
+        </nav>
+      </section>
 
-
-<section className="breadcrumbgallery">
-            <nav className="container breadcrumb-container">
-                <h3 className="breadcrumbstyle">Gallery</h3>
-                <ol className="cd-breadcrumb">
-                  <li><a href="/">Home</a></li>
-                  <li className="current text-success">Gallery</li>
-                </ol>
-              </nav>
-        </section>
-
-    <div className="container">
-      <div className="row gallery-container gallerymargin mb-4">
-        {gallery.map((item, index) => (
-          <a
-            key={index}
-            href={item.fullImage || `http://127.0.0.1:8000${item.images}`}
-            className="col-md-4 mb-4"
-          >
-            <img
-              src={item.thumbnail || `http://127.0.0.1:8000${item.images}`} 
-              className="img-fluid rounded"
-              alt={`Gallery Image ${index + 1}`}
-            />
-          </a>
-        ))}
+      <div className="container">
+        <div className="row gallery-container gallerymargin mb-4">
+          {gallery.map((item, index) => (
+            <a
+              key={index}
+              href={item.fullImage || `http://127.0.0.1:8000${item.images}`}
+              className="col-md-4 mb-4"
+            >
+              <img
+                src={item.thumbnail || `http://127.0.0.1:8000${item.images}`}
+                className="img-fluid rounded"
+                alt={`Gallery Image ${index + 1}`}
+              />
+            </a>
+          ))}
+        </div>
       </div>
     </div>
-    </div>
-
   );
 }
 
