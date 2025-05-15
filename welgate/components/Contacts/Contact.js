@@ -45,7 +45,7 @@ function Contact() {
   return (
     <div>
        
-        <section className="breadcrumbbanner">
+        <section className="breadcrumbcontact">
             <nav className="container breadcrumb-container">
                 <h3 className='breadcrumbstyle'>Contact</h3>
                 <ol className="cd-breadcrumb">
