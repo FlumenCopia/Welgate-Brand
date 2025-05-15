@@ -28,7 +28,7 @@ function Contact() {
     e.preventDefault();
     setErrors({});
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/contact/', datas);
+      const response = await axios.post('https://welgatelifestyle.com/api/contact/', datas);
       router.push('/');
     } catch (e) {
       if (e.response && e.response.data && e.response.data.errors) {
@@ -38,8 +38,6 @@ function Contact() {
       }
     }
   };
-
-
 
 
   return (

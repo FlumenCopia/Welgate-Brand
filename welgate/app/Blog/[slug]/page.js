@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Preloader from "@/components/common/Preloader";
-import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
+
 
 
 function page() {
@@ -33,8 +32,7 @@ function page() {
     
     <div>
         
-        <Header/>
-
+       
 
  <section className="breadcrumbblog">
             <nav className="container breadcrumb-container">
@@ -48,12 +46,12 @@ function page() {
               </nav>
         </section>
 
-        <section className='blog-details py-80'>
+        <section className='blog-details '>
         <div className='container container'>
           <div className='row gy-5'>
             <div className=''>
               <div className='blog-item-wrapper'>
-                <h1>{blog.name}</h1>
+                <p className="pfont2">{blog.name}</p>
                 <div className='blog-item'>
                   <div className='blog-item__content mt-24'>
                   
@@ -72,7 +70,7 @@ function page() {
         </div>
       </section>
 
-      <Footer/>
+   
 
     </div>
   )

@@ -38,8 +38,8 @@ function Blog2() {
                     {blogs.map((blog) => (
 
             <div  key={blog.id} className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column border-0"style={{borderRadius:'20px'}}>
-                <img src={blog.image} className="card-img-top" alt="img" style={{height:'200px'}} />
+              <div className="card blogcard flex-column border-0"style={{borderRadius:'20px'}}>
+                <img src={blog.image} className="card-img-top" alt="img"  />
                 <div className="card-body d-flex flex-column">
                   <Link href={`/Blog/${blog.slug}`}  className="card-title pfont">{blog.name}</Link>
                   <div className='card-text'
@@ -52,7 +52,11 @@ function Blog2() {
                     <Link href={`/Blog/${blog.slug}`}  className="btn btn-sm  w-100">Read More</Link>
                   </div>
                 </div>
-                                  <p className='mt-2 mx-4 justify-content-end'>{blog.date}</p>
+                <div className='d-flex mx-4 mt-2'>  
+                  <i className="fa-solid fa-calendar-days mx-2 mt-1"></i>
+                  <p className=' justify-content-end'>{blog.date}</p>
+                </div>
+                                
 
               </div>
             </div>

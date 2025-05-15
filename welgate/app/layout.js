@@ -3,6 +3,8 @@ import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
 import Scrolltop from "@/components/Scroll/Scrolltop";
+import Header from "@/components/common/Header";
+import Footer from "@/components/common/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,8 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon@1.0.0/css/flaticon.min.css"></link>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/phosphor-icons@2.0.0/dist/phosphor.css"></link>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
 
     <link rel="stylesheet" href="/assets/css/jquery-ui.css"/>
     <link rel="stylesheet" href="/assets/css/odometer.css"/>
@@ -45,10 +49,13 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+       <Header/>
         {children}
 
-        {/* <Preloader/> */}
+        <Preloader/>
+        
         <Scrolltop/>
+<Footer/>
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
         <Script src="/assets/js/bootstrap.min.js"></Script>
         <Script src="/assets/js/isotope.pkgd.min.js"></Script>
@@ -70,6 +77,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/main.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></Script>
+        
 
         {/* <Script>
             SVGInject(document.querySelectorAll("img.injectable"));
