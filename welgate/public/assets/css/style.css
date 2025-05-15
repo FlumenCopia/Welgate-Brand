@@ -2877,6 +2877,11 @@ body.search-visible {
     letter-spacing: -0.015em;
     margin-bottom: -27px;
 }
+@media (max-width: 767.98px) {
+    .section-title .title {
+        font-size: 30px !important;
+    }
+}
 .ingredients-items-wrap {
 	margin: 0 0 0 25px;
 }
@@ -4990,7 +4995,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 @media (max-width:767.98px){
 	.tg-banner-content .title{
-		font-size: 25px !important;
+		font-size: 30px !important;
 	}
 }
 .tg-banner-content p {
@@ -7220,6 +7225,11 @@ height: 693px;}
     color: var(--tg-white);
     font-size: 40px;
 }
+@media(max-width:991px){
+	.newsletter-wrap-two .title{
+		font-size: 25px !important;
+	}
+}
 .newsletter-form {
     position: relative;
     width: 630px;
@@ -7874,6 +7884,11 @@ height: 693px;}
 .classp{
 	font-size: 17px;
 	color:white;
+}
+@media (max-width:652px){
+	.classp{
+		font-size: 12px !important;
+	}
 }
 
 /* /////////////////////////////////////////////////////////// */
