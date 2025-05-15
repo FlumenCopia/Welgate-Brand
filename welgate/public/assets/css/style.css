@@ -6467,6 +6467,11 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 .section-pb-130 {
     padding-bottom: 65px;
 }
+@media (max-width: 991.98px) {
+    .section-pb-130 {
+        padding-bottom: 40px !important;
+    }
+}
 .product-area {
     background: var(--tg-gray-two);
 }
