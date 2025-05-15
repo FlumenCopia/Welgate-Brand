@@ -1,21 +1,31 @@
-import React from 'react'
+"use client";
+import { useEffect, useState } from "react";
 
 function Preloader() {
+
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 1000);
+  }, []);
+  
   return (
-    <div id="preloader">
-            <div className="tg-cube-grid">
-                <div className="tg-cube tg-cube1"></div>
-                <div className="tg-cube tg-cube2"></div>
-                <div className="tg-cube tg-cube3"></div>
-                <div className="tg-cube tg-cube4"></div>
-                <div className="tg-cube tg-cube5"></div>
-                <div className="tg-cube tg-cube6"></div>
-                <div className="tg-cube tg-cube7"></div>
-                <div className="tg-cube tg-cube8"></div>
-                <div className="tg-cube tg-cube9"></div>
-            </div>
+    <>
+      {active ? (
+        <div id="preloader">
+            <img src="/assets/img/icons/welgate-logo2-removebg-preview-removebg-preview.png"/>
         </div>
+      ) : (
+        <div></div>
+      )}
+    </>
   )
 }
 
 export default Preloader
+
+
+
+
+

@@ -3,6 +3,8 @@ import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
 import Scrolltop from "@/components/Scroll/Scrolltop";
+import Header from "@/components/common/Header";
+import Footer from "@/components/common/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,10 +47,13 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+       <Header/>
         {children}
 
-        {/* <Preloader/> */}
+        <Preloader/>
+        
         <Scrolltop/>
+<Footer/>
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
         <Script src="/assets/js/bootstrap.min.js"></Script>
         <Script src="/assets/js/isotope.pkgd.min.js"></Script>

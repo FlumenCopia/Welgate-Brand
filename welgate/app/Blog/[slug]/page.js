@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Preloader from "@/components/common/Preloader";
-import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
+
 
 
 function page() {
@@ -33,8 +32,7 @@ function page() {
     
     <div>
         
-        <Header/>
-
+       
 
  <section className="breadcrumbblog">
             <nav className="container breadcrumb-container">
@@ -72,7 +70,7 @@ function page() {
         </div>
       </section>
 
-      <Footer/>
+   
 
     </div>
   )

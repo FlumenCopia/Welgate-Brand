@@ -1,5 +1,4 @@
-import Footer from '@/components/common/Footer'
-import Header from '@/components/common/Header'
+
 import Banner from '@/components/Home/Banner'
 import Blog from '@/components/Home/Blog'
 import Blog2 from '@/components/Home/Blog2'
@@ -24,7 +23,6 @@ import Historybg from '@/components/Home/Historybg'
 function page() {
   return (
     <div>
-      <Header />
       <Banner/>
       <FeatureArea/>
             <Feature2/>
@@ -47,7 +45,6 @@ function page() {
       
            <Clients/>
       <Newsletter/>
-      <Footer/>
     </div>
   )
 }
