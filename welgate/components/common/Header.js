@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-                <header id="home">
+        <header id="home">
             <div id="header-fixed-height"></div>
             <div id="sticky-header" className="tg-menu-area menu-area">
                 <div className="container">
@@ -14,12 +14,12 @@ function Header() {
                                 <nav className="menu-nav">
                                     <div className="logo">
                                         <a href="/">
-                                            <img src="assets/img/logo/welgate-logo2.png" alt="Logo"/>
+                                            <img src="/assets/img/logo/welgate-logo2.png" alt="Logo"/>
                                         </a>
                                     </div>
                                     <div className="navbar-wrap main-menu d-none d-xl-flex">
                                         <ul className="navigation">
-                                            <li className="active menu-item-has-children"><a href="/" className="section-link">Home</a>
+                                            <li className=" menu-item-has-children"><a href="/" className="section-link">Home</a>
                                                 {/* <ul className="sub-menu">
                                                     <li><a href="index.html">Home One</a></li>
                                                     <li className="active"><a href="index-2.html">Home Two</a></li>

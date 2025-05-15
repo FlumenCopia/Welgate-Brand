@@ -5,7 +5,7 @@ function Faq() {
     <div>
          <section className="faq-area position-relative">
                 <div className="row justify-content-end g-0">
-                    <div className="faq-img" data-background="https://img.freepik.com/free-photo/3d-render-symbol-question-mark_460848-6860.jpg?t=st=1746769119~exp=1746772719~hmac=c3a3a8a66a426885a0bd99d42b9c06fc16bbc7a2c8826f72ef3484b4eb69f9ef&w=826">
+                    <div className="faq-img" data-background="assets/img/3d-render-symbol-question-mark.jpg">
                         {/* <a href="" className=""><i className=""></i></a> */}
                     </div>
                     <div className="col-lg-6">
@@ -16,7 +16,7 @@ function Faq() {
                                     <p className='subtitle-colour'>FAQ</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </span>
-                                <h2 className="title">Ask question</h2>
+                                <p className="title pfont2">Ask question</p>
                             </div>
                             <div className="accordion" id="accordionExample">
                                 <div className="accordion-item">

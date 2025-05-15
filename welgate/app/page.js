@@ -19,16 +19,20 @@ import Testimonial2 from '@/components/Home/Testimonial2'
 import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
 import Clients from '@/components/Home/Clients'
+import Historybg from '@/components/Home/Historybg'
 
 function page() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Banner/>
       <FeatureArea/>
-      <Feature2/>
+            <Feature2/>
+
       <ServiceArea/>
       {/* <Feature3/> */}
+           <Historybg/>
+
       <IngredientsArea/>
       <Counter/>
 

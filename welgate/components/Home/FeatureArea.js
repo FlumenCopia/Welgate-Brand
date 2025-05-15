@@ -13,7 +13,7 @@ function FeatureArea() {
                                         <i className="fas fa-film" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title ">Where Stories Began</h4>
+                                        <p className="title pfont">Where Stories Began</p>
                                         <p>From tapes to CDs, Welgate sparked connections and built a legacy of experience.</p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
@@ -25,7 +25,7 @@ function FeatureArea() {
                                         <i className="fas fa-seedling" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title">Health Starts Here</h4>
+                                        <p className="title pfont">Health Starts Here</p>
                                         <p>Welgate embraced nature to deliver fresh, chemical-free food to every home. </p>
                                         {/* <a href="contact.html">Learn more</a> */}
                                     </div>
@@ -37,7 +37,7 @@ function FeatureArea() {
                                         <i className="fas fa-dove" style={{fontSize:'38px'}}></i>
                                     </div>
                                     <div className="tg-features-content">
-                                        <h4 className="title">Legacy in Motion</h4>
+                                        <p className="title pfont">Legacy in Motion</p>
                                         <p>Welgate grows global—led by legacy, driven by wellness, trust, innovation, and sustainability.
 
 </p>

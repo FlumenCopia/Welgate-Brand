@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-        <Header/>
+        <Header category={true}/>
          <Blog2/>
          <Footer/>
     </div>
