@@ -3503,11 +3503,19 @@ body.search-visible {
 
 .blogcard{
 	width: 100%;
+	height: 550px;
+}
+@media(min-width:767px)and (max-width:991px){
+	.blogcard{
+	width: 100%;
+	height: 600px;
+margin: 0 auto;}
 }
 
 @media(min-width:400px)and (max-width:767px){
 	.blogcard{
-	width: 65%;
+	width: 80%;
+	height: auto;
 margin: 0 auto;}
 }
 
@@ -4451,6 +4459,22 @@ margin: 0 auto;}
 }
 .tg-banner-area2.banner-bg {
 	    padding: 70px 0 70px !important;
+}
+.breadcrumbstyle {
+    font-size: 25px !important;
+   
+}
+.breadcrumbblog {
+	height: 220px !important;
+}
+.breadcrumbcontact {
+	height: 220px !important;
+}
+.breadcrumbgallery {
+	height: 220px !important;
+}
+.breadcrumbabout {
+	height: 220px !important;
 }
 }
 
