@@ -4430,6 +4430,24 @@ margin: 0 auto;}
 	display: inline-flex;
 	margin: 0 0 25px;
 }
+
+@media (max-width:576px) {
+    .contact-icon {
+        font-size: 50px !important;
+    }
+	    .contact-content .title {
+        font-size: 18px !important;
+    }
+	.contact-content .contact-desc {
+    margin-bottom: 0;
+    font-size: 14px !important;
+}
+.contact-box{
+	height: 230px !important;
+}
+}
+
+
 .contact-icon .overlay-icon {
 	position: absolute;
 	top: -5px;
@@ -4470,6 +4488,11 @@ margin: 0 auto;}
 	}
 	.contact-area {
     padding: 0px 0 0px;
+}
+
+.breadcrumbcontact {
+
+    margin-bottom: 30px !important;
 }
 }
 
