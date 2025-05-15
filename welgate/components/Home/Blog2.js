@@ -20,7 +20,7 @@ function Blog2() {
 
   return (
     <div>
-      <section className="breadcrumbbanner">
+      <section className="breadcrumbblog">
         <nav className="container breadcrumb-container">
           <h3 className='breadcrumbstyle'>Blog</h3>
           <ol className="cd-breadcrumb">

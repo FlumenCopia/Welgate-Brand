@@ -17,7 +17,7 @@ const Mission = () => {
                     <div className="col-xl-5 col-lg-8">
                         <div className="tg-video-content wow fadeInRight" data-wow-delay=".2s">
                             <div className="tg-section-title white mb-30">
-                                <span className="sub-title">About</span>
+                                {/* <span className="sub-title">About</span> */}
                                 <p className="title pfont2">Our Mission</p>
                             </div>
                             <p className="info-one ">At Welgate Lifestyles, our mission is to inspire healthier lives by bridging the wisdom of tradition with the innovation of modern wellness. We are committed to delivering clean, trustworthy, and ethically sourced products—from organic produce to lifestyle essentials—that support the well-being of individuals, families, and communities. Through transparency, sustainability, and quality, we aim to create a world where wellness is not a luxury, but a daily choice accessible to all.</p>

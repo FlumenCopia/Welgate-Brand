@@ -39,7 +39,7 @@ function GalleryPage() {
     <div>
 
 
-<section className="breadcrumbbanner">
+<section className="breadcrumbgallery">
             <nav className="container breadcrumb-container">
                 <h3 className="breadcrumbstyle">Gallery</h3>
                 <ol className="cd-breadcrumb">

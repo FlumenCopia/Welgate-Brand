@@ -10,7 +10,7 @@ const Vision_about = () => {
                     <div className="col-xl-5 col-lg-8">
                         <div className="tg-video-content wow fadeInRight" data-wow-delay=".2s">
                             <div className="tg-section-title white mb-30">
-                                <span className="sub-title">About</span>
+                                {/* <span className="sub-title">About</span> */}
                                 <p className="title pfont2">Our vision</p>
                             </div>
                             <p className="info-one ">We envision a future where Welgate becomes synonymous with wellness—known not just as a brand, but as a movement rooted in care, consciousness, and community. From our beginnings in entertainment to our transformation into champions of organic living, our journey reflects a deeper purpose: to cultivate a healthier generation and a more mindful planet. As we grow, we continue to honor our legacy while leading the way in creating sustainable, honest, and life-enhancing products for every home.</p>
