@@ -17,7 +17,7 @@ function Banner() {
                                 <h2 className="title wow fadeInUp" data-wow-delay=".4s"> Honoring <span className='bannertextclr'>the Past, <br/></span> Cultivating <span className='bannertextclr'> the Future</span></h2>
                                 <p className=" wow fadeInUp" data-wow-delay=".6s">Discover simple ways to live healthier—every single day.</p>
                                 <div className="tg-banner-btn wow fadeInUp" data-wow-delay=".8s">
-                                    <a href="shop-details.html" className="tg-btn">Contact Us</a>
+                                    <a href="/Contactus" className="tg-btn">Contact Us</a>
                                 </div>
                             </div>
                         </div>
