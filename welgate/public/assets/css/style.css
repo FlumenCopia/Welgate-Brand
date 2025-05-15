@@ -4980,13 +4980,18 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	
 }
 .tg-banner-content .title {
-	font-size: 50px;
+	font-size: 45px;
 	color: var(--tg-white);
 	font-weight: 700;
 	line-height: 1.1;
 	margin-bottom: 20px;
 	letter-spacing: -1.5px;
 	text-transform: uppercase;
+}
+@media (max-width:767.98px){
+	.tg-banner-content .title{
+		font-size: 30px !important;
+	}
 }
 .tg-banner-content p {
 	font-size: 17px;
@@ -7966,4 +7971,8 @@ height: 693px;}
 	font-size: 40px !important;
 	color: #000000;
 }
-
+@media (max-width:532px){
+	.pfont2{
+		font-size: 25px!important;
+	}
+}
