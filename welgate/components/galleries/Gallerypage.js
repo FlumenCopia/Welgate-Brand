@@ -23,7 +23,7 @@ function GalleryPage() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:8000/api/gallery/");
+      const response = await axios.get("https://welgatelifestyle.com/api/gallery/");
       setGallery(response.data);
     } catch (error) {
       console.error("Error fetching gallery:", error);
@@ -51,11 +51,11 @@ function GalleryPage() {
           {gallery.map((item, index) => (
             <a
               key={index}
-              href={item.fullImage || `http://127.0.0.1:8000${item.images}`}
+              href={item.fullImage || `https://welgatelifestyle.com${item.images}`}
               className="col-md-4 mb-4"
             >
               <img
-                src={item.thumbnail || `http://127.0.0.1:8000${item.images}`}
+                src={item.thumbnail || `https://welgatelifestyle.com${item.images}`}
                 className="img-fluid rounded"
                 alt={`Gallery Image ${index + 1}`}
               />

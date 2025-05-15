@@ -3,7 +3,7 @@ import React from 'react'
 const Vision_about = () => {
   return (
     <div>
-    <section className="tg-video-area tg-video-bg jarallax parallax-img">
+    <section className="tg-video-area tg-video-bg2 jarallax parallax-img">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     

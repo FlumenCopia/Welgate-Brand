@@ -5186,7 +5186,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 }
 
 /* 8. Video */
-.tg-video-bg {
+.tg-video-bg1 {
 	/* background-image: url(../img/bg/tg_video_bg.jpg); */
 	background-position: center;
 	background-size: cover;
@@ -5194,6 +5194,33 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	position: relative;
 	z-index: 1;
 }
+.tg-video-bg2 {
+	/* background-image: url(../img/bg/tg_video_bg.jpg); */
+	background-position: center;
+	background-size: cover;
+	padding: 30px 0 30px;
+	position: relative;
+	z-index: 1;
+}
+
+@media(min-width:991px)and(max-width:1199px){
+.tg-video-bg1 {
+	
+	padding: 30px 0 0px !important;
+	
+}
+.tg-video-bg2 {
+    /* background-image: url(../img/bg/tg_video_bg.jpg); */
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0 -1px !important;
+    position: relative;
+    z-index: 1;
+}
+
+}
+
+
 .tg-video-bg::before {
 	content: "";
 	position: absolute;
