@@ -4465,7 +4465,7 @@ margin: 0 auto;}
 
 @media(max-width:576px){
 	.contact-form-area{
-			padding: 0px 0 0px;
+			padding: 25px 0 25px;
 
 	}
 	.contact-area {
@@ -8049,5 +8049,11 @@ height: 693px;}
 @media (max-width:532px){
 	.pfont2{
 		font-size: 25px!important;
+	}
+}
+
+@media (max-width:991px){
+	.section-title-two.white-title .sub-title {
+		justify-content: center;
 	}
 }
