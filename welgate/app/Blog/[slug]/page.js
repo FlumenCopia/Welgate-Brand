@@ -53,7 +53,7 @@ function page() {
           <div className='row gy-5'>
             <div className=''>
               <div className='blog-item-wrapper'>
-                <h1>{blog.name}</h1>
+                <p className="pfont2">{blog.name}</p>
                 <div className='blog-item'>
                   <div className='blog-item__content mt-24'>
                   
