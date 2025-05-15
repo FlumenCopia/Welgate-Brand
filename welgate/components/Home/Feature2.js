@@ -25,7 +25,7 @@ function Feature2() {
                                         <p className="title pfont2">From Entertainment <br/> to Wellness</p>
                                     </div>
                                     <p>Welgate began with a passion for connecting people—first through entertainment, now through health. From CDs to organic farms, our journey is rooted in legacy, driven by purpose, and growing toward a healthier future.</p>
-                                    <a href="/About" className="tg-btn view-btn">VIEW more</a>
+                                    <a href="/About" className="tg-btn view-btn">View More</a>
                                 </div>
                             </div>
                         </div>
