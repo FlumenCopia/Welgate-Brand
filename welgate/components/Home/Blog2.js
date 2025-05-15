@@ -38,8 +38,8 @@ function Blog2() {
                     {blogs.map((blog) => (
 
             <div  key={blog.id} className="col-12 col-md-6 col-lg-3 mb-4 ">
-              <div className="card w-100  flex-column border-0"style={{borderRadius:'20px'}}>
-                <img src={blog.image} className="card-img-top" alt="img" style={{height:'200px'}} />
+              <div className="card blogcard flex-column border-0"style={{borderRadius:'20px'}}>
+                <img src={blog.image} className="card-img-top" alt="img"  />
                 <div className="card-body d-flex flex-column">
                   <Link href={`/Blog/${blog.slug}`}  className="card-title pfont">{blog.name}</Link>
                   <div className='card-text'

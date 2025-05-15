@@ -3,7 +3,7 @@ import React from 'react'
 const Vision_about = () => {
   return (
     <div>
-    <section className="tg-video-area tg-video-bg jarallax parallax-img">
+    <section className="tg-video-area tg-video-bg2 jarallax parallax-img">
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     
@@ -20,7 +20,7 @@ const Vision_about = () => {
                     </div>
                     <div className="col-xl-7 col-lg-8">
                         <div className="tg-video-img wow fadeInLeft" data-wow-delay=".2s">
-                            <img src="assets/img/IMG_5854.JPG" alt=""/>
+                            <img src="assets/img/IMG_5854.JPG" alt="" width={'100%'} height={'50%'}/>
                             {/* <a href="https://www.youtube.com/watch?v=2ZjdBY8aOrA" className="play-btn popup-video">
                                 <i className="fas fa-play"></i>
                             </a> */}
