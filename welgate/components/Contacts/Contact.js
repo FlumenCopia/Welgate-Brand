@@ -40,8 +40,6 @@ function Contact() {
   };
 
 
-
-
   return (
     <div>
        
