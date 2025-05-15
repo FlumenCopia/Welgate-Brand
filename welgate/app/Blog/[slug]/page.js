@@ -48,7 +48,7 @@ function page() {
               </nav>
         </section>
 
-        <section className='blog-details py-80'>
+        <section className='blog-details '>
         <div className='container container'>
           <div className='row gy-5'>
             <div className=''>

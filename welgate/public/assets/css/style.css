@@ -3489,6 +3489,23 @@ body.search-visible {
 	margin-right: 7px;
     color: var(--tg-secondary-color);
 }
+
+.blog-details{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.blogcard{
+	width: 100%;
+}
+
+@media(min-width:400px)and (max-width:767px){
+	.blogcard{
+	width: 65%;
+margin: 0 auto;}
+}
+
 .blog--post--content:not(.blog-details-content) .post-text {
 	margin-bottom: 25px;
 }
