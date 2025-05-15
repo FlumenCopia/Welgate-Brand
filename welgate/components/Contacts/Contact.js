@@ -59,7 +59,7 @@ function Contact() {
        
         
             <section className="contact-form-area">
-                <div className="container">
+                <div className="container pb-5">
                     <div className="row">
                         <div className="col-xl-6">
                             <div id="contact-map">
