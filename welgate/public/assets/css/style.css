@@ -4462,6 +4462,17 @@ margin: 0 auto;}
 	position: relative;
 	padding: 80px 0 80px;
 }
+
+@media(max-width:576px){
+	.contact-form-area{
+			padding: 0px 0 0px;
+
+	}
+	.contact-area {
+    padding: 0px 0 0px;
+}
+}
+
 #contact-map {
 	display: block;
 	width: 100%;
