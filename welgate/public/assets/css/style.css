@@ -8051,3 +8051,9 @@ height: 693px;}
 		font-size: 25px!important;
 	}
 }
+
+@media (max-width:991px){
+	.section-title-two.white-title .sub-title {
+		justify-content: center;
+	}
+}
