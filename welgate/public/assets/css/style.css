@@ -44,7 +44,7 @@
 :root {
     --tg-body-font-family: "Inter", sans-serif;
     --tg-heading-font-family: "Quicksand", sans-serif;
-    --tg-primary-color: #FAA432;
+    /* --tg-primary-color: #FAA432; */
     --tg-secondary-color: #046434;
     --tg-body-font-color: #777777;
     --tg-heading-font-color: #343333;
