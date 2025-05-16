@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
        <Header/>
         {children}
 
-        <Preloader/>
+        {/* <Preloader/> */}
         
         <Scrolltop/>
 <Footer/>
