@@ -5,12 +5,12 @@ function Feature2() {
     
   return (
     <div>
-        <section id="ingredient" className="tg-supplement-area pt-130 pb-120">
+        <section id="ingredient" className="tg-supplement-area supplementpadding">
                 <div className="tg-supplement-bg"></div>
                 <div className="container">
                     <div className="tg-supplement-inner">
                         <div className="row justify-content-center">
-                            <div className="col-lg-6 col-md-8 order-0 order-lg-2">
+                            <div className="col-lg-6 col-md-8 order-0 order-lg-2 bothimg">
                                 <div className="tg-supplement-img text-end  wow fadeInRight" data-wow-delay=".2s">
                                     <img className='imgsize' src="/assets/img/2783001_15762-removebg-preview.png" alt=""style={{ transform: 'scaleX(-1)' }}/ >
                                 </div>
