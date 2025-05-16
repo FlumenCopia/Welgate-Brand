@@ -69,11 +69,11 @@ function Header() {
                 </div>
                 <div className="social-links">
                     <ul className="clearfix">
-                        <li><a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://x.com/organicwelgate"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/welgate_lifestyle/"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all"><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.youtube.com/@welgatelifestyle"><i className="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/welgatelifestyle/" target='blank'><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/organicwelgate" target='blank'><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/welgate_lifestyle/" target='blank'><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/welgate-organic/posts/?feedView=all" target='blank'><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.youtube.com/@welgatelifestyle" target='blank'><i className="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </nav>
