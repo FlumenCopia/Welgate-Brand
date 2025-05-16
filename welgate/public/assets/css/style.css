@@ -8143,3 +8143,15 @@ height: 693px;}
 		justify-content: center;
 	}
 }
+
+@media (min-width:1199px) and (max-width:1400px){
+	    .tg-banner-content .title{
+			font-size: 39px !important;
+		}
+}
+
+@media (min-width:770px) and (max-width: 1198px) {
+    .tg-banner-content .title {
+        font-size: 39px !important;
+    }
+}
