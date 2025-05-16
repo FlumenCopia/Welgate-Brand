@@ -44,7 +44,7 @@
 :root {
     --tg-body-font-family: "Inter", sans-serif;
     --tg-heading-font-family: "Quicksand", sans-serif;
-    --tg-primary-color: #FAA432;
+    /* --tg-primary-color: #FAA432; */
     --tg-secondary-color: #046434;
     --tg-body-font-color: #777777;
     --tg-heading-font-color: #343333;
@@ -4513,10 +4513,9 @@ margin: 0 auto;}
 }
 
 @media(max-width:576px){
-	.contact-form-area{
-			padding: 25px 0 25px;
-
-	}
+	    .contact-form-area {
+        padding: 30px 0 50px;
+    }
 	.contact-area {
     padding: 0px 0 0px;
 }
@@ -4525,6 +4524,11 @@ margin: 0 auto;}
 
     margin-bottom: 30px !important;
 }
+    .tg-supplement-area
+
+ {
+        padding: 90px 0 45px !important;
+    }
 }
 
 #contact-map {
@@ -8142,4 +8146,16 @@ height: 693px;}
 	.section-title-two.white-title .sub-title {
 		justify-content: center;
 	}
+}
+
+@media (min-width:1199px) and (max-width:1400px){
+	    .tg-banner-content .title{
+			font-size: 39px !important;
+		}
+}
+
+@media (min-width:770px) and (max-width: 1198px) {
+    .tg-banner-content .title {
+        font-size: 39px !important;
+    }
 }
