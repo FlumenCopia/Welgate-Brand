@@ -4931,14 +4931,16 @@ margin: 0 auto;}
 	letter-spacing: 0;
 	line-height: 1;
 	margin-bottom: 0;
-	padding: 18px 30px;
+	/* padding: 18px 30px; */
 	text-align: center;
 	/* text-transform: uppercase; */
 	touch-action: manipulation;
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
 	white-space: nowrap;
-	border-radius: 25px;
+	/* border-radius: 25px; */
+	padding: 17px 30px;
+    border-radius: 10px;
 	position: relative;
 	background-image: -moz-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 background-image: -webkit-linear-gradient(5deg, #448c65 0%, #448c65 100%);
@@ -5177,8 +5179,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	transform: translateY(-7px);
 }
 .tg-features-icon {
-	width: 101px;
-	height: 101px;
+	width: 81px;
+	height: 81px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

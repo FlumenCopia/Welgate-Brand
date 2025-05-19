@@ -27,8 +27,10 @@ function History2() {
                                     <li>No energy crashes. Collagen Protein, Stevia</li>
                                     <li>10G of collagen protein from grass-fed cows</li>
                                 </ul> */}
-                                <p className='classp' style={{textAlign:'justify'}}>A thought sparked a movement. Understanding the importance of pure, chemical-free food, Welgate took a bold step toward organic farming."As Welgate thrived in the entertainment industry, a deeper realization took root the importance of pure, chemical-free food for a healthier life. Witnessing the growing concerns over food quality and its impact on well-being, the founders saw an opportunity to create real change.
+                                {/* <p className='classp' style={{textAlign:'justify'}}>A thought sparked a movement. Understanding the importance of pure, chemical-free food, Welgate took a bold step toward organic farming."As Welgate thrived in the entertainment industry, a deeper realization took root the importance of pure, chemical-free food for a healthier life. Witnessing the growing concerns over food quality and its impact on well-being, the founders saw an opportunity to create real change.
                                     With a commitment to sustainability and wellness, Welgate took a bold step into organic farming, ensuring that every product nurtured the body while preserving the earth. What started as an idea soon became a mission to redefine the way people eat naturally, ethically, and with care.
+                                </p> */}
+                                <p className='classp' style={{textAlign:'justify'}}>As Welgate thrived in entertainment, it recognized the need for pure, chemical-free food. Driven by a commitment to health and sustainability, Welgate ventured into organic farming—promoting natural, ethical eating and redefining food with care for people and the planet.
                                 </p>
                                 {/* <a href="contact.html" className="btn btn-two">Know More</a> */}
                             </div>

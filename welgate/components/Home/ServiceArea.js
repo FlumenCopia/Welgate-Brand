@@ -19,7 +19,7 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">01</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-film"></i>
+                                        <img src='/assets/img/others/vinyl.png' style={{fontSize:'38px'}}/>
                                     </div>
                                     <p className="title "><a href="#">Where It All Began</a></p>
                                     <div className="tg-service-content">
@@ -32,7 +32,8 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">02</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-sync-alt"></i>
+                                         <i className="fas fa-sync-alt"></i>
+                                        {/* <img src='/assets/img/others/renewable.png' style={{fontSize:'38px'}}/> */}
                                     </div>
                                     <p className="title"><a href="#">A Natural Shift</a></p>
                                     <div className="tg-service-content">
