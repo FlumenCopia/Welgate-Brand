@@ -8,14 +8,14 @@ function Header() {
         <div id="sticky-header" className="tg-menu-area menu-area">
           <div className="container">
             <div className="row align-items-center">
-              {/* Mobile Toggle - Restored */}
+              
               <div className="col-2 d-xl-none">
                 <div className="mobile-nav-toggler">
                   <i className="flaticon-layout"></i>
                 </div>
               </div>
 
-              {/* Left Navigation */}
+              
               <div className="col-4 d-none d-xl-flex justify-content-end">
                 <nav className="menu-nav">
                   <div className="navbar-wrap main-menu">
@@ -28,7 +28,7 @@ function Header() {
                 </nav>
               </div>
 
-              {/* Logo in the Center */}
+              
               <div className="col-4 text-center">
                 <div className="logo">
                   <a href="/">
@@ -37,15 +37,15 @@ function Header() {
                 </div>
               </div>
 
-              {/* Right Navigation */}
+              
               <div className="col-4 d-none d-xl-flex justify-content-start">
                 <nav className="menu-nav">
                   <div className="navbar-wrap main-menu">
                     <ul className="navigation">
                       <li><a href="/Gallery" className="section-link">Gallery</a></li>
                       <li><a href="/Contactus" className="section-link">Contact Us</a></li>
-                     <div class="header-btn d-none d-sm-block">
-                                        <a href="#order" class="tg-btn">Order Now</a>
+                     <div className="header-btn d-none d-sm-block">
+                      <a href="https://welgatelifestyle.com/" className="tg-btn">Visit Shop</a>
                     </div>
                     </ul>
                   </div>
@@ -56,7 +56,7 @@ function Header() {
         </div>
       </header>
 
-      {/* Mobile Menu */}
+     
       <div className="mobile-menu">
         <nav className="menu-box">
           <div className="close-btn"><i className="fas fa-times"></i></div>
