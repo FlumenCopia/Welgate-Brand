@@ -45,7 +45,7 @@ function Header() {
                       <li><a href="/Gallery" className="section-link">Gallery</a></li>
                       <li><a href="/Contactus" className="section-link">Contact</a></li>
                      <li class="header-btn d-none d-sm-block">
-                                        <a href="https://welgatelifestyle.com/" class="tg-btn">Shop Now</a>
+                                        <a href="https://welgatelifestyle.com/" class="tg-btn text-white" target='blank'>Shop Now</a>
                                         
                     </li>
                     </ul>
