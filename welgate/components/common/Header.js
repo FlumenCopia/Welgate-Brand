@@ -32,7 +32,7 @@ function Header() {
               <div className="col-4 text-center">
                 <div className="logo">
                   <a href="/">
-                    <img src="/assets/img/logo/welgate-logo2.png" alt="Logo" />
+                    <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/yp1ocnxyfoqv9rmflsao" alt="Logo" />
                   </a>
                 </div>
               </div>
@@ -44,6 +44,9 @@ function Header() {
                     <ul className="navigation">
                       <li><a href="/Gallery" className="section-link">Gallery</a></li>
                       <li><a href="/Contactus" className="section-link">Contact Us</a></li>
+                     <div class="header-btn d-none d-sm-block">
+                                        <a href="#order" class="tg-btn">Order Now</a>
+                    </div>
                     </ul>
                   </div>
                 </nav>
