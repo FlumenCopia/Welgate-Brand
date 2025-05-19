@@ -5027,7 +5027,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('/assets/img/bg/welgateimg.jpg');
+	background-image: url('https://img.freepik.com/free-photo/chessman-is-changed-shadow-crown_1150-19664.jpg?uid=P169759656&ga=GA1.1.973111760.1731995955&semt=ais_hybrid&w=740');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
@@ -5179,8 +5179,8 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	transform: translateY(-7px);
 }
 .tg-features-icon {
-	width: 101px;
-	height: 101px;
+	width: 81px;
+	height: 81px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
