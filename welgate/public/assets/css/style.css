@@ -395,9 +395,9 @@ label {
 }
 .navbar-wrap ul {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin: 0 auto 0;
+	/* flex-direction: row; */
+	/* flex-wrap: wrap; */
+	/* margin: 0 auto 0; */
 	padding: 0;
 }
 .navbar-wrap ul li {
@@ -4987,7 +4987,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--tg-heading-font-color);
-	padding: 35px 21px;
+	padding: 14px 21px;
 }
 .tg-menu-area .navbar-wrap ul li .sub-menu li a {
 	font-weight: 600;
