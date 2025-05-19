@@ -387,7 +387,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 135px;
+	max-width: 130px;
 }
 .navbar-wrap {
 	display: flex;
@@ -4931,16 +4931,14 @@ margin: 0 auto;}
 	letter-spacing: 0;
 	line-height: 1;
 	margin-bottom: 0;
-	/* padding: 18px 30px; */
+	padding: 18px 30px;
 	text-align: center;
 	/* text-transform: uppercase; */
 	touch-action: manipulation;
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
 	white-space: nowrap;
-	/* border-radius: 19px; */
-	padding: 17px 30px;
-    border-radius: 10px;
+	border-radius: 25px;
 	position: relative;
 	background-image: -moz-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 background-image: -webkit-linear-gradient(5deg, #448c65 0%, #448c65 100%);

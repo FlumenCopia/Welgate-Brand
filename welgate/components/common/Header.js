@@ -32,7 +32,7 @@ function Header() {
               <div className="col-4 text-center">
                 <div className="logo">
                   <a href="/">
-                    <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/yp1ocnxyfoqv9rmflsao" alt="Logo" />
+                    <img src="/assets/img/logo/welgategropulogo.webp" alt="Logo" />
                   </a>
                 </div>
               </div>
