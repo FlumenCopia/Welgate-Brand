@@ -5027,7 +5027,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://img.freepik.com/free-photo/chessman-is-changed-shadow-crown_1150-19664.jpg?uid=P169759656&ga=GA1.1.973111760.1731995955&semt=ais_hybrid&w=740');
+	background-image: url('/assets/img/banner/abstract-man-form-chess-pawn.jpg');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 230px;
@@ -5072,7 +5072,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	background-size: cover;
 	pointer-events: none;
 }
-.tg-banner-area::after {
+/* .tg-banner-area::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -5085,7 +5085,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 
 	opacity: .80;
 	z-index: -1;
-}
+} */
 
 .tg-banner-area2::after {
 	content: "";
