@@ -19,7 +19,7 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">01</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-film"></i>
+                                        <img src='/assets/img/others/casette.png' style={{fontSize:'38px'}}/>
                                     </div>
                                     <p className="title "><a href="#">Where It All Began</a></p>
                                     <div className="tg-service-content">
@@ -32,7 +32,8 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">02</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-sync-alt"></i>
+                                         {/* <i className="fas fa-sync-alt"></i> */}
+                                         <img src='/assets/img/others/leaf.png' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">A Natural Shift</a></p>
                                     <div className="tg-service-content">
@@ -45,7 +46,8 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">03</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-tractor"></i>
+                                        {/* <i className="fas fa-tractor"></i> */}
+                                         <img src='/assets/img/others/farming.png' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">From Soil to Shelf</a></p>
                                     <div className="tg-service-content">
@@ -84,7 +86,8 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">06</div> */}
                                     <div className="icon">
-                                        <i className="fas fa-store"></i>
+                                        {/* <i className="fas fa-store"></i> */}
+                                          <img src='/assets/img/others/diamond-necklace.png' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">Sown to Sold</a></p>
                                     <div className="tg-service-content">
