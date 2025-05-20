@@ -24,7 +24,7 @@ function page() {
   return (
     <div>
       <Banner/>
-      <FeatureArea/>
+      {/* <FeatureArea/> */}
             <Feature2/>
 
       <ServiceArea/>
