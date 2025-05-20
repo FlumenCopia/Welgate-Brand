@@ -19,7 +19,7 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">01</div> */}
                                     <div className="icon">
-                                        <img src='/assets/img/others/casette.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/others/cloud (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                     </div>
                                     <p className="title "><a href="#">Where It All Began</a></p>
                                     <div className="tg-service-content">
@@ -33,7 +33,7 @@ function ServiceArea() {
                                     {/* <div className="tg-services-count">02</div> */}
                                     <div className="icon">
                                          {/* <i className="fas fa-sync-alt"></i> */}
-                                         <img src='/assets/img/others/leaf.png' className='iconscale' style={{fontSize:'38px'}}/> 
+                                         <img src='/assets/img/others/leaf (2).png' className='iconscale' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">A Natural Shift</a></p>
                                     <div className="tg-service-content">
@@ -47,7 +47,7 @@ function ServiceArea() {
                                     {/* <div className="tg-services-count">03</div> */}
                                     <div className="icon">
                                         {/* <i className="fas fa-tractor"></i> */}
-                                         <img src='/assets/img/others/farming.png' className='iconscale' style={{fontSize:'38px'}}/> 
+                                         <img src='/assets/img/others/farming (1).png' className='iconscale' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">From Soil to Shelf</a></p>
                                     <div className="tg-service-content">
@@ -60,8 +60,9 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">04</div> */}
                                     <div className="icon">
-                                        {/* <i className="fas fa-people-carry"></i> */}
-                                        <img src='/assets/img/others/casette.png' style={{fontSize:'38px'}}/>
+                                        {/* <i className="/assets/img/others/legacy.png"></i> */}
+                                        <img src='/assets/img/others/legacy.png' className='iconscale' style={{fontSize:'38px'}}/> 
+
                                     </div>
                                     <p className="title"><a href="#">A Legacy Carried Forward</a></p>
                                     <div className="tg-service-content">
@@ -74,8 +75,7 @@ function ServiceArea() {
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">05</div> */}
                                     <div className="icon">
-                                        <img src='/assets/img/others/casette.png' style={{fontSize:'38px'}}/>
-                                        {/* <i className="fas fa-compass"></i> */}
+                                        <i className="fas fa-compass"></i>
                                     </div>
                                     <p className="title"><a href="#">Beyond the Horizon</a></p>
                                     <div className="tg-service-content">
@@ -89,7 +89,7 @@ function ServiceArea() {
                                     {/* <div className="tg-services-count">06</div> */}
                                     <div className="icon">
                                         {/* <i className="fas fa-store"></i> */}
-                                          <img src='/assets/img/others/diamond-necklace.png' className='iconscale' style={{fontSize:'38px'}}/> 
+                                        <img src='/assets/img/others/sold.png' className='iconscale' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">Sown to Sold</a></p>
                                     <div className="tg-service-content">

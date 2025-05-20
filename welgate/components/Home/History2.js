@@ -2,17 +2,28 @@ import React from 'react';
 
 function History2() {
   return (
-    <div className="row container justify-content-center ">
+    <div className="container d-flex justify-content-center mt-5">
+  <div className="row w-100 justify-content-center text-center">
 
-    <div class="col-6">
-      <img src="/assets/img/WhatsApp Image 2025-05-12 at 15.37.09_045f681b.jpg" alt="" width="70%" height="300px"/>
+    <div className="col-6 d-flex justify-content-center">
+      <img
+        src="/assets/img/WhatsApp Image 1.jpg"
+        alt=""
+        style={{ width: '50%', objectFit: 'cover',borderRadius:'20px' }}
+      />
     </div>
-    <div class="col-6">
-            <img src="/assets/img/WhatsApp Image 2025-05-12 at 14.39.11_b5a8f290.jpg" alt="" width="70%" height="300px"/>
 
+    <div className="col-6 d-flex justify-content-center">
+      <img
+        src="/assets/img/WhatsApp Image 2025-05-12 at 14.39.11_b5a8f290.jpg"
+        alt=""
+        style={{ width: '50%', objectFit: 'cover',borderRadius:'20px' }}
+      />
     </div>
 
-    </div>
+  </div>
+</div>
+
   );
 }
 
