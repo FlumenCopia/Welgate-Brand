@@ -10,7 +10,7 @@ function FeatureArea() {
                             <div className="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
-                                        <img src='/assets/img/others/cd1.png' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/others/cd1.png' className='iconscale' style={{fontSize:'38px'}}/>
                                         
                                     </div>
                                     <div className="tg-features-content">
@@ -24,7 +24,7 @@ function FeatureArea() {
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
                                         {/* <i className="fas fa-seedling" style={{fontSize:'38px'}}></i> */}
-                                        <img src='/assets/img/others/placeholder.png' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/others/placeholder.png' className='iconscale' style={{fontSize:'38px'}}/>
                                     </div>
                                     <div className="tg-features-content">
                                         <p className="title pfont">Health Starts Here</p>
@@ -37,7 +37,7 @@ function FeatureArea() {
                                 <div className="tg-features-item">
                                     <div className="tg-features-icon">
                                         {/* <i className="fas fa-dove" style={{fontSize:'38px'}}></i> */}
-                                        <img src='/assets/img/others/next.png' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/others/next.png' className='iconscale' style={{fontSize:'38px'}}/>
                                     </div>
                                     <div className="tg-features-content">
                                         <p className="title pfont">Legacy in Motion</p>

@@ -1,10 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
 import Scrolltop from "@/components/Scroll/Scrolltop";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +29,7 @@ export default function RootLayout({ children }) {
       <head>
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/welgate-favicon2.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/css/animate.min.css"/>
