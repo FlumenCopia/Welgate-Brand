@@ -747,6 +747,27 @@ label {
 	margin-right: 30px;
 	top: 15px;
 }
+
+.nav-store {
+ position: absolute;
+    top: 50%;
+    right: -24px;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 15px 39px;
+    border-radius: 44px;
+    border-left: 4px;
+    font-size: 18px;
+    background-color: red;
+}
+
+@media (max-width: 991px) {
+  .nav-store {
+    display: none;
+  }
+}
+
+
 .nav-logo img {
 	width: 160px;
 }
@@ -981,7 +1002,7 @@ label {
 }
 .menu-area .mobile-nav-toggler {
 	position: relative;
-    float: right;
+    /* float: right; */
 	display: none;
 	align-items: center;
 	justify-content: center;
@@ -993,8 +1014,70 @@ label {
 	border-radius: 50%;
 	font-size: 25px;
 	cursor: pointer;
-	margin-top: -2px;
+	margin-top: 0px;
+	
 }
+
+@media(max-width:576px){
+	    .menu-area {
+        padding: 10px 0;
+    }
+	.logo img {
+    max-width: 110px;
+}
+.menu-area .mobile-nav-toggler {
+	float: none;
+	scale: 0.9;
+}
+}
+
+/* Apply center alignment below 991px (lg) */
+@media (max-width: 991px) {
+ .customright {
+    translate: -90px !important;
+  }
+  .customleft {
+    translate: 80px !important;
+  }
+}
+
+@media(min-width:1199px) and (max-width:1299px)
+{
+	.customright {
+    translate: -45px !important;
+  }
+  .customleft {
+    translate: 45px !important;
+  }
+}
+
+@media(min-width:991px) and (max-width:1199px)
+{
+	.customright {
+    translate: -90px !important;
+  }
+  .customleft {
+    translate: 80px !important;
+  }
+  .tg-menu-area .navbar-wrap ul li a {
+	font-size: 13px !important;
+  }
+  .nav-store {
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 9px 32px;
+    border-radius: 44px;
+    border-left: 4px;
+    font-size: 16px;
+    background-color: red;
+}
+}
+
+
+
 
 
 /* 4. Search */
@@ -6292,6 +6375,7 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
     padding: 17px 35px;
     line-height: 1;
 }
+
 
 /* banner */
 .banner-bg {
