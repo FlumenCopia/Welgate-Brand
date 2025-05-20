@@ -23,6 +23,17 @@ function History1() {
                             </div>
                         </div>
                     </div>
+                    <div className="row align-items-center justify-content-center mt-50">
+                        {/* <div className="col-lg-5 order-0 order-lg-2">
+                            <div className="formula-img1">
+                                <img src="/assets/img/WhatsApp Image 2025-05-12 at 15.37.09_045f681b.jpg" alt="img"  style={{width:'400px',borderRadius:'20px'}}/>
+                            </div>
+                        </div> */}
+                        <div className="col-lg-7 d-flex justify-content-center">
+                            <img src="/assets/img/WhatsApp Image 2025-05-12 at 15.37.09_045f681b.jpg" alt="" style={{ width: '50%', objectFit: 'cover' ,borderRadius:'20px'}}/>
+                        </div>
+                        
+                    </div>
                     
                 </div>
             </section>
