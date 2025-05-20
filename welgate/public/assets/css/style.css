@@ -42,8 +42,8 @@
 	1. Variable CSS
 ===============================*/
 :root {
-    --tg-body-font-family: "Inter", sans-serif;
-    --tg-heading-font-family: "Quicksand", sans-serif;
+    --tg-body-font-family: "Montserrat", sans-serif;
+    --tg-heading-font-family: "Montserrat", sans-serif;
     /* --tg-primary-color: #FAA432; */
     --tg-secondary-color: #046434;
     --tg-body-font-color: #777777;
@@ -5230,6 +5230,9 @@ background-image: -ms-linear-gradient(5deg, #448c65 0%, #448c65 100%);
 	position: relative;
 	z-index: 2;
 }
+.iconscale{
+	scale: 0.8;
+}
 .tg-features-inner {
 	padding: 0 79px;
 }
@@ -7458,7 +7461,7 @@ height: 693px;}
     border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 55px 50px;
+    padding: 25px 50px;
     gap: 20px;
     z-index: 2;
     overflow: hidden;
@@ -7480,7 +7483,7 @@ height: 693px;}
     flex: 0 0 auto;
 }
 .newsletter-form input {
-    width: 100%;
+    width: 104%;
     border-radius: 5px;
     background: var(--tg-white);
     box-shadow: 0px 14px 15px 0px rgba(35, 33, 142, 0.04);
@@ -7488,7 +7491,7 @@ height: 693px;}
     font-size: 16px;
     color: var(--tg-heading-font-color);
     padding: 28px 205px 28px 28px;
-    height: 80px;
+    height: 100px;
 }
 .newsletter-form button {
     position: absolute;
