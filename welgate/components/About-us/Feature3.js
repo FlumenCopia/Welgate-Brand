@@ -50,7 +50,7 @@ function Feature3() {
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                      <div className="icon">
-                                        <img src='/assets/img/iconabout/diamond.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/iconabout/diamond (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                 </div>
                                 </div>
                                 <div className="features-content">
@@ -67,7 +67,7 @@ function Feature3() {
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                      <div className="icon">
-                                        <img src='/assets/img/iconabout/crystal-ball.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/iconabout/predictive-chart.png' className='iconscale' style={{fontSize:'38px'}}/>
                                 </div>
                                 </div>
                                 <div className="features-content">
@@ -82,7 +82,7 @@ function Feature3() {
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
                                     <div className="icon">
-                                        <img src='/assets/img/iconabout/stop-racism.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/iconabout/handshake (2).png' className='iconscale' style={{fontSize:'400px'}}/>
                                 </div>
                                 </div>
                                 <div className="features-content ">

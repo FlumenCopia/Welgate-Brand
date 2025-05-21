@@ -769,7 +769,7 @@ label {
 
 
 .nav-logo img {
-	width: 160px;
+	width: 100px;
 }
 .mobile-menu {
 	position: fixed;
@@ -3111,7 +3111,7 @@ body.search-visible {
 }
 }
 .white-title .title {
-	color: var(--tg-primary-color);
+	color: #f7821e;
 	/* text-transform: uppercase; */
 }
 .formula-list {
