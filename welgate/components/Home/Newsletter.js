@@ -11,9 +11,9 @@ function Newsletter() {
                             <input type="email" placeholder="Enter your phone-number"/>
                             <button type="submit" className="btn btn-three">Send</button>
                         </div>
-                        <div className="shape">
+                        {/* <div className="shape">
                             <img src="assets/img/others/newsletter_shape.png" alt="shape"/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -8,7 +8,7 @@ function Breadcrumbs() {
                 <h3 className='breadcrumbstyle'>About Us</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current text-success">About</li>
+                  <li className="current ">About</li>
                 </ol>
               </nav>
         </section>
