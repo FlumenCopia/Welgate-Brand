@@ -59,7 +59,7 @@ function Header() {
         <nav className="menu-box">
           <div className="close-btn"><i className="fas fa-times"></i></div>
           <div className="nav-logo">
-            <a href="/"><img src="/assets/img/logo/welgate-logo2.png" alt="Logo" /></a>
+            <a href="/"><img src="/assets/img/logo/welgategropulogo.webp" alt="Logo" /></a>
           </div>
           <div className="menu-outer"></div>
           <ul className="navigation extra-mobile-links">

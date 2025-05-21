@@ -14,7 +14,7 @@ function Preloader() {
     <>
       {active ? (
         <div id="preloader">
-            <img src="/assets/img/icons/welgate-logo2-removebg-preview-removebg-preview.png"/>
+            <img src="/assets/img/logo/welgategropulogo.webp"/>
         </div>
       ) : (
         <div></div>
