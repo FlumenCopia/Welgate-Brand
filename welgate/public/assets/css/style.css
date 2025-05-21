@@ -758,7 +758,7 @@ label {
     border-radius: 44px;
     border-left: 4px;
     font-size: 18px;
-    background-color: #eb272c;
+    background-color: #343796;
 }
 
 @media (max-width: 991px) {
@@ -5101,7 +5101,7 @@ margin: 0 auto;}
 .tg-menu-area .navbar-wrap ul li .sub-menu li.active > a,
 .tg-menu-area .navbar-wrap > ul > li.active > a,
 .tg-menu-area .navbar-wrap > ul > li:hover > a {
-    color: #046434;
+    color: #343557;
 }
 .tg-menu-area .mobile-menu .social-links li a:hover {
 	border-color: #046434;
@@ -5206,7 +5206,7 @@ margin: 0 auto;}
 }
 .tg-banner-content .title {
 	font-size: 45px;
-	color: var(--tg-white);
+	color: #f7821e;
 	font-weight: 700;
 	line-height: 1.1;
 	margin-bottom: 20px;
@@ -5652,7 +5652,7 @@ margin: 0 auto;}
 	padding: 0 50px;
 }
 .tg-service-area {
-	background: #DAD9FF;
+	background: #f5f4fc;
 	padding: 70px 0 60px;
 }
 .tg-service-item {
@@ -5719,7 +5719,7 @@ margin: 0 auto;}
 	line-height: 1.2;
 }
 .tg-service-item .title a:hover {
-	color: #63af21;
+	color: #343557;
 }
 .tg-service-content p {
 	margin-bottom: 25px;
@@ -6626,7 +6626,7 @@ margin: 0 auto;}
 .counter-item {
     display: flex;
     align-items: center;
-    background: #DAD9FF;
+    background: #f5f4fc;
     border-radius: 5px;
     padding: 40px 40px;
     gap: 35px;
@@ -8250,7 +8250,7 @@ text-align: left;
 
 .pfont2{
 	font-size: 40px !important;
-	color: #413E2D;
+	color: #f7821e;
 }
 @media (max-width:532px){
 	.pfont2{

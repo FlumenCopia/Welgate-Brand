@@ -10,7 +10,9 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                    <i className="fas fa-store"></i>
+                                        <div className="icon">
+                                        <img src='/assets/img/iconabout/supermarkets.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        </div>
 
                                     </div>
                                     <div className="counter-content">
@@ -22,7 +24,9 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                    <i className="fas fa-users"></i>
+                                        <div className="icon">
+                                        <img src='/assets/img/iconabout/audience.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        </div>
 
                                     </div>
                                     <div className="counter-content">
@@ -34,7 +38,9 @@ function Counter() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="counter-item">
                                     <div className="counter-icon">
-                                        <i className="fas fa-hourglass-half"></i>
+                                        <div className="icon">
+                                        <img src='/assets/img/iconabout/briefcase.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        </div>
                                     </div>
                                     <div className="counter-content">
                                         <h2 className="count"><span className="odometer" data-count="15"></span>+</h2>
