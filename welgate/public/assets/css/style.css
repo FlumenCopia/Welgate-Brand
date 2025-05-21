@@ -5704,7 +5704,7 @@ margin: 0 auto;}
 	align-items: center;
 	justify-content: center;
 	/* background-color: #046434; */
-	box-shadow: 0px 8px 16px 0px rgba(68, 140, 101, 0.4);
+	box-shadow: 0px 8px 16px 0px #373496;
 	border-radius: 50%;
 	margin: 0 auto 30px;
 	color: var(--tg-white);
