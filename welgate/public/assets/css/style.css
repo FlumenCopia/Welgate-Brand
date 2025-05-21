@@ -45,7 +45,7 @@
     --tg-body-font-family: "Montserrat", sans-serif;
     --tg-heading-font-family: "Montserrat", sans-serif;
     --tg-primary-color: #373496;
-    --tg-secondary-color: #3d3999;
+    --tg-secondary-color: #968635;
     --tg-body-font-color: #777777;
     --tg-heading-font-color: #343333;
     --tg-paragraph-color: #615f5f;
@@ -6633,7 +6633,7 @@ margin: 0 auto;}
     font-size: 45px;
     line-height: 0;
     transition: .4s linear;
-	color:#ff696c;
+	color:var(--tg-primary-color);
 }
 .counter-item:hover .counter-icon {
     transform: rotateY(180deg);
@@ -7470,7 +7470,7 @@ height: 693px;}
     background: white;
 }
 .newsletter-wrap-two {
-    background: var(--tg-secondary-color);
+    background: var(--tg-primary-color);
     position: relative;
     border-radius: 10px;
     display: flex;
