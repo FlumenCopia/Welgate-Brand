@@ -41,7 +41,7 @@ function GalleryPage() {
           <h3 className="breadcrumbstyle">Gallery</h3>
           <ol className="cd-breadcrumb">
             <li><a href="/">Home</a></li>
-            <li className="current text-success">Gallery</li>
+            <li className="current ">Gallery</li>
           </ol>
         </nav>
       </section>

@@ -48,7 +48,7 @@ function Contact() {
                 <h3 className='breadcrumbstyle'>Contact</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current text-success">Contact</li>
+                  <li className="current">Contact</li>
                 </ol>
               </nav>
         </section>
@@ -127,8 +127,10 @@ function Contact() {
                             <div className="col-lg-4 col-md-6 col-sm-9">
                                 <div className="contact-box">
                                     <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="far fa-map"></i>
+                                        {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
+                                             <div className="icon">
+                                        <img src='/assets/img/iconabout/home-address.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Our Address</h5>
@@ -139,8 +141,10 @@ function Contact() {
                             <div className="col-lg-4 col-md-6 col-sm-9">
                                 <div className="contact-box">
                                     <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="fas fa-phone"></i>
+                                        {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
+                                                   <div className="icon">
+                                        <img src='/assets/img/iconabout/call.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Phone Number</h5>
@@ -151,8 +155,10 @@ function Contact() {
                             <div className="col-lg-4 col-md-6 col-sm-9">
                                 <div className="contact-box">
                                     <div className="contact-icon">
-                                        <span className="overlay-icon"><i className="fas fa-check"></i></span>
-                                        <i className="fas fa-globe"></i>
+                                        {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
+                                                    <div className="icon">
+                                        <img src='/assets/img/iconabout/networking.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Web Connect</h5>

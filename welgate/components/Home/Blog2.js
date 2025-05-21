@@ -25,7 +25,7 @@ function Blog2() {
           <h3 className='breadcrumbstyle'>Blog</h3>
           <ol className="cd-breadcrumb">
             <li><a href="/">Home</a></li>
-            <li className="current text-success">Blog</li>
+            <li className="current">Blog</li>
           </ol>
         </nav>
       </section>
