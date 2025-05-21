@@ -20,7 +20,9 @@ function Feature3() {
                         <div className="col-xl-4 col-lg-4 col-md-6 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                <i className="fas fa-award"></i>
+                                 <div className="icon">
+                                        <img src='/assets/img/iconabout/badge.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
 
                                 </div>
                                 <div className="features-content">
@@ -33,7 +35,9 @@ function Feature3() {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-seedling"></i>
+                                    <div className="icon">
+                                        <img src='/assets/img/iconabout/ecology.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                 </div>
                                 <div className="features-content">
                                     <p className="title textcolour">Entertainment to Organic Living</p>
@@ -45,7 +49,9 @@ function Feature3() {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-gem"></i>
+                                     <div className="icon">
+                                        <img src='/assets/img/iconabout/diamond.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                 </div>
                                 <div className="features-content">
                                     <p className="title textcolour">Purity & Sustainability</p>
@@ -60,7 +66,9 @@ function Feature3() {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-globe"></i>
+                                     <div className="icon">
+                                        <img src='/assets/img/iconabout/crystal-ball.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                 </div>
                                 <div className="features-content">
                                     <p className="title textcolour">Future-Ready</p>
@@ -73,7 +81,9 @@ function Feature3() {
                         <div className="col-xl-4 col-lg-4 col-md-12 ">
                             <div className="features-item features-item-three">
                                 <div className="features-icon">
-                                    <i className="fas fa-handshake"></i>
+                                    <div className="icon">
+                                        <img src='/assets/img/iconabout/stop-racism.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                                 </div>
                                 <div className="features-content ">
                                     <p className="title textcolour">More Than a Brand</p>
