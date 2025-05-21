@@ -48,7 +48,7 @@ function Contact() {
                 <h3 className='breadcrumbstyle'>Contact</h3>
                 <ol className="cd-breadcrumb">
                   <li><a href="/">Home</a></li>
-                  <li className="current text-success">Contact</li>
+                  <li className="current">Contact</li>
                 </ol>
               </nav>
         </section>

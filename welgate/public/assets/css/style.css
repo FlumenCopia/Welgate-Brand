@@ -339,7 +339,7 @@ label {
 	color: var(--tg-white);
 	text-align: center;
 	cursor: pointer;
-	background: var(--tg-secondary-color);
+	background: var(--tg-primary-color);
 	transition: 1s ease;
 	border: none;
 	opacity: 0;
@@ -5341,7 +5341,7 @@ margin: 0 auto;}
 	display: block;
 	font-size: 14px;
 	/* text-transform: uppercase; */
-	color:var(--tg-primary-color);
+	color:var(--tg-secondary-color);
 	font-weight: 500;
 	letter-spacing: 3px;
 	margin-bottom: 10px;
@@ -8048,7 +8048,7 @@ height: 693px;}
 }
 
 .subtitle-colour{
-	color:var(--tg-primary-color);
+	color:var(--tg-secondary-color);
 }
 
 
@@ -8089,7 +8089,7 @@ height: 693px;}
 
 .breadcrumbstyle{
 	font-size: 40px;
-	color: #046434;
+	color: #F7821E;
 	font-weight: 500;
 }
 
@@ -8127,7 +8127,7 @@ height: 693px;}
 
 .cd-breadcrumb li.current {
   /* font-weight: bold; */
-  color: black;
+  color: #f7821e;
 }
 
 @media (min-width: 1000px) and (max-width: 1199.98px) {
@@ -8247,7 +8247,7 @@ text-align: left;
 
 .pfont2{
 	font-size: 40px !important;
-	color: #000000;
+	color: #413E2D;
 }
 @media (max-width:532px){
 	.pfont2{
