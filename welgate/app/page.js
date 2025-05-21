@@ -19,6 +19,7 @@ import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
 import Clients from '@/components/Home/Clients'
 import Historybg from '@/components/Home/Historybg'
+import Whyus from '@/components/Home/Whyus'
 
 function page() {
   return (
