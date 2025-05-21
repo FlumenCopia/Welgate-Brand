@@ -3111,7 +3111,7 @@ body.search-visible {
 }
 }
 .white-title .title {
-	color: var(--tg-primary-color);
+	color: #f7821e;
 	/* text-transform: uppercase; */
 }
 .formula-list {
