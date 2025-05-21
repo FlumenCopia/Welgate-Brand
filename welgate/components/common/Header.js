@@ -9,7 +9,7 @@ function Header() {
         <div id="sticky-header" className="tg-menu-area menu-area position-relative">
           <div className=" position-relative">
             {/* 🔘 Fixed Button */}
-            <a href="/Contactus" className="nav-store btn">
+            <a href="https://welgatelifestyle.com/" className="nav-store btn" target='blank'>
               store
             </a>
 
@@ -67,7 +67,7 @@ function Header() {
             <li><a href="/Contactus" className="section-link">Brand</a></li>
             <li><a href="/Gallery" className="section-link">Gallery</a></li>
             <li><a href="/Contactus" className="section-link">Contact</a></li>
-            <li><a href="/Contactus" className="section-link">Store</a></li>
+            <li><a href="https://welgatelifestyle.com/" className="section-link">Store</a></li>
           </ul>
           <div className="social-links">
             <ul className="clearfix">
