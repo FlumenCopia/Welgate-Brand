@@ -74,8 +74,10 @@ function ServiceArea() {
                             <div className="col-lg-4 col-md-6 col-sm-9">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">05</div> */}
+                                    
                                     <div className="icon">
-                                        <i className="fas fa-compass"></i>
+                                        {/* <i className="fas fa-compass"></i> */}
+                                         <img src='/assets/img/others/sunny.png' className='iconscale' style={{fontSize:'38px'}}/> 
                                     </div>
                                     <p className="title"><a href="#">Beyond the Horizon</a></p>
                                     <div className="tg-service-content">
