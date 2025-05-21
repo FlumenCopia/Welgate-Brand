@@ -769,7 +769,7 @@ label {
 
 
 .nav-logo img {
-	width: 100px;
+	width: 160px;
 }
 .mobile-menu {
 	position: fixed;
@@ -3111,7 +3111,7 @@ body.search-visible {
 }
 }
 .white-title .title {
-	color: #f7821e;
+	color: var(--tg-primary-color);
 	/* text-transform: uppercase; */
 }
 .formula-list {
@@ -8174,7 +8174,8 @@ height: 693px;}
 text-align: left;
     border-radius: 50px;
     padding: 30px;
-    border: 1px solid white;}
+    border: 1px solid white;
+}
 
 /* Timeline Wrapper */
 .timeline-wrapper {
@@ -8448,6 +8449,45 @@ text-align: left;
 /* /////////////////////////timeline///////////////////////////////////////////// */
 
 
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  padding: 0rem;
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 1 1 calc(24.33% - 1rem); /* 3 columns with gaps */
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.flex-item img {
+  width: 100%;
+  height: 330px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive: 2 columns on tablets */
+@media (max-width: 768px) {
+  .flex-item {
+    flex: 1 1 calc(27% - 1rem);
+  }
+}
+
+/* Responsive: 1 column on phones */
+@media (max-width: 480px) {
+  .flex-item {
+    flex: 1 1 100%;
+  }
+
+  .flex-item img {
+    height: auto; /* Allow natural height on small screens */
+  }
+}
 
 
 

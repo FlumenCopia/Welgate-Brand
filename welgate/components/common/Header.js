@@ -5,6 +5,7 @@ function Header() {
     <div>
       <header id="home">
         <div id="header-fixed-height"></div>
+        
         <div id="sticky-header" className="tg-menu-area menu-area position-relative">
           <div className=" position-relative">
             {/* 🔘 Fixed Button */}
