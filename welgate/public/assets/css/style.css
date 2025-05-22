@@ -5125,7 +5125,7 @@ margin: 0 auto;}
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__757.jpeg');
+	background-image: url('https://img.freepik.com/premium-vector/modern-red-white-abstract-banner-background-template-corporate-banner-concept-red-black-grey-white-contrast-background_249611-17494.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 110px;
@@ -5707,7 +5707,7 @@ margin: 0 auto;}
 	align-items: center;
 	justify-content: center;
 	/* background-color: #046434; */
-	box-shadow: 0px 8px 16px 0px #373496;
+	box-shadow: 0px 8px 16px 0px #fee4e4;
 	border-radius: 50%;
 	margin: 0 auto 30px;
 	color: var(--tg-white);
@@ -8296,8 +8296,8 @@ text-align: left;
         margin-bottom: 110px !important;
     }
 	.tg-supplement-img {
-          margin-top: 41px;
-        margin-right: 47px;
+          margin-top: 52px;
+        margin-right: 65px;
 	}
 	.imgsize {
         max-width: 61%;
@@ -8505,7 +8505,8 @@ text-align: left;
     height: 300px;
     top: 0;
     left: 0;
-    border: 5px solid red;
+	border-radius: 10px;
+    border: 2px solid red;
     animation: animateUpDown 3s ease-in-out infinite;
     z-index: -1;
 }

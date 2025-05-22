@@ -10,10 +10,10 @@ function VideoArea() {
                         <img class="img-fluid w-100" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 text-uppercase mb-4">From Stories to Sustainability</h1>
+                <div class="col-lg-6 wow fadeIn mt-100" data-wow-delay="0.5s">
+                    <p class="pfont2 mb-4">From Stories To Sustainability</p>
                     <p class="mb-4">Driven by a growing awareness of health and sustainability, we evolved from entertainment into organic living. Through Welgate Organic Farms and Supermarkets, we’ve redefined how food is grown and consumed — prioritizing purity, ethical sourcing, and a healthier future for all.</p>
-                    <div class="row g-5 mb-4">
+                    <div class="row g-5 mb-20">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0 btn-xl-square me-3">
@@ -47,7 +47,7 @@ function VideoArea() {
 
 
                     </p>
-                    <div class="border border-5 border-danger p-4 text-center mt-4">
+                    <div class="border border-1 border-danger p-4 text-center mt-60" style={{borderRadius:'10px'}}>
                         <h4 class="lh-base text-uppercase mb-0">Reliable Workmanship Rooted in Trust and Integrity</h4>
                     </div>
                 </div>
