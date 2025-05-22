@@ -272,7 +272,7 @@ label {
 .btn {
 	user-select: none;
 	-moz-user-select: none;
-	background: #373496 none repeat scroll 0 0;
+	background: #ed1922 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 50px;
 	color: var(--tg-white);
@@ -3112,7 +3112,7 @@ body.search-visible {
 }
 }
 .white-title .title {
-	color: #f7821e;
+	color: var(--tg-black);
 	/* text-transform: uppercase; */
 }
 .formula-list {
@@ -5128,7 +5128,7 @@ margin: 0 auto;}
 	background-image: url('/assets/img/banner/abstract-man-form-chess-pawn.jpg');
 	background-position: bottom center;
 	background-size: cover;
-	padding: 140px 0 230px;
+	padding: 140px 0 110px;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -5344,7 +5344,7 @@ margin: 0 auto;}
 	display: block;
 	font-size: 14px;
 	/* text-transform: uppercase; */
-	color:var(--tg-secondary-color);
+	color:#f7821e;
 	font-weight: 500;
 	letter-spacing: 3px;
 	margin-bottom: 10px;
@@ -6556,7 +6556,7 @@ margin: 0 auto;}
     background-size: cover;
 	background-color: white;
     background-position: center;
-    padding: 25px 0 110px;
+    padding: 80px 0 110px;
     position: relative;
     z-index: 1;
 }
@@ -8051,7 +8051,7 @@ height: 693px;}
 }
 
 .subtitle-colour{
-	color:var(--tg-secondary-color);
+	color:#f7821e;
 }
 
 
@@ -8092,7 +8092,7 @@ height: 693px;}
 
 .breadcrumbstyle{
 	font-size: 40px;
-	color: #F7821E;
+	color: var(--tg-primary-color);
 	font-weight: 500;
 }
 
@@ -8130,7 +8130,7 @@ height: 693px;}
 
 .cd-breadcrumb li.current {
   /* font-weight: bold; */
-  color: #f7821e;
+  color: var(--tg-primary-color);
 }
 
 @media (min-width: 1000px) and (max-width: 1199.98px) {
