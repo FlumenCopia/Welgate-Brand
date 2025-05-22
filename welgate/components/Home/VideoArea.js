@@ -2,7 +2,7 @@ import React from 'react'
 
 function VideoArea() {
   return (
-       <div class="container-fluid pt-6 pb-6 mt-60">
+       <div class="container-fluid pt-6 pb-6" style={{marginTop:'250px',marginBottom:'150px'}}>
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -16,30 +16,34 @@ function VideoArea() {
                     <div class="row g-5 mb-4">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
-                                    <i class="fa fa-users-cog fa-2x text-danger"></i>
+                                <div class="flex-shrink-0 btn-xl-square me-3">
+                                    <div className="icon">
+                                        <img src='/assets/img/icons/personnel.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                    </div>
                                 </div>
                                 <h6 class="lh-base text-uppercase mb-0">The Legacy Team</h6>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
-                                    <i class="fa fa-tachometer-alt fa-2x text-danger"></i>
+                                <div class="flex-shrink-0 btn-xl-square  me-3">
+                                    <div className="icon">
+                                        <img src='/assets/img/icons/privacy.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                    </div>
                                 </div>
                                 <h6 class="lh-base text-uppercase mb-0">Timely & Trusted Services</h6>
                             </div>
                         </div>
                     </div>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Support local farmers committed to sustainable, chemical-free practices
+                    <p><i class="fa-solid fa-check text-danger me-3"></i>Support local farmers committed to sustainable, chemical-free practices
 
 
                     </p>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Reduce environmental impact through local sourcing and eco-friendly packaging
+                    <p><i class="fa-solid fa-check text-danger me-3"></i>Reduce environmental impact through local sourcing and eco-friendly packaging
 
 
                     </p>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Inspire families to embrace clean, organic living through education and access.
+                    <p><i class="fa-solid fa-check text-danger me-3"></i>Inspire families to embrace clean, organic living through education and access.
 
 
                     </p>

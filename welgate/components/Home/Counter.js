@@ -11,7 +11,7 @@ function Counter() {
                                 <div className="counter-item">
                                     <div className="counter-icon">
                                         <div className="icon">
-                                        <img src='/assets/img/iconabout/supermarkets.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/icons/supermarkets (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                         </div>
 
                                     </div>
@@ -25,7 +25,7 @@ function Counter() {
                                 <div className="counter-item">
                                     <div className="counter-icon">
                                         <div className="icon">
-                                        <img src='/assets/img/iconabout/audience.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/icons/audience (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                         </div>
 
                                     </div>
@@ -39,7 +39,7 @@ function Counter() {
                                 <div className="counter-item">
                                     <div className="counter-icon">
                                         <div className="icon">
-                                        <img src='/assets/img/iconabout/briefcase.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/icons/briefcase (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                         </div>
                                     </div>
                                     <div className="counter-content">

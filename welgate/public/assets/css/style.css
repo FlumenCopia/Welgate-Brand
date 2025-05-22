@@ -3112,7 +3112,7 @@ body.search-visible {
 }
 }
 .white-title .title {
-	color: #f7821e;
+	color: black;
 	/* text-transform: uppercase; */
 }
 .formula-list {
@@ -4514,7 +4514,7 @@ margin: 0 auto;}
 .contact-box::after {
 	position: absolute;
 	content: "";
-	border-left: 4px solid var(--tg-secondary-color);
+	border-left: 4px solid var(--tg-primary-color);
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
