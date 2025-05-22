@@ -1415,7 +1415,7 @@ body.search-visible {
 
 /* 7. Brand */
 .brand-area {
-	padding: 145px 0 150px;
+	padding: 20px 0 100px;
 }
 .brand-title .title {
 	margin: 0 0 0;
@@ -2964,11 +2964,11 @@ body.search-visible {
 
 /* globals.css or component-level CSS */
 .hollow-text {
-  font-family: 'Staatliches', sans-serif;
-  font-weight: 300;
-  font-size: 75px;
-  color: transparent !important;
-  -webkit-text-stroke: 1.5px var(--tg-white); /* golden yellow */
+  /* font-family: 'Staatliches', sans-serif; */
+  font-weight: 700;
+  font-size: 55px;
+  color: white !important;
+  /* -webkit-text-stroke: 1.5px var(--tg-white);  */
 }
 
 
@@ -4842,6 +4842,7 @@ margin: 0 auto;}
 .footer-widget .fw-title {
 	font-size: 20px;
 	color: #343796;
+	font-weight: 600;
 	letter-spacing: 0.02em;
 	margin: 0 0 30px;
 }
@@ -4856,7 +4857,7 @@ margin: 0 auto;}
 	opacity: .7;
 }
 .footer-widget ul li a:hover {
-	color: var(--tg-secondary-color);
+	color: var(--tg-primary-color);
 	opacity: 1;
 }
 .footer-contact-wrap p {
@@ -5087,6 +5088,10 @@ margin: 0 auto;}
 	color: var(--tg-heading-font-color);
 	padding: 14px 21px;
 }
+.tg-menu-area .navbar-wrap ul li a:hover {
+	
+	color: var(--tg-primary-color) !important;
+}
 .tg-menu-area .navbar-wrap ul li .sub-menu li a {
 	font-weight: 600;
 	text-transform: uppercase;
@@ -5125,13 +5130,29 @@ margin: 0 auto;}
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://img.freepik.com/premium-photo/close-up-turntable_1048944-15131655.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740');
+	background-image: url('https://img.freepik.com/premium-photo/vinyl-disc-player_1048944-12154813.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 110px;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+}
+@media (max-width:1500px) {
+    .tg-banner-area.banner-bg {
+        padding: 140px 0 110px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .tg-banner-area.banner-bg {
+        padding: 100px 0 110px !important;
+    }
+}
+@media (max-width:576px) {
+    .tg-banner-area.banner-bg {
+        padding: 100px 0 110px !important;
+    }
 }
 
 .tg-banner-area2.banner-bg {
@@ -6924,7 +6945,7 @@ margin: 0 auto;}
     z-index: -1;
 }
 .testimonial-item-two {
-    background:#f7ecec;
+    background:#f8f3f3;
     padding: 60px 45px;
 	height: 360px;
     border-radius: 20px;
@@ -7023,7 +7044,7 @@ margin: 0 auto;}
     transform: translateY(-50%);
     width: 55px;
     height: 55px;
-    background: #DAD9FF;
+    background: var(--tg-primary-color);
     opacity: .3;
     border-radius: 50%;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -8651,7 +8672,14 @@ text-align: left;
     color: var(--bs-primary);
 }
 
+.bdcolor{
+	color: var(--tg-secondary-color);
+}
 
+.textstyle{
+	color: var(--tg-secondary-color);
+	font-weight: 700;
+}
 
 
 

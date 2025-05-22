@@ -48,7 +48,7 @@ function Footer() {
                                 <div className="footer-widget">
                                     <div className="footer-about">
                                         <div className="footer-logo logo">
-                                            <a href="index.html"><img src="/assets/img/logo/welgate-logo2.png" alt="Logo"/></a>
+                                            <a href="index.html"><img src="/assets/img/logo/LOGO PNG welgate.png" alt="Logo"/></a>
                                         </div>
                                         <div className="footer-text">
                                             <p>Built on trust, rooted in tradition. Welgate continues to grow with purpose—naturally.</p>

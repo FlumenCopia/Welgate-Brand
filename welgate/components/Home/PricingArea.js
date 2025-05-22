@@ -1,119 +1,72 @@
-import React from 'react'
+import React from 'react';
 
 function PricingArea() {
   return (
     <div>
-          <section className="tg-pricing-area">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-6 col-lg-8">
-                            <div className="tg-section-title text-center mb-55">
-                                <p className="sub-title">Suxnix Plans</p>
-                                <h2 className="title">SUPPLEMENT PACKAGES</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pricing-wrap">
-                        <div className="row align-items-end justify-content-center">
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="pricing-item mb-30 regular wow fadeInUp" data-wow-delay=".2s">
-                                    <div className="pricing__box text-center">
-                                        <div className="pricing-hade">
-                                            <span>1 Bottle Of</span>
-                                            <h3 className="title">Suxnix</h3>
-                                            <p>(1 x 250 veggie caps bottle)</p>
-                                        </div>
-                                        <div className="pricing-img">
-                                            <img src="assets/img/others/pricing_01.png" alt="img"/>
-                                        </div>
-                                        <div className="pricing-price">
-                                            <h4 className="price">$69</h4>
-                                            <span>per <br/> bottle</span>
-                                        </div>
-                                        <h5 className="total">($69 TOTAL)</h5>
-                                        <div className="price-savings">
-                                            <h4 className="save">Save 14%</h4>
-                                            <span>&nbsp;</span>
-                                        </div>
-                                        <div className="pricing-btn mb-15">
-                                            <a href="contact.html">Buy Now <span>365 Day Full Money Back Guaranteed</span></a>
-                                        </div>
-                                        <div className="bottom-img">
-                                            <img src="assets/img/others/pricing_bottom_img.png" alt="card"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="pricing-item mb-30 popular-plan wow fadeInUp" data-wow-delay=".4s">
-                                    <div className="pricing-title text-center mb-10">
-                                        <h4 className="title">★ Most Popular ★</h4>
-                                    </div>
-                                    <div className="pricing__box text-center">
-                                        <div className="pricing-hade">
-                                            <span>3 Bottle Of</span>
-                                            <h3 className="title">Suxnix</h3>
-                                            <p>(3 x 250 veggie caps bottle)</p>
-                                        </div>
-                                        <div className="pricing-img">
-                                            <img src="assets/img/others/pricing_02.png" alt="img"/>
-                                        </div>
-                                        <div className="pricing-price">
-                                            <h4 className="price">$59</h4>
-                                            <span>per <br/> bottle</span>
-                                        </div>
-                                        <h5 className="total">($179 TOTAL)</h5>
-                                        <div className="price-savings">
-                                            <h4 className="save">Save 25%</h4>
-                                            <span>+ Free Shipping</span>
-                                        </div>
-                                        <div className="pricing-btn mb-15">
-                                            <a href="contact.html">Buy Now <span>365 Day Full Money Back Guaranteed</span></a>
-                                        </div>
-                                        <div className="bottom-img">
-                                            <img src="assets/img/others/pricing_bottom_img.png" alt="card"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
-                                <div className="pricing-item mb-30 best-value-plan wow fadeInUp" data-wow-delay=".6s">
-                                    <div className="pricing-title text-center mb-10">
-                                        <h4 className="title">✓ Best Value</h4>
-                                    </div>
-                                    <div className="pricing__box text-center">
-                                        <div className="pricing-hade">
-                                            <span>6 Bottle Of</span>
-                                            <h3 className="title">Suxnix</h3>
-                                            <p>(6 x 250 veggie caps bottle)</p>
-                                        </div>
-                                        <div className="pricing-img">
-                                            <img src="assets/img/others/pricing_03.png" alt="img"/>
-                                        </div>
-                                        <div className="pricing-price">
-                                            <h4 className="price">$49</h4>
-                                            <span>per <br/> bottle</span>
-                                        </div>
-                                        <h5 className="total">($299 TOTAL)</h5>
-                                        <div className="price-savings">
-                                            <h4 className="save">Save 40%</h4>
-                                            <span>+ Free Shipping</span>
-                                        </div>
-                                        <div className="pricing-btn mb-15">
-                                            <a href="contact.html">Buy Now <span>365 Day Full Money Back Guaranteed</span></a>
-                                        </div>
-                                        <div className="bottom-img">
-                                            <img src="assets/img/others/pricing_bottom_img.png" alt="img"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section style={{
+          position: 'relative',width: '100%',height: '400px',backgroundImage: "url('https://www.britannia.co.in/_next/image?url=https%3A%2F%2Fmedia.britannia.co.in%2Fshutterstock_1008530026_1_2_beaeb9bb2d.jpg&w=3840&q=100')",backgroundSize: 'cover' ,backgroundPosition: 'center',
+        }}>
+        <div style={{ position: 'absolute',
+            top: 0,left: 0,width: '100%',height: '100%',backgroundColor: 'rgba(0, 0, 0, 0.6)',
+          }}/>
+
+        <div
+          style={{
+            position: 'relative',
+            zIndex: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+            padding: '0 20px',
+            textAlign: 'center',
+          }}
+        >
+          <h2
+            style={{
+              color: 'white',
+              fontSize: '51px',
+              fontWeight: "800",
+              marginBottom: '1rem',
+              maxWidth: '800px',
+              width: '100%',
+            }}
+          >
+            Rooted in care, growing with purpose
+          </h2>
+          <p
+            style={{
+              color: 'white',
+              fontSize: '1.2rem',
+              maxWidth: '800px',
+              width: '100%',
+            }}
+          >
+            At Welgate, we believe that nurturing health and heritage is the foundation for a thriving future.
+          </p>
+        </div>
+      </section>
+      <section
+      style={{
+        backgroundColor: '#FFF7B7', 
+        padding: '60px 20px',
+        textAlign: 'center',
+      }}
+    >
+      <div style={{ maxWidth: '800px',margin: '0 auto' }}>
+        <h2 style={{ fontSize: '2.5rem',fontWeight: "800", marginBottom: '20px' }}>
+          Our Approach
+        </h2>
+        <p style={{ fontSize: '1.2rem', }}>
+At Welgate, we blend legacy with innovation to create lasting impact.
+Our journey from entertainment to wellness is rooted in deep community ties and a commitment to sustainability.
+We focus on empowering people—whether through cultural connection, conscious consumption, or community-driven growth.
+By combining traditional values with forward-thinking practices, we create solutions that are both meaningful and future-ready.        </p>
+      </div>
+    </section>
     </div>
-  )
+  );
 }
 
-export default PricingArea
+export default PricingArea;
