@@ -2966,8 +2966,9 @@ body.search-visible {
 .hollow-text {
   font-family: 'Staatliches', sans-serif;
   font-weight: 300;
+  font-size: 75px;
   color: transparent !important;
-  -webkit-text-stroke: 1.5px var(--tg-secondary-color); /* golden yellow */
+  -webkit-text-stroke: 1.5px var(--tg-white); /* golden yellow */
 }
 
 
@@ -8538,7 +8539,7 @@ text-align: left;
     overflow: hidden;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5)), url("/assets/img/banner/IMG_7164.JPG") center center no-repeat;
     background-size: cover;
     z-index: -2;
     animation-name: attraction-image-zoom;
@@ -8621,7 +8622,7 @@ text-align: left;
     position: absolute;
     top: -58px;
     left: 0;
-    background: var(--bs-primary);
+    background: var(--tg-primary-color);
     color: var(--bs-white);
     padding: 6px 35px;
     border-radius: 30px;
@@ -8637,7 +8638,7 @@ text-align: left;
     position: absolute;
     top: -58px;
     right: 0;
-    background: var(--bs-primary);
+    background: var(--tg-primary-color);
     color: var(--bs-white);
     padding: 6px 35px;
     border-radius: 30px;
