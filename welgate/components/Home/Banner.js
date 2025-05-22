@@ -3,7 +3,7 @@ import React from 'react'
 function Banner() {
   return (
     <div>
-         <section className="tg-banner-area banner-bg jarallax parallax-img">
+         <section className="tg-banner-area banner-bg jarallax parallax-img" >
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-lg-6 order-0 order-lg-2">
