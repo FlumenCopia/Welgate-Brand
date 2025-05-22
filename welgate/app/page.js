@@ -25,8 +25,9 @@ function page() {
     <div>
       <Banner/>
       {/* <FeatureArea/> */}
-            <Feature2/>
-      
+            {/* <Feature2/> */}
+            <ShopDetail/>
+
       <VideoArea/>
       <ServiceArea/>
       {/* <Feature3/> */}
@@ -37,9 +38,7 @@ function page() {
       <IngredientsArea/>
       <Counter/>
 
-      {/* <VideoArea/> */}
      
-      {/* <ShopDetail/> */}
       {/* <PricingArea/> */}
       {/* <Testimonial/> */}
       <Testimonial2/>

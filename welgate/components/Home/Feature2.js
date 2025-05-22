@@ -11,11 +11,11 @@ function Feature2() {
                     <div className="tg-supplement-inner">
                         <div className="row justify-content-center">
                             <div className="col-lg-6 col-md-8 order-0 order-lg-2 bothimg">
-                                <div className="tg-supplement-img text-end  wow fadeInRight" data-wow-delay=".2s">
+                                {/* <div className="tg-supplement-img text-end  wow fadeInRight" data-wow-delay=".2s">
                                     <img className='imgsize' src="/assets/img/icons/ChatGPT Image May 22, 2025, 02_12_58 PM.png" alt=""/ >
-                                </div>
+                                </div> */}
                                 <div className="tg-supplement-shape">
-                                    <img src="assets/img/others/supplement_shape02.png" alt="" className="rotateme"/>
+                                    <img src="/assets/img/icons/ChatGPT Image May 22, 2025, 04_39_46 PM.png" alt="" className="rotateme"/>
                                 </div>
                             </div>
                             <div className="col-lg-6">
