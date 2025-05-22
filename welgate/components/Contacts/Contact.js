@@ -129,7 +129,7 @@ function Contact() {
                                     <div className="contact-icon">
                                         {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
                                              <div className="icon">
-                                        <img src='/assets/img/iconabout/home-address.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/icons/home-address (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                 </div>
                                     </div>
                                     <div className="contact-content">
@@ -143,7 +143,7 @@ function Contact() {
                                     <div className="contact-icon">
                                         {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
                                                    <div className="icon">
-                                        <img src='/assets/img/iconabout/call.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <img src='/assets/img/icons/call (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                 </div>
                                     </div>
                                     <div className="contact-content">
@@ -156,8 +156,8 @@ function Contact() {
                                 <div className="contact-box">
                                     <div className="contact-icon">
                                         {/* <span className="overlay-icon"><i className="fas fa-check"></i></span> */}
-                                                    <div className="icon">
-                                        <img src='/assets/img/iconabout/networking.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                        <div className="icon">
+                                        <img src='/assets/img/icons/networking (1).png' className='iconscale' style={{fontSize:'38px'}}/>
                                 </div>
                                     </div>
                                     <div className="contact-content">

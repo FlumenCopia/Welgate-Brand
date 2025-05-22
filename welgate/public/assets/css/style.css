@@ -4514,7 +4514,7 @@ margin: 0 auto;}
 .contact-box::after {
 	position: absolute;
 	content: "";
-	border-left: 4px solid var(--tg-secondary-color);
+	border-left: 4px solid var(--tg-primary-color);
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
@@ -5125,7 +5125,7 @@ margin: 0 auto;}
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('/assets/img/banner/abstract-man-form-chess-pawn.jpg');
+	background-image: url('/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__757.jpeg');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 110px;
