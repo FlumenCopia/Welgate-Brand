@@ -29,13 +29,14 @@ function page() {
 
       <ServiceArea/>
       {/* <Feature3/> */}
-           <Historybg/>
+            <ShopArea/>
+
+           {/* <Historybg/> */}
 
       <IngredientsArea/>
       <Counter/>
 
-      {/* <VideoArea/> */}
-      {/* <ShopArea/> */}
+      <VideoArea/>
      
       {/* <ShopDetail/> */}
       {/* <PricingArea/> */}

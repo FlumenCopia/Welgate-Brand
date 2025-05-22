@@ -29,7 +29,18 @@ export default function RootLayout({ children }) {
       <head>
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/welgate-favicon2.png"/>
-<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.carousel.css"/>
+    <link rel="stylesheet" href="welgate/public/assets/js/owlcarousel/assets/owl.carousel.min.css"/>
+
+    <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.default.css"/>
+
+    <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.green.min.css"/>
+
+    <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.green.css"/>
+
+
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/css/animate.min.css"/>
@@ -60,6 +71,10 @@ export default function RootLayout({ children }) {
         <Scrolltop/>
 <Footer/>
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
+        <Script src="/assets/js/owlcarousel/owl.carousel.js"></Script>
+                <Script src="/assets/js/owlcarousel/owl.carousel.min.js"></Script>
+
+
         <Script src="/assets/js/bootstrap.min.js"></Script>
         <Script src="/assets/js/isotope.pkgd.min.js"></Script>
         <Script src="/assets/js/imagesloaded.pkgd.min.js"></Script>

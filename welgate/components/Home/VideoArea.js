@@ -2,31 +2,49 @@ import React from 'react'
 
 function VideoArea() {
   return (
-    <div>
-        <section className="tg-video-area tg-video-bg jarallax parallax-img">
-                <div className="container">
-                    <div className="row align-items-center justify-content-center">
-                        <div className="col-xl-7 col-lg-8">
-                            <div className="tg-video-img wow fadeInLeft" data-wow-delay=".2s">
-                                <img src="assets/img/others/video_img.jpg" alt=""/>
-                                <a href="https://www.youtube.com/watch?v=2ZjdBY8aOrA" className="play-btn popup-video">
-                                    <i className="fas fa-play"></i></a>
+       <div class="container-fluid pt-6 pb-6 mt-60">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 text-uppercase mb-4">Ultimate Welding and Quality Metal Solutions</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue,
+                        iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu
+                        quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <div class="row g-5 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
+                                    <i class="fa fa-users-cog fa-2x text-danger"></i>
+                                </div>
+                                <h5 class="lh-base text-uppercase mb-0">Certified Expert & Team</h5>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-8">
-                            <div className="tg-video-content wow fadeInRight" data-wow-delay=".2s">
-                                <div className="tg-section-title white mb-30">
-                                    <span className="sub-title">promotional</span>
-                                    <h2 className="title white-text">How to Work Suxnix vitamin capsule</h2>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-light me-3">
+                                    <i class="fa fa-tachometer-alt fa-2x text-danger"></i>
                                 </div>
-                                <p className="info-one">Vitamin Ipsum is simply dummy text of the printing and tysetting industry. Lorem ipsum has been the industry's standard dummy text ever since the when an unknown.</p>
-                                <p className="info-two">printing and tysetting industry. Lorem ipsum has been thindustry's standard dummy text ever since the when an unknown.</p>
-                                <a href="shop.html" className="tg-btn">VIEW more</a>
+                                <h5 class="lh-base text-uppercase mb-0">Fast & Reliable Services</h5>
                             </div>
                         </div>
                     </div>
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    </p>
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    </p>
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    </p>
+                    <div class="border border-5 border-danger p-4 text-center mt-4">
+                        <h4 class="lh-base text-uppercase mb-0">We’re Good in All Metal Works Using Quality Welding Tools</h4>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </div>
     </div>
   )
 }
