@@ -11,17 +11,15 @@ function VideoArea() {
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 text-uppercase mb-4">Ultimate Welding and Quality Metal Solutions</h1>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue,
-                        iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu
-                        quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                    <h1 class="display-6 text-uppercase mb-4">From Stories to Sustainability</h1>
+                    <p class="mb-4">Driven by a growing awareness of health and sustainability, we evolved from entertainment into organic living. Through Welgate Organic Farms and Supermarkets, we’ve redefined how food is grown and consumed — prioritizing purity, ethical sourcing, and a healthier future for all.</p>
                     <div class="row g-5 mb-4">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0 btn-xl-square bg-light me-3">
                                     <i class="fa fa-users-cog fa-2x text-danger"></i>
                                 </div>
-                                <h5 class="lh-base text-uppercase mb-0">Certified Expert & Team</h5>
+                                <h6 class="lh-base text-uppercase mb-0">The Legacy Team</h6>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -29,18 +27,24 @@ function VideoArea() {
                                 <div class="flex-shrink-0 btn-xl-square bg-light me-3">
                                     <i class="fa fa-tachometer-alt fa-2x text-danger"></i>
                                 </div>
-                                <h5 class="lh-base text-uppercase mb-0">Fast & Reliable Services</h5>
+                                <h6 class="lh-base text-uppercase mb-0">Timely & Trusted Services</h6>
                             </div>
                         </div>
                     </div>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Support local farmers committed to sustainable, chemical-free practices
+
+
                     </p>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Reduce environmental impact through local sourcing and eco-friendly packaging
+
+
                     </p>
-                    <p><i class="fa fa-check-square text-danger me-3"></i>Many variations of passages of lorem ipsum
+                    <p><i class="fa fa-check-square text-danger me-3"></i>Inspire families to embrace clean, organic living through education and access.
+
+
                     </p>
                     <div class="border border-5 border-danger p-4 text-center mt-4">
-                        <h4 class="lh-base text-uppercase mb-0">We’re Good in All Metal Works Using Quality Welding Tools</h4>
+                        <h4 class="lh-base text-uppercase mb-0">Reliable Workmanship Rooted in Trust and Integrity</h4>
                     </div>
                 </div>
             </div>
