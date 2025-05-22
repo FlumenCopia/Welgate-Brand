@@ -26,7 +26,7 @@ function PricingArea() {
           <h2
             style={{
               color: 'white',
-              fontSize: '51px',
+              fontSize: 'clamp(32px, 5vw, 51px)',
               fontWeight: "800",
               marginBottom: '1rem',
               maxWidth: '800px',
@@ -55,7 +55,7 @@ function PricingArea() {
       }}
     >
       <div style={{ maxWidth: '800px',margin: '0 auto' }}>
-        <h2 style={{ fontSize: '2.5rem',fontWeight: "800", marginBottom: '20px' }}>
+        <h2 style={{ fontSize: 'clamp(32px, 5vw, 51px)',fontWeight: "800", marginBottom: '20px' }}>
           Our Approach
         </h2>
         <p style={{ fontSize: '1.2rem', }}>

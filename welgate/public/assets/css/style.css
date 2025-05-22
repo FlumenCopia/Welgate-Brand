@@ -2966,7 +2966,7 @@ body.search-visible {
 .hollow-text {
   /* font-family: 'Staatliches', sans-serif; */
   font-weight: 700;
-  font-size: 55px;
+font-size: clamp(32px, 5vw, 55px);
   color: white !important;
   /* -webkit-text-stroke: 1.5px var(--tg-white);  */
 }
