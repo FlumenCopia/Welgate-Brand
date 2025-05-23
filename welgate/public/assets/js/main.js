@@ -113,36 +113,36 @@ $("[data-bg-color]").each(function () {
 /*=============================================
 	=            Header Search            =
 =============================================*/
-$(".header-search > a").on('click', function () {
-	$(".search-popup-wrap").slideToggle();
-	$('body').addClass('search-visible');
-	return false;
-});
+// $(".header-search > a").on('click', function () {
+// 	$(".search-popup-wrap").slideToggle();
+// 	$('body').addClass('search-visible');
+// 	return false;
+// });
 
-$(".search-backdrop").on('click', function () {
-	$(".search-popup-wrap").slideUp(500);
-	$('body').removeClass('search-visible');
-});
+// $(".search-backdrop").on('click', function () {
+// 	$(".search-popup-wrap").slideUp(500);
+// 	$('body').removeClass('search-visible');
+// });
 
 
 /*=============================================
 	=     Menu sticky & Scroll to top      =
 =============================================*/
-$(window).on('scroll', function () {
-	var scroll = $(window).scrollTop();
-	if (scroll < 245) {
-		$("#sticky-header").removeClass("sticky-menu");
-		$('.scroll-to-target').removeClass('open');
-		$("#header-top-fixed").removeClass("header-fixed-position");
-		$("#header-fixed-height").removeClass("active-height");
+// $(window).on('scroll', function () {
+// 	var scroll = $(window).scrollTop();
+// 	if (scroll < 245) {
+// 		$("#sticky-header").removeClass("sticky-menu");
+// 		$('.scroll-to-target').removeClass('open');
+// 		$("#header-top-fixed").removeClass("header-fixed-position");
+// 		$("#header-fixed-height").removeClass("active-height");
 
-	} else {
-		$("#sticky-header").addClass("sticky-menu");
-		$('.scroll-to-target').addClass('open');
-		$("#header-top-fixed").addClass("header-fixed-position");
-		$("#header-fixed-height").addClass("active-height");
-	}
-});
+// 	} else {
+// 		$("#sticky-header").addClass("sticky-menu");
+// 		$('.scroll-to-target').addClass('open');
+// 		$("#header-top-fixed").addClass("header-fixed-position");
+// 		$("#header-fixed-height").addClass("active-height");
+// 	}
+// });
 
 
 /*=============================================
