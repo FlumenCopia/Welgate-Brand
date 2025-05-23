@@ -3,6 +3,7 @@ import React from 'react'
 function Banner() {
   return (
     <div>
+        <div className='' style={{height:'59px',backgroundColor:'#ed1922', color:'#ed1922'}}>bjhbjbjb</div>
          <section className="tg-banner-area banner-bg jarallax parallax-img" >
                 <div className="container">
                     <div className="row align-items-center justify-content-center">

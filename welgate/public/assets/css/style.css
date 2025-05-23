@@ -640,11 +640,13 @@ display: none !important;
     max-width: 120px !important;
 }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .linkstransform {
     display: none !important;
   }
-}
+
+
+} */
 
 
 /* Mini Cart Style */
