@@ -4,7 +4,7 @@ function PricingArea() {
   return (
     <div>
       <section style={{
-          position: 'relative',width: '100%',height: '400px',backgroundImage: "url('https://www.britannia.co.in/_next/image?url=https%3A%2F%2Fmedia.britannia.co.in%2Fshutterstock_1008530026_1_2_beaeb9bb2d.jpg&w=3840&q=100')",backgroundSize: 'cover' ,backgroundPosition: 'center',
+          position: 'relative',width: '100%',height: '400px',backgroundImage: "url('/assets/img/bg/shutterstock_1008530026_1_2_beaeb9bb2d.webp')",backgroundSize: 'cover' ,backgroundPosition: 'center',
         }}>
         <div style={{ position: 'absolute',
             top: 0,left: 0,width: '100%',height: '100%',backgroundColor: 'rgba(0, 0, 0, 0.6)',
