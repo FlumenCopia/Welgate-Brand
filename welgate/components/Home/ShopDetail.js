@@ -2,50 +2,49 @@ import React from 'react'
 
 function ShopDetail() {
   return (
-   <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5 align-items-center">
+   <div className="container-xxl py-5">
+            <div className="container">
+                <div className="row g-5 align-items-center">
                    
-                    <div class="col-lg-6">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Years of</p>
-                                        <h6 class="text-uppercase mb-0">Experience</h6>
+                    <div className="col-lg-6 tg-section-title">
+                        <span className="section-title  text-start sub-title">About Us</span>
+                        <p className="mb-4 title pfont2">From Entertainment <br/> to Wellness</p>
+                                    <p className='mb-4'>Welgate began with a passion for connecting people—first through entertainment, now through health. From distributing CDs to cultivating organic farms, our journey reflects a deep-rooted legacy and a commitment to purposeful growth. What once brought joy through music now brings wellness through sustainable, health-focused initiatives. We strive to empower communities, support local farmers, and promote conscious, healthy living. Welgate continues to evolve, guided by the belief that a connected and healthier future is the greatest legacy we can build.</p>
+                        <div className="row g-4 mb-4">
+                            <div className="col-sm-6">
+                                <div className="d-flex align-items-center border-start border-dark border-3 px-3">
+                                    <h1 className="flex-shrink-0 display-5 bdcolor  mb-0" data-toggle="counter-up">15+</h1>
+                                    <div className="ps-4">
+                                        <p className="mb-0">Years of</p>
+                                        <h6 className="text-uppercase mb-0">Experience</h6>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Popular</p>
-                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                            <div className="col-sm-6">
+                                <div className="d-flex align-items-center border-dark border-start border-3  px-3">
+                                    <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">100+</h1>
+                                    <div className="ps-4">
+                                        <p className="mb-0">Customer</p>
+                                        <h6 className="text-uppercase mb-0">Satisfaction</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <a className="tg-btn view-btn  mt-5" href="/About">view More</a>
                     </div>
-                     <div class="col-lg-6">
-                        <div class="row g-3">
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
+                     <div className="col-lg-6">
+                        <div className="row g-3">
+                            <div className="col-6 text-start">
+                                <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740"/>
                             </div>
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{marginTop: "25%;"}}/>
+                            <div className="col-6 text-start">
+                                <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{marginTop:'55%'}}/>
                             </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
+                            <div className="col-6 text-end">
+                                <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
                             </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
+                            <div className="col-6 text-end">
+                                <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="https://img.freepik.com/free-photo/black-model-posing-with-vinyls_23-2148171759.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740"/>
                             </div>
                         </div>
                     </div>

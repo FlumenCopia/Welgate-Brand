@@ -29,7 +29,7 @@ function Header() {
               <div className="col-md-4 col-8 text-center">
                 <div className="logo">
                   <a href="/">
-                    <img src="/assets/img/logo/welgategropulogo.webp" alt="Logo" />
+                    <img src="/assets/img/logo/LOGO PNG welgate.png" alt="Logo" />
                   </a>
                 </div>
               </div>
@@ -44,7 +44,7 @@ function Header() {
                 <nav className="menu-nav">
                   <div className="navbar-wrap main-menu">
                     <ul className="navigation">
-                      <li><a href="/Contactus" className="section-link">Brand</a></li>
+                      <li><a href="/Impact" className="section-link">Impact</a></li>
                       <li><a href="/Gallery" className="section-link">Gallery</a></li>
                       <li><a href="/Contactus" className="section-link">Contact</a></li>
                     </ul>
