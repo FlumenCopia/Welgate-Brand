@@ -19,6 +19,7 @@ import VideoArea from '@/components/Home/VideoArea'
 import React from 'react'
 import Clients from '@/components/Home/Clients'
 import Historybg from '@/components/Home/Historybg'
+import Aaadummy from '@/components/Home/Aaadummy'
 
 function page() {
   return (
@@ -27,9 +28,10 @@ function page() {
       {/* <FeatureArea/> */}
             {/* <Feature2/> */}
             <ShopDetail/>
-
+  
       <VideoArea/>
       <ServiceArea/>
+      <Aaadummy/>
       {/* <Feature3/> */}
             <ShopArea/>
 
