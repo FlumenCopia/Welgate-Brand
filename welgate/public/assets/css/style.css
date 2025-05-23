@@ -5130,7 +5130,7 @@ margin: 0 auto;}
 
 /* 5. Banner */
 .tg-banner-area.banner-bg {
-	background-image: url('https://img.freepik.com/premium-photo/vinyl-disc-player_1048944-12154813.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740');
+	background-image: url('/assets/img/bg/freepik__i-want-a-horizontal-banner-with-old-inner-red-and-__66160.jpeg');
 	background-position: bottom center;
 	background-size: cover;
 	padding: 140px 0 110px;
@@ -8079,7 +8079,7 @@ height: 693px;}
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbblog {
-  background: url('https://img.freepik.com/premium-photo/free-abstract-plain-white-background-wallpaper_1000823-367111.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740') center/cover no-repeat;
+  background: url('https://img.freepik.com/premium-photo/notebook-spring-with-red-purple-pink-sheets-pen-dark-background-mockup-space-text-toned-viva-magenta-trend-color-year-2023-banner_152932-5013.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;
@@ -8680,7 +8680,6 @@ text-align: left;
 	color: var(--tg-secondary-color);
 	font-weight: 700;
 }
-
 
 
 
