@@ -3,7 +3,7 @@ import React from 'react'
 function Banner() {
   return (
     <div>
-        <div className='' style={{height:'59px',backgroundColor:'#e1141e', color:'#e1141e'}}>bjhbjbjb</div>
+        {/* <div className='' style={{height:'140px',backgroundColor:'#e1141e', color:'#e1141e'}}>bjhbjbjb</div> */}
          <section className="tg-banner-area banner-bg jarallax parallax-img" >
                 <div className="container">
                     <div className="row align-items-center justify-content-center">

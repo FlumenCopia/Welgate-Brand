@@ -5133,6 +5133,13 @@ margin: 0 auto;}
 	height: 80px;
 	z-index: 9;
 }
+.tg-menu-area2 {
+    background: var(--tg-white);
+    padding: 4px 0;
+    position: relative;
+    height: 139px;
+    z-index: 9;
+}
 .tg-menu-area.sticky-menu {
 	padding: 0 0;
 	position: fixed;
@@ -8752,6 +8759,29 @@ text-align: left;
 	color: var(--tg-secondary-color);
 	font-weight: 700;
 }
+
+.header-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.header-hidden {
+  opacity: 2;
+  /* visibility: hidden;  */
+  transition: opacity 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  pointer-events: auto; /* to avoid clicks when hidden */
+}
+
+
 
 
 

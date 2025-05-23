@@ -143,6 +143,31 @@ $("[data-bg-color]").each(function () {
 // 		$("#header-fixed-height").addClass("active-height");
 // 	}
 // });
+function toggleHeaders() {
+  console.log('Scroll Y:', window.scrollY);
+
+  if (window.scrollY > 245) {
+    console.log('Show sticky header');
+    mainHeader.style.opacity = 0;
+    mainHeader.style.visibility = 'hidden';
+    mainHeader.style.pointerEvents = 'none';
+
+    stickyHeader.style.visibility = 'visible';
+    stickyHeader.style.opacity = 1;
+    stickyHeader.style.pointerEvents = 'auto';
+  } else {
+    console.log('Show main header');
+    stickyHeader.style.opacity = 0;
+    stickyHeader.style.visibility = 'hidden';
+    stickyHeader.style.pointerEvents = 'none';
+
+    mainHeader.style.visibility = 'visible';
+    mainHeader.style.opacity = 1;
+    mainHeader.style.pointerEvents = 'auto';
+  }
+}
+
+
 
 
 /*=============================================
