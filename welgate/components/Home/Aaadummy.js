@@ -48,6 +48,7 @@ export default function BrandsSection() {
     <div className="bg-yellow-100 py-10 text-center" style={{paddingBottom:'90px'}}>
       <h2 className="text-2xl font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
       <div className="flex flex-wrap justify-center  mb-8" style={{marginBottom:'35px'}}>
+        <button className="slick-arrow slick-prev slick-next">::before</button>
         {categories.map((category) => (
           <button
             key={category}
