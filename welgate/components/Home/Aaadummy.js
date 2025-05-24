@@ -14,11 +14,30 @@ const data = {
     { name: "Cheese", image: "/images/cheese.png" },
     { name: "Milk", image: "/images/milk.png" },
   ],
-  SNACKING: [],
-  CAKES: [],
-  RUSK: [],
-  BREADS: [],
-  "NUTRITIOUS BARS": [],
+  SNACKING: [
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+    { name: "Biscafe", image: "/images/biscafe.png" },
+  ],
+  CAKES: [
+    { name: "Cheese", image: "/images/cheese.png" },
+    { name: "Milk", image: "/images/milk.png" },
+  ],
+  RUSK: [
+    { name: "Treat", image: "/images/treat.png" },
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+  ],
+  BREADS: [
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+  ],
+  "NUTRITIOUS BARS": [ { name: "Treat", image: "/images/treat.png" },
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+    { name: "Biscafe", image: "/images/biscafe.png" },
+  ],
 };
 
 const categories = Object.keys(data);
@@ -48,6 +67,7 @@ export default function BrandsSection() {
     <div className="bg-yellow-100 py-10 text-center" style={{paddingBottom:'90px'}}>
       <h2 className="text-2xl font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
       <div className="flex flex-wrap justify-center  mb-8" style={{marginBottom:'35px'}}>
+        <button className="slick-arrow slick-prev slick-next">::before</button>
         {categories.map((category) => (
           <button
             key={category}
