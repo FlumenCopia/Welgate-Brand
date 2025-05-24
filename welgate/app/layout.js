@@ -5,7 +5,9 @@ import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
 import Scrolltop from "@/components/Scroll/Scrolltop";
 import Footer from "@/components/common/Footer";
-import Headwrap from "@/components/common/Headwrap";
+import Header from "@/components/common/Header";
+import Header2 from "@/components/common/Header2";
+import HeaderSwitcher from "@/components/common/HeaderSwitcher";
 
 
 const geistSans = Geist({
@@ -59,11 +61,12 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/default.css"/>
     <link rel="stylesheet" href="/assets/css/style.css"/>
     <link rel="stylesheet" href="/assets/css/responsive.css"/>
-
-
       </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-       <Headwrap/>
+
+
+     <HeaderSwitcher/>
         {children}
 
         <Preloader/>

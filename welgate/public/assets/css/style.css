@@ -606,11 +606,7 @@ label {
 transform: translateY(-14px) !important;
 }
 }
-@media (max-width: 767px) {
-  .linkstransform {
-    display: none !important;
-  }
-}
+
 
 @media (max-width: 991px) {
  .tg-menu-area .navbar-wrap ul li a {
@@ -640,13 +636,21 @@ display: none !important;
     max-width: 120px !important;
 }
 }
-/* @media (max-width: 767px) {
+
+@media (max-width: 767px) {
   .linkstransform {
     display: none !important;
   }
+  .logotransform{
+transform: translateY(3px) translateX(-105px) !important;
+}
+.menu-area .mobile-nav-togglers {
 
+	transform: translateY(3px) translateX(-105px) !important;
 
-} */
+}
+}
+
 
 
 /* Mini Cart Style */
@@ -1073,7 +1077,27 @@ display: none !important;
 }
 .menu-area .mobile-nav-toggler {
 	position: relative;
-    /* float: right; */
+    float: right;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background: var(--tg-secondary-color) !important;
+	color: var(--tg-white);
+	border-radius: 50%;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: 0px;
+	
+}
+.menu-area1 {
+	padding: 23px 0;
+}
+.menu-area .mobile-nav-togglers {
+	position: relative;
+    float: right;
 	display: none;
 	align-items: center;
 	justify-content: center;
@@ -1093,10 +1117,17 @@ display: none !important;
 	    .menu-area {
         padding: 10px 0;
     }
+	    .menu-area1 {
+        padding: 10px 0;
+    }
 	.logo img {
     max-width: 110px;
 }
 .menu-area .mobile-nav-toggler {
+	float: none;
+	scale: 0.9;
+}
+.menu-area1 .mobile-nav-togglers {
 	float: none;
 	scale: 0.9;
 }
@@ -5133,6 +5164,13 @@ margin: 0 auto;}
 	height: 80px;
 	z-index: 9;
 }
+.tg-menu-area2 {
+    background: var(--tg-white);
+    padding: 4px 0;
+    position: relative;
+    height: 139px;
+    z-index: 9;
+}
 .tg-menu-area.sticky-menu {
 	padding: 0 0;
 	position: fixed;
@@ -8752,6 +8790,29 @@ text-align: left;
 	color: var(--tg-secondary-color);
 	font-weight: 700;
 }
+
+.header-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.header-hidden {
+  opacity: 2;
+  /* visibility: hidden;  */
+  transition: opacity 0.4s ease;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  pointer-events: auto; /* to avoid clicks when hidden */
+}
+
+
 
 
 

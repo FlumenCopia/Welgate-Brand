@@ -3,17 +3,17 @@ import React from 'react';
 function Header2() {
   return (
     <div>
-      <header id="home">
+      <header id="home ">
         <div id="header-fixed-height"></div>
-        <div id="sticky-header" className="tg-menu-area menu-area">
+        <div id="sticky-header" className="tg-menu-area2 menu-area">
           <div className="container">
             <div className="row align-items-center">
   {/* Logo */}
-<div className="col-lg-2 col-md-2 col-6 d-flex logotransform align-items-center" style={{ transform: 'translateY(2px)',justifyContent:'center' }}>
+<div className="col-lg-2 col-md-2 col-6 d-flex  align-items-center" >
   <div className="logo">
     <a href="index.html">
       <img
-        src="/assets/img/logo/welgate-logo2.png"
+        src="/assets/img/logo/LOGO PNG welgate.png"
         alt="Logo"
       />
     </a>
@@ -21,7 +21,7 @@ function Header2() {
 </div>
 
 {/* Navigation Menu (hidden on md and below) */}
-<div className="col-lg-8 d-none d-md-flex linkstransform  flex-wrap justify-content-center"style={{ transform: 'translateY(-33px)' }}>
+<div className="col-lg-8 d-none d-md-flex  flex-wrap justify-content-center">
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
       <li><a href="#ingredient" className="section-link">Home</a></li>
@@ -38,7 +38,7 @@ function Header2() {
 </div>
 
 {/* Store Button & Toggle */}
-<div className="col-lg-2 col-md-4 col-6 d-flex buttontransform justify-content-end align-items-center"style={{ transform: 'translateY(-33px)' }}>
+<div className="col-lg-2 col-md-4 col-6 d-flex  justify-content-end align-items-center">
   {/* Show toggle on md and below */}
   
     <div className="mobile-nav-toggler d-lg-none d-md-block me-3"><i className="flaticon-layout"></i></div>
