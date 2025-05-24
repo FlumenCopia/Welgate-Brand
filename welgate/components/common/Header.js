@@ -5,7 +5,7 @@ function Header() {
     <div>
       <header id="home ">
         <div id="header-fixed-height"></div>
-        <div id="sticky-header" className="tg-menu-area menu-area">
+        <div id="sticky-header" className="tg-menu-area menu-area1">
           <div className="container">
             <div className="row align-items-center">
   {/* Logo */}
@@ -37,11 +37,11 @@ function Header() {
   </div>
 </div>
 
-{/* Store Button & Toggle */}
+      <div className="mobile-nav-togglers d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>
+
+
 <div className="col-lg-2 col-md-4 col-6 d-flex buttontransform justify-content-end align-items-center"style={{ transform: 'translateY(-33px)' }}>
-  {/* Show toggle on md and below */}
-  
-    <div className="mobile-nav-toggler d-lg-none d-md-block me-3"><i className="flaticon-layout"></i></div>
+
 
   <div className="header-btn d-none d-md-block">
     <a href="#order" className="tg-btn">Store</a>
