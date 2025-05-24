@@ -29,7 +29,7 @@ export default function BrandsSection() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
     responsive: [
@@ -51,7 +51,7 @@ export default function BrandsSection() {
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full font-medium bg-danger text-white ${
+            className={`px-4 py-2 rounded-pill font-medium bg-danger mx-2 text-white ${
               activeCategory === category
                 ? "bg-red-600 text-white"
                 : "border border-red-600 text-red-600"
@@ -66,7 +66,7 @@ export default function BrandsSection() {
       <Slider {...settings}>
         {data[activeCategory].map((item, index) => (
           <div key={index} className="px-4">
-            <div className="bg-white rounded-2xl shadow-lg p-4">
+            <div className="bg-white rounded-2xl border p-4">
               <img
                 src={item.image}
                 alt={item.name}

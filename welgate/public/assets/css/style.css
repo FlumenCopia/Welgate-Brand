@@ -387,7 +387,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 130px;
+	max-width: 110px;
 }
 .navbar-wrap {
 	display: flex;
@@ -584,10 +584,10 @@ label {
     padding: 10px 27px !important;
 }
 .linkstransform{
-	    transform: translateY(-34px) !important;
+	    transform: translateY(-24px) !important;
 }
 .buttontransform{
-	transform: translateY(-34px) translateX(36px) !important;
+	transform: translateY(-24px) translateX(36px) !important;
 }
 }
 
@@ -597,13 +597,13 @@ label {
     padding: 10px 16px !important;
 }
 .linkstransform{
-	    transform: translateY(-46px) !important;
+	    transform: translateY(-24px) !important;
 }
 .buttontransform{
-	transform: translateY(-46px) translateX(36px) !important;
+	transform: translateY(-24px) translateX(36px) !important;
 }
 .logotransform{
-transform: translateY(-14px) !important;
+transform: translateY(10px) !important;
 }
 }
 
@@ -616,7 +616,7 @@ transform: translateY(-14px) !important;
 
 }
 .linkstransform{
-transform: translateY(-116px) translateX(60px) !important;
+transform: translateY(-92px) translateX(60px) !important;
 }
 
 .logotransform{
@@ -633,7 +633,7 @@ transform: translateY(3px) translateX(3px) !important;
 display: none !important;
 }
 .logo img {
-    max-width: 120px !important;
+    max-width: 110px !important;
 }
 }
 
@@ -642,13 +642,35 @@ display: none !important;
     display: none !important;
   }
   .logotransform{
-transform: translateY(3px) translateX(-105px) !important;
+/* transform: translateY(3px) translateX(-105px) !important; */
+   transform: none !important;
+    justify-content: start !important;
 }
-.menu-area .mobile-nav-togglers {
+.menu-area1 .mobile-nav-togglers {
 
-	transform: translateY(3px) translateX(-105px) !important;
+   transform: none !important;
+    justify-content: end !important;	
+	position: relative !important;
+	margin-left: 130px;
+
+    float: right !important;
+	scale: 0.8;
+	/* display: none; */
+	padding-top: 17px !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 60px !important;
+	height: 60px !important;
+	text-align: center !important;
+	background: var(--tg-secondary-color) !important;
+	color: var(--tg-white) !important;
+	border-radius: 50% !important;
+	font-size: 25px !important;
+	cursor: pointer !important;
+	margin-top: -43px !important;
 
 }
+
 }
 
 
@@ -1095,10 +1117,10 @@ transform: translateY(3px) translateX(-105px) !important;
 .menu-area1 {
 	padding: 23px 0;
 }
-.menu-area .mobile-nav-togglers {
+.menu-area1 .mobile-nav-togglers {
 	position: relative;
     float: right;
-	display: none;
+	/* display: none; */
 	align-items: center;
 	justify-content: center;
 	width: 60px;
