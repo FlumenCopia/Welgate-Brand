@@ -11,7 +11,7 @@ function Header2() {
   {/* Logo */}
 <div className="col-lg-2 col-md-2 col-6 d-flex  align-items-center" >
   <div className="logo">
-    <a href="index.html">
+    <a href="/">
       <img
         src="/assets/img/logo/LOGO PNG welgate.png"
         alt="Logo"
@@ -24,15 +24,15 @@ function Header2() {
 <div className="col-lg-8 d-none d-md-flex  flex-wrap justify-content-center">
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
-      <li><a href="#ingredient" className="section-link">Home</a></li>
-      <li><a href="#ingredient" className="section-link">About</a></li>
-      <li><a href="#feature" className="section-link">Brand</a></li>
-            <li><a href="#feature" className="section-link">Initiative</a></li>
+      <li><a href="/" className="section-link">Home</a></li>
+      <li><a href="/About" className="section-link">About</a></li>
+      <li><a href="#Brand" className="section-link">Brand</a></li>
+            <li><a href="#Initiative" className="section-link">Initiative</a></li>
 
-      <li><a href="#feature" className="section-link">Impact</a></li>
-      <li><a href="#supplement" className="section-link">Blog</a></li>
-      <li><a href="#supplement" className="section-link">Gallery</a></li>
-      <li><a href="contact.html">Contacts</a></li>
+      <li><a href="/Impact" className="section-link">Impact</a></li>
+      <li><a href="/Blog" className="section-link">Blog</a></li>
+      <li><a href="/Gallery" className="section-link">Gallery</a></li>
+      <li><a href="/Contactus">Contact</a></li>
     </ul>
   </div>
 </div>
@@ -44,7 +44,7 @@ function Header2() {
     <div className="mobile-nav-toggler d-lg-none d-md-block me-3"><i className="flaticon-layout"></i></div>
 
   <div className="header-btn d-none d-md-block">
-    <a href="#order" className="tg-btn">Store</a>
+    <a href="https://welgatelifestyle.com/" className="tg-btn">Store</a>
   </div>
 </div>
 
