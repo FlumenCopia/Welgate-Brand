@@ -8910,5 +8910,66 @@ text-align: left;
     -webkit-font-smoothing: antialiased;
 }
 
+.feature {
+    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/carousel-1.jpg) left center no-repeat;
+    background-size: cover;
+}
 
+.feature-row {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
 
+.feature-item {
+    border-color: rgba(0, 0, 0, .03) !important;
+}
+
+.feature-icon {
+    position: relative;
+    transition: .5s;
+}
+
+.feature-item:hover .feature-icon {
+    margin-left: 3rem;
+}
+
+.feature-item a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: var(--bs-secondary);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.feature-item a:hover {
+    color: var(--bs-primary) !important;
+}
+
+.feature-item a:hover::after {
+    background: var(--bs-primary);
+}
+
+.experience .progress {
+    height: 5px;
+}
+
+.experience .progress .progress-bar {
+    width: 0px;
+    transition: 3s;
+}
+
+.btn-xxl-square {
+    width: 75px;
+    height: 75px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    padding: 0px;
+}
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}

@@ -14,11 +14,30 @@ const data = {
     { name: "Cheese", image: "/images/cheese.png" },
     { name: "Milk", image: "/images/milk.png" },
   ],
-  SNACKING: [],
-  CAKES: [],
-  RUSK: [],
-  BREADS: [],
-  "NUTRITIOUS BARS": [],
+  SNACKING: [
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+    { name: "Biscafe", image: "/images/biscafe.png" },
+  ],
+  CAKES: [
+    { name: "Cheese", image: "/images/cheese.png" },
+    { name: "Milk", image: "/images/milk.png" },
+  ],
+  RUSK: [
+    { name: "Treat", image: "/images/treat.png" },
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+  ],
+  BREADS: [
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+  ],
+  "NUTRITIOUS BARS": [ { name: "Treat", image: "/images/treat.png" },
+    { name: "Little Hearts", image: "/images/little-hearts.png" },
+    { name: "Pure Magic", image: "/images/pure-magic.png" },
+    { name: "Nice Time", image: "/images/nice-time.png" },
+    { name: "Biscafe", image: "/images/biscafe.png" },
+  ],
 };
 
 const categories = Object.keys(data);
