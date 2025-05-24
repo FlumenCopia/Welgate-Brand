@@ -615,6 +615,9 @@ transform: translateY(10px) !important;
 	    font-size: 13px !important;
 
 }
+    link.navbar-wrap ul li a {
+        padding: 6px 12px !important;
+    }
 .linkstransform{
 transform: translateY(-92px) translateX(60px) !important;
 }
@@ -639,6 +642,9 @@ display: none !important;
 
 @media (max-width: 767px) {
   .linkstransform {
+    display: none !important;
+  }
+  .linkstransform2 {
     display: none !important;
   }
   .logotransform{
@@ -673,6 +679,68 @@ display: none !important;
 
 }
 
+@media (min-width: 412px) and (max-width:576px) {
+
+.menu-area1 .mobile-nav-togglers {
+
+    transform: translateY(-3px) translateX(6px) !important;
+ justify-content: end !important;	
+	position: relative !important;
+	margin-left: 130px;
+
+    float: right !important;
+	scale: 0.8;
+	/* display: none; */
+	padding-top: 17px !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 60px !important;
+	height: 60px !important;
+	text-align: center !important;
+	background: var(--tg-secondary-color) !important;
+	color: var(--tg-white) !important;
+	border-radius: 50% !important;
+	font-size: 25px !important;
+	cursor: pointer !important;
+	margin-top: -43px !important;
+
+}
+.buttontransform2{
+display: none !important;
+}
+
+}
+@media (min-width: 320px) and (max-width:412px) {
+
+.menu-area1 .mobile-nav-togglers {
+
+transform: none !important;
+ justify-content: end !important;	
+	position: relative !important;
+	margin-left: 243px;
+
+    float: right !important;
+	scale: 0.8;
+	/* display: none; */
+	padding-top: 17px !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 60px !important;
+	height: 60px !important;
+	text-align: center !important;
+	background: var(--tg-secondary-color) !important;
+	color: var(--tg-white) !important;
+	border-radius: 50% !important;
+	font-size: 25px !important;
+	cursor: pointer !important;
+	margin-top: -153px !important;
+
+}
+.buttontransform2{
+display: none !important;
+}
+
+}
 
 
 /* Mini Cart Style */
@@ -1149,10 +1217,7 @@ display: none !important;
 	float: none;
 	scale: 0.9;
 }
-.menu-area1 .mobile-nav-togglers {
-	float: none;
-	scale: 0.9;
-}
+
 }
 
 /* Apply center alignment below 991px (lg) */

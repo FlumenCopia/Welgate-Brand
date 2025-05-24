@@ -21,7 +21,7 @@ function Header2() {
 </div>
 
 {/* Navigation Menu (hidden on md and below) */}
-<div className="col-lg-8 d-none d-md-flex  flex-wrap justify-content-center">
+<div className="col-lg-8 col-md-8 col-8 d-none d-md-flex linkstransform2  flex-wrap justify-content-center">
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
       <li><a href="/" className="section-link">Home</a></li>
@@ -41,9 +41,9 @@ function Header2() {
 <div className="col-lg-2 col-md-4 col-6 d-flex  justify-content-end align-items-center">
   {/* Show toggle on md and below */}
   
-    <div className="mobile-nav-toggler d-lg-none d-md-block me-3"><i className="flaticon-layout"></i></div>
+    <div className="mobile-nav-toggler d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>
 
-  <div className="header-btn d-none d-md-block">
+  <div className="header-btn buttontransform2 d-md-none d-sm-none d-xs-none d-lg-block">
     <a href="https://welgatelifestyle.com/" className="tg-btn">Store</a>
   </div>
 </div>

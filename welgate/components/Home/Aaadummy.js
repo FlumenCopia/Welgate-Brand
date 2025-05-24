@@ -51,7 +51,7 @@ export default function BrandsSection() {
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-pill font-medium bg-danger mx-2 text-white ${
+            className={`px-4 py-2 rounded-pill font-medium bg-danger mx-2 text-white  ${
               activeCategory === category
                 ? "bg-red-600 text-white"
                 : "border border-red-600 text-red-600"
