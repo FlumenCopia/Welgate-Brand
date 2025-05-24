@@ -45,13 +45,13 @@ export default function BrandsSection() {
   };
 
   return (
-    <div className="bg-yellow-100 py-10 text-center">
-      <h2 className="text-2xl font-bold mb-4">OUR BRANDS</h2>
-      <div className="flex flex-wrap justify-center gap-4 mb-8">
+    <div className="bg-yellow-100 py-10 text-center" style={{paddingBottom:'90px'}}>
+      <h2 className="text-2xl font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
+      <div className="flex flex-wrap justify-center  mb-8" style={{marginBottom:'35px'}}>
         {categories.map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 rounded-full font-medium ${
+            className={`px-4 py-2 rounded-full font-medium bg-danger text-white ${
               activeCategory === category
                 ? "bg-red-600 text-white"
                 : "border border-red-600 text-red-600"
