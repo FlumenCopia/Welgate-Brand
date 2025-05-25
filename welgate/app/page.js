@@ -20,18 +20,21 @@ import React from 'react'
 import Clients from '@/components/Home/Clients'
 import Historybg from '@/components/Home/Historybg'
 import Aaadummy from '@/components/Home/Aaadummy'
+import VideoSlick from '@/components/Home/VideoSlick'
+
 
 function page() {
   return (
     <div>
-      <Banner/>
+      <VideoSlick/>
+      {/* <Banner/> */}
       {/* <FeatureArea/> */}
             {/* <Feature2/> */}
             <ShopDetail/>
   
       <VideoArea/>
       <ServiceArea/>
-      <Aaadummy/>
+      {/* <Aaadummy/> */}
       {/* <Feature3/> */}
             <ShopArea/>
 
