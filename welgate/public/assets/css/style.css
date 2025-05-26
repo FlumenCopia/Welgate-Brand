@@ -578,6 +578,8 @@ label {
 	color: var(--tg-primary-color);
 }
 
+
+
 @media (max-width: 1399px) {
  .tg-menu-area .navbar-wrap ul li a {
     
@@ -935,6 +937,17 @@ display: none !important;
 	margin-right: 30px;
 	top: 15px;
 }
+.nav-outer .mobile-nav-togglers {
+	position: relative !important;
+	float: right;
+	font-size: 40px;
+	line-height: 50px;
+	cursor: pointer !important;
+	display: none;
+	color: var(--tg-white);
+	margin-right: 30px;
+	top: 15px;
+}
 
 .nav-store {
  position: absolute;
@@ -960,6 +973,7 @@ display: none !important;
 	width: 160px;
 }
 .mobile-menu {
+	
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -1239,6 +1253,10 @@ display: none !important;
 }
 .menu-area .mobile-nav-toggler {
 	float: none;
+	scale: 0.9;
+}
+.menu-area1 .mobile-nav-togglers {
+	float: none !important;
 	scale: 0.9;
 }
 

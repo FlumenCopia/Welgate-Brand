@@ -61,18 +61,18 @@ function Header2() {
         <nav className="menu-box">
           <div className="close-btn"><i className="fas fa-times"></i></div>
           <div className="nav-logo">
-            <a href="index.html">
+            <a href="/">
               <img src="/assets/img/logo/LOGO_PNG_welgate-removebg-preview.png" alt="" />
             </a>
           </div>
           <div className="menu-outer"></div>
           <div className="social-links">
             <ul className="clearfix">
-              <li><a href="https://www.facebook.com/welgatelifestyle/"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a href="https://x.com/organicwelgate"><i className="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/welgate_lifestyle/?hl=en"><i className="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/welgate-organic/?originalSubdomain=in"><i className="fab fa-linkedin-in"></i></a></li>
-              <li><a href="https://www.youtube.com/@welgatelifestyle/featured"><i className="fab fa-youtube"></i></a></li>
+              <li><a href="https://www.facebook.com/welgatelifestyle/" target='blank'><i className="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://x.com/organicwelgate" target='blank'><i className="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/welgate_lifestyle/?hl=en" target='blank'><i className="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/welgate-organic/?originalSubdomain=in" target='blank'><i className="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.youtube.com/@welgatelifestyle/featured" target='blank'><i className="fab fa-youtube"></i></a></li>
             </ul>
           </div>
         </nav>

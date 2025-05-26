@@ -1,6 +1,10 @@
 import React from 'react';
 
 function Header() {
+
+
+  
+
   return (
     <div>
       <header id="home">
@@ -37,7 +41,7 @@ function Header() {
   </div>
 </div>
 
-      <div className="mobile-nav-togglers d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>
+      <div className="mobile-nav-togglers d-lg-none d-md-none  me-3"><i className="flaticon-layout" ></i></div>
 
 
 <div className="col-lg-2 col-md-4 col-6 d-flex buttontransform justify-content-end align-items-center"style={{ transform: 'translateY(-23px)' }}>
@@ -67,12 +71,12 @@ function Header() {
           </div>
           <div className="menu-outer"></div>
           <div className="social-links">
-            <ul className="clearfix">
-              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+             <ul className="clearfix">
+              <li><a href="https://www.facebook.com/welgatelifestyle/" target='blank'><i className="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://x.com/organicwelgate" target='blank'><i className="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/welgate_lifestyle/?hl=en" target='blank'><i className="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/welgate-organic/?originalSubdomain=in" target='blank'><i className="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.youtube.com/@welgatelifestyle/featured" target='blank'><i className="fab fa-youtube"></i></a></li>
             </ul>
           </div>
         </nav>
