@@ -31,6 +31,8 @@ function PricingArea() {
               marginBottom: '1rem',
               maxWidth: '800px',
               width: '100%',
+              paddingTop:'50px',
+              
             }}
           >
             Rooted in care, growing with purpose
@@ -55,9 +57,9 @@ function PricingArea() {
       }}
     >
       <div style={{ maxWidth: '800px',margin: '0 auto' }}>
-        <h2 style={{ fontSize: 'clamp(32px, 5vw, 51px)',fontWeight: "800", marginBottom: '20px' }}>
+        <p className='pfont2'>
           Our Approach
-        </h2>
+        </p>
         <p style={{ fontSize: '1.2rem', }}>
             At Welgate, we blend legacy with innovation to create lasting impact.
             Our journey from entertainment to wellness is rooted in deep community ties and a commitment to sustainability.
@@ -65,52 +67,59 @@ function PricingArea() {
             By combining traditional values with forward-thinking practices, we create solutions that are both meaningful and future-ready.        </p>
       </div>
     </section>
-    <div class="container-fluid pt-6 pb-6">
+    <div class="container-fluid " style={{paddingBottom:'25px',paddingTop:'20px'}}>
         <div class="container pt-4">
             <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-hammer fa-2x text-white"></i>
+                                <div className="icon">
+                                        <img src='/assets/img/impact/people.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
-                            <h5 class="text-uppercase mb-3">Quality Welding</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                            <h5 class="text-uppercase mb-3">Empowering Farmers</h5>
+                            <p> Supporting organic and local farmers through fair practices, education, and long-term partnerships that sustain rural livelihoods.</p>
                             <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
                                 href="#">
                                   {/* <b class="bg-white pe-3">Read More</b>  */}
-                                  <i  class="bi bi-arrow-right bg-white ps-3"></i></a>
+                                  {/* <i  class="bi bi-arrow-right bg-white ps-3"></i> */}
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-dollar-sign fa-2x text-white"></i>
+                            <div className="icon">
+                                        <img src='/assets/img/impact/planting.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
-                            <h5 class="text-uppercase">Affordable Pricing</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                            <h5 class="text-uppercase">Sustainable Agriculture</h5>
+                            <p> Investing in eco-friendly farming methods that protect soil health, conserve water, and reduce chemical use — for people and the planet.</p>
                             <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
                                 href="#">
                                   {/* <b class="bg-white pe-3">Read More</b>  */}
-                                  <i
-                                    class="bi bi-arrow-right bg-white ps-3"></i></a>
+                                  {/* <i class="bi bi-arrow-right bg-white ps-3"></i> */}
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-check-double fa-2x text-white"></i>
+                           <div className="icon">
+                                        <img src='/assets/img/impact/all-inclusive.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
-                            <h5 class="text-uppercase">Best Welder</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                            <h5 class="text-uppercase">Wellness for All</h5>
+                            <p> Creating accessible health and wellness solutions that nourish the body and uplift communities through ethical products.</p>
                             <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
                                 href="#">
                                   {/* <b class="bg-white pe-3">Read More</b>  */}
-                                <i class="bi bi-arrow-right bg-white ps-3"></i>
+                                {/* <i class="bi bi-arrow-right bg-white ps-3"></i> */}
                             </a>
                         </div>
                     </div>
@@ -118,15 +127,17 @@ function PricingArea() {
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-tools fa-2x text-white"></i>
+                           <div className="icon">
+                                        <img src='/assets/img/impact/slavery.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
-                            <h5 class="text-uppercase">Quality Tools</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
+                            <h5 class="text-uppercase">Legacy of Connection</h5>
+                            <p> From music that once united hearts to health initiatives that strengthen lives, our roots continue to inspire meaningful impact.</p>
                             <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
                                 href="#">
                                   {/* <b class="bg-white pe-3">Read More</b>  */}
-                                <i class="bi bi-arrow-right bg-white ps-3"></i>
+                                {/* <i class="bi bi-arrow-right bg-white ps-3"></i> */}
                             </a>
                         </div>
                     </div>
