@@ -8880,6 +8880,10 @@ text-align: left;
 .bdcolor{
 	color: var(--tg-secondary-color);
 }
+.bgprimary{
+	background-color: var(--tg-primary-color);
+	/* color: var(--tg-primary-color); */
+}
 
 .textstyle{
 	color: var(--tg-secondary-color);

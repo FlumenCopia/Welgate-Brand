@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const images = [
   "/assets/img/IMG_5691.jpg",
@@ -9,7 +9,15 @@ const images = [
 ];
 
 export default function AccordionGallery() {
-  const [activeIndex, setActiveIndex] = useState(1); // middle image expanded by default
+  const [activeIndex, setActiveIndex] = useState(1); // middle image expanded
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
@@ -21,17 +29,26 @@ export default function AccordionGallery() {
 
   return (
     <div>
-      <div className="bg-danger text-white p-4" style={{marginTop:'80px'}}>hdndndn</div>
+      <div className="bgprimary text-white p-4 text-center fw-bold" style={{ marginTop: '80px' }}>
+        WE ARE A RESPONSIBLE GLOBAL TOTAL FOODS COMPANY
+      </div>
 
-      <div style={{ position: "relative", width: "100%", height: "70vh", overflow: "hidden" }}>
-        {/* Left Arrow */}
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          height: isMobile ? "100vh" : "70vh",
+          overflow: "hidden",
+        }}
+      >
+        {/* Arrows */}
         <button
           onClick={handlePrev}
           style={{
             position: "absolute",
-            top: "50%",
-            left: 10,
-            transform: "translateY(-50%)",
+            [isMobile ? "top" : "left"]: 10,
+            [isMobile ? "left" : "top"]: "50%",
+            transform: isMobile ? "none" : "translateY(-50%)",
             zIndex: 10,
             background: "rgba(0,0,0,0.5)",
             color: "white",
@@ -48,14 +65,13 @@ export default function AccordionGallery() {
           ‹
         </button>
 
-        {/* Right Arrow */}
         <button
           onClick={handleNext}
           style={{
             position: "absolute",
-            top: "50%",
-            right: 10,
-            transform: "translateY(-50%)",
+            [isMobile ? "bottom" : "right"]: 10,
+            [isMobile ? "left" : "top"]: "50%",
+            transform: isMobile ? "none" : "translateY(-50%)",
             zIndex: 10,
             background: "rgba(0,0,0,0.5)",
             color: "white",
@@ -75,6 +91,7 @@ export default function AccordionGallery() {
         <div
           style={{
             display: "flex",
+            flexDirection: isMobile ? "column" : "row",
             width: "100%",
             height: "100%",
           }}
@@ -91,6 +108,8 @@ export default function AccordionGallery() {
                   transition: "flex 0.5s ease",
                   overflow: "hidden",
                   cursor: "pointer",
+                  width: isMobile ? "100%" : undefined,
+                  height: isMobile ? undefined : "100%",
                 }}
               >
                 <img
@@ -113,7 +132,9 @@ export default function AccordionGallery() {
         </div>
       </div>
 
-      <div className="bg-danger text-white p-4">hdndndn</div>
+      <div className="bgprimary text-white d-flex justify-content-center p-4">
+        <button className="btn tg-btn text-danger bg-white">Know More</button>
+      </div>
     </div>
   );
 }
