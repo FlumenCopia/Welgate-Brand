@@ -31,7 +31,7 @@ function PricingArea() {
               marginBottom: '1rem',
               maxWidth: '800px',
               width: '100%',
-              paddingTop:'55px',
+              paddingTop:'50px',
               
             }}
           >
@@ -73,7 +73,9 @@ function PricingArea() {
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-hammer fa-2x text-white"></i>
+                                <div className="icon">
+                                        <img src='/assets/img/impact/people.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
                             <h5 class="text-uppercase mb-3">Empowering Farmers</h5>
@@ -89,7 +91,9 @@ function PricingArea() {
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-dollar-sign fa-2x text-white"></i>
+                            <div className="icon">
+                                        <img src='/assets/img/impact/planting.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
                             <h5 class="text-uppercase">Sustainable Agriculture</h5>
@@ -105,7 +109,9 @@ function PricingArea() {
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-check-double fa-2x text-white"></i>
+                           <div className="icon">
+                                        <img src='/assets/img/impact/all-inclusive.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
                             <h5 class="text-uppercase">Wellness for All</h5>
@@ -121,7 +127,9 @@ function PricingArea() {
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
                     <div class="feature-item border h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
-                            <i class="fa fa-tools fa-2x text-white"></i>
+                           <div className="icon">
+                                        <img src='/assets/img/impact/slavery.png' className='iconscale' style={{fontSize:'38px'}}/>
+                                </div>
                         </div>
                         <div class="p-5 pt-0">
                             <h5 class="text-uppercase">Legacy of Connection</h5>
