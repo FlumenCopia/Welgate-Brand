@@ -29,7 +29,7 @@ export default function AccordionGallery() {
 
   return (
     <div>
-      <div className="bgprimary text-white p-4 text-center fw-bold" style={{ marginTop: '80px' }}>
+      <div className="bgprimary text-white text-center d-grid align-items-center fw-bold" style={{ marginTop: '80px', height:'80px' }}>
         WE ARE A RESPONSIBLE GLOBAL TOTAL FOODS COMPANY
       </div>
 
@@ -132,8 +132,8 @@ export default function AccordionGallery() {
         </div>
       </div>
 
-      <div className="bgprimary text-white d-flex justify-content-center p-4">
-        <button className="btn tg-btn text-danger bg-white">Know More</button>
+    <div className="bgprimary text-white align-items-center  d-flex justify-content-center " style={{ height:'80px'}}>
+        <button className="btn btn-pill px-4 py-2 text-danger bg-white">Know More</button>
       </div>
     </div>
   );
