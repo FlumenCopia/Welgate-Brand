@@ -34,7 +34,7 @@ function page() {
   
       <VideoArea/>
       <ServiceArea/>
-      {/* <Aaadummy/> */}
+      <Aaadummy/>
       {/* <Feature3/> */}
             <ShopArea/>
 

@@ -378,7 +378,7 @@ label {
 	height: auto;
 }
 .menu-area {
-	padding: 23px 0;
+	padding: 0px 0 !important;
 }
 .menu-nav {
 	display: flex;
@@ -397,8 +397,8 @@ label {
 	display: flex;
 	/* flex-direction: row; */
 	/* flex-wrap: wrap; */
-	/* margin: 0 auto 0; */
-	/* padding: 0; */
+	margin: 0 auto 0;
+	padding: 0;
 }
 .navbar-wrap ul li {
 	list-style: none;
@@ -408,8 +408,8 @@ label {
 .navbar-wrap ul li a {
 	font-size: 16px;
 	font-weight: 600;
-	text-transform: capitalize;
-	color: var(--tg-body-font-color);
+	text-transform: capitalize !important;
+	color: black;
 	padding: 38px 30px;
 	display: block;
 	line-height: 1;
@@ -582,6 +582,13 @@ label {
  .tg-menu-area .navbar-wrap ul li a {
     
     padding: 10px 27px !important;
+		font-size: 13px !important;
+
+	text-transform: uppercase !important;
+}
+.tg-menu-area2 .navbar-wrap ul li a{
+	font-size: 14px !important;
+	font-weight: 500;
 }
 .linkstransform{
 	    transform: translateY(-24px) !important;
@@ -595,6 +602,10 @@ label {
  .tg-menu-area .navbar-wrap ul li a {
     
     padding: 10px 16px !important;
+}
+ .tg-menu-area2 .navbar-wrap ul li a {
+    
+    padding: 13px 17px !important;
 }
 .linkstransform{
 	    transform: translateY(-24px) !important;
@@ -618,6 +629,9 @@ transform: translateY(10px) !important;
     .linkstransform2.navbar-wrap ul li a {
         padding: 6px 12px !important;
     }
+	.linkstransform2{
+		justify-content: flex-start !important;
+}
 .linkstransform{
 transform: translateY(-92px) translateX(60px) !important;
 }
@@ -715,37 +729,39 @@ display: none !important;
 }
 
 }
-@media (min-width: 320px) and (max-width:412px) {
+@media (min-width: 300px) and (max-width:412px) {
 
 .menu-area1 .mobile-nav-togglers {
 
 transform: none !important;
- justify-content: end !important;	
-	position: relative !important;
-	/* margin-left: 243px; */
+        justify-content: end !important;
+        position: relative !important;
+        margin-left: 195px;
+        float: right !important;
+        scale: 0.8;
+        /* display: none !important; */
+        padding-top: 17px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 60px !important;
+        height: 60px !important;
+        text-align: center !important;
+        background: var(--tg-secondary-color) !important;
+        color: var(--tg-white) !important;
+        border-radius: 50% !important;
+        font-size: 25px !important;
+        cursor: pointer !important;
+        margin-top: -155px !important;
 
-    float: right !important;
-	scale: 0.8;
-	/* display: none; */
-	padding-top: 17px !important;
-	align-items: center !important;
-	justify-content: center !important;
-	width: 60px !important;
-	height: 60px !important;
-	text-align: center !important;
-	background: var(--tg-secondary-color) !important;
-	color: var(--tg-white) !important;
-	border-radius: 50% !important;
-	font-size: 25px !important;
-	cursor: pointer !important;
-	/* margin-top: -153px !important; */
-
+}
+.logotransform{
+transform: translateY(8px) translateX(-67px) !important;
 }
 .buttontransform2{
 display: none !important;
 }
 .alignmd{
-	justify-content: space-between !important;
+	justify-content: center !important;
 }
 
 }
@@ -1213,7 +1229,7 @@ display: none !important;
 
 @media(max-width:576px){
 	    .menu-area {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 	    .menu-area1 {
         padding: 10px 0;
@@ -5263,7 +5279,7 @@ margin: 0 auto;}
     background: var(--tg-white);
     padding: 4px 0;
     position: relative;
-    height: 139px;
+    /* height: 139px; */
     z-index: 9;
 }
 .tg-menu-area.sticky-menu {
@@ -5286,7 +5302,14 @@ margin: 0 auto;}
 	display: none;
 } */
 .tg-menu-area .navbar-wrap ul li a {
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--tg-heading-font-color);
+	padding: 14px 28px;
+}
+.tg-menu-area2 .navbar-wrap ul li a {
+	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--tg-heading-font-color);
@@ -8913,14 +8936,14 @@ text-align: left;
 
 
 
-.slick-prev:before, .slick-next:before {
+/* .slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 40px;
     line-height: 1;
     opacity: .75;
     color: rgb(251, 0, 0);
     -webkit-font-smoothing: antialiased;
-}
+} */
 
 .feature {
     background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/carousel-1.jpg) left center no-repeat;
