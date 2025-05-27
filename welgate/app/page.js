@@ -51,6 +51,7 @@ function page() {
       
            <Clients/>
       <Newsletter/>
+    
     </div>
   )
 }

@@ -60,7 +60,7 @@ function PricingArea() {
         <p className='pfont2'>
           Our Approach
         </p>
-        <p style={{ fontSize: '1.2rem', }}>
+        <p class="approch-wrap"style={{ fontSize: '1.2rem', }}>
             At Welgate, we blend legacy with innovation to create lasting impact.
             Our journey from entertainment to wellness is rooted in deep community ties and a commitment to sustainability.
             We focus on empowering people—whether through cultural connection, conscious consumption, or community-driven growth.
