@@ -51,7 +51,7 @@ function PricingArea() {
       </section>
       <section
       style={{
-        backgroundColor: '#fff7f7;', 
+        backgroundColor: '#f8f1c9;', 
         padding: '60px 20px',
         textAlign: 'center',
       }}
@@ -67,11 +67,11 @@ function PricingArea() {
             By combining traditional values with forward-thinking practices, we create solutions that are both meaningful and future-ready.        </p>
       </div>
     </section>
-    <div class="container-fluid " style={{paddingBottom:'25px',paddingTop:'20px'}}>
+    <div class="container-fluid bg-yellow " style={{paddingBottom:'25px',paddingTop:'20px'}}>
         <div class="container pt-4">
             <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="feature-item border h-100">
+                    <div class="feature-item  h-100">
                         <div class="feature-icon btn-xxl-square  mb-4 mt-n4" style={{backgroundColor:'#e1141e'}}>
                                 <div className="icon">
                                         <img src='/assets/img/impact/people.png' className='iconscale' style={{fontSize:'38px'}}/>

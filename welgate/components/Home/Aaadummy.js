@@ -99,15 +99,15 @@ export default function BrandsSection() {
 
 
   return (
-    <div className="bg-yellow-100 py-10 text-center" style={{paddingBottom:'90px'}}>
-      <h2 className="text-2xl font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
+    <div className="bg-yellow py-10 text-center pt-5" style={{paddingBottom:'90px'}}>
+      <h2 className="text-2xl clrred font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
       
 <div className="d-flex flex-wrap justify-content-center gap-2 mb-4" style={{ marginBottom: "35px" }}>
   {categories.map((category) => (
     <button
       key={category}
-      className={`btn text-white font-weight-medium rounded-pill category-btn ${
-        activeCategory === category ? "bg-danger border-white" : "bg-danger border border-danger"
+      className={`btn  font-weight-medium rounded-pill category-btn ${
+        activeCategory === category ? "bg-white text-black border-white" : "bg-danger text-white border border-danger"
       }`}
       onClick={() => setActiveCategory(category)}
     >

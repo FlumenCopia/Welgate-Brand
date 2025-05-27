@@ -21,6 +21,7 @@ import Clients from '@/components/Home/Clients'
 import Historybg from '@/components/Home/Historybg'
 import Aaadummy from '@/components/Home/Aaadummy'
 import VideoSlick from '@/components/Home/VideoSlick'
+import Initiative from '@/components/Home/Initiative'
 
 
 function page() {
@@ -31,10 +32,11 @@ function page() {
       {/* <FeatureArea/> */}
             {/* <Feature2/> */}
             <ShopDetail/>
-  
+                  <Aaadummy/>
+
+  <Initiative/>
       <VideoArea/>
       <ServiceArea/>
-      <Aaadummy/>
       {/* <Feature3/> */}
             <ShopArea/>
 
