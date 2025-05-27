@@ -8963,7 +8963,7 @@ text-align: left;
 }
 
 .textstyle{
-	color: var(--tg-secondary-color);
+	color: var(--tg-primary-color);
 	font-weight: 700;
 }
 
@@ -9130,6 +9130,7 @@ text-align: left;
 
 
 
+
 @media (max-width: 576px) {
   .slick-arrow {
     width: 30px;
@@ -9185,6 +9186,13 @@ text-align: left;
 .slick-dots li.slick-active button:before {
   color: var(--tg-primary-color); /* Darker red for active dot */
 }
+
+.slick-slide > div {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0; /* Avoid extra line spacing from inline elements */
+}
+
 
 
 .category-btn {
@@ -9280,3 +9288,19 @@ text-align: left;
     background-color : var(--tg-teritiary-color) 
 }
 /*** Blog End ***/
+
+
+@media (max-width:767px)
+{
+	.bannerredheight{
+	margin-top: 109px !important;
+	font-size: 12px;
+}
+}
+
+@media (max-width:576px)
+{
+.slickheight{
+	height: 300px !important;
+}
+}

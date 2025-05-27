@@ -1,25 +1,52 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import Header from './Header';   // adjust the path to your Header
-import Header2 from './Header2'; // adjust path to your Header2
+import Header from './Header';
+import Header2 from './Header2';
 
 export default function HeaderSwitcher() {
   const [showSticky, setShowSticky] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 767);
+    };
+
     const onScroll = () => {
-      if (window.scrollY > 245) {
-        setShowSticky(true);
-      } else {
-        setShowSticky(false);
+      if (!isMobile) {
+        setShowSticky(window.scrollY > 245);
       }
     };
 
-    window.addEventListener('scroll', onScroll);
-    onScroll(); // initial check
+    // Initial checks
+    handleResize();
+    onScroll();
 
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+    // Event listeners
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, [isMobile]);
+
+  if (isMobile) {
+    // Always show Header2 on mobile
+    return (
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          width: '100%',
+          zIndex: 1001,
+        }}
+      >
+        <Header2 />
+      </div>
+    );
+  }
 
   return (
     <>
@@ -50,8 +77,6 @@ export default function HeaderSwitcher() {
       >
         <Header2 />
       </div>
-
- 
     </>
   );
 }
