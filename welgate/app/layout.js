@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
         <Preloader/>
         
         <Scrolltop/>
-<Footer/>
+        <Footer/>
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
         <Script src="/assets/js/owlcarousel/owl.carousel.js"></Script>
                 <Script src="/assets/js/owlcarousel/owl.carousel.min.js"></Script>
