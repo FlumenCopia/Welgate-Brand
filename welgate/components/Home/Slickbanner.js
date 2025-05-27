@@ -6,9 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/img/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept.jpg",
-  "/assets/img/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept.jpg",
-  "/assets/img/gold-silver-chess-chess-board-game-business-metaphor-leadership-concept.jpg",
+  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
+  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
+  "/assets/img/high-angle-retro-vhs-packaging.jpg",
 ];
 
 const CustomPrevArrow = ({ className, onClick }) => (
@@ -35,9 +35,12 @@ const CustomNextArrow = ({ className, onClick }) => (
 
 export default function ImageCarousel() {
   const settings = {
-    // dots: false,
+    dots: false,
     infinite: true,
+    autoplay:true,
     slidesToShow: 1,
+    speed:'1000', 
+    fade:'true',
     slidesToScroll: 1,
      prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
@@ -46,26 +49,26 @@ export default function ImageCarousel() {
 
   return (
     <div>
-        <div className="bgprimary text-white text-center d-grid align-items-center fw-bold" style={{ marginTop: '80px', height:'80px' }}>
+        <div className="bgprimary text-white text-center d-grid align-items-center fw-bold bannerredheight" style={{ marginTop: '80px', height:'80px' }}>
             WE ARE A RESPONSIBLE GLOBAL TOTAL FOODS COMPANY
         </div>        
-      <div className="">
+      <div>
       <Slider {...settings}>
         {images.map((src, i) => (
           <div key={i}>
-            <img src={src} alt={`Slide ${i + 1}`} className="w-100 rounded" style={{
+            <img  src={src} alt={`Slide ${i + 1}`} className="w-100 slickheight" style={{
                 height: "500px",
                 objectFit: "cover",
                 width: "100%",
                 marginBottom:'0',
-                paddingBottom:'0'
+                paddingBottom:'0',
               }}/>
           </div>
         ))}
       </Slider>
     </div>
      <div className="bgprimary text-white align-items-center  d-flex justify-content-center "  style={{ height: "80px", marginTop: "0", paddingTop: "0" }}>
-        <button className="btn btn-pill px-4 py-2 text-danger bg-white">Know More</button>
+        <a href="/About" className="btn btn-pill px-4 py-2 text-danger bg-white">Know More</a>
       </div>
     </div>
     
