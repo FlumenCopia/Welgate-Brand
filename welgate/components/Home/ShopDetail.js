@@ -3,54 +3,63 @@ import React from 'react'
 function ShopDetail() {
   return (
    <div className="container-xxl py-5">
-            <div className="container">
-                <div className="row g-5 align-items-center">
-                   
-                    <div className="col-lg-6 tg-section-title">
-                        <span className="section-title  text-start sub-title">About Us</span>
-                        <p className="mb-4 title pfont2">From Entertainment <br/> to Wellness</p>
-                                    <p className='mb-4'>Welgate began with a passion for connecting people—first through entertainment, now through health. From distributing CDs to cultivating organic farms, our journey reflects a deep-rooted legacy and a commitment to purposeful growth. What once brought joy through music now brings wellness through sustainable, health-focused initiatives. We strive to empower communities, support local farmers, and promote conscious, healthy living. Welgate continues to evolve, guided by the belief that a connected and healthier future is the greatest legacy we can build.</p>
-                        <div className="row g-4 mb-4">
-                            <div className="col-sm-6">
-                                <div className="d-flex align-items-center border-start border-dark border-3 px-3">
-                                    <h1 className="flex-shrink-0 display-5 bdcolor  mb-0" data-toggle="counter-up">15+</h1>
-                                    <div className="ps-4">
-                                        <p className="mb-0">Years of</p>
-                                        <h6 className="text-uppercase mb-0">Experience</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-6">
-                                <div className="d-flex align-items-center border-dark border-start border-3  px-3">
-                                    <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">100+</h1>
-                                    <div className="ps-4">
-                                        <p className="mb-0">Customer</p>
-                                        <h6 className="text-uppercase mb-0">Satisfaction</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a className="tg-btn view-btn  mt-5" href="/About">view More</a>
-                    </div>
-                     <div className="col-lg-6">
-                        <div className="row g-3">
-                            <div className="col-6 text-start">
-                                <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740"/>
-                            </div>
-                            <div className="col-6 text-start">
-                                <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{marginTop:'55%'}}/>
-                            </div>
-                            <div className="col-6 text-end">
-                                <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
-                            </div>
-                            <div className="col-6 text-end">
-                                <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="https://img.freepik.com/free-photo/black-model-posing-with-vinyls_23-2148171759.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div className="container">
+    <div className="row g-5 align-items-center">
+
+      {/* Images Column */}
+      <div className="col-lg-6 order-1 order-lg-2">
+        <div className="row g-3">
+          <div className="col-6 text-start">
+            <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
+          </div>
+          <div className="col-6 text-start">
+            <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{ marginTop: '55%' }} />
+          </div>
+          <div className="col-6 text-end">
+            <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" />
+          </div>
+          <div className="col-6 text-end">
+            <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="https://img.freepik.com/free-photo/black-model-posing-with-vinyls_23-2148171759.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
+          </div>
         </div>
+      </div>
+
+      {/* Content Column */}
+      <div className="col-lg-6 tg-section-title order-2 order-lg-1">
+        <span className="section-title text-start sub-title">About Us</span>
+        <p className="mb-4 title pfont2">From Entertainment <br /> to Wellness</p>
+        <p className="mb-4">
+          Welgate began with a passion for connecting people—first through entertainment, now through health.
+          From distributing CDs to cultivating organic farms, our journey reflects a deep-rooted legacy and a
+          commitment to purposeful growth...
+        </p>
+        <div className="row g-4 mb-4">
+          <div className="col-sm-6">
+            <div className="d-flex align-items-center border-start border-dark border-3 px-3">
+              <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">15+</h1>
+              <div className="ps-4">
+                <p className="mb-0">Years of</p>
+                <h6 className="text-uppercase mb-0">Experience</h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6">
+            <div className="d-flex align-items-center border-dark border-start border-3 px-3">
+              <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">100+</h1>
+              <div className="ps-4">
+                <p className="mb-0">Customer</p>
+                <h6 className="text-uppercase mb-0">Satisfaction</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a className="tg-btn view-btn mt-5" href="/About">view More</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
   )
 }
 

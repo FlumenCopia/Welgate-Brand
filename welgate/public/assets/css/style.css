@@ -3202,6 +3202,23 @@ font-size: clamp(32px, 5vw, 55px);
 }
 
 
+@media (max-width: 767px) {
+  .ingredients-img-two img{
+	max-width: 70% !important;
+}
+}
+
+@media (max-width: 576px) {
+  .ingredients-img-two img{
+	max-width: 60% !important;
+}
+}
+
+@media (max-width: 420px) {
+  .ingredients-img-two img{
+	max-width: 60% !important;
+}
+}
 
 
 
@@ -8968,35 +8985,7 @@ text-align: left;
 }
 
 
-/* Hide default slick arrows */
-.slick-prev:before,
-.slick-next:before {
-  display: none !important;
-  content: none !important;
-}
-/* Make slick dots larger and customize color */
-.slick-dots li {
-  width: 10px;
-  height: 10px;
-  margin: 0 10px;
-}
 
-.slick-dots li button {
-  width: 10px;
-  height: 10px;
-}
-
-.slick-dots li button:before {
-  font-size: 16px; /* Default is 6px */
-  color: white; /* Red color */
-  /* opacity: 1; */
-  border: 1px solid black;
-  border-radius: 50%;
-}
-
-.slick-dots li.slick-active button:before {
-  color: var(--tg-primary-color); /* Darker red for active dot */
-}
 
 
 .feature {
@@ -9062,4 +9051,104 @@ text-align: left;
 .mt-n4 {
     margin-top: -1.5rem !important;
 }
+
+
+/* //////////////////////////////////brand/////////////////////////////////// */
+
+
+.slick-arrow {
+  background: black;
+  opacity: 0.5;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.slick-arrow:hover {
+  background: black;
+  opacity: 1;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.custom-slick-prev{
+	left: 40px;
+}
+.custom-slick-next{
+	right: 40px;
+}
+
+
+
+@media (max-width: 576px) {
+  .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-arrow svg {
+    width: 18px;
+    height: 18px;
+  }
+  .slick-dots li {
+  width: 7px;
+  height: 7px;
+  margin: 0 10px;
+}
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none !important;
+  content: none !important;
+}
+
+.slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px; 
+  color: white; 
+  /* opacity: 1; */
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--tg-primary-color); /* Darker red for active dot */
+}
+
+
+.category-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0.25rem; /* fallback spacing between buttons */
+}
+
+@media (max-width: 576px) {
+  .category-btn {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.75rem;
+  }
+}
+
+
 
