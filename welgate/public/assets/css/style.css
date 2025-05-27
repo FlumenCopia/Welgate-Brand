@@ -8953,15 +8953,13 @@ text-align: left;
 }
 
 
-
-.slick-prev:before, .slick-next:before {
-    font-family: 'slick';
-    font-size: 40px;
-    line-height: 1;
-    opacity: .75;
-    color: rgb(251, 0, 0);
-    -webkit-font-smoothing: antialiased;
+/* Hide default slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  display: none !important;
+  content: none !important;
 }
+
 
 .feature {
     background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1) 50%), url(../img/carousel-1.jpg) left center no-repeat;
