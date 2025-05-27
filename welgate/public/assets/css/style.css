@@ -8639,6 +8639,9 @@ text-align: left;
 	.tg-section-title .title{
 	text-align: center;
 }
+.tg-section-title .sub-title{
+	text-align: center !important;
+}
 }
 
  @media (min-width: 767px) and (max-width: 991px) {
@@ -8685,6 +8688,9 @@ text-align: left;
 .tg-section-title .title{
 	text-align: center;
 }
+.tg-section-title .sub-title{
+	text-align: center !important;
+}
 
 }
 
@@ -8711,6 +8717,15 @@ text-align: left;
 .tg-section-title .title{
 	text-align: center;
 }
+.tg-section-title .sub-title{
+	text-align: center !important;
+}
+}
+@media (max-width: 420px) {
+    .tg-btn {
+        font-size: 12px !important;
+        padding: 11px 15px !important;
+    }
 }
 
 

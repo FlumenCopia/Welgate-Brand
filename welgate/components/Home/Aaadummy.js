@@ -71,7 +71,7 @@ const CustomNextArrow = ({ className, onClick }) => (
     className={`${className} custom-slick-next`}
     onClick={onClick}
     style={{
-      right: "57px",
+      right: "47px",
       zIndex: 1,
       background: "#e1141e",
       color: "white",
