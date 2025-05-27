@@ -22,12 +22,16 @@ import Historybg from '@/components/Home/Historybg'
 import Aaadummy from '@/components/Home/Aaadummy'
 import VideoSlick from '@/components/Home/VideoSlick'
 import Initiative from '@/components/Home/Initiative'
+import Slickbanner from '@/components/Home/Slickbanner'
+
 
 
 function page() {
   return (
     <div>
-      <VideoSlick/>
+      
+      {/* <VideoSlick/> */}
+      <Slickbanner/>
       {/* <Banner/> */}
       {/* <FeatureArea/> */}
             {/* <Feature2/> */}
