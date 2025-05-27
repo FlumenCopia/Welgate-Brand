@@ -8,8 +8,8 @@ const Testing = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="tg-section-title white text-center mb-60">
-                                <span class="sub-title">recommend doctors</span>
-                                <h2 class="title white-text">recommended by doctors</h2>
+                                <span class="sub-title">Lifestyle & Wellness</span>
+                                <h2 class="title white-text">Lifestyle & Wellness</h2>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ const Testing = () => {
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                             </div>
-                                            <h2 class="title">I Use it Everyday</h2>
-                                            <p>Reference about Lorem Ipsums giving information origins</p>
+                                            <h2 class="title">Organic Farms</h2>
+                                            <p>From Seed to Sustainability: Our Organic Farms</p>
                                             <p class="tg-testi-avatar-info">Dr.Jon Smith . <span>2 hours ago</span></p>
                                         </div>
                                     </div>

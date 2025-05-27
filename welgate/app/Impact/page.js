@@ -8,8 +8,8 @@ function page() {
   return (
     <div>
         <PricingArea/>
-        {/* <Testing/>
-        <Testingtwo/>
+         <Testing/>
+        {/* <Testingtwo/>
         <TestingThree/> */}
     </div>
   )
