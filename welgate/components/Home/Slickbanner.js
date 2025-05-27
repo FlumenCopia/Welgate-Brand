@@ -6,9 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
-  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
   "/assets/img/high-angle-retro-vhs-packaging.jpg",
+  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
+  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
 ];
 
 const CustomPrevArrow = ({ className, onClick }) => (
@@ -57,7 +57,7 @@ export default function ImageCarousel() {
         {images.map((src, i) => (
           <div key={i}>
             <img  src={src} alt={`Slide ${i + 1}`} className="w-100 slickheight" style={{
-                height: "500px",
+                height: "490px",
                 objectFit: "cover",
                 width: "100%",
                 marginBottom:'0',
