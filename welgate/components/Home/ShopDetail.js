@@ -6,8 +6,7 @@ function ShopDetail() {
   <div className="container">
     <div className="row g-5 align-items-center">
 
-      {/* Images Column */}
-      <div className="col-lg-6 order-1 order-lg-2">
+      <div className="col-lg-6 order-1 order-lg-2 d-none d-sm-block">
         <div className="row g-3">
           <div className="col-6 text-start">
             <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
@@ -24,7 +23,6 @@ function ShopDetail() {
         </div>
       </div>
 
-      {/* Content Column */}
       <div className="col-lg-6 tg-section-title order-2 order-lg-1">
         <span className="section-title text-start sub-title">About Us</span>
         <p className="mb-4 title pfont2">From Entertainment <br /> to Wellness</p>

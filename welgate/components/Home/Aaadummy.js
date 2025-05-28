@@ -99,7 +99,7 @@ export default function BrandsSection() {
 
 
   return (
-    <div className="bg-yellow py-10 text-center pt-5" style={{paddingBottom:'90px'}}>
+    <div id="Brand" className="bg-yellow py-10 text-center pt-5" style={{paddingBottom:'90px'}}>
       <h2 className="text-2xl clrred font-bold mb-4" style={{paddingTop:'50px'}}>OUR BRANDS</h2>
       
 <div className="d-flex flex-wrap justify-content-center gap-2 mb-4" style={{ marginBottom: "35px" }}>

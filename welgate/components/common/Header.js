@@ -48,7 +48,7 @@ function Header() {
 
 
   <div className="header-btn d-none d-md-block">
-    <a href="https://welgatelifestyle.com/" className="tg-btn">Store</a>
+    <a href="https://welgatelifestyle.com/" target='blank' className="tg-btn">Store</a>
   </div>
 </div>
 

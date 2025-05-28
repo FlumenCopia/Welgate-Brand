@@ -1,88 +1,101 @@
-import React from 'react'
+"use client";
+
+import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+const SlickSlider = dynamic(() => import("react-slick"), { ssr: false });
+
+const CustomPrevArrow = ({ className, onClick }) => (
+  <button
+    className={`${className} custom-slick-prev slick-arrow`}
+    onClick={onClick}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 24 24">
+      <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+    </svg>
+  </button>
+);
+
+const CustomNextArrow = ({ className, onClick }) => (
+  <button
+    className={`${className} custom-slick-next slick-arrow`}
+    onClick={onClick}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 24 24">
+      <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+    </svg>
+  </button>
+);
 
 function Initiative() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay:true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+     prevArrow: <CustomPrevArrow />,
+  nextArrow: <CustomNextArrow />,
+   responsive: [
+  {
+    breakpoint: 1024,
+    settings: { slidesToShow: 3 }
+  },
+  {
+    breakpoint: 768,
+    settings: { slidesToShow: 2 }
+  },
+  {
+    breakpoint: 576,
+    settings: { slidesToShow: 1 }
+  }
+]
+
+  };
+
   return (
-    <div className="container-fluid blog pb-5 bg-yellow pt-5">
-            <div className="container pb-5">
-                <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{maxWidth: "800px"}}>
-                    {/* <h4 className="text-primary">Our Blog</h4> */}
-                    <h1 className="pfont2 clrred mb-4">Initiatives</h1>
-                    {/* <p className="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p> */}
-                </div>
-                <div className="row g-4">
-                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div className="blog-item">
-                            <div className="blog-img">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/free-photo/light-bulb-with-drawing-graph_1232-2105.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" className="img-fluid w-100 rounded-top" alt="Image"/>
-                                </a>
-                                {/* <div className="blog-category py-2 px-4">Vacation</div> */}
-                                {/* <div className="blog-date"><i className="fas fa-clock me-2"></i>August 19, 2025</div> */}
-                            </div>
-                            <div className="blog-content p-4">
-                                <a href="#" className="h4 d-inline-block mb-4">Why Children Dont Like Getting Out Of The Water</a>
-                                <p className="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
-                                </p>
-                                <a href="#" className="btn  round-btn py-2 px-4"><i className="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div className="blog-item">
-                            <div className="blog-img">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/free-photo/light-bulb-with-drawing-graph_1232-2105.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" className="img-fluid w-100 rounded-top" alt="Image"/>
-                                </a>
-                                {/* <div className="blog-category py-2 px-4">Insight</div> */}
-                                {/* <div className="blog-date"><i className="fas fa-clock me-2"></i>August 19, 2025</div> */}
-                            </div>
-                            <div className="blog-content p-4">
-                                <a href="#" className="h4 d-inline-block mb-4">5 Ways To Enjoy Waterland This Spring Break</a>
-                                <p className="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
-                                </p>
-                                <a href="#" className="btn  round-btn py-2 px-4"><i className="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div className="blog-item">
-                            <div className="blog-img">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/free-photo/light-bulb-with-drawing-graph_1232-2105.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" className="img-fluid w-100 rounded-top" alt="Image"/>
-                                </a>
-                                {/* <div className="blog-category py-2 px-4">Insight</div> */}
-                                {/* <div className="blog-date"><i className="fas fa-clock me-2"></i>August 19, 2025</div> */}
-                            </div>
-                            <div className="blog-content p-4">
-                                <a href="#" className="h4 d-inline-block mb-4">5 Ways To Enjoy Waterland This Spring Break</a>
-                                <p className="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
-                                </p>
-                                <a href="#" className="btn  round-btn py-2 px-4"><i className="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div className="blog-item">
-                            <div className="blog-img">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/free-photo/light-bulb-with-drawing-graph_1232-2105.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" className="img-fluid w-100 rounded-top" alt="Image"/>
-                                </a>
-                                {/* <div className="blog-category py-2 px-4">Insight</div> */}
-                                {/* <div className="blog-date"><i className="fas fa-clock me-2"></i>August 19, 2025</div> */}
-                            </div>
-                            <div className="blog-content p-4">
-                                <a href="#" className="h4 d-inline-block mb-4">3 Tips for Your Family Spring Break at Amusement Park</a>
-                                <p className="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aspernatur nam quidem porro sapiente, neque a quibusdam....
-                                </p>
-                                <a href="#" className="btn  round-btn py-2 px-4"><i className="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div id='Initiative' className="container-fluid blog pb-5 bg-yellow pt-5">
+      <div className=" pb-5">
+        <div className="text-center mx-auto pb-5" style={{ maxWidth: "400px" }}>
+          <h1 className="pfont2 clrred mb-4">Initiatives</h1>
         </div>
-  )
+        {isClient && (
+          <SlickSlider {...settings}>
+            {[1, 2, 3, 4].map((_, i) => (
+              <div key={i} className="p-2">
+                <div className="blog-item">
+                  <div className="blog-img">
+                    <img
+                      src="https://img.freepik.com/free-photo/light-bulb-with-drawing-graph_1232-2105.jpg"
+                      className="img-fluid w-100  rounded-top"
+                      style={{ height: '200px', objectFit: 'cover' }}
+                      alt="Initiative"
+                    />
+                  </div>
+                  <div className="blog-content p-4">
+                    <h4 className="mb-3">Sample Initiative {i + 1}</h4>
+                    <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                    <a href="#" className="btn round-btn py-2 px-4">
+                      <i className="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </SlickSlider>
+        )}
+      </div>
+    </div>
+  );
 }
 
-export default Initiative
+export default Initiative;

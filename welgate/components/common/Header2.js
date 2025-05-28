@@ -44,7 +44,7 @@ function Header2() {
     <div className="mobile-nav-toggler d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>
 
   <div className="header-btn buttontransform2 d-md-none d-sm-none d-xs-none d-lg-block">
-    <a href="https://welgatelifestyle.com/" className="tg-btn">Store</a>
+    <a href="https://welgatelifestyle.com/" target='blank' className="tg-btn">Store</a>
   </div>
 </div>
 
