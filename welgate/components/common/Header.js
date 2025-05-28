@@ -30,8 +30,8 @@ function Header() {
     <ul className="navigation  mb-0">
       <li><a href="/" className="section-link">Home</a></li>
       <li><a href="/About" className="section-link">About</a></li>
-      <li><a href="#Brand" className="section-link">Brand</a></li>
-            <li><a href="#Initiative" className="section-link">Initiative</a></li>
+      <li><a href="/#Brand" className="section-link">Brand</a></li>
+            <li><a href="/#Initiative" className="section-link">Initiative</a></li>
 
       <li><a href="/Impact" className="section-link">Impact</a></li>
       <li><a href="/Blog" className="section-link">Blog</a></li>

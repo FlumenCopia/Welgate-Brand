@@ -36,6 +36,7 @@ function GalleryPage() {
 
   return (
     <div>
+      
       <section className="breadcrumbgallery">
         <nav className="container breadcrumb-container">
           <h3 className="breadcrumbstyle">Gallery</h3>
