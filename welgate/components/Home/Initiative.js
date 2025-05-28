@@ -65,7 +65,7 @@ function Initiative() {
   return (
     <div id='Initiative' className="container-fluid blog pb-5 bg-yellow pt-5">
       <div className=" pb-5">
-        <div className="text-center mx-auto pb-5" style={{ maxWidth: "400px" }}>
+        <div className="text-center mx-auto " style={{ maxWidth: "400px" }}>
           <h1 className="pfont2 clrred mb-4">Initiatives</h1>
         </div>
         {isClient && (

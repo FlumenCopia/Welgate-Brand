@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShopDetail() {
+function HomeAbout() {
   return (
    <div className="container-xxl py-5">
   <div className="container">
@@ -61,4 +61,4 @@ function ShopDetail() {
   )
 }
 
-export default ShopDetail
+export default HomeAbout

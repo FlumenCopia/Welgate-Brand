@@ -1,6 +1,6 @@
 import React from 'react'
 
-function IngredientsArea() {
+function HomeMission() {
   return (
     <div>
         <section id="ingredient" className="ingredients-area-two section-py-130">
@@ -92,4 +92,4 @@ function IngredientsArea() {
   )
 }
 
-export default IngredientsArea
+export default HomeMission

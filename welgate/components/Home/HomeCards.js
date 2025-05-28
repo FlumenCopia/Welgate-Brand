@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServiceArea() {
+function HomeCards() {
   return (
     <div>
         <section id="feature" className="tg-service-area">
@@ -108,4 +108,4 @@ function ServiceArea() {
   )
 }
 
-export default ServiceArea
+export default HomeCards

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShopArea() {
+function HomeSlick() {
   return (
     <div className="container-fluid attractions py-5">
             <div className="container attractions-section py-5">
@@ -36,4 +36,4 @@ function ShopArea() {
   )
 }
 
-export default ShopArea
+export default HomeSlick
