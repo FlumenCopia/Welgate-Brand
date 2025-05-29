@@ -5342,6 +5342,7 @@ margin: 0 auto;}
     /* height: 139px; */
     z-index: 9;
 }
+
 .tg-menu-area.sticky-menu {
 	padding: 0 0;
 	position: fixed;
@@ -8384,7 +8385,15 @@ height: 693px;}
   display: flex;
   align-items: center; 
     margin-top: 80px;
-
+  margin-bottom: 70px;
+}
+.breadcrumbinitiative {
+  background: url('https://img.freepik.com/premium-photo/inks-water-color-abstract-explosion_1122-8901.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740') center/cover no-repeat;
+  /* background-color: #e8f9e9; */
+  height: 350px;
+  display: flex;
+  align-items: center; 
+    margin-top: 80px;
   margin-bottom: 70px;
 }
 .breadcrumbgallery {
