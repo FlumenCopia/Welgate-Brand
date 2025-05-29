@@ -72,7 +72,7 @@ function Footer() {
                                         {/* <li><a href="#">Affiliate Program</a></li>
                                         <li><a href="#">Customer Spotlight</a></li>
                                         <li><a href="#">Reseller Program</a></li> */}
-                                        <li><a href="https://welgatelifestyle.com/">Our Shop</a></li>
+                                        <li><a href="https://welgatelifestyle.com/" target='blank'>Our Shop</a></li>
                                         {/* <li><a href="#">Price & Plans</a></li> */}
                                     </ul>
                                 </div>
@@ -84,7 +84,7 @@ function Footer() {
                                         {/* <li><a href="#">Knowledge Base</a></li> */}
                                         <li><a href="/Blog">Blog</a></li>
                                         {/* <li><a href="#">Developer API</a></li> */}
-                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="/Gallery">Gallery</a></li>
                                         {/* <li><a href="#">Team</a></li> */}
                                         <li><a href="/Contactus">Contact</a></li>
                                     </ul>

@@ -49,8 +49,8 @@ export default function ImageCarousel() {
 
   return (
     <div>
-        <div className="bgprimary text-white text-center d-grid align-items-center fw-bold bannerredheight" style={{ marginTop: '80px', height:'80px' }}>
-            WE ARE A RESPONSIBLE GLOBAL TOTAL FOODS COMPANY
+        <div className="bgprimary  bannerredheight d-grid align-items-center"  style={{ marginTop: '80px', height:'80px' }}>
+            <p className="text-white text-center pt-3  fw-bold wow zoomIn"data-wow-delay="0.3s">GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
         </div>        
       <div>
       <Slider {...settings}>

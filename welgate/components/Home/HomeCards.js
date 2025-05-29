@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServiceArea() {
+function HomeCards() {
   return (
     <div>
         <section id="feature" className="tg-service-area">
@@ -9,13 +9,13 @@ function ServiceArea() {
                         <div className="row justify-content-center">
                             <div className="col-lg-8">
                                 <div className="tg-section-title text-center mb-60">
-                                    <span className="sub-title">A Legacy of Evolving with Purpose</span>
-                                    <p className="title pfont2">Welgate’s Journey: <br/> “From Soundwaves to Superfoods”</p>
+                                    <span className="sub-title wow zoomIn"data-wow-delay="0.3s">A Legacy of Evolving with Purpose</span>
+                                    <p className="title pfont2 wow zoomIn"data-wow-delay="0.3s">Welgate’s Journey: <br/> “From Soundwaves to Superfoods”</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">01</div> */}
                                     <div className="icon">
@@ -28,7 +28,7 @@ function ServiceArea() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">02</div> */}
                                     <div className="icon">
@@ -42,7 +42,7 @@ function ServiceArea() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">03</div> */}
                                     <div className="icon">
@@ -56,7 +56,7 @@ function ServiceArea() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">04</div> */}
                                     <div className="icon">
@@ -71,7 +71,7 @@ function ServiceArea() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">05</div> */}
                                     
@@ -86,7 +86,7 @@ function ServiceArea() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">06</div> */}
                                     <div className="icon">
@@ -108,4 +108,4 @@ function ServiceArea() {
   )
 }
 
-export default ServiceArea
+export default HomeCards

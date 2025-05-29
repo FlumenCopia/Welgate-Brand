@@ -1,26 +1,26 @@
 import React from 'react'
 
-function IngredientsArea() {
+function HomeMission() {
   return (
     <div>
-        <section id="ingredient" className="ingredients-area-two section-py-130">
+        <section id="ingredient" className="ingredients-area-two section-py-120">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="section-title section-title-two text-center mb-90">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <p className='subtitle-colour '>Decades of Trust, One Mission: Better Living</p>
+                                    <p className='subtitle-colour wow zoomIn' data-wow-delay="0.3s" data-wow-duration="1.5s">Decades of Trust, One Mission: Better Living</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <p className="title pfont2"> Legacy of Wellness: From Tapes to Tables</p>
+                                <p className="title pfont2 wow zoomIn" data-wow-delay="0.3s" data-wow-duration="1.5s"> Legacy of Wellness: From Tapes to Tables</p>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-8 order-0 order-lg-2">
                             <div className="ingredients-img-two">
-                                <img src="/assets/img/bg/cdandgrocery.png" alt="img"/>
+                                <img className='wow zoomIn' data-wow-delay="0.3s" data-wow-duration="1.2s" src="/assets/img/bg/cdandgrocery.png" alt="img"/>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -92,4 +92,4 @@ function IngredientsArea() {
   )
 }
 
-export default IngredientsArea
+export default HomeMission
