@@ -5,8 +5,7 @@ import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
 import Scrolltop from "@/components/Scroll/Scrolltop";
 import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
-import Header2 from "@/components/common/Header2";
+
 import HeaderSwitcher from "@/components/common/HeaderSwitcher";
 
 
@@ -34,7 +33,6 @@ export default function RootLayout({ children }) {
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.carousel.css"/>
     <link rel="stylesheet" href="welgate/public/assets/js/owlcarousel/assets/owl.carousel.min.css"/>
-
     <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.default.css"/>
 
     <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.default.min.css"/>

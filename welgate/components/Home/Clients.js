@@ -49,7 +49,7 @@ function Clients() {
                         </div>
                         <div className="col-2">
                             <div className="brand-item">
-                                <a href="#"><img src="/assets/img/clients/brand-img10.png" alt="brand"/></a>
+                                <a href="#"><img src="/assets/img/clients/brand-img10 (1).png" alt="brand"/></a>
                             </div>
                         </div>
                     </div>
