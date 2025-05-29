@@ -3235,7 +3235,7 @@ font-size: clamp(32px, 5vw, 55px);
 
 @media (max-width: 576px) {
   .ingredients-img-two img{
-	max-width: 60% !important;
+	max-width: 75% !important;
 }
 }
 
@@ -6913,6 +6913,10 @@ margin: 0 auto;}
 .section-py-130 {
     padding: 80px 0;
 }
+
+.section-py-120 {
+    padding-bottom: 120px;
+}
 .about-content {
     margin: 0 80px 0 50px;
 }
@@ -7125,6 +7129,7 @@ margin: 0 auto;}
     animation: rotateme2 10s linear infinite;
     animation-play-state: paused;
 }
+
 .ingredients-item-two:hover .ingredients-icon::before {
     animation-play-state: running;
 }

@@ -73,7 +73,9 @@ export default function RootLayout({ children }) {
         <Footer/>
         <Script src="/assets/js/vendor/jquery-3.6.0.min.js"></Script>
         <Script src="/assets/js/owlcarousel/owl.carousel.js"></Script>
-                <Script src="/assets/js/owlcarousel/owl.carousel.min.js"></Script>
+        <Script src="/assets/js/owlcarousel/owl.carousel.min.js"></Script>
+        <Script src="/assets/js/counterup/counterup.min.js"></Script>
+        <Script src="/assets/js/waypoints/waypoints.min.js"></Script>
 
 
         <Script src="/assets/js/bootstrap.min.js"></Script>
@@ -92,7 +94,7 @@ export default function RootLayout({ children }) {
         <Script src="/assets/js/slick.min.js"></Script>
         <Script src="/assets/js/validator.js"></Script>
         <Script src="/assets/js/ajax-form.js"></Script>
-        <Script src="/assets/js/wow.min.js"></Script>
+        <Script src="/assets/js/wow.min.js" strategy="beforeInteractive"></Script>
         <Script src="/assets/js/main.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></Script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></Script>

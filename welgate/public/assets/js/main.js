@@ -738,14 +738,25 @@ function wowAnimation() {
 		boxClass: 'wow',
 		animateClass: 'animated',
 		offset: 0,
-		mobile: false,
-		live: true
+		mobile: true,
+		live: true,
 	});
 	wow.init();
 }
 
 
 })(jQuery);
+
+
+
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+    });
+
+
+
 
 ///////////////////////attractions/////////////////////////////////
  $(".attractions-carousel").owlCarousel({

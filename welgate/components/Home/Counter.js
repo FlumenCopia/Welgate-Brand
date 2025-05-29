@@ -16,7 +16,7 @@ function Counter() {
 
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="5"></span>+</h2>
+                                        <h2 className="count"><span data-toggle="counter-up">5</span>+</h2>
                                         <p>Stores around Kerala</p>
                                     </div>
                                 </div>
@@ -30,7 +30,7 @@ function Counter() {
 
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="100%"></span></h2>
+                                        <h2 className="count"><span data-toggle="counter-up" >100</span>%</h2>
                                         <p>Customer Satisfaction</p>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ function Counter() {
                                         </div>
                                     </div>
                                     <div className="counter-content">
-                                        <h2 className="count"><span className="odometer" data-count="15"></span>+</h2>
+                                        <h2 className="count"><span data-toggle="counter-up">15</span>+</h2>
                                         <p>Years of Experience</p>
                                     </div>
                                 </div>

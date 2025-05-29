@@ -4,11 +4,11 @@ import Slider from "react-slick";
 
 const data = {
   BISCUITS: [
-    { name: "Treat", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
-    { name: "Little Hearts", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
-    { name: "Pure Magic", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
-    { name: "Nice Time", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
-    { name: "Biscafe", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
+    { name: "Treat", image: "https://img.freepik.com/free-photo/delicious-slices-snacks-with-cream_23-2148361978.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
+    { name: "Little Hearts", image: "https://img.freepik.com/free-photo/delicious-hamburger-with-french-fries_23-2148374824.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
+    { name: "Pure Magic", image: "https://img.freepik.com/free-photo/front-view-shrimp-batter-with-french-fries-fried-pita-bread-sauces_140725-13880.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
+    { name: "Nice Time", image: "https://img.freepik.com/free-photo/different-kinds-colorful-sandwiches-chopping-board_23-2147922312.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
+    { name: "Biscafe", image: "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" },
   ],
   DAIRY: [
     { name: "Cheese", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
