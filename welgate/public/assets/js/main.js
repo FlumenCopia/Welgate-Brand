@@ -247,7 +247,7 @@ $('.brand-active').slick({
 	dots: false,
 	infinite: true,
 	speed: 1000,
-	autoplay: true,
+	// autoplay: true,
 	arrows: false,
 	slidesToShow: 6,
 	slidesToScroll: 2,
@@ -278,7 +278,7 @@ $('.brand-active').slick({
 		{
 			breakpoint: 575,
 			settings: {
-				slidesToShow: 2,
+				slidesToShow: 3,
 				slidesToScroll: 1,
 				arrows: false,
 			}

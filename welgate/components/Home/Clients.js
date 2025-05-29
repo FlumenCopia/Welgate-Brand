@@ -29,7 +29,7 @@ function Clients() {
                         </div>
                         <div className="col-2">
                             <div className="brand-item">
-                                <a href="#"><img src="/assets/img/clients/brand-img5.png" alt="brand" style={{height:'100px'}}/></a>
+                                <a  href="#"><img className='lotus' src="/assets/img/clients/brand-img5.png" alt="brand" style={{height:'100px'}}/></a>
                             </div>
                         </div>
                         <div className="col-2">

@@ -1687,6 +1687,24 @@ body.search-visible {
 	justify-content: center;
 }
 
+@media (max-width:576px)
+{
+	.brand-item {
+	display: flex;
+	min-height: 24px !important;
+	max-height: 50px !important;
+	width: 100px;
+	align-items: center;
+	justify-content: center;
+}
+    .brand-area {
+        padding: 50px 0 50px !important;
+    }
+	.lotus {
+	height: 60px !important;
+}
+}
+
 /* 8. Features */
 .features-bg {
 	background-position: center;
@@ -8350,19 +8368,23 @@ height: 693px;}
 /* ............................................breadcrumbs.............................................. */
 
 .breadcrumbblog {
-  background: url('https://img.freepik.com/premium-photo/notebook-spring-with-red-purple-pink-sheets-pen-dark-background-mockup-space-text-toned-viva-magenta-trend-color-year-2023-banner_152932-5013.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740') center/cover no-repeat;
+  background: url('https://img.freepik.com/premium-photo/red-notebook-with-green-plant-white-background-with-copy-space-top-view_106006-8027.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;
   align-items: center; 
+    margin-top: 80px;
+
   margin-bottom: 0px;
 }
 .breadcrumbabout {
-  background: url('https://img.freepik.com/free-photo/abstract-smoke-background-white-texture-border-cinematic-design_53876-128250.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740') center/cover no-repeat;
+  background: url('https://img.freepik.com/premium-photo/inks-water-color-abstract-explosion_1122-8901.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;
   align-items: center; 
+    margin-top: 80px;
+
   margin-bottom: 70px;
 }
 .breadcrumbgallery {
@@ -8371,14 +8393,17 @@ height: 693px;}
   height: 350px;
   display: flex;
   align-items: center; 
+    margin-top: 80px;
+
   margin-bottom: 70px;
 }
 .breadcrumbcontact {
-  background: url('https://img.freepik.com/premium-photo/satin-soft-blue-abstract-creative-background-design_851755-208691.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740') center/cover no-repeat;
-  /* background-color: #e8f9e9; */
+background: url('https://img.freepik.com/premium-photo/push-button-telephone-with-cable-wound-earphones-yellow-background-copy-space_175682-26343.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740') center/cover no-repeat;
   height: 350px;
+  width: 100%;
   display: flex;
   align-items: center; 
+  margin-top: 80px;
   margin-bottom: 70px;
 }
 
