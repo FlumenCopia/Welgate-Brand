@@ -6002,10 +6002,13 @@ margin: 0 auto;}
 	transform: translateY(85px) !important;
 }
 .bouncewidth2{
-	width: 185px !important;
+	width: 220px !important;
 }
 .bounceimgtranslate2{
-	transform: translateY(-62px) !important;
+	transform: translateY(-110px) !important;
+}
+.brandmargin{
+	margin-top: -90px !important;
 }
 }
 
@@ -6023,10 +6026,10 @@ margin: 0 auto;}
 	transform: translateY(65px) !important;
 }
 .bouncewidth2{
-	width: 130px !important;
+	width: 175px !important;
 }
 .bounceimgtranslate2{
-	transform: translateY(-40px) !important;
+	transform: translateY(-87px) !important;
 }
 }
 
