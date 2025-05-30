@@ -13,7 +13,7 @@ function Header() {
           <div className="container">
             <div className="row align-items-center alignmd">
   {/* Logo */}
-<div className="col-lg-2 col-md-2 col-6 d-flex logotransform align-items-center" style={{ transform: 'translateY(9px)',justifyContent:'center' }}>
+<div className="col-lg-2 col-md-2 col-6 d-flex logotransform align-items-center" style={{ transform: 'translateY(9px)',justifyContent:'start' }}>
   <div className="logo">
     <a href="/">
       <img

@@ -18,7 +18,7 @@ useEffect(() => {
 
 
   return (
-   <div className="container-xxl py-5">
+   <div className="container-xxl py-5" style={{marginBottom:'90px'}}>
   <div className="container">
     <div className="row g-5 align-items-center">
 
@@ -50,7 +50,7 @@ useEffect(() => {
         <div className="row g-4 mb-4">
           <div className="col-sm-6">
             <div className="d-flex align-items-center border-start border-dark border-3 px-3">
-              <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">15</h1>
+              <h1 className="flex-shrink-0 display-5 bdcolor mb-0"><span data-toggle="counter-up">15</span>+</h1>
               <div className="ps-4">
                 <p className="mb-0">Years of</p>
                 <h6 className="text-uppercase mb-0">Experience</h6>
@@ -59,7 +59,7 @@ useEffect(() => {
           </div>
           <div className="col-sm-6">
             <div className="d-flex align-items-center border-dark border-start border-3 px-3">
-              <h1 className="flex-shrink-0 display-5 bdcolor mb-0" data-toggle="counter-up">100</h1>
+              <h1 className="flex-shrink-0 display-5 bdcolor mb-0"><span data-toggle="counter-up">100</span>%</h1>
               <div className="ps-4">
                 <p className="mb-0">Customer</p>
                 <h6 className="text-uppercase mb-0">Satisfaction</h6>

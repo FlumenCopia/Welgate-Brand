@@ -3,6 +3,7 @@ import React from 'react'
 function HomeMission() {
   return (
     <div>
+        
         <section id="ingredient" className="ingredients-area-two section-py-120">
                 <div className="container">
                     <div className="row justify-content-center">

@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/img/high-angle-retro-vhs-packaging.jpg",
+  "/assets/img/bg/aboutimg1.jpeg",
   "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
   "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
 ];
@@ -67,7 +67,7 @@ export default function ImageCarousel() {
         ))}
       </Slider>
     </div>
-     <div className="bgprimary text-white align-items-center  d-flex justify-content-center "  style={{ height: "80px", marginTop: "0", paddingTop: "0" }}>
+     <div className="bgprimary text-white align-items-center  d-flex justify-content-center dispnone"  style={{ height: "80px", marginTop: "0", paddingTop: "0" }}>
         <a href="/About" className="btn btn-pill px-4 py-2 text-danger bg-white">Know More</a>
       </div>
     </div>

@@ -977,7 +977,7 @@ display: none !important;
 
 
 .nav-logo img {
-	width: 160px;
+	width: 120px;
 }
 .mobile-menu {
 	
@@ -3660,6 +3660,8 @@ font-size: clamp(32px, 5vw, 55px);
 	left: auto;
 	right: -150px;
 }
+
+
 .testimonial-active .slick-arrow::before {
 	content: "";
 	position: absolute;
@@ -5341,6 +5343,7 @@ margin: 0 auto;}
     position: relative;
     /* height: 139px; */
     z-index: 9;
+	
 }
 
 .tg-menu-area.sticky-menu {
@@ -5964,7 +5967,7 @@ margin: 0 auto;}
 }
 .tg-service-area {
 	background: #f8f1c9;
-	padding: 70px 0 60px;
+	padding: 140px 0 60px;
 }
 .tg-service-item {
 	background: var(--tg-white);
@@ -5987,6 +5990,43 @@ margin: 0 auto;}
 	padding: 38px 16px !important;
 	
 
+}
+	.tg-service-area {
+    background: #f8f1c9;
+    padding: 120px 0 60px !important;
+}
+.bouncewidth{
+	width: 185px !important;
+}
+.bounceimgtranslate{
+	transform: translateY(85px) !important;
+}
+.bouncewidth2{
+	width: 185px !important;
+}
+.bounceimgtranslate2{
+	transform: translateY(-62px) !important;
+}
+}
+
+
+
+@media(max-width:576px){
+	.tg-service-area {
+    background: #f8f1c9;
+    padding: 90px 0 60px !important;
+}
+.bouncewidth{
+	width: 140px !important;
+}
+.bounceimgtranslate{
+	transform: translateY(65px) !important;
+}
+.bouncewidth2{
+	width: 130px !important;
+}
+.bounceimgtranslate2{
+	transform: translateY(-40px) !important;
 }
 }
 
@@ -7318,7 +7358,7 @@ margin: 0 auto;}
   margin-top: 60px;
 }
 
-.testimonial-nav .slick-arrow {
+.testimonial-nav .slick-arrow3 {
     background: transparent;
     border: none;
     padding: 0 0;
@@ -7331,7 +7371,8 @@ margin: 0 auto;}
     position: relative;
     cursor: pointer;
 }
-.testimonial-nav .slick-arrow::before {
+
+.testimonial-nav .slick-arrow3::before {
     content: "";
     position: absolute;
     left: -25px;
@@ -7349,12 +7390,18 @@ margin: 0 auto;}
     transition: all 0.3s ease-out 0s;
     z-index: -1;
 }
+
+.testimonial-nav .slick-arrow3:hover::before {
+    background: var(--tg-teritiary-color) !important;
+	    opacity: .3 !important;
+
+}
 .testimonial-nav .next-arrow::before {
   left: auto;
   right: -25px;
 }
 
-.testimonial-nav .slick-arrow:hover::before {
+.testimonial-nav .slick-arrow3:hover::before {
   opacity: 1;
 }
 
@@ -8384,7 +8431,7 @@ height: 693px;}
   margin-bottom: 0px;
 }
 .breadcrumbabout {
-  background: url('https://img.freepik.com/premium-photo/inks-water-color-abstract-explosion_1122-8901.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740') center/cover no-repeat;
+  background: url('/assets/img/bg/freepik__horizontal-banner-with-an-old-vinyl-cd-its-inner-p__66157.jpeg') center/cover no-repeat;
   /* background-color: #e8f9e9; */
   height: 350px;
   display: flex;
@@ -8966,6 +9013,13 @@ text-align: left;
 
 .attractions-carousel .owl-stage-outer {
     margin-top: 58px;
+}
+
+@media (max-width:576px)
+{
+	.dispnone{
+		display: none !important;
+	}
 }
 
 .attractions .owl-nav .owl-prev {

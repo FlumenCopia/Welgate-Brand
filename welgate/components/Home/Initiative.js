@@ -65,7 +65,7 @@ function Initiative() {
     dots: false,
     infinite: true,
     speed: 500,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
@@ -81,13 +81,13 @@ function Initiative() {
     <div id='Initiative' className="container-fluid blog pb-5 bg-yellow pt-5">
       <div className="pb-5">
         <div className="text-center mx-auto" style={{ maxWidth: "400px" }}>
-          <h1 className="pfont2 clrred mb-4">Initiatives</h1>
+          <h1 className="pfont2 clrred mb-4 wow zoomIn" data-wow-delay="0.1s">Initiatives</h1>
         </div>
         {isClient && (
           <SlickSlider {...settings}>
             {initiativesData.map(({ title, description, image }, i) => (
               <div key={i} className="p-2">
-                <div className="blog-item">
+                <div className="blog-item  d-flex flex-column wow fadeInUp" data-wow-delay="0.5s" style={{ height: '450px' }}>
                   <div className="blog-img">
                     <img
                       src={image}
@@ -96,15 +96,25 @@ function Initiative() {
                       alt={title}
                     />
                   </div>
-                  <div className="blog-content p-4">
-                    <h4 className="mb-3">{title}</h4>
-                    <p className="mb-4">{description}</p>
-                    <a href="/InitiativeSlug" className="btn round-btn py-2 px-4" aria-label={`Read more about ${title}`}>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
+                  <div className="blog-content p-4 d-flex flex-column justify-content-between" style={{ flex: 1 }}>
+                    <div>
+                      <h4 className="mb-3">{title}</h4>
+                      <p className="mb-4">{description}</p>
+                    </div>
+                    <div className="d-flex justify-content-end mt-auto">
+          <a
+            href="/InitiativeSlug"
+            className="btn round-btn"
+            aria-label={`Read more about ${title}`}
+          >
+            <i className="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
                   </div>
                 </div>
               </div>
+
             ))}
           </SlickSlider>
         )}
