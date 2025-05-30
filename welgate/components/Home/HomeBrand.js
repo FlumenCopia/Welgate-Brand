@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 
 const data = {
-  BISCUITS: [
+  Snacks: [
     { name: "Treat", image: "https://img.freepik.com/free-photo/delicious-slices-snacks-with-cream_23-2148361978.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
     { name: "Little Hearts", image: "https://img.freepik.com/free-photo/delicious-hamburger-with-french-fries_23-2148374824.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
     { name: "Pure Magic", image: "https://img.freepik.com/free-photo/front-view-shrimp-batter-with-french-fries-fried-pita-bread-sauces_140725-13880.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&w=740" },
@@ -11,33 +11,26 @@ const data = {
     { name: "Biscafe", image: "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" },
   ],
   DAIRY: [
-    { name: "Cheese", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
-    { name: "Milk", image: "https://img.freepik.com/premium-psd/fresh-fruit-platter-peaches-oranges-berries-grapes-wood_1270823-6299.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_items_boosted&w=740" },
+    { name: "Cheese", image: "https://img.freepik.com/premium-vector/apple-yogurt-packaging-design-with-splashing-milk-swirl-tasty_94753-3055.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+    { name: "Milk", image: "https://img.freepik.com/free-photo/flat-lay-cheese-with-knife_23-2148376118.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+        { name: "Milk", image: "https://img.freepik.com/free-photo/glass-milk-cow-ai-generated-image_268835-6469.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+            { name: "Milk", image: "https://img.freepik.com/premium-photo/discuss-cultural-significance-ghee-indian-cuisine_1247965-20720.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+                { name: "Milk", image: "https://img.freepik.com/premium-photo/ariety-cheese-types-artistic-display_942655-14676.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+
+
+
   ],
-  SNACKING: [
-    { name: "Pure Magic", image: "/images/pure-magic.png" },
-    { name: "Nice Time", image: "/images/nice-time.png" },
-    { name: "Biscafe", image: "/images/biscafe.png" },
+  Fruits: [
+    { name: "Pure Magic", image: "https://img.freepik.com/premium-vector/realistic-orange-with-leaves_173207-101.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+    { name: "Nice Time", image: "https://img.freepik.com/free-photo/flat-lay-delicious-kiwi-arrangement_23-2148893641.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+    { name: "Biscafe", image: "https://img.freepik.com/free-photo/close-up-red-ripe-organic-apples_23-2147920837.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+    { name: "Biscafe", image: "https://img.freepik.com/premium-photo/closeup-red-guava-sliced-with-green-leaf-rustic-wooden-table_208861-111.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+    { name: "Biscafe", image: "https://img.freepik.com/free-vector/realistic-vector-seamless-pattern-fresh-whole-strawberries-falling_134830-2427.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&w=740" },
+
+
   ],
-  CAKES: [
-    { name: "Cheese", image: "/images/cheese.png" },
-    { name: "Milk", image: "/images/milk.png" },
-  ],
-  RUSK: [
-    { name: "Treat", image: "/images/treat.png" },
-    { name: "Little Hearts", image: "/images/little-hearts.png" },
-  ],
-  BREADS: [
-    { name: "Little Hearts", image: "/images/little-hearts.png" },
-    { name: "Pure Magic", image: "/images/pure-magic.png" },
-    { name: "Nice Time", image: "/images/nice-time.png" },
-  ],
-  "NUTRITIOUS BARS": [ { name: "Treat", image: "/images/treat.png" },
-    { name: "Little Hearts", image: "/images/little-hearts.png" },
-    { name: "Pure Magic", image: "/images/pure-magic.png" },
-    { name: "Nice Time", image: "/images/nice-time.png" },
-    { name: "Biscafe", image: "/images/biscafe.png" },
-  ],
+
+
 };
 
 const categories = Object.keys(data);
@@ -68,12 +61,12 @@ const CustomNextArrow = ({ className, onClick }) => (
 
 export default function HomeBrand() {
 
-  const [activeCategory, setActiveCategory] = useState("BISCUITS");
+  const [activeCategory, setActiveCategory] = useState("Snacks");
 
   const arrowsettings = {
   dots: true,
   infinite: true,
-  // autoplay: true,
+  autoplay: true,
   slidesToShow: 5,
   slidesToScroll: 1,
   arrows: true,

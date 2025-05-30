@@ -10,7 +10,7 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 function PrevArrow({ onClick }) {
   return (
-    <a className="prev-arrow slick-arrow" onClick={onClick}>
+    <a className="prev-arrow slick-arrow3" onClick={onClick}>
       <i className="flaticon-left-arrow"></i>
     </a>
   );
@@ -18,7 +18,7 @@ function PrevArrow({ onClick }) {
 
 function NextArrow({ onClick }) {
   return (
-    <a className="next-arrow slick-arrow" onClick={onClick}>
+    <a className="next-arrow slick-arrow3" onClick={onClick}>
       <i className="flaticon-right-arrow"></i>
     </a>
   );

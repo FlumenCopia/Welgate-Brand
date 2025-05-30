@@ -5,7 +5,7 @@ function Header2() {
     <div>
       <header id="home ">
         <div id="header-fixed-height"></div>
-        <div id="sticky-header" className="tg-menu-area2 menu-area">
+        <div id="sticky-header" className="tg-menu-area2 menu-area shadow-lg">
           <div className="container">
             <div className="row align-items-center">
   {/* Logo */}
@@ -27,8 +27,7 @@ function Header2() {
       <li><a href="/" className="section-link">Home</a></li>
       <li><a href="/About" className="section-link">About</a></li>
       <li><a href="#Brand" className="section-link">Brand</a></li>
-            <li><a href="#Initiative" className="section-link">Initiative</a></li>
-
+      <li><a href="#Initiative" className="section-link">Initiative</a></li>
       <li><a href="/Impact" className="section-link">Impact</a></li>
       <li><a href="/Blog" className="section-link">Blog</a></li>
       <li><a href="/Gallery" className="section-link">Gallery</a></li>
