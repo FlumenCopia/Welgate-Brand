@@ -96,10 +96,10 @@ export default function HomeBrand() {
 <div>
  
          <div id="Brand" className="bg-yellow  pb-90 text-center"  >
-           <div className="d-flex justify-content-center bounceimgtranslate2" style={{transform:'translateY(-82px)'}}>
-              <img className="wow bounceIn bouncewidth2" data-wow-delay="0.1s" src="https://img.freepik.com/premium-photo/png-cassette-tape-cassette-black-background-electronics_53876-878464.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740" style={{width:'255px'}}/>
+           <div className="d-flex justify-content-center bounceimgtranslate2" style={{transform:'translateY(-170px)'}}>
+              <img className="wow bounceIn bouncewidth2" data-wow-delay="0.1s" src="/assets/img/bg/casette-removebg-preview.png" style={{width:'350px'}}/>
           </div>
-      <h2 className="pfont2 clrred font-bold mb-4 wow zoomIn" data-wow-delay="0.1s" style={{marginTop:'-5px'}}>OUR BRANDS</h2>
+      <h2 className="pfont2 clrred font-bold mb-4 wow zoomIn brandmargin" data-wow-delay="0.1s" style={{marginTop:'-150px'}}>OUR BRANDS</h2>
       
       <div className="d-flex flex-wrap justify-content-center gap-2 mb-4" style={{ marginBottom: "35px" }}>
         {categories.map((category) => (
