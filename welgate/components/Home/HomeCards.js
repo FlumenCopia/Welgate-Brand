@@ -3,6 +3,9 @@ import React from 'react'
 function HomeCards() {
   return (
     <div>
+        <div className="d-flex justify-content-center bounceimgtranslate" style={{transform:'translateY(120px)'}}>
+              <img className='wow bounceIn bouncewidth' data-wow-delay="0.1s" src="/assets/img/bg/88371633_Strawberry_-1-removebg-preview.png" style={{width:'280px'}}/>
+          </div>
         <section id="feature" className="tg-service-area">
                 <div className="container">
                     <div className="tg-service-inner">
@@ -56,7 +59,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">04</div> */}
                                     <div className="icon">
@@ -71,7 +74,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">05</div> */}
                                     
@@ -86,7 +89,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.7s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">06</div> */}
                                     <div className="icon">

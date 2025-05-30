@@ -81,13 +81,13 @@ function Initiative() {
     <div id='Initiative' className="container-fluid blog pb-5 bg-yellow pt-5">
       <div className="pb-5">
         <div className="text-center mx-auto" style={{ maxWidth: "400px" }}>
-          <h1 className="pfont2 clrred mb-4">Initiatives</h1>
+          <h1 className="pfont2 clrred mb-4 wow zoomIn" data-wow-delay="0.1s">Initiatives</h1>
         </div>
         {isClient && (
           <SlickSlider {...settings}>
             {initiativesData.map(({ title, description, image }, i) => (
               <div key={i} className="p-2">
-                <div className="blog-item  d-flex flex-column" style={{ height: '450px' }}>
+                <div className="blog-item  d-flex flex-column wow fadeInUp" data-wow-delay="0.5s" style={{ height: '450px' }}>
                   <div className="blog-img">
                     <img
                       src={image}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeService() {
   return (
-       <div className="container-fluid pt-6 pb-6" style={{marginTop:'100px',marginBottom:'100px'}}>
+       <div className="container-fluid pt-6 pb-6" style={{marginTop:'100px'}}>
         <div className="container">
             <div className="row g-5">
                 <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
