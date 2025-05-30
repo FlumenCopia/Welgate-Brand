@@ -92,26 +92,29 @@ export default function HomeBrand() {
 
 
   return (
-    <div id="Brand" className="bg-yellow py-10 pb-90 text-center pt-5" >
-      <h2 className="pfont2 pt-50 clrred font-bold mb-4" >OUR BRANDS</h2>
+
+<div>
+ 
+         <div id="Brand" className="bg-yellow  pb-90 text-center"  >
+           <div className="d-flex justify-content-center" style={{transform:'translateY(-140px)'}}>
+        <img src="/assets/img/bg/360528057_11457893-removebg-preview.png" style={{width:'350px'}}/>
+
+  </div>
+      <h2 className="pfont2 clrred font-bold mb-4" style={{marginTop:'-90px'}}>OUR BRANDS</h2>
       
-<div className="d-flex flex-wrap justify-content-center gap-2 mb-4" style={{ marginBottom: "35px" }}>
-  {categories.map((category) => (
-    <button
-      key={category}
-      className={`btn  font-weight-medium rounded-pill category-btn ${
-        activeCategory === category ? "bg-white text-black border-white" : "bg-danger text-white border border-danger"
-      }`}
-      onClick={() => setActiveCategory(category)}
-    >
-      {category}
-    </button>
-  ))}
-</div>
-
-
-     
-
+      <div className="d-flex flex-wrap justify-content-center gap-2 mb-4" style={{ marginBottom: "35px" }}>
+        {categories.map((category) => (
+          <button
+            key={category}
+            className={`btn  font-weight-medium rounded-pill category-btn ${
+              activeCategory === category ? "bg-white text-black border-white" : "bg-danger text-white border border-danger"
+            }`}
+            onClick={() => setActiveCategory(category)}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
 
       <Slider {...arrowsettings}>
         {data[activeCategory].map((item, index) => (
@@ -128,5 +131,8 @@ export default function HomeBrand() {
         ))}
       </Slider>
     </div>
+</div>
+
+   
   );
 }
