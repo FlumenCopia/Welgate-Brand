@@ -37,6 +37,7 @@ function Header() {
       <li><a href="/Blog" className="section-link">Blog</a></li>
       <li><a href="/Gallery" className="section-link">Gallery</a></li>
       <li><a href="/Contactus">Contact</a></li>
+
     </ul>
   </div>
 </div>

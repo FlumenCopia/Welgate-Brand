@@ -26,12 +26,13 @@ function Header2() {
     <ul className="navigation  mb-0">
       <li><a href="/" className="section-link">Home</a></li>
       <li><a href="/About" className="section-link">About</a></li>
-      <li><a href="#Brand" className="section-link">Brand</a></li>
-      <li><a href="#Initiative" className="section-link">Initiative</a></li>
+      <li><a href="/#Brand" className="section-link">Brand</a></li>
+      <li><a href="/#Initiative" className="section-link">Initiative</a></li>
       <li><a href="/Impact" className="section-link">Impact</a></li>
       <li><a href="/Blog" className="section-link">Blog</a></li>
       <li><a href="/Gallery" className="section-link">Gallery</a></li>
       <li><a href="/Contactus">Contact</a></li>
+
     </ul>
   </div>
 </div>
@@ -39,12 +40,13 @@ function Header2() {
 {/* Store Button & Toggle */}
 <div className="col-lg-2 col-md-4 col-6 d-flex  justify-content-end align-items-center">
   {/* Show toggle on md and below */}
+   <div className="header-btn buttontransform2   d-xs-none d-lg-block" style={{marginRight:'20px'}}>
+    <a href="https://welgatelifestyle.com/" target='blank' className=" storeclr">Store</a>
+  </div>
   
     <div className="mobile-nav-toggler d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>
 
-  <div className="header-btn buttontransform2 d-md-none d-sm-none d-xs-none d-lg-block">
-    <a href="https://welgatelifestyle.com/" target='blank' className="tg-btn">Store</a>
-  </div>
+ 
 </div>
 
 
