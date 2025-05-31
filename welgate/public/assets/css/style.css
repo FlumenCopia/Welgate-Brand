@@ -811,7 +811,7 @@ display: none !important;
 .storeclr{
 	color: white;
 	background-color: var(--tg-primary-color);
-	padding: 8px 15px;
+	padding: 10px 18px;
 	font-size: 12px;
 	border-radius: 50px;
 }
