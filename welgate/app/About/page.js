@@ -7,7 +7,6 @@ import Mission from '@/components/About-us/Mission'
 import Vision_about from '@/components/About-us/Vision_about'
 
 import Testimonial2 from '@/components/Home/Testimonial2'
-import Testing from '@/components/Home/testing'
 
 import React from 'react'
 
