@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/img/bg/aboutimg1.jpeg",
-  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
+    "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
+  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__70426.jpeg",
   "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
 ];
 
