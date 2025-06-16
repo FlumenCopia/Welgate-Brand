@@ -40,8 +40,8 @@ function Header2() {
 {/* Store Button & Toggle */}
 <div className="col-lg-2 col-md-4 col-6 d-flex  justify-content-end align-items-center">
   {/* Show toggle on md and below */}
-   <div className="header-btn buttontransform2   d-xs-none d-lg-block" style={{marginRight:'20px'}}>
-    <a href="https://welgatelifestyle.com/" target='blank' className=" storeclr">Store</a>
+   <div className="header-btn buttontransform2    d-xs-none d-lg-block" style={{marginRight:'20px'}}>
+    <a href="https://welgatelifestyle.com/" target='blank' className=" storeclr ">Store</a>
   </div>
   
     <div className="mobile-nav-toggler d-lg-none d-md-none d-md-block me-3"><i className="flaticon-layout"></i></div>

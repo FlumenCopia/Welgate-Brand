@@ -13,7 +13,7 @@ function Header() {
           <div className="container">
             <div className="row align-items-center alignmd">
   {/* Logo */}
-<div className="col-lg-2 col-md-2 col-6 d-flex logotransform align-items-center" style={{ transform: 'translateY(9px)',justifyContent:'start' }}>
+<div className="col-lg-2 col-md-2 col-6 d-flex logotransform align-items-center" style={{ transform: 'translateY(-1px)',justifyContent:'start' }}>
   <div className="logo">
     <a href="/">
       <img
@@ -25,7 +25,7 @@ function Header() {
 </div>
 
 {/* Navigation Menu (hidden on md and below) */}
-<div className="col-lg-8 d-none d-md-flex linkstransform  flex-wrap justify-content-center"style={{ transform: 'translateY(-23px)' }}>
+<div className="col-lg-8 d-none d-md-flex linkstransform  flex-wrap justify-content-center"style={{ transform: 'translateY(-18px)' }}>
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
       <li><a href="/" className="section-link">Home</a></li>
@@ -45,11 +45,11 @@ function Header() {
       <div className="mobile-nav-togglers d-lg-none d-md-none  me-3"><i className="flaticon-layout" ></i></div>
 
 
-<div className="col-lg-2 col-md-4 col-6 d-flex buttontransform justify-content-end align-items-center"style={{ transform: 'translateY(-23px)' }}>
+<div className="col-lg-2 col-md-4 col-6 d-flex buttontransform justify-content-end align-items-center"style={{ transform: 'translateY(-19px)' }}>
 
 
   <div className="header-btn d-none d-md-block">
-    <a href="https://welgatelifestyle.com/" target='blank' className="tg-btn">Store</a>
+    <a href="https://welgatelifestyle.com/" target='blank' className="tg-btn1">Store</a>
   </div>
 </div>
 
