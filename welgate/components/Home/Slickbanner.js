@@ -6,9 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/img/bg/aboutimg1.jpeg",
-  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
-  "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
+    "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88439.png",
+    "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__88440.png",
+   "/assets/img/banner/freepik__the-style-is-candid-image-photography-with-natural__70426.jpeg",
 ];
 
 const CustomPrevArrow = ({ className, onClick }) => (
@@ -49,8 +49,8 @@ export default function ImageCarousel() {
 
   return (
     <div>
-        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '80px', height:'80px' }}>
-            <p className="text-white text-center pt-3 fsmedia  fw-bold wow zoomIn"data-wow-delay="0.3s">GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
+        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '40px', height:'50px' }}>
+            <p className="text-white text-center pt-3 fsmedia   wow zoomIn"data-wow-delay="0.3s"style={{ transform: 'translateY(3px)' }}>GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
         </div>        
       <div>
       <Slider {...settings}>
@@ -67,8 +67,8 @@ export default function ImageCarousel() {
         ))}
       </Slider>
     </div>
-     <div className="bgprimary text-white align-items-center  d-flex justify-content-center dispnone"  style={{ height: "80px", marginTop: "0", paddingTop: "0" }}>
-        <a href="/About" className="btn btn-pill px-4 py-2 text-danger bg-white">Know More</a>
+     <div className="bgprimary text-white align-items-center  d-flex justify-content-center dispnone"  style={{ height: "50px", marginTop: "0", paddingTop: "0" }}>
+        <a href="/About" className="btn btn-pill px-4 py-1  text-danger bg-white">Know More</a>
       </div>
     </div>
     
