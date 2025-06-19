@@ -18,7 +18,7 @@ function HomeCards() {
                             </div>
                         </div>
                         <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">01</div> */}
                                     <div className="icon">
@@ -31,7 +31,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">02</div> */}
                                     <div className="icon">
@@ -45,7 +45,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">03</div> */}
                                     <div className="icon">
@@ -59,7 +59,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">04</div> */}
                                     <div className="icon">
@@ -74,7 +74,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">05</div> */}
                                     
@@ -89,7 +89,7 @@ function HomeCards() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.6s">
+                            <div className="col-lg-4 col-md-6 col-sm-9 " >
                                 <div className="tg-service-item">
                                     {/* <div className="tg-services-count">06</div> */}
                                     <div className="icon">

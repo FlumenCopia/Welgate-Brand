@@ -21,7 +21,7 @@ function HomeMission() {
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-8 order-0 order-lg-2">
                             <div className="ingredients-img-two">
-                                <img className='wow zoomIn' data-wow-delay="0.3s" data-wow-duration="1.2s" src="/assets/img/bg/cdandgrocery.png" alt="img"/>
+                                <img className=''  src="/assets/img/bg/cdandgrocery.png" alt="img"/>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">

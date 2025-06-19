@@ -117,7 +117,7 @@ export default function HomeBrand() {
 
       <Slider {...arrowsettings}>
         {data[activeCategory].map((item, index) => (
-          <div key={index} className="px-4 wow fadeInUp" data-wow-delay="0.5s">
+          <div key={index} className="px-4 " >
             <div className="bg-white rounded-2xl border border-white p-1">
               <img
                 src={item.image}

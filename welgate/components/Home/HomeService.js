@@ -5,7 +5,7 @@ function HomeService() {
        <div className="container-fluid pt-6 pb-6" style={{marginTop:'100px'}}>
         <div className="container">
             <div className="row g-5">
-                <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div className="col-lg-6" >
                     <div className="about-img">
                         <img className="img-fluid w-100" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
                     </div>

@@ -25,16 +25,16 @@ useEffect(() => {
       <div className="col-lg-6 order-1 order-lg-2 d-none d-sm-block">
         <div className="row g-3">
           <div className="col-6 text-start">
-            <img className="img-fluid rounded w-100  wow zoomIn" data-wow-delay="0.1s" src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
+            <img className="img-fluid rounded w-100  "  src="https://img.freepik.com/free-photo/high-view-cassette-tape-with-pencil_23-2148695289.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
           </div>
           <div className="col-6 text-start">
-            <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{ marginTop: '55%' }} />
+            <img className="img-fluid rounded w-75"  src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" style={{ marginTop: '55%' }} />
           </div>
           <div className="col-6 text-end">
-            <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" />
+            <img className="img-fluid rounded w-75"  src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg" />
           </div>
           <div className="col-6 text-end">
-            <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="https://img.freepik.com/free-photo/black-model-posing-with-vinyls_23-2148171759.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
+            <img className="img-fluid rounded w-100"  src="https://img.freepik.com/free-photo/black-model-posing-with-vinyls_23-2148171759.jpg?uid=R199831080&ga=GA1.1.1254240009.1747050500&semt=ais_hybrid&w=740" />
           </div>
         </div>
       </div>
