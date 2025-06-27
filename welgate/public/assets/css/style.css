@@ -394,7 +394,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 100px;
+	max-width: 110px;
 }
 .navbar-wrap {
 	display: flex;
@@ -714,6 +714,9 @@ display: none !important;
 	.buttontransform2{
 display: none !important;
 }
+	.buttontransform3{
+display: none !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -880,6 +883,9 @@ display: none !important;
 	justify-content: center !important;
 }
 .buttontransform2{
+margin-right: 5px !important;
+}
+.buttontransform3{
 margin-right: 5px !important;
 }
 
