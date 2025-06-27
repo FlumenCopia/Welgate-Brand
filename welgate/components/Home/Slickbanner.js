@@ -49,7 +49,7 @@ export default function ImageCarousel() {
 
   return (
     <div>
-        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '40px', height:'50px' }}>
+        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '62px', height:'50px' }}>
             <p className="text-white text-center pt-3 fsmedia   wow zoomIn"data-wow-delay="0.3s"style={{ transform: 'translateY(3px)' }}>GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
         </div>        
       <div>

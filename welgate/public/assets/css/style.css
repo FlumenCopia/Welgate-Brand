@@ -394,7 +394,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 90px;
+	max-width: 100px;
 }
 .navbar-wrap {
 	display: flex;
@@ -5462,7 +5462,7 @@ margin: 0 auto;}
 	background: var(--tg-white);
 	padding: 0px 0;
 	position: relative;
-	height: 50px !important;
+	height: 75px !important;
 	z-index: 9;
 }
 .tg-menu-area2 {
