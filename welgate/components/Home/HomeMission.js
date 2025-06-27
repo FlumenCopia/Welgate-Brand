@@ -11,10 +11,10 @@ function HomeMission() {
                             <div className="section-title section-title-two text-center mb-90">
                                 <div className="sub-title">
                                     <img src="assets/img/icons/sub_left.svg" className="injectable" alt="img"/>
-                                    <p className='subtitle-colour wow zoomIn' data-wow-delay="0.3s" data-wow-duration="1.5s">Decades of Trust, One Mission: Better Living</p>
+                                    <p className='subtitle-colour ' >Decades of Trust, One Mission: Better Living</p>
                                     <img src="assets/img/icons/sub_right.svg" className="injectable" alt="img"/>
                                 </div>
-                                <p className="title pfont2 wow zoomIn" data-wow-delay="0.3s" data-wow-duration="1.5s"> Legacy of Wellness: From Tapes to Tables</p>
+                                <p className="title pfont2 " > Legacy of Wellness: From Tapes to Tables</p>
                             </div>
                         </div>
                     </div>

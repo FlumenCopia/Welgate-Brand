@@ -40,8 +40,8 @@ useEffect(() => {
       </div>
 
       <div className="col-lg-6 tg-section-title order-2 order-lg-1">
-        <span className="section-title text-start sub-title wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s">About Us</span>
-        <p className="mb-4 title pfont2 wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s">From Entertainment <br /> to Wellness</p>
+        <span className="section-title text-start sub-title"  >About Us</span>
+        <p className="mb-4 title pfont2" >From Entertainment <br /> to Wellness</p>
         <p className="mb-4">
           Welgate began with a passion for connecting people—first through entertainment, now through health.
           From distributing CDs to cultivating organic farms, our journey reflects a deep-rooted legacy and a
