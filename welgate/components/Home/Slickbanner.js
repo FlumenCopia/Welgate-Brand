@@ -49,8 +49,8 @@ export default function ImageCarousel() {
 
   return (
     <div>
-        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '62px', height:'50px' }}>
-            <p className="text-white text-center pt-3 fsmedia "style={{ transform: 'translateY(3px)' }}>GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
+        <div className="bgprimary margintopmobile  bannerredheight d-grid align-items-center"  style={{ marginTop: '75px', height:'50px' }}>
+            <p className="text-white text-center pt-3 fsmedia "style={{ transform: 'translateY(-3px)' }}>GLOBAL LEADERS IN SUSTAINABLE FOOD SOLUTIONS</p>
         </div>        
       <div>
       <Slider {...settings}>
