@@ -24,14 +24,14 @@ function Header3() {
 <div className="col-lg-8 col-md-8 col-8 d-none d-md-flex linkstransform3  flex-wrap " style={{ transform: 'translateY(-10px)' }}>
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
-      <li><a href="/" className="section-link">Home</a></li>
-      <li><a href="/About" className="section-link">About</a></li>
-      <li><a href="/#Brand" className="section-link">Brand</a></li>
-      <li><a href="/#Initiative" className="section-link">Initiative</a></li>
-      <li><a href="/Impact" className="section-link">Impact</a></li>
-      <li><a href="/Blog" className="section-link">Blog</a></li>
-      <li><a href="/Gallery" className="section-link">Gallery</a></li>
-      <li><a href="/Contactus">Contact</a></li>
+      <li><a href="/" className="section-link">HOME</a></li>
+      <li><a href="/About" className="section-link">ABOUT</a></li>
+      <li><a href="/#Brand" className="section-link">BRAND</a></li>
+      <li><a href="/#Initiative" className="section-link">INITIATIVE</a></li>
+      <li><a href="/Impact" className="section-link">IMPACT</a></li>
+      <li><a href="/Blog" className="section-link">BLOG</a></li>
+      <li><a href="/Gallery" className="section-link">GALLERY</a></li>
+      <li><a href="/Contactus">CONTACT</a></li>
 
     </ul>
   </div>

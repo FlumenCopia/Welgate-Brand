@@ -5536,14 +5536,14 @@ margin: 0 auto;}
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--tg-heading-font-color);
-	padding: 14px 28px;
+	/* padding: 14px 28px; */
 }
 .tg-menu-area3 .navbar-wrap ul li a {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--tg-heading-font-color);
-	padding: 14px 28px;
+	/* padding: 14px 28px; */
 }
 .tg-menu-area .navbar-wrap ul li a:hover {
 	
