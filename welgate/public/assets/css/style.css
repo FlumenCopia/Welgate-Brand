@@ -394,7 +394,7 @@ label {
 	justify-content: flex-start;
 }
 .logo img {
-	max-width: 90px;
+	max-width: 110px;
 }
 .navbar-wrap {
 	display: flex;
@@ -607,6 +607,10 @@ label {
 	font-size: 14px !important;
 	font-weight: 500;
 }
+.tg-menu-area3 .navbar-wrap ul li a{
+	font-size: 14px !important;
+	font-weight: 500;
+}
 .linkstransform{
 	    transform: translateY(-18px) !important;
 }
@@ -628,6 +632,10 @@ label {
     padding: 10px 16px !important;
 }
  .tg-menu-area2 .navbar-wrap ul li a {
+    
+    padding: 13px 17px !important;
+}
+ .tg-menu-area3 .navbar-wrap ul li a {
     
     padding: 13px 17px !important;
 }
@@ -661,6 +669,12 @@ transform: translateY(-1px) !important;
         padding: 6px 12px !important;
     }
 	.linkstransform2{
+		justify-content: flex-start !important;
+}
+    .linkstransform3.navbar-wrap ul li a {
+        padding: 6px 12px !important;
+    }
+	.linkstransform3{
 		justify-content: flex-start !important;
 }
 .linkstransform{
@@ -700,6 +714,9 @@ display: none !important;
 	.buttontransform2{
 display: none !important;
 }
+	.buttontransform3{
+display: none !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -707,6 +724,9 @@ display: none !important;
     display: none !important;
   } */
   .linkstransform2 {
+    display: none !important;
+  }
+   .linkstransform3 {
     display: none !important;
   }
   .logotransform{
@@ -863,6 +883,9 @@ display: none !important;
 	justify-content: center !important;
 }
 .buttontransform2{
+margin-right: 5px !important;
+}
+.buttontransform3{
 margin-right: 5px !important;
 }
 
@@ -5462,7 +5485,7 @@ margin: 0 auto;}
 	background: var(--tg-white);
 	padding: 0px 0;
 	position: relative;
-	height: 50px !important;
+	height: 75px !important;
 	z-index: 9;
 }
 .tg-menu-area2 {
@@ -5470,6 +5493,14 @@ margin: 0 auto;}
     padding: 4px 0;
     position: relative;
     /* height: 139px; */
+    z-index: 9;
+	
+}
+.tg-menu-area3 {
+    background: var(--tg-white);
+    padding: 4px 0;
+    position: relative;
+    height: 74px !important;
     z-index: 9;
 	
 }
@@ -5501,6 +5532,13 @@ margin: 0 auto;}
 	padding: 5px 28px;
 }
 .tg-menu-area2 .navbar-wrap ul li a {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--tg-heading-font-color);
+	padding: 14px 28px;
+}
+.tg-menu-area3 .navbar-wrap ul li a {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -8590,7 +8628,7 @@ height: 693px;}
   margin-bottom: 70px;
 }
 .breadcrumbcontact {
-background: url('https://img.freepik.com/premium-photo/push-button-telephone-with-cable-wound-earphones-yellow-background-copy-space_175682-26343.jpg?uid=R61509999&ga=GA1.1.1499231568.1743486391&semt=ais_hybrid&w=740') center/cover no-repeat;
+background: url('/assets/img/vintage-pink-telephone-assortment.jpg') center/cover no-repeat;
   height: 350px;
   width: 100%;
   display: flex;

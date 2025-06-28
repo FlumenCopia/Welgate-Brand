@@ -12,8 +12,8 @@ function HomeCards() {
                         <div className="row justify-content-center">
                             <div className="col-lg-8">
                                 <div className="tg-section-title text-center mb-60">
-                                    <span className="sub-title wow zoomIn"data-wow-delay="0.3s">A Legacy of Evolving with Purpose</span>
-                                    <p className="title pfont2 wow zoomIn"data-wow-delay="0.3s">Welgate’s Journey: <br/> “From Soundwaves to Superfoods”</p>
+                                    <span className="sub-title ">A Legacy of Evolving with Purpose</span>
+                                    <p className="title pfont2 ">Welgate’s Journey: <br/> “From Soundwaves to Superfoods”</p>
                                 </div>
                             </div>
                         </div>

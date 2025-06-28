@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Header2() {
+function Header3() {
   return (
     <div>
       <header id="home ">
         <div id="header-fixed-height"></div>
-        <div id="sticky-header" className="tg-menu-area2 menu-area shadow-lg">
+        <div id="sticky-header" className="tg-menu-area3 menu-area shadow-lg">
           <div className="container">
             <div className="row align-items-center">
   {/* Logo */}
@@ -21,7 +21,7 @@ function Header2() {
 </div>
 
 {/* Navigation Menu (hidden on md and below) */}
-<div className="col-lg-8 col-md-8 col-8 d-none d-md-flex linkstransform2  flex-wrap ">
+<div className="col-lg-8 col-md-8 col-8 d-none d-md-flex linkstransform3  flex-wrap " style={{ transform: 'translateY(-10px)' }}>
   <div className="navbar-wrap main-menu">
     <ul className="navigation  mb-0">
       <li><a href="/" className="section-link">Home</a></li>
@@ -40,7 +40,7 @@ function Header2() {
 {/* Store Button & Toggle */}
 <div className="col-lg-2 col-md-4 col-6 d-flex  justify-content-end align-items-center">
   {/* Show toggle on md and below */}
-   <div className="header-btn buttontransform2    d-xs-none d-lg-block" style={{marginRight:'20px'}}>
+   <div className="header-btn buttontransform3    d-xs-none d-lg-block" style={{marginRight:'20px',transform: 'translateY(-10px)'}}>
     <a href="https://welgatelifestyle.com/" target='blank' className=" storeclr ">Store</a>
   </div>
   
@@ -83,4 +83,4 @@ function Header2() {
   );
 }
 
-export default Header2;
+export default Header3;

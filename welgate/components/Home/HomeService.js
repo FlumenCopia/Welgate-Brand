@@ -10,7 +10,7 @@ function HomeService() {
                         <img className="img-fluid w-100" src="/assets/img/WhatsApp Image 2025-05-12 at 12.49.53_cb885fea.jpg"/>
                     </div>
                 </div>
-                <div className="col-lg-6 wow zoomIn mt-120" data-wow-delay="0.5s">
+                <div className="col-lg-6  mt-120" >
                     <p className="pfont2 mb-4 text-center text-sm-start">From Stories To Sustainability</p>
                     <p className="mb-4">Driven by a growing awareness of health and sustainability, we evolved from entertainment into organic living. Through Welgate Organic Farms and Supermarkets, we’ve redefined how food is grown and consumed — prioritizing purity, ethical sourcing, and a healthier future for all.</p>
                     <div className="row g-4 mb-20">

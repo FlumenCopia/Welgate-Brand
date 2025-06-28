@@ -81,7 +81,7 @@ function Initiative() {
     <div id='Initiative' className="container-fluid blog pb-5 bg-yellow pt-5">
       <div className="pb-5">
         <div className="text-center mx-auto" style={{ maxWidth: "400px" }}>
-          <h1 className="pfont2 clrred mb-4 wow zoomIn" data-wow-delay="0.1s">Initiatives</h1>
+          <h1 className="pfont2 clrred mb-4 " >Initiatives</h1>
         </div>
         {isClient && (
           <SlickSlider {...settings}>

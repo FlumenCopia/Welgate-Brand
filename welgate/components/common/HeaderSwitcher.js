@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import Header from './Header';
+import Header3 from './Header3';
 import Header2 from './Header2';
 
 export default function HeaderSwitcher() {
@@ -61,7 +61,7 @@ export default function HeaderSwitcher() {
           zIndex: 1000,
         }}
       >
-        <Header />
+        <Header3 />
       </div>
 
       <div
