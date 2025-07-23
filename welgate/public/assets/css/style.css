@@ -637,7 +637,7 @@ label {
 }
  .tg-menu-area3 .navbar-wrap ul li a {
     
-    /* padding: 13px 17px !important; */
+     padding: 13px 17px !important; 
 }
 .linkstransform{
 	    transform: translateY(-18px) !important;
@@ -5543,7 +5543,7 @@ margin: 0 auto;}
 	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--tg-heading-font-color);
-	/* padding: 14px 28px; */
+	 padding: 14px 28px; 
 }
 .tg-menu-area .navbar-wrap ul li a:hover {
 	
