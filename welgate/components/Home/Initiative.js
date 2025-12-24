@@ -102,13 +102,13 @@ function Initiative() {
                       <p className="mb-4">{description}</p>
                     </div>
                     <div className="d-flex justify-content-end mt-auto">
-          <a
+          {/* <a
             href="/InitiativeSlug"
             className="btn round-btn"
             aria-label={`Read more about ${title}`}
           >
             <i className="fas fa-arrow-right"></i>
-          </a>
+          </a> */}
         </div>
 
                   </div>

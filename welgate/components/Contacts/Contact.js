@@ -149,7 +149,7 @@ function Contact() {
                                     </div>
                                     <div className="contact-content">
                                         <h5 className="title">Phone Number</h5>
-                                        <p className="contact-desc">+91 99468281718 </p>
+                                        <p className="contact-desc">+91 9946828171 </p>
                                     </div>
                                 </div>
                             </div>
