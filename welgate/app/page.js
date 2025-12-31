@@ -23,6 +23,7 @@ import HomeBrand from '@/components/Home/HomeBrand'
 // import VideoSlick from '@/components/Home/VideoSlick'
 import Initiative from '@/components/Home/Initiative'
 import Slickbanner from '@/components/Home/Slickbanner'
+import Tributevideo from '@/components/Home/Tributevideo'
 
 
 
@@ -36,6 +37,7 @@ function page() {
       {/* <FeatureArea/> */}
       {/* <Feature2/> */}
       <HomeAbout/>
+      <Tributevideo/>
       <HomeBrand/>
       <Initiative/>
       <HomeService/>

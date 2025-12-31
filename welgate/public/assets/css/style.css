@@ -9599,3 +9599,271 @@ text-align: left;
 }
 
 
+
+
+/* =============================
+   In Memoriam Tribute Section
+   (Death Anniversary Edition)
+================================*/
+
+.tg-memoriam-area {
+    background: linear-gradient(to bottom, #fdfbf7, #f4f4f4);
+    position: relative;
+    overflow: hidden;
+    padding: 110px 0;
+}
+
+/* Soft symbolic watermark */
+.tg-memoriam-area::before {
+    content: "✿";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 380px;
+    color: rgba(0, 0, 0, 0.02);
+    font-family: serif;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.memoriam-content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+/* -----------------------------
+   Titles
+--------------------------------*/
+.memoriam-sub-title {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: var(--tg-primary-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.memoriam-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.memoriam-title::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 3px;
+    background-color: var(--tg-teritiary-color);
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+/* =============================
+   Memorial Frame (Refined)
+================================*/
+
+/* Base frame */
+.memoriam-frame-outer {
+    position: relative;
+    margin: 55px auto 0;
+    max-width: 1000px;
+    padding: 26px;
+    background: linear-gradient(145deg, #ffffff, #faf7f2);
+    border-radius: 6px;
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.18),
+        inset 0 0 0 1px rgba(218, 184, 97, 0.35);
+}
+
+/* Large screens */
+@media (min-width: 1400px) {
+    .memoriam-frame-outer {
+        max-width: 1120px;
+        padding: 30px;
+    }
+}
+
+/* Laptops */
+@media (max-width: 1199px) {
+    .memoriam-frame-outer {
+        max-width: 920px;
+        padding: 24px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+    .memoriam-frame-outer {
+        max-width: 100%;
+        padding: 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .memoriam-frame-outer {
+        padding: 14px;
+        margin-top: 30px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.22);
+    }
+}
+
+/* -----------------------------
+   Video Border (Antique Gold)
+--------------------------------*/
+.memoriam-video-border {
+    position: relative;
+    border: 3px double rgba(218, 184, 97, 0.85);
+    padding: 6px;
+    background: #fff;
+}
+
+/* -----------------------------
+   Corner Ornaments (Quiet)
+--------------------------------*/
+.corner-ornament {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border: 2px solid rgba(52, 54, 150, 0.6);
+    opacity: 0.6;
+    transition: opacity 0.6s ease, border-color 0.6s ease;
+}
+
+.corner-ornament.tl { top: -10px; left: -10px; border-right: none; border-bottom: none; }
+.corner-ornament.tr { top: -10px; right: -10px; border-left: none; border-bottom: none; }
+.corner-ornament.bl { bottom: -10px; left: -10px; border-right: none; border-top: none; }
+.corner-ornament.br { bottom: -10px; right: -10px; border-left: none; border-top: none; }
+
+/* Gentle hover only */
+.memoriam-frame-outer:hover .corner-ornament {
+    opacity: 0.85;
+    border-color: rgba(218, 184, 97, 0.85);
+}
+
+/* -----------------------------
+   Video Wrapper
+--------------------------------*/
+.memoriam-video-box {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+/* Taller emotional framing on mobile */
+@media (max-width: 767px) {
+    .memoriam-video-box {
+        padding-bottom: 64%;
+    }
+}
+
+.memoriam-video-box video,
+.memoriam-video-box iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* -----------------------------
+   Candlelight Focus Overlay
+--------------------------------*/
+.memoriam-video-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 235, 180, 0.12) 0%,
+        rgba(0, 0, 0, 0.45) 75%
+    );
+}
+
+/* -----------------------------
+   Memorial Divider
+--------------------------------*/
+.memoriam-divider {
+    width: 80px;
+    height: 1px;
+    margin: 35px auto 25px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(218, 184, 97, 0.9),
+        transparent
+    );
+}
+
+/* -----------------------------
+   Quote Styling
+--------------------------------*/
+.memoriam-quote-box {
+    margin-top: 45px;
+    position: relative;
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.memoriam-quote-box i {
+    color: rgba(218, 184, 97, 0.9);
+    font-size: 20px;
+    margin: 0 10px;
+    opacity: 0.6;
+}
+
+.memoriam-quote-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .memoriam-title {
+        font-size: 30px;
+    }
+
+    .memoriam-quote-text {
+        font-size: 18px;
+    }
+
+    .corner-ornament {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* -----------------------------
+   Mute Button (Unchanged)
+--------------------------------*/
+.mute-toggle {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.3s ease;
+}
+
+.mute-toggle:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
