@@ -3,91 +3,89 @@
 import React, { useEffect, useRef, useState } from "react";
 
 function TributeSection() {
-    const playerRef = useRef(null);
-    const containerRef = useRef(null);
-    const sectionRef = useRef(null); // Reference for the Scroll Observer
+    const playerRef = useRef(null);      // Holds the YouTube Player instance
+    const containerRef = useRef(null);   // Holds the div where the iframe will be injected
+    const TRIBUTE_VIDEO_ID = "Yr-ecV4cR1k";
     
     // Playback State
     const [isPlaying, setIsPlaying] = useState(false);
     const [isMuted, setIsMuted] = useState(true);
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
-    const [isDragging, setIsDragging] = useState(false);
-    const [hasAutoPlayed, setHasAutoPlayed] = useState(false); // Track if we already triggered scroll-play
+    const [isDragging, setIsDragging] = useState(false); // To stop slider jumping while dragging
 
-    // 🔹 1. Load API
+    // 🔹 1. Load the YouTube API Script
     useEffect(() => {
+        // If API is already loaded, init immediately
         if (window.YT && window.YT.Player) {
             initPlayer();
         } else {
+            // Otherwise, load the script
             const tag = document.createElement('script');
             tag.src = "https://www.youtube.com/iframe_api";
             tag.async = true;
             const firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            
+            // Wait for API to be ready
             window.onYouTubeIframeAPIReady = () => initPlayer();
         }
-        return () => { if (playerRef.current) playerRef.current.destroy(); };
+
+        return () => {
+            // Cleanup: Destroy player on unmount
+            if (playerRef.current) {
+                playerRef.current.destroy();
+            }
+        };
     }, []);
 
+    // 🔹 2. Initialize the Player
     const initPlayer = () => {
         if (!containerRef.current) return;
+
         playerRef.current = new window.YT.Player(containerRef.current, {
-            videoId: 'iAb1SgB1hwg',
+            videoId: TRIBUTE_VIDEO_ID, // Your Video ID
             height: '100%',
             width: '100%',
             playerVars: {
-                autoplay: 0, // 🔹 Wait for scroll to play
-                mute: 1,     // Must be muted to allow auto-play commands
-                controls: 0,
+                autoplay: 1,
+                mute: 1, // Start muted for autoplay
+                controls: 0, // Hide default controls
                 modestbranding: 1,
                 rel: 0,
                 playsinline: 1,
                 loop: 1,
-                playlist: 'iAb1SgB1hwg'
+                playlist: TRIBUTE_VIDEO_ID
             },
             events: {
                 onReady: (event) => {
                     setDuration(event.target.getDuration());
-                    // Player is ready, but we wait for the Observer to trigger play
+                    setIsPlaying(true); // Since we set autoplay: 1
                 },
                 onStateChange: (event) => {
-                    // Sync React state with actual Player state
+                    // Update React state if video pauses/plays externally (e.g. by clicking video)
                     setIsPlaying(event.data === window.YT.PlayerState.PLAYING);
                 }
             }
         });
     };
 
-    // 🔹 2. Scroll Observer (Triggers Play)
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                // If visible, player exists, and hasn't played yet -> PLAY
-                if (entry.isIntersecting && playerRef.current && playerRef.current.playVideo && !hasAutoPlayed) {
-                    playerRef.current.playVideo();
-                    setHasAutoPlayed(true);
-                }
-            },
-            { threshold: 0.6 } // Trigger when 60% of section is visible
-        );
-
-        if (sectionRef.current) observer.observe(sectionRef.current);
-        return () => observer.disconnect();
-    }, [hasAutoPlayed]); // Re-run only if hasAutoPlayed changes
-
-    // 🔹 3. Sync Slider
+    // 🔹 3. Sync Progress Bar (Poll every second)
     useEffect(() => {
         const interval = setInterval(() => {
             if (playerRef.current && playerRef.current.getCurrentTime && !isDragging) {
                 const time = playerRef.current.getCurrentTime();
+                // Sometimes API returns undefined or 0 briefly
                 if (time) setCurrentTime(time);
             }
-        }, 500);
+        }, 500); // Check every 0.5s
+
         return () => clearInterval(interval);
     }, [isDragging]);
 
+
     /* --- CONTROLS --- */
+
     const togglePlay = () => {
         if (!playerRef.current) return;
         if (isPlaying) {
@@ -111,12 +109,12 @@ function TributeSection() {
 
     const handleSeekChange = (e) => {
         const newTime = parseFloat(e.target.value);
-        setCurrentTime(newTime);
+        setCurrentTime(newTime); // Update slider visually immediately
         playerRef.current.seekTo(newTime, true);
     };
 
     return (
-        <section className="tg-memoriam-area" ref={sectionRef}>
+        <section className="tg-memoriam-area">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xl-9 col-lg-10 text-center">
@@ -125,6 +123,7 @@ function TributeSection() {
                         <h2 className="memoriam-title">Honoring a Visionary Legacy</h2>
 
                         <div className="memoriam-frame-outer">
+                            {/* Ornaments */}
                             <div className="corner-ornament tl"></div>
                             <div className="corner-ornament tr"></div>
                             <div className="corner-ornament bl"></div>
@@ -133,59 +132,50 @@ function TributeSection() {
                             <div className="memoriam-video-border">
                                 <div className="memoriam-video-box" style={{ position: 'relative' }}>
 
-                                    <div className="player-wrapper" style={{ 
-                                        position: 'relative', 
-                                        paddingBottom: '56.25%', 
-                                        height: 0, 
-                                        overflow: 'hidden', 
-                                        background: '#000' 
-                                    }}>
-                                        
-                                        {/* ZOOM HACK (Hides Youtube Overlays) */}
-                                        <div style={{
-                                            position: 'absolute',
-                                            top: '-17%',
-                                            left: '-17%',
-                                            width: '134%',
-                                            height: '134%',
-                                            pointerEvents: 'none'
-                                        }}>
-                                            <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
-                                        </div>
-                                        
-                                        {/* Invisible Click Overlay */}
+                                    {/* VIDEO CONTAINER */}
+                                    <div className="player-wrapper" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', background: '#000' }}>
+                                        {/* API replaces this div with the iframe */}
                                         <div 
-                                            onClick={togglePlay}
+                                            ref={containerRef} 
+                                            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} 
+                                        />
+                                        
+                                        {/* Overlay to prevent clicking YouTube logo (Keep Clean UI) */}
+                                        <div 
+                                            onClick={togglePlay} // Clicking video toggles play
                                             style={{ 
                                                 position: 'absolute', 
                                                 top: 0, 
                                                 left: 0, 
                                                 width: '100%', 
-                                                height: 'calc(100% - 50px)', 
+                                                height: 'calc(100% - 50px)', // Leave space for controls at bottom
                                                 cursor: 'pointer',
                                                 zIndex: 5 
                                             }}
                                         ></div>
                                     </div>
 
-                                    {/* CONTROLS BAR */}
+                                    {/* 🎛️ CUSTOM CONTROLS BAR */}
                                     <div style={{
                                         position: 'absolute',
                                         bottom: 0,
                                         left: 0,
                                         width: '100%',
                                         height: '50px',
-                                        background: 'rgba(0,0,0,0.7)',
+                                        background: 'rgba(0,0,0,0.7)', // Semi-transparent black
                                         display: 'flex',
                                         alignItems: 'center',
                                         padding: '0 15px',
                                         zIndex: 10,
                                         gap: '15px'
                                     }}>
+                                        
+                                        {/* Play/Pause Button */}
                                         <button onClick={togglePlay} style={btnStyle}>
                                             {isPlaying ? "⏸" : "▶️"}
                                         </button>
 
+                                        {/* Seek Slider */}
                                         <input
                                             type="range"
                                             min={0}
@@ -196,9 +186,14 @@ function TributeSection() {
                                             onMouseUp={() => setIsDragging(false)}
                                             onTouchStart={() => setIsDragging(true)}
                                             onTouchEnd={() => setIsDragging(false)}
-                                            style={{ flex: 1, cursor: 'pointer', accentColor: '#fff' }}
+                                            style={{
+                                                flex: 1,
+                                                cursor: 'pointer',
+                                                accentColor: '#fff' // Makes the slider white
+                                            }}
                                         />
 
+                                        {/* Mute Button */}
                                         <button onClick={toggleMute} style={btnStyle}>
                                             {isMuted ? "🔇" : "🔊"}
                                         </button>
@@ -206,6 +201,7 @@ function TributeSection() {
 
                                 </div>
                             </div>
+
                         </div>
                         
                         <div className="memoriam-quote-box" data-wow-delay=".4s">
@@ -224,6 +220,7 @@ function TributeSection() {
     );
 }
 
+// Simple styles for the buttons
 const btnStyle = {
     background: 'none',
     border: 'none',
