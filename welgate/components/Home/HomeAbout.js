@@ -18,7 +18,7 @@ useEffect(() => {
 
 
   return (
-   <div className="container-xxl py-5" style={{marginBottom:'90px'}}>
+   <div className="container-xxl py-5" >
   <div className="container">
     <div className="row g-5 align-items-center">
 

@@ -9194,7 +9194,7 @@ text-align: left;
 .attractions .owl-nav .owl-prev {
     position: absolute;
     top: -58px;
-    left: 0;
+    right: 0;
     background: var(--tg-primary-color);
     color: var(--bs-white);
     padding: 6px 35px;
@@ -9210,7 +9210,7 @@ text-align: left;
 .attractions .owl-nav .owl-next {
     position: absolute;
     top: -58px;
-    right: 0;
+    left: 0;
     background: var(--tg-primary-color);
     color: var(--bs-white);
     padding: 6px 35px;
@@ -9610,7 +9610,7 @@ text-align: left;
     background: linear-gradient(to bottom, #fdfbf7, #f4f4f4);
     position: relative;
     overflow: hidden;
-    padding: 110px 0;
+    padding: 65px 0;
 }
 
 /* Soft symbolic watermark */
