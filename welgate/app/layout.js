@@ -1,5 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
-
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Preloader from "@/components/common/Preloader";
@@ -8,29 +7,24 @@ import Footer from "@/components/common/Footer";
 
 import HeaderSwitcher from "@/components/common/HeaderSwitcher";
 
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["100","200","300","400","500","600","700","800","900"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata = {
-  title: "Welgate Lifestyle | Most Trusted Organic Grocery Store",
-  description: "Health Supplement",
+  title: "Welgate Lifestyle | Sustainable Organic Food & Wellness Solutions",
+  description: "Welgate is a trusted leader in sustainable food solutions,  blending legacy with innovation. From organic farming to ethical products, we promote purity, health, and community well-being.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/welgate-favicon2.png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.carousel.css"/>
     <link rel="stylesheet" href="welgate/public/assets/js/owlcarousel/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="/assets/js/owlcarousel/assets/owl.theme.default.css"/>
@@ -61,7 +55,7 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="/assets/css/responsive.css"/>
       </head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
 
 
      <HeaderSwitcher/>
